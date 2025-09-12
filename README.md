@@ -10,4 +10,5 @@ https://app.datacamp.com/learn/courses/
 ---
 #### Exercise　　
 ---
-# Python
+### Python
+* Multi-Modal Models with Hugging Face
