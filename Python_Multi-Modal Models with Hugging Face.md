@@ -8,5 +8,8 @@ models = api.list_models(task="text-to-image")
 print(f"Task: text-to-image, Models: {len(list(models))}")
 ```
 ### Finding the most popular text-to-image model
-Time to refine your search to find and load the most popular text-to-image Stable Diffusion model from CompVis on the Hugging Face Hub.
-* 
+Time to refine your search to find and load the most popular text-to-image Stable Diffusion model from CompVis on the Hugging Face Hub.  
+* Use only models that are for text-to-image tasks.
+* Use an appropriate tag to ensure the model can be loaded by the StableDiffusionPipeline class from the diffusers library.
+* Sort the results according to the number of "likes".
+* Load the most popular model from models using its ID.
