@@ -13,3 +13,19 @@ Time to refine your search to find and load the most popular text-to-image Stabl
 * Use an appropriate tag to ensure the model can be loaded by the StableDiffusionPipeline class from the diffusers library.
 * Sort the results according to the number of "likes".
 * Load the most popular model from models using its ID.
+```python
+models = api.list_models(
+    # Filter for text-to-image tasks
+    task="text-to-image",
+    author="CompVis",
+    # Filter for models that can be loaded by the diffusers library
+    tags="diffusers:StableDiffusionPipeline",
+    # Sort according to the most popular
+    sort="likes"
+)
+
+models = list(models)
+
+# Load the most popular model from models
+pipe = StableDiffusionPipeline.from_pretrained(models[0].id)
+```
