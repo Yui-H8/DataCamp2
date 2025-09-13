@@ -32,3 +32,4 @@ pipe = StableDiffusionPipeline.from_pretrained(models[0].id)
 ---
 ### Text tokenizing
 In this exercise, you will use the flickr dataset, which has 30,000 images and associated captions, to perform preprocessing operations on text. This is necessary to be used by models for tasks such as text classification. This is especially useful for multi-modal applications where Hugging Face models can be used to check caption suitability for an associated image.
+1. Load the first "caption" from the image at index 5 of the dataset.
