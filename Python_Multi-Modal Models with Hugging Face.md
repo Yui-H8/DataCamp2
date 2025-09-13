@@ -7,3 +7,4 @@
 models = api.list_models(task="text-to-image")
 print(f"Task: text-to-image, Models: {len(list(models))}")
 ```
+### Finding the most popular text-to-image model
