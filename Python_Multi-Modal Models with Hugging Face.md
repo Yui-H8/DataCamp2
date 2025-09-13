@@ -29,4 +29,5 @@ models = list(models)
 # Load the most popular model from models
 pipe = StableDiffusionPipeline.from_pretrained(models[0].id)
 ```
+---
 ### Text tokenizing
