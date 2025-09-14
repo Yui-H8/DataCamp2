@@ -60,3 +60,7 @@ In this exercise, you will use the flickr dataset, which has 30,000 images and a
     num_rows: 10 })
 >
 ```
+* Load the image from the element at index 5 of the dataset.
+* Load the image processor (BlipProcessor) of the pretrained model: Salesforce/blip-image-captioning-base.
+* Execute the processor on image, making sure to specify that PyTorch tensors (pt) are required.
+* Use the .generate() method to create a caption using the model.
