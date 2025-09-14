@@ -79,3 +79,4 @@ output = model.generate(**inputs)
 print(f'Generated caption: {processor.decode(output[0])}')
 print(f'Original caption: {dataset[5]["caption"][0]}')
 ```
+### Audio preprocessing
