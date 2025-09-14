@@ -81,5 +81,7 @@ print(f'Original caption: {dataset[5]["caption"][0]}')
 ```
 ### Audio preprocessing
 In this exercise, you will learn how to adjust the sampling rate of audio data, as well as how to use an automatic preprocessor. You will be working with the VCTK Corpus, which includes around 44-hours of speech data uttered by 110 English speakers with various accents.   
-*(https://huggingface.co/datasets/CSTR-Edinburgh/vctk)*
-
+*(https://huggingface.co/datasets/CSTR-Edinburgh/vctk)*  
+* Resample the audio to a frequency of 16,000 Hz in the dataset using the .cast_column() method.
+* Load the audio processor using the pretrained openai/whisper-small model.
+* Preprocess the audio data of the first datapoint, specifying the sampling rate and
