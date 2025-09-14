@@ -53,3 +53,4 @@ encoded_input = tokenizer(text, return_tensors='pt')
 print(encoded_input)
 ```
 ### Image preprocessing
+In this exercise, you will use the flickr dataset, which has 30,000 images and associated captions, to perform preprocessing operations on images. This preprocessing is needed to make the image data suitable for inferencing with Hugging Face model tasks, such as text generation from images. In this case, you'll generate a text caption for this image:
