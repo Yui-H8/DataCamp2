@@ -38,3 +38,5 @@ In this exercise, you will use the flickr dataset, which has 30,000 images and a
 text = dataset[5]["caption"][0]
 print(text)
 ```
+2. Load the tokenizer of the pretrained model: distilbert/distilbert-base-uncased.  
+Perform full preprocessing of the text using the tokenizer you defined.
