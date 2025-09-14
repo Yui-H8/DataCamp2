@@ -52,3 +52,4 @@ tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
 encoded_input = tokenizer(text, return_tensors='pt')
 print(encoded_input)
 ```
+### Image preprocessing
