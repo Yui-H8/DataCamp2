@@ -135,4 +135,5 @@ generate_kwargs = {"temperature": 0.8, "max_new_tokens": 1}
 outputs = musicgen("Classic rock riff", generate_kwargs=generate_kwargs)
 sf.write("output.wav", outputs["audio"][0][0], outputs["sampling_rate"])
 ```
-Great work! You generated new music! Here's the output after generating 500 tokens:
+Great work! You generated new music! Here's the output after generating 500 tokens:   
+*https://assets.datacamp.com/production/repositories/6926/datasets/044d80aeb5a28457e1a530c2c3177b4505fd54ea/output.wav*
