@@ -107,3 +107,12 @@ In this exercise, you'll again use flickr dataset, which has 30,000 images and a
 ```
 * Load the image-to-text pipeline with Salesforce/blip-image-captioning-base pretrained model.
 * Use the pipeline to generate a caption for the image at index 3.
+```python
+# Load the image-to-text pipeline
+pipe = pipeline(task="image-to-text", model="Salesforce/blip-image-captioning-base")
+
+# Use the pipeline to generate a caption with the image of datapoint 3
+pred = pipe(dataset[3]["image"])
+
+print(pred)
+```
