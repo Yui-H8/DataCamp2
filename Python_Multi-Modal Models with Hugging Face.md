@@ -117,3 +117,8 @@ pred = pipe(dataset[3]["image"])
 print(pred)
 ```
 ### Passing keyword arguments
+For this you will be using the MusicGen small model from Meta, which is capable of generating music samples based on text descriptions or audio prompts.
+   
+The pipeline module has been loaded, and the soundfile library is available as sf.
+
+* 
