@@ -107,4 +107,5 @@ In this exercise, you'll again use flickr dataset, which has 30,000 images and a
  })
 >
 ```
-
+* Load the image-to-text pipeline with Salesforce/blip-image-captioning-base pretrained model.
+* Use the pipeline to generate a caption for the image at index 3.
