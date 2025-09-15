@@ -96,3 +96,7 @@ processor = AutoProcessor.from_pretrained("openai/whisper-small")
 audio_pp = processor(dataset[0]["audio"]["array"], sampling_rate=16000, padding=True, return_tensors="pt")
 make_spectrogram(audio_pp["input_features"][0])
 ```
+--- 
+### Pipeline caption generation
+
+
