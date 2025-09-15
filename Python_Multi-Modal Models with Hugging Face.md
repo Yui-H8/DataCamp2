@@ -124,3 +124,14 @@ The pipeline module has been loaded, and the soundfile library is available as s
 * Load a text-to-audio pipeline using the facebook/musicgen-small model in the PyTorch framework.
 * Make a dictionary to set the generation temperature to 0.8 and max_new_tokens to 1.
 * Generate an audio array corresponding to the "Classic rock riff" prompt.
+```python
+# Load a text-to-audio pipeline
+musicgen = pipeline(task="text-to-audio", model="facebook/musicgen-small", framework="pt")
+
+# Make a dictionary to set the generation temperature to 0.8 and max_new_tokens to 1
+generate_kwargs = {"temperature": 0.8, "max_new_tokens": 1}
+
+# Generate an audio array passing the arguments
+outputs = musicgen("Classic rock riff", generate_kwargs=generate_kwargs)
+sf.write("output.wav", outputs["audio"][0][0], outputs["sampling_rate"])
+```
