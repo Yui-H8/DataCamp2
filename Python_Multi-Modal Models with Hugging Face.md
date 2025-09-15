@@ -121,4 +121,6 @@ For this you will be using the MusicGen small model from Meta, which is capable 
    
 The pipeline module has been loaded, and the soundfile library is available as sf.
 
-* 
+* Load a text-to-audio pipeline using the facebook/musicgen-small model in the PyTorch framework.
+* Make a dictionary to set the generation temperature to 0.8 and max_new_tokens to 1.
+* Generate an audio array corresponding to the "Classic rock riff" prompt.
