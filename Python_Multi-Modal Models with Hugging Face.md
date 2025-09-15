@@ -116,3 +116,4 @@ pred = pipe(dataset[3]["image"])
 
 print(pred)
 ```
+### Passing keyword arguments
