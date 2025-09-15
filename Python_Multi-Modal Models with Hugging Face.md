@@ -99,12 +99,10 @@ make_spectrogram(audio_pp["input_features"][0])
 --- 
 ### Pipeline caption generation
 In this exercise, you'll again use flickr dataset, which has 30,000 images and associated captions. Now you'll generate a caption for the following image using a pipeline instead of the auto classes.
-```pyton
-> 
- Dataset({
+```python
+>  Dataset({
     features: ['image', 'caption', 'sentids', 'split', 'img_id', 'filename'],
-    num_rows: 10
- })
+    num_rows: 10 })
 >
 ```
 * Load the image-to-text pipeline with Salesforce/blip-image-captioning-base pretrained model.
