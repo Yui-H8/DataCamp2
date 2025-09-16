@@ -162,3 +162,5 @@ eval_results = task_evaluator.compute(model_or_pipeline=pipe, data=dataset,
 
 print(f"Precision: {eval_results['precision']:.2f}, Recall: {eval_results['recall']:.2f}")
 ```
+Great work! Notice that evaluators can use models or pipelines. Also, additional metrics can be added and computed at the same time with the evaluate.combine() function so that we don't have to loop through datasets multiple times! Note the F1 score would be particularly useful if you need to seek a balance between precision and recall AND the dataset contains an imbalanced number of true positives to true negatives.
+---
