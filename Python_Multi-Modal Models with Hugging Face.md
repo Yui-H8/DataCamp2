@@ -142,3 +142,7 @@ Great work! You generated new music! Here's the output after generating 500 toke
 In this exercise, you will use an evaluator from the Hugging Face evaluate package to assess the performance of a pretrained model on a custom dataset. Note that, for multi-class classification with dataset imbalances, accuracy is not a reliable performance indicator. Therefore, you will use the ability of the evaluator to provide multiple measures at once: the precision and recall.　　　　　
 　
 A dataset (dataset) and pipeline (pipe) have been predefined. The evaluate library and the evaluator class have also already been imported.
+    
+* Instantiate an evaluator for your "image-classification" task.
+* Extract the integer-to-string label mapping from the pipeline.
+* Evaluate the dataset (dataset) and pipeline (pipe) using the metrics stored in metrics_dict and label_map.
