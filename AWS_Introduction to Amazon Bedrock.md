@@ -23,3 +23,5 @@ Their tech lead asks:
 "To help me choose a model, is there a way to get more detailed information about each of them?"
 
 Demonstrate how to retrieve model details to help the team make an informed decision. The boto3 and json libraries have been pre-imported.
+* Use the method to get details for the model ID provided.
+* Print the model's name.
