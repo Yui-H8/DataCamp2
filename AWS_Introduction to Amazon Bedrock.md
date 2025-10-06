@@ -38,3 +38,8 @@ model_info = response['modelDetails']
 # Print model's name
 print(model_info['modelName'])
 ```
+<pre>
+    # Print model's name
+print(model_info['modelName'])
+Claude 3.5 Sonnet
+</pre>
