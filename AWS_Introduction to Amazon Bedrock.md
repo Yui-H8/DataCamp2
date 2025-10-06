@@ -18,3 +18,8 @@ print(models['modelSummaries'])
 ```
 *Great job - you've now established your first connection with Bedrock. Looks like there's plenty of models to choose from!*
 ### Retrieving Bedrock model details
+Their tech lead asks:
+
+"To help me choose a model, is there a way to get more detailed information about each of them?"
+
+Demonstrate how to retrieve model details to help the team make an informed decision. The boto3 and json libraries have been pre-imported.
