@@ -12,3 +12,7 @@ https://app.datacamp.com/learn/courses/
 ---
 ### Python
 * Multi-Modal Models with Hugging Face
+
+---
+### AWS
+* Introduction to Amazon Bedrock
