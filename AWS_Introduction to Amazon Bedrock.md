@@ -25,3 +25,16 @@ Their tech lead asks:
 Demonstrate how to retrieve model details to help the team make an informed decision. The boto3 and json libraries have been pre-imported.
 * Use the method to get details for the model ID provided.
 * Print the model's name.
+```python
+bedrock = boto3.client('bedrock', region_name='us-east-1')
+
+model_id = 'anthropic.claude-3-5-sonnet-20240620-v1:0'
+
+# Retrieve model details
+response = bedrock.get_foundation_model(modelIdentifier=model_id)
+
+model_info = response['modelDetails']
+
+# Print model's name
+print(model_info['modelName'])
+```
