@@ -16,3 +16,4 @@ models = bedrock.list_foundation_models()
 
 print(models['modelSummaries'])
 ```
+*Great job - you've now established your first connection with Bedrock. Looks like there's plenty of models to choose from!*
