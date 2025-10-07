@@ -74,3 +74,4 @@ print(response_body)
  it's time to generate some catchy options with Bedrock!
 
 The boto3 and json libraries have been pre-imported. The prompt is already provided as: "Write an engaging email subject line for a coffee company's New Year marketing campaign".
+* Set the keys in the dictionary to complete the "messages" list for the Nova model.
