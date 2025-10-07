@@ -67,3 +67,6 @@ print(response_body)
 ```
 <pre>{'id': 'msg_bdrk_01MLCx5Ea3wwUNPSUuT7khFU', 'type': 'message', 'role': 'assistant', 'model': 'claude-3-5-sonnet-20240620', 'content': [{'type': 'text', 'text': 'Forecasting customer demand is crucial for businesses to plan their operations, inventory, and resources effectively.'}], 'stop_reason': 'max_tokens', 'stop_sequence': None, 'usage': {'input_tokens': 16, 'output_tokens': 20}}
 </pre>
+
+*Excellent! You've successfully sent your first prompt to Claude through Bedrock. Notice how the request body is structured as a dictionary that includes the prompt along with other parameters - this pattern will be essential as you build more complex interactions!*
+
