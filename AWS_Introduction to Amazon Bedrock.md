@@ -43,7 +43,9 @@ print(model_info['modelName'])
 print(model_info['modelName'])
 Claude 3.5 Sonnet
 </pre>
+    
 *Excellent work setting up the Bedrock client! This initialization is the first step for all Bedrock interactions!*
+
 ---
 ### Using the correct model in Bedrock
 * Initialize the Bedrock client for inference.
