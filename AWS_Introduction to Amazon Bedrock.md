@@ -50,3 +50,18 @@ Claude 3.5 Sonnet
 ### Using the correct model in Bedrock
 * Initialize the Bedrock client for inference.
 * Invoke the model using the bedrock client.
+```python
+# Initialize the client for inference
+bedrock = boto3.client('bedrock-runtime', region_name='us-east-1')
+
+messages = [{"role": "user", "content": "What are some ways to forecast customer demand?"}]
+
+request_body=json.dumps({"anthropic_version": "bedrock-2023-05-31", "max_tokens": 20,
+                 "messages": messages})  
+
+# Invoke the model
+response = bedrock.invoke_model(body=request_body, modelId='anthropic.claude-3-5-sonnet-20240620-v1:0')
+response_body = json.loads(response.get('body').read())
+
+print(response_body)
+```
