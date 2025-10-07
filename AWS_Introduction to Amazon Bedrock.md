@@ -70,3 +70,4 @@ print(response_body)
 
 *Excellent! You've successfully sent your first prompt to Claude through Bedrock. Notice how the request body is structured as a dictionary that includes the prompt along with other parameters - this pattern will be essential as you build more complex interactions!*
 
+### Generating text in Bedrock
