@@ -86,3 +86,4 @@ nova_response = bedrock.invoke_model(modelId='amazon.nova-lite-v1:0', body=json.
 
 print(json.loads(nova_response.get("body").read().decode())["output"]["message"]["content"][0]["text"])
 ```
+<pre>"Kickstart 2024 with Our Freshest Brews: New Year, New Flavors!" ☕✨</pre>
