@@ -65,3 +65,5 @@ response_body = json.loads(response.get('body').read())
 
 print(response_body)
 ```
+<pre>{'id': 'msg_bdrk_01MLCx5Ea3wwUNPSUuT7khFU', 'type': 'message', 'role': 'assistant', 'model': 'claude-3-5-sonnet-20240620', 'content': [{'type': 'text', 'text': 'Forecasting customer demand is crucial for businesses to plan their operations, inventory, and resources effectively.'}], 'stop_reason': 'max_tokens', 'stop_sequence': None, 'usage': {'input_tokens': 16, 'output_tokens': 20}}
+</pre>
