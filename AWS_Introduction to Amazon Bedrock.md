@@ -75,3 +75,14 @@ print(response_body)
 
 The boto3 and json libraries have been pre-imported. The prompt is already provided as: "Write an engaging email subject line for a coffee company's New Year marketing campaign".
 * Set the keys in the dictionary to complete the "messages" list for the Nova model.
+```python
+bedrock = boto3.client('bedrock-runtime', region_name='us-east-1')
+
+# Set the dictionary keys
+message = {"role": "user",
+           "content": [{"text": prompt}]}
+
+nova_response = bedrock.invoke_model(modelId='amazon.nova-lite-v1:0', body=json.dumps({"messages": [message]}))
+
+print(json.loads(nova_response.get("body").read().decode())["output"]["message"]["content"][0]["text"])
+```
