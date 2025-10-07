@@ -46,3 +46,5 @@ Claude 3.5 Sonnet
 *Excellent work setting up the Bedrock client! This initialization is the first step for all Bedrock interactions!*
 ---
 ### Using the correct model in Bedrock
+* Initialize the Bedrock client for inference.
+* Invoke the model using the bedrock client.
