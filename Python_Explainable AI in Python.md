@@ -5,6 +5,20 @@ Build a decision tree classifier to classify income levels based on multiple fea
 
 X_train, X_test, y_train, and y_test are pre-loaded for you. The accuracy_score and export_text functions are also imported for you.
 * Extract the rules learned by the model. Compute the model's test accuracy.
+```python
+model = DecisionTreeClassifier(random_state=42, max_depth=2)
+model.fit(X_train, y_train)
+
+# Extract the rules
+rules = export_text(model, feature_names=list(X_train.columns))
+print(rules)
+
+y_pred = model.predict(X_test)
+
+# Compute accuracy
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Accuracy: {accuracy:.2f}")
+```
 <pre>
   print(f"Accuracy: {accuracy:.2f}")
 |--- education_num <= 12.50
