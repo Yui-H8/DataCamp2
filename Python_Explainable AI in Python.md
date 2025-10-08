@@ -35,3 +35,15 @@ print(f"Accuracy: {accuracy:.2f}")
 Accuracy: 0.78
 </pre>
 2. Train the MLPClassifier model. Derive the predictions on the test set. Compute the model's test accuracy.
+```python
+model = MLPClassifier(hidden_layer_sizes=(36, 12), random_state=42)
+# Train the MLPClassifier
+model.fit(X_train, y_train)
+
+# Derive the predictions on the test set
+y_pred = model.predict(X_test)
+
+# Compute the test accuracy
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Accuracy: {accuracy:.2f}")
+```
