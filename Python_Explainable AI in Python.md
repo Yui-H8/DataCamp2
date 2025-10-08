@@ -60,3 +60,6 @@ print(f"Accuracy: {accuracy:.2f}")
 *Now you have a good understanding of the differences between model-agnostic and model-specific explainability approaches.*
 ---
 ### Computing feature impact with linear regression
+As a data scientist at an insurance company, your task is to build and explain a linear regression model that estimates insurance charges based on features like age, BMI, and smoking status by analyzing the model's coefficients to determine the impact of each feature on the predictions.
+
+matplotlib.pyplot has been imported as plt along with MinMaxScaler. X_train and y_train are pre-loaded for you.
