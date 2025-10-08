@@ -54,3 +54,7 @@ print(f"Accuracy: {accuracy:.2f}")
 *Great job! You've seen that the MLPClassifier's accuracy is higher than that of the decision tree, but unlike decision trees, it's harder to interpret how the decisions are made.*
 
 ### Model-agnostic vs. model-specific explainability
+* Model-agnostic approaches can be applied to decision trees
+* Model-agnostic approaches can be applied to neural networks
+
+*Now you have a good understanding of the differences between model-agnostic and model-specific explainability approaches.*
