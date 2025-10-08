@@ -58,3 +58,5 @@ print(f"Accuracy: {accuracy:.2f}")
 * Model-agnostic approaches can be applied to neural networks
 
 *Now you have a good understanding of the differences between model-agnostic and model-specific explainability approaches.*
+---
+### Computing feature impact with linear regression
