@@ -84,3 +84,4 @@ feature_names = X_train.columns
 plt.bar(feature_names, coefficients)
 plt.show()
 ```
+*You discovered that smoking status and age have the highest influence on insurance charges. This makes sense as older individuals and smokers are at higher health risk, leading to higher costs.*
