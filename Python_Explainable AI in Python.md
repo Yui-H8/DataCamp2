@@ -126,3 +126,5 @@ feature_names = X_train.columns
 plt.barh(feature_names, feature_importances)
 plt.show()
 ```
+
+*You've identified the most important features for predicting heart disease. Understanding these key factors can help in making more informed healthcare decisions and improving patient outcomes.*
