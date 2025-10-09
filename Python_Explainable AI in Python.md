@@ -107,3 +107,4 @@ feature_names = X_train.columns
 plt.bar(feature_names, coefficients)
 plt.show()
 ```
+*You found that sex, age, and number of children are the most important factors for predicting smoking status. This makes sense as lifestyle choices often vary significantly with gender, age, and family responsibilities.*
