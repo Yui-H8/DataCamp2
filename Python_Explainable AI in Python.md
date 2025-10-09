@@ -129,3 +129,5 @@ plt.show()
 ```
 
 *You've identified the most important features for predicting heart disease. Understanding these key factors can help in making more informed healthcare decisions and improving patient outcomes.*
+
+### Computing feature importance with random forests
