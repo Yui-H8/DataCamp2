@@ -87,3 +87,4 @@ plt.show()
 *You discovered that smoking status and age have the highest influence on insurance charges. This makes sense as older individuals and smokers are at higher health risk, leading to higher costs.*
 
 ### Computing feature impact with logistic regression
+Continuing your work at the insurance company, you built a predictive model to identify whether an individual is a smoker or not. Now, you need to analyze the model to determine the relevant factors influencing smoking status, helping the company assess risk more accurately and tailor insurance policies accordingly.
