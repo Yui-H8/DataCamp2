@@ -67,3 +67,20 @@ matplotlib.pyplot has been imported as plt along with MinMaxScaler. X_train and 
 * Fit the linear regression model to the standardized training data.
 * Extract the coefficients from the model.
 * Plot the coefficients for the given feature_names.
+```python
+# Standardize the training data
+scaler = MinMaxScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+model = LinearRegression()
+
+# Fit the model
+model.fit(X_train_scaled, y_train)
+
+# Derive coefficients
+coefficients = model.coef_
+feature_names = X_train.columns
+
+# Plot coefficients
+plt.bar(feature_names, coefficients)
+plt.show()
+```
