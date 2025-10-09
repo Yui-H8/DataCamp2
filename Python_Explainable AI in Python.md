@@ -114,6 +114,7 @@ plt.show()
 You built a decision tree classifier to identify patients at risk of heart disease using the heart disease dataset. Now you need to explain the model by analyzing feature importance to determine the key factors for predicting heart disease, enabling more targeted healthcare interventions.
 * Extract the feature importances from the model.
 * Plot the feature_importances for the given feature_names.
+* Did you call plt.barh()?
 ```python
 model = DecisionTreeClassifier(random_state=42)
 model.fit(X_train, y_train)
