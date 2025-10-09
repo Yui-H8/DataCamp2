@@ -63,3 +63,7 @@ print(f"Accuracy: {accuracy:.2f}")
 As a data scientist at an insurance company, your task is to build and explain a linear regression model that estimates insurance charges based on features like age, BMI, and smoking status by analyzing the model's coefficients to determine the impact of each feature on the predictions.
 
 matplotlib.pyplot has been imported as plt along with MinMaxScaler. X_train and y_train are pre-loaded for you.
+* Normalize the training data X_train.
+* Fit the linear regression model to the standardized training data.
+* Extract the coefficients from the model.
+* Plot the coefficients for the given feature_names.
