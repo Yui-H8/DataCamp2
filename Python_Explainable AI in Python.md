@@ -91,3 +91,18 @@ Continuing your work at the insurance company, you built a predictive model to i
 * Extract the coefficients from the model.
 * Plot the coefficients for the given feature_names.
 >Hint: The .coef_ attribute of your model returns a 2D array, which is not suitable for plotting. You have to select its first element with [0].
+```python
+scaler = MinMaxScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+
+model = LogisticRegression()
+model.fit(X_train_scaled, y_train)
+
+# Derive coefficients
+coefficients = model.coef_[0]
+feature_names = X_train.columns
+
+# Plot coefficients
+plt.bar(feature_names, coefficients)
+plt.show()
+```
