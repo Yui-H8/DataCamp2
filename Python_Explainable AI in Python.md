@@ -131,3 +131,4 @@ plt.show()
 *You've identified the most important features for predicting heart disease. Understanding these key factors can help in making more informed healthcare decisions and improving patient outcomes.*
 
 ### Computing feature importance with random forests
+As a data scientist at a financial consulting firm, you have developed a random forest classifier that classifies individuals according to their income levels. Now, you need to explain the model by analyzing feature importance to determine the key factors for predicting income, enabling more targeted market segmentation and improving strategic decision-making.
