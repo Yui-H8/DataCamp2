@@ -134,3 +134,14 @@ plt.show()
 As a data scientist at a financial consulting firm, you have developed a random forest classifier that classifies individuals according to their income levels. Now, you need to explain the model by analyzing feature importance to determine the key factors for predicting income, enabling more targeted market segmentation and improving strategic decision-making.
 * Extract the feature importances from the model.
 * Plot the feature_importances.
+```python
+model = RandomForestClassifier(random_state=42)
+model.fit(X_train, y_train)
+
+# Derive feature importances
+feature_importances = model.feature_importances_
+
+# Plot the feature importances
+plt.bar(X_train.columns, feature_importances)
+plt.show()
+```
