@@ -145,3 +145,4 @@ feature_importances = model.feature_importances_
 plt.bar(X_train.columns, feature_importances)
 plt.show()
 ```
+> Hint: Access feature importances of a random forest classifier through the .feature_importances_ attribute of your model. The feature names can be accessed through the .columns attribute of your X_train dataframe.
