@@ -146,3 +146,5 @@ plt.bar(X_train.columns, feature_importances)
 plt.show()
 ```
 > Hint: Access feature importances of a random forest classifier through the .feature_importances_ attribute of your model. The feature names can be accessed through the .columns attribute of your X_train dataframe.
+
+*Great job! Now you know that age, working hours, and education are crucial factors affecting income. This insight helps you better segment and understand the target population, making your predictive models more relevant and focused.*
