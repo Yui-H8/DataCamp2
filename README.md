@@ -13,6 +13,7 @@ https://app.datacamp.com/learn/courses/
 ### Python
 * Multi-Modal Models with Hugging Face
 * Explainable AI in Python
+* Introduction to APIs in Python
 
 ---
 ### AWS
