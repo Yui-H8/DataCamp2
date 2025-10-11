@@ -26,3 +26,4 @@ with urlopen('http://localhost:3000/lyrics/') as response:
 
 *Nice, using the urllib module you have retrieved the 'Lyric of the day' from the Lyric API. The code is quite complex though, as we had to deal with decoding, etc. Let's see if we can make it simpler.*
 
+### Using the requests package
