@@ -27,3 +27,8 @@ with urlopen('http://localhost:3000/lyrics/') as response:
 *Nice, using the urllib module you have retrieved the 'Lyric of the day' from the Lyric API. The code is quite complex though, as we had to deal with decoding, etc. Let's see if we can make it simpler.*
 
 ### Using the requests package
+Using urllib to integrate APIs can result in verbose and complex code as you need to take care of a lot of additional things like encoding and decoding responses.
+
+As an alternative to urllib, the requests Python package offers a simpler way to integrate APIs. A lot of functionality is available out of the box with requests, which makes your code a lot easier to write and read. Let's try the same exercise again but now with the requests package.
+
+Remember, as with the previous exercise, the URL for the Lyrics API is http://localhost:3000/lyrics.
