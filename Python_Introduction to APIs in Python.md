@@ -46,3 +46,5 @@ response = requests.get('http://localhost:3000/lyrics')
 print(response.text)
 ```
 > N' I never miss Cause I'm a problem child - AC/DC, Problem Child
+
+*Nice, using the requests package you have simplified the code a lot. The requests package even took care of decoding the response for you, how cool is that? Let's move on and see what more can be done with the requests package.*
