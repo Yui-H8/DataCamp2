@@ -32,3 +32,6 @@ Using urllib to integrate APIs can result in verbose and complex code as you nee
 As an alternative to urllib, the requests Python package offers a simpler way to integrate APIs. A lot of functionality is available out of the box with requests, which makes your code a lot easier to write and read. Let's try the same exercise again but now with the requests package.
 
 Remember, as with the previous exercise, the URL for the Lyrics API is http://localhost:3000/lyrics.
+* Import the requests package.
+* Pass the URL http://localhost:3000/lyrics to the requests.get method.
+* Print out the response text.
