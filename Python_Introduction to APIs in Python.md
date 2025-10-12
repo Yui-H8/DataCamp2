@@ -59,3 +59,6 @@ Previously you learned how you can perform actions on API resources using these 
 Note: For the purpose of this exercise we only use the three most common verbs: GET, POST and DELETE.
 
 ### Constructing a URL with parameters
+You can fine-tune your API requests using the path and query parameters of the URL. Let's learn how you can use HTTP verbs, URL paths, and parameters using the requests package.
+
+In this exercise, you will make another API request to the Lyrics API, but instead of getting today's lyric, you will send a request to the random lyrics API. You will then further customize the API request by adding query parameters to filter on specific artists and include the track title. Below, you can find the details needed to construct the correct URL.
