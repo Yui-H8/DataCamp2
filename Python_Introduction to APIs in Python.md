@@ -71,3 +71,6 @@ response = requests.get('http://localhost:3000/lyrics/random')
 
 print(response.text)
 ```
+2. Let's now add a query parameter to only get lyrics by a specific artist.
+* Create a dictionary variable with one entry: the key artist with a value of Deep Purple.
+* Pass this dictionary to the requests.get() method as the params argument.
