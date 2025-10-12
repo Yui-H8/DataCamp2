@@ -83,3 +83,4 @@ response = requests.get('http://localhost:3000/lyrics/random', params=query_para
 
 print(response.text)
 ```
+> output:     You're racing like a fireball - Deep Purple
