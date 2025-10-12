@@ -57,3 +57,5 @@ HTTP verbs are a fundamental concept in REST APIs. There are 9 verbs in total, y
 Previously you learned how you can perform actions on API resources using these HTTP verbs. Each verb is associated with a specific type of action. Do you know what action belongs to what verb?
 
 Note: For the purpose of this exercise we only use the three most common verbs: GET, POST and DELETE.
+
+### Constructing a URL with parameters
