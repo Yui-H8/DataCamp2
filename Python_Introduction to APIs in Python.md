@@ -52,3 +52,8 @@ print(response.text)
 ### The basic anatomy of an API request
 ---
 ### The 4 most important HTTP Verbs
+HTTP verbs are a fundamental concept in REST APIs. There are 9 verbs in total, you got to know the four most important ones used by REST APIs: GET, POST, PUT and DELETE.
+
+Previously you learned how you can perform actions on API resources using these HTTP verbs. Each verb is associated with a specific type of action. Do you know what action belongs to what verb?
+
+Note: For the purpose of this exercise we only use the three most common verbs: GET, POST and DELETE.
