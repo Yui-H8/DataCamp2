@@ -109,3 +109,9 @@ print(response.text)
 Now that you have learned how to construct a URL, you can send requests to specific API resources. Let's see what more you can do with HTTP verbs on these resources.
 
 In this exercise, you will use the playlists API available via http://localhost:3000/playlists/. This API offers the following actions:
+| Verb   | Path                        | Description                                                              |
+|--------|-----------------------------|--------------------------------------------------------------------------|
+| GET    | /playlists                  | get a list of all playlists                                              |
+| GET    | /playlists/{PlaylistId}     | get information on a single playlist using its unique identifier PlaylistId |
+| POST   | /playlists                  | create a new playlist                                                    |
+| DELETE | /playlists/{PlaylistId}     | remove an existing playlist using its unique identifier PlaylistId       |
