@@ -120,3 +120,6 @@ You will start by getting a list of all existing playlists, then you will learn 
 
 The requests library is already imported for your convenience.
 1. Get a list of all playlists from the playlists API.
+
+
+> output:    [{"PlaylistId":1,"Name":"Classical music"},{"PlaylistId":2,"Name":"Pop"}]
