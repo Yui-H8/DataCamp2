@@ -115,6 +115,7 @@ In this exercise, you will use the playlists API available via http://localhost:
 | GET    | /playlists/{PlaylistId}     | get information on a single playlist using its unique identifier PlaylistId |
 | POST   | /playlists                  | create a new playlist                                                    |
 | DELETE | /playlists/{PlaylistId}     | remove an existing playlist using its unique identifier PlaylistId       |
+
 You will start by getting a list of all existing playlists, then you will learn how to create a new playlist and verify it's creation, and last you will learn how to remove an existing playlist.
 
 The requests library is already imported for your convenience.
