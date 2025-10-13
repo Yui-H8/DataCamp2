@@ -119,3 +119,4 @@ In this exercise, you will use the playlists API available via http://localhost:
 You will start by getting a list of all existing playlists, then you will learn how to create a new playlist and verify it's creation, and last you will learn how to remove an existing playlist.
 
 The requests library is already imported for your convenience.
+1. Get a list of all playlists from the playlists API.
