@@ -102,3 +102,5 @@ print(response.text)
 ```
 > http://localhost:3000/lyrics/random?artist=Deep+Purple&include_track=True
 > You're racing like a fireball - Deep Purple, Fireball
+
+*Awsome, now the track title is included in the lyric! Check the URL we printed, notice how the requests library took care of properly encoding and structuring the artists query parameter for you? Cool isn't it?*
