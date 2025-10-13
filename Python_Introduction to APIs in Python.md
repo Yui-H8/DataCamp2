@@ -104,3 +104,5 @@ print(response.text)
 > You're racing like a fireball - Deep Purple, Fireball
 
 *Awsome, now the track title is included in the lyric! Check the URL we printed, notice how the requests library took care of properly encoding and structuring the artists query parameter for you? Cool isn't it?*
+
+### Creating and deleting resources using an API
