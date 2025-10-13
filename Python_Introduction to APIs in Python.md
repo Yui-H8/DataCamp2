@@ -106,3 +106,6 @@ print(response.text)
 *Awsome, now the track title is included in the lyric! Check the URL we printed, notice how the requests library took care of properly encoding and structuring the artists query parameter for you? Cool isn't it?*
 
 ### Creating and deleting resources using an API
+Now that you have learned how to construct a URL, you can send requests to specific API resources. Let's see what more you can do with HTTP verbs on these resources.
+
+In this exercise, you will use the playlists API available via http://localhost:3000/playlists/. This API offers the following actions:
