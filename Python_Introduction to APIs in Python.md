@@ -150,3 +150,11 @@ print(response.text)
 > output:    {"PlaylistId":2,"Name":"Classical music"}
 
 4. Send a DELETE request to the URL for the playlist with PlaylistId 2 and get the list of existing playlists to confirm removal.
+```python
+# Perform a DELETE request to the playlist API using the path to playlist with PlaylistId 2
+requests.delete('http://localhost:3000/playlists/2')
+
+# Get the list of all existing playlists again
+response = requests.get('http://localhost:3000/playlists')
+print(response.text)
+```
