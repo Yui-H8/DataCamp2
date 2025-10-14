@@ -137,3 +137,6 @@ playlist_data = {"Name": "Rock Ballads"}
 response = requests.post('http://localhost:3000/playlists', data=playlist_data)
 print(response.text)
 ```
+
+> [{"PlaylistId":1,"Name":"Classical music"},{"PlaylistId":2,"Name":"Rock Ballads"},{"PlaylistId":3,"Name":"Pop"},{"PlaylistId":4,"Name":"Rock Ballads"}]
+
