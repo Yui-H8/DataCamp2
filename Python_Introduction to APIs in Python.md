@@ -140,3 +140,4 @@ print(response.text)
 
 > [{"PlaylistId":1,"Name":"Classical music"},{"PlaylistId":2,"Name":"Rock Ballads"},{"PlaylistId":3,"Name":"Pop"},{"PlaylistId":4,"Name":"Rock Ballads"}]
 
+3. Perform a GET request to get information on the playlist with PlaylistId 2.
