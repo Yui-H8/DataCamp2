@@ -147,3 +147,4 @@ response = requests.get('http://localhost:3000/playlists/2')
 
 print(response.text)
 ```
+> output:    {"PlaylistId":2,"Name":"Classical music"}
