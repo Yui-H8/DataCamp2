@@ -158,3 +158,4 @@ requests.delete('http://localhost:3000/playlists/2')
 response = requests.get('http://localhost:3000/playlists')
 print(response.text)
 ```
+> output:    [{"PlaylistId":1,"Name":"Classical music"},{"PlaylistId":3,"Name":"Pop"},{"PlaylistId":4,"Name":"Pop"}]
