@@ -128,7 +128,7 @@ print(response.text)
 
 > output:    [{"PlaylistId":1,"Name":"Classical music"},{"PlaylistId":2,"Name":"Pop"}]
 
-
+2. Create a dictionary with Name set to Rock Ballads, then perform a POST request with this dictionary as the data parameter.
 ```python
 # Create a dictionary with the playlist info
 playlist_data = {"Name": "Rock Ballads"}
