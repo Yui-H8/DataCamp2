@@ -197,3 +197,4 @@ if (response.status_code == 200):
 elif (response.status_code == 404):
   print('Oops, that API could not be found!')
 ```
+> Output: Oops, that API could not be found!
