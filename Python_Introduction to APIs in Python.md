@@ -165,3 +165,10 @@ print(response.text)
 
 ---
 ### Response codes and APIs
+When a client sends a request to a server, the server response includes a numeric status code, which is used to tell the client how the server responded to the request.
+
+In this exercise you will learn about the most important status codes you should know. We will send requests to valid and invalid paths and learn how we can access the status code to determine if our request was successful or not.
+
+The requests package comes with a built-in status code lookup object requests.codes you can use when you don't remember the exact numerical values.
+
+The requests package has been imported for you.
