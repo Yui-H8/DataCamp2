@@ -173,3 +173,10 @@ The requests package comes with a built-in status code lookup object requests.co
 
 The requests package has been imported for you.
 1. Check if the server responded successfully with the 200 status code.
+```python
+response = requests.get('http://localhost:3000/lyrics')
+
+# Check the response status code
+if (response.status_code == 200):
+  print('The server responded succesfully!')
+```
