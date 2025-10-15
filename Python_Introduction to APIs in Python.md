@@ -184,3 +184,5 @@ if (response.status_code == 200):
 
 2. Perform a request to the inexistent /movies path of the music catalog API.    
 Check if the server responded with a status code indicating the resource was not found, providing the appropriate numerical status code representing this.
+
+> Hint: The correct numeric status code for "Not Found" is 404.
