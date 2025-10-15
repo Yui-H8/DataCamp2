@@ -181,3 +181,6 @@ if (response.status_code == 200):
   print('The server responded succesfully!')
 ```
 > The server responded succesfully!
+
+2. Perform a request to the inexistent /movies path of the music catalog API.    
+Check if the server responded with a status code indicating the resource was not found, providing the appropriate numerical status code representing this.
