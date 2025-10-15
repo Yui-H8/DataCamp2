@@ -198,3 +198,5 @@ elif (response.status_code == 404):
   print('Oops, that API could not be found!')
 ```
 > Output: Oops, that API could not be found!
+
+3. Check for response codes with a 200 OK and 404 Not found status code using the requests.codes lookup object.
