@@ -172,3 +172,4 @@ In this exercise you will learn about the most important status codes you should
 The requests package comes with a built-in status code lookup object requests.codes you can use when you don't remember the exact numerical values.
 
 The requests package has been imported for you.
+1. Check if the server responded successfully with the 200 status code.
