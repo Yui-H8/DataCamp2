@@ -162,3 +162,6 @@ print(response.text)
 > output:    [{"PlaylistId":1,"Name":"Classical music"},{"PlaylistId":3,"Name":"Pop"},{"PlaylistId":4,"Name":"Pop"}]
 
 *You now master listing, creating and deleting resources using the requests library!*
+
+---
+### Response codes and APIs
