@@ -219,3 +219,6 @@ elif (response.status_code == requests.codes.not_found):
 *Awesome! See? Using the requests package, working with status-codes becomes a breeze. And it even becomes easier using the requests.codes lookup object! Now let's move on to headers.*
 
 ### Using request and response headers
+Headers contain additional information about your API calls, including the desired or used response format. Using accept and content-type headers, client and server can negotiate what response format to use.
+
+In this exercise, you'll use headers to inspect response formats after making a request and make a new request specifying the desired format via the accept header.
