@@ -200,6 +200,6 @@ elif (response.status_code == 404):
 > Output: Oops, that API could not be found!
 
 3. Check for response codes with a 200 OK and 404 Not found status code using the requests.codes lookup object.
-> Hint
-> The correct lookup value for 200 OK is requests.codes.ok.
+> Hint   
+> The correct lookup value for 200 OK is requests.codes.ok.   
 > The correct lookup value for 404 Not found is requests.codes.not_found.
