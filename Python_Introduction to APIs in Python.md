@@ -229,3 +229,4 @@ response = requests.get('http://localhost:3000/lyrics')
 # Print the response content-type header
 print(response.headers['Content-Type'])
 ```
+> output:     text/plain; charset=utf-8
