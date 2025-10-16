@@ -222,3 +222,4 @@ elif (response.status_code == requests.codes.not_found):
 Headers contain additional information about your API calls, including the desired or used response format. Using accept and content-type headers, client and server can negotiate what response format to use.
 
 In this exercise, you'll use headers to inspect response formats after making a request and make a new request specifying the desired format via the accept header.
+1. Find out the content-type of the response by printing out the response content-type header.
