@@ -203,3 +203,14 @@ elif (response.status_code == 404):
 > Hint   
 > The correct lookup value for 200 OK is requests.codes.ok.   
 > The correct lookup value for 404 Not found is requests.codes.not_found.
+```python
+response = requests.get('http://localhost:3000/movies')
+
+# Check if the response.status_code is equal to the requests.codes value for "200 OK"
+if(response.status_code == requests.codes.ok):
+  print('The server responded succesfully!')
+  
+# Or if the request was not successful because the API did not exist
+elif (response.status_code == requests.codes.not_found):
+  print('Oops, that API could not be found!')
+```
