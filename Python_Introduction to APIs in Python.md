@@ -215,6 +215,7 @@ elif (response.status_code == requests.codes.not_found):
   print('Oops, that API could not be found!')
 ```
 > Oops, that API could not be found!
+
 *Awesome! See? Using the requests package, working with status-codes becomes a breeze. And it even becomes easier using the requests.codes lookup object! Now let's move on to headers.*
 
 ### Using request and response headers
