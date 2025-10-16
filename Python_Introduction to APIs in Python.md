@@ -214,3 +214,4 @@ if(response.status_code == requests.codes.ok):
 elif (response.status_code == requests.codes.not_found):
   print('Oops, that API could not be found!')
 ```
+> Oops, that API could not be found!
