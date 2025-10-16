@@ -223,3 +223,9 @@ Headers contain additional information about your API calls, including the desir
 
 In this exercise, you'll use headers to inspect response formats after making a request and make a new request specifying the desired format via the accept header.
 1. Find out the content-type of the response by printing out the response content-type header.
+```python
+response = requests.get('http://localhost:3000/lyrics')
+
+# Print the response content-type header
+print(response.headers['Content-Type'])
+```
