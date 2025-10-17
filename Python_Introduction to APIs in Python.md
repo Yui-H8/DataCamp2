@@ -255,3 +255,5 @@ print(response.text)
 > output:    {"artist":"AC/DC","lyric":"N' I never miss Cause I'm a problem child","track":"Problem Child"}
 
 *Great! You now know how to retrieve a lyric using the JSON format!*
+
+### Handling content-types errors
