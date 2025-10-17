@@ -240,3 +240,4 @@ print(response.headers['accept'])
 ```
 > output:    application/json, text/plain
 
+3. Add an accept header to the request so the server returns JSON formatted data, then print the response text attribute.
