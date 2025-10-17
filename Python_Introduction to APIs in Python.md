@@ -252,3 +252,4 @@ response = requests.get('http://localhost:3000/lyrics', headers=headers)
 # Print the response's text
 print(response.text)
 ```
+> output:    {"artist":"AC/DC","lyric":"N' I never miss Cause I'm a problem child","track":"Problem Child"}
