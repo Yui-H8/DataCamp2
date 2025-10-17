@@ -244,3 +244,11 @@ print(response.headers['accept'])
 > Hint
 > Use the accept header to request a response in the JSON content-type which is 'application/json'.
 > Access the text attribute of the response object to get the response body as text so you can print it.
+```python
+# Set the content type to application/json
+headers = {'accept': 'application/json'}
+response = requests.get('http://localhost:3000/lyrics', headers=headers)
+
+# Print the response's text
+print(response.text)
+```
