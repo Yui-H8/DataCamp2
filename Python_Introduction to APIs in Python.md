@@ -232,3 +232,9 @@ print(response.headers['Content-Type'])
 > output:     text/plain; charset=utf-8
 
 2. Find out what content-types the server can respond with by printing out the response accept header.
+```python
+response = requests.get('http://localhost:3000/lyrics')
+
+# Print the response accept header
+print(response.headers['accept'])
+```
