@@ -258,3 +258,6 @@ print(response.text)
 
 ### Handling content-types errors
 What happens when you ask for a response in a specific format but the server cannot satisfy that request? Say you want to receive the response in XML rather than JSON. If the server can not respond in XML, it will respond with a specific status-code indicating that it can't reply in the requested format. The status code used in this case is 406 Not Acceptable or 406 in short. The response from the server also frequently contains an accept header which includes a list of all response formats it can respond with. Use this to learn what content types the API can respond with.
+* Add an accept header to request a response in the application/xml content-type from the server.
+* Check if the server did not accept the request using the relevant status code.
+* Print out a list of accepted content types from the server response.
