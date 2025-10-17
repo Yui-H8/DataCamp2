@@ -238,3 +238,5 @@ response = requests.get('http://localhost:3000/lyrics')
 # Print the response accept header
 print(response.headers['accept'])
 ```
+> output:    application/json, text/plain
+
