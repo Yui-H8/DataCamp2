@@ -241,3 +241,6 @@ print(response.headers['accept'])
 > output:    application/json, text/plain
 
 3. Add an accept header to the request so the server returns JSON formatted data, then print the response text attribute.
+> Hint
+> Use the accept header to request a response in the JSON content-type which is 'application/json'.
+> Access the text attribute of the response object to get the response body as text so you can print it.
