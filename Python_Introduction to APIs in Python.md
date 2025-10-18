@@ -261,3 +261,9 @@ What happens when you ask for a response in a specific format but the server can
 * Add an accept header to request a response in the application/xml content-type from the server.
 * Check if the server did not accept the request using the relevant status code.
 * Print out a list of accepted content types from the server response.
+  
+> Hint    
+> Add an accept entry to the headers dictionary with the content-type value to pass it as a header to the server.    
+> You can inspect the status code by accessing the status_code property of the response object.    
+> The status code for "Not Acceptable" is 406.    
+> You can use square brackets [] to subset the accept header from the response.headers property.    
