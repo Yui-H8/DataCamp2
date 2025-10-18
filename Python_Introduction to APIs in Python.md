@@ -284,3 +284,4 @@ else:
 > The server can not respond in XML     
 > These are the content types the server accepts: application/json, text/plain
 
+*Awesome! Headers can be used for a lot of things, content negotiation is just the start! Are you ready to learn more?*
