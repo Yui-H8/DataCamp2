@@ -281,3 +281,6 @@ if (response.status_code == 406):
 else:
   print(response.text)
 ```
+> The server can not respond in XML     
+> These are the content types the server accepts: application/json, text/plain
+
