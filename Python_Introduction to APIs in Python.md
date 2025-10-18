@@ -267,3 +267,17 @@ What happens when you ask for a response in a specific format but the server can
 > You can inspect the status code by accessing the status_code property of the response object.    
 > The status code for "Not Acceptable" is 406.    
 > You can use square brackets [] to subset the accept header from the response.headers property.    
+```python
+# Add a header to use in the request
+headers = {'accept': 'application/xml'}
+response = requests.get('http://localhost:3000/lyrics', headers=headers)
+
+# Check if the server did not accept the request
+if (response.status_code == 406):
+  print('The server can not respond in XML')
+  
+  # Print the accepted content types
+  print('These are the content types the server accepts: ' + response.headers['accept'])
+else:
+  print(response.text)
+```
