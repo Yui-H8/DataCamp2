@@ -14,6 +14,7 @@ https://app.datacamp.com/learn/courses/
 * Multi-Modal Models with Hugging Face
 * Explainable AI in Python
 * Introduction to APIs in Python
+* Machine Learning with Tree-Based Models in Python
 
 ---
 ### AWS
