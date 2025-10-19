@@ -47,3 +47,5 @@ print("Test set accuracy: {:.2f}".format(acc))
 > output:    Test set accuracy: 0.89
 
 *Not bad! Using only two features, your tree was able to achieve an accuracy of 89%!*
+
+### Logistic regression vs classification tree
