@@ -8,3 +8,17 @@ The dataset is already loaded in your workspace and is split into 80% train and 
 * Instantiate a DecisionTreeClassifier dt of maximum depth equal to 6.
 * Fit dt to the training set.
 * Predict the test set labels and assign the result to y_pred.variable called SEED which is set to 1.
+```python
+# Import DecisionTreeClassifier from sklearn.tree
+from sklearn.tree import DecisionTreeClassifier
+
+# Instantiate a DecisionTreeClassifier 'dt' with a maximum depth of 6
+dt = DecisionTreeClassifier(max_depth=6, random_state=SEED)
+
+# Fit dt to the training set
+dt.fit(X_train, y_train)
+
+# Predict test set labels
+y_pred = dt.predict(X_test)
+print(y_pred[0:5])
+```
