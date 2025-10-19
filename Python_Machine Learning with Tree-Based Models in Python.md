@@ -25,3 +25,5 @@ print(y_pred[0:5])
 > output:    [0 0 0 1 0]
 
 *You've just trained your first classification tree! You can see the first five predictions made by the fitted tree on the test set in the console. In the next exercise, you'll evaluate the tree's performance on the entire test set.*
+
+### Evaluate the classification tree
