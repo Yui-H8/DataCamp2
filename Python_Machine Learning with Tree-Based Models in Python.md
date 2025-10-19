@@ -22,3 +22,4 @@ dt.fit(X_train, y_train)
 y_pred = dt.predict(X_test)
 print(y_pred[0:5])
 ```
+> output:    [0 0 0 1 0]
