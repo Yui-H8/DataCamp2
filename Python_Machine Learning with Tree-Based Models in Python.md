@@ -33,3 +33,14 @@ The trained model dt from the previous exercise is loaded in your workspace alon
 * Import the function accuracy_score from sklearn.metrics.
 * Predict the test set labels and assign the obtained array to y_pred.
 * Evaluate the test set accuracy score of dt by calling accuracy_score() and assign the value to acc.
+```python
+# Import accuracy_score
+from sklearn.metrics import accuracy_score
+
+# Predict test set labels
+y_pred = dt.predict(X_test)
+
+# Compute test set accuracy  
+acc = accuracy_score(y_test, y_pred)
+print("Test set accuracy: {:.2f}".format(acc))
+```
