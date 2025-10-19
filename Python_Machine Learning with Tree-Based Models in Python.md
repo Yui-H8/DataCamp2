@@ -27,3 +27,6 @@ print(y_pred[0:5])
 *You've just trained your first classification tree! You can see the first five predictions made by the fitted tree on the test set in the console. In the next exercise, you'll evaluate the tree's performance on the entire test set.*
 
 ### Evaluate the classification tree
+Now that you've fit your first classification tree, it's time to evaluate its performance on the test set. You'll do so using the accuracy metric which corresponds to the fraction of correct predictions made on the test set.
+
+The trained model dt from the previous exercise is loaded in your workspace along with the test set features matrix X_test and the array of labels y_test.
