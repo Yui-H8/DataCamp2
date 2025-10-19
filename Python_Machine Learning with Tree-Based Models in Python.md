@@ -49,3 +49,8 @@ print("Test set accuracy: {:.2f}".format(acc))
 *Not bad! Using only two features, your tree was able to achieve an accuracy of 89%!*
 
 ### Logistic regression vs classification tree
+A classification tree divides the feature space into rectangular regions. In contrast, a linear model such as logistic regression produces only a single linear decision boundary dividing the feature space into two decision regions.
+
+We have written a custom function called plot_labeled_decision_regions() that you can use to plot the decision regions of a list containing two trained classifiers. You can type help(plot_labeled_decision_regions) in the shell to learn more about this function.
+
+X_train, X_test, y_train, y_test, the model dt that you've trained in an earlier exercise, as well as the function plot_labeled_decision_regions() are available in your workspace.
