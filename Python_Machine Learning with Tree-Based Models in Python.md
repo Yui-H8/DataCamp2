@@ -86,3 +86,6 @@ In the video, you saw that the growth of an unconstrained classification tree fo
 *Absolutely so! It's quite the contrary! Actually, splitting an internal node always involves maximizing information gain!*
 
 ### Using entropy as a criterion
+In this exercise, you'll train a classification tree on the Wisconsin Breast Cancer dataset using entropy as an information criterion. You'll do so using all the 30 features in the dataset, which is split into 80% train and 20% test.
+
+X_train as well as the array of labels y_train are available in your workspace.
