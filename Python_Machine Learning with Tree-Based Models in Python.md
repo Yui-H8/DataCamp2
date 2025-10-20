@@ -84,3 +84,5 @@ In the video, you saw that the growth of an unconstrained classification tree fo
 - ×　When an internal node is split, the split is performed in such a way so that information gain is minimized.
   
 *Absolutely so! It's quite the contrary! Actually, splitting an internal node always involves maximizing information gain!*
+
+### Using entropy as a criterion
