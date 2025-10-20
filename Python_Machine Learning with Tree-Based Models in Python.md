@@ -89,3 +89,7 @@ In the video, you saw that the growth of an unconstrained classification tree fo
 In this exercise, you'll train a classification tree on the Wisconsin Breast Cancer dataset using entropy as an information criterion. You'll do so using all the 30 features in the dataset, which is split into 80% train and 20% test.
 
 X_train as well as the array of labels y_train are available in your workspace.
+* Import DecisionTreeClassifier from sklearn.tree.
+* Instantiate a DecisionTreeClassifier dt_entropy with a maximum depth of 8.
+* Set the information criterion to 'entropy'.
+* Fit dt_entropy on the training set.
