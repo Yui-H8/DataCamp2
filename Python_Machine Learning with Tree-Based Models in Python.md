@@ -75,3 +75,5 @@ clfs = [logreg, dt]
 plot_labeled_decision_regions(X_test, y_test, clfs)
 ```
 *Great work! Notice how the decision boundary produced by logistic regression is linear while the boundaries produced by the classification tree divide the feature space into rectangular regions.*
+
+### Growing a classification tree
