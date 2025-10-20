@@ -77,3 +77,4 @@ plot_labeled_decision_regions(X_test, y_test, clfs)
 *Great work! Notice how the decision boundary produced by logistic regression is linear while the boundaries produced by the classification tree divide the feature space into rectangular regions.*
 
 ### Growing a classification tree
+In the video, you saw that the growth of an unconstrained classification tree followed a few simple rules. Which of the following is not one of these rules?
