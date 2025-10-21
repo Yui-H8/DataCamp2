@@ -103,3 +103,4 @@ dt_entropy = DecisionTreeClassifier(max_depth=8,criterion='entropy', random_stat
 # Fit dt_entropy to the training set
 dt_entropy.fit(X_train, y_train)
 ```
+*Wonderful! In the next exercise, you'll compare the accuracy of dt_entropy to the accuracy of a another tree trained using the gini-index as the information criterion.*
