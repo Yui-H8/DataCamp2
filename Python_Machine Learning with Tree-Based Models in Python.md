@@ -129,3 +129,6 @@ print(f'Accuracy achieved by using entropy: {accuracy_entropy:.3f}')
 # Print accuracy_gini
 print(f'Accuracy achieved by using the gini index: {accuracy_gini:.3f}')
 ```
+> output:    
+>    Accuracy achieved by using entropy: 0.991   
+>    Accuracy achieved by using the gini index: 1.000
