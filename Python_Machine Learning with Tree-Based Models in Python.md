@@ -93,3 +93,13 @@ X_train as well as the array of labels y_train are available in your workspace.
 * Instantiate a DecisionTreeClassifier dt_entropy with a maximum depth of 8.
 * Set the information criterion to 'entropy'.
 * Fit dt_entropy on the training set.
+```python
+# Import DecisionTreeClassifier from sklearn.tree
+from sklearn.tree import DecisionTreeClassifier
+
+# Instantiate dt_entropy, set 'entropy' as the information criterion
+dt_entropy = DecisionTreeClassifier(max_depth=8,criterion='entropy', random_state=1)
+
+# Fit dt_entropy to the training set
+dt_entropy.fit(X_train, y_train)
+```
