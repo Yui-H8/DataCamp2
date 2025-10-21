@@ -113,3 +113,19 @@ X_test, y_test, dt_entropy, as well as accuracy_gini which corresponds to the te
 * Predict the test set labels of dt_entropy and assign the result to y_pred.
 * Evaluate the test set accuracy of dt_entropy and assign the result to accuracy_entropy.
 * Review accuracy_entropy and accuracy_gini.
+```python
+# Import accuracy_score from sklearn.metrics
+from sklearn.metrics import accuracy_score
+
+# Use dt_entropy to predict test set labels
+y_pred = dt_entropy.predict(X_test)
+
+# Evaluate accuracy_entropy
+accuracy_entropy = accuracy_score(y_test, y_pred)
+
+# Print accuracy_entropy
+print(f'Accuracy achieved by using entropy: {accuracy_entropy:.3f}')
+
+# Print accuracy_gini
+print(f'Accuracy achieved by using the gini index: {accuracy_gini:.3f}')
+```
