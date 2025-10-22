@@ -165,3 +165,6 @@ The features matrix X_test, the array y_test, as well as the decision tree regre
 * Predict the test set labels and assign the output to y_pred.
 * Compute the test set MSE by calling MSE and assign the result to mse_dt.
 * Compute the test set RMSE and assign it to rmse_dt.
+> Hint
+> Pass the actual test set and predicted labels to MSE().
+> To compute RMSE simply raise mse_dt to the power 1/2.
