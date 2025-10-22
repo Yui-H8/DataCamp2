@@ -155,3 +155,5 @@ dt = DecisionTreeRegressor(max_depth=8,
 # Fit dt to the training set
 dt.fit(X_train, y_train)
 ```
+*Great work! In the next exercise, you'll evaluate dt's performance on the test set.*
+
