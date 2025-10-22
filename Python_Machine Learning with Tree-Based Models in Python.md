@@ -184,3 +184,4 @@ rmse_dt = mse_dt**(1/2)
 # Print rmse_dt
 print("Test set RMSE of dt: {:.2f}".format(rmse_dt))
 ```
+> output:    Test set RMSE of dt: 4.37
