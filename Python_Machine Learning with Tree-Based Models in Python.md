@@ -158,3 +158,6 @@ dt.fit(X_train, y_train)
 *Great work! In the next exercise, you'll evaluate dt's performance on the test set.*
 
 ### Evaluate the regression tree
+In this exercise, you will evaluate the test set performance of dt using the Root Mean Squared Error (RMSE) metric. The RMSE of a model measures, on average, how much the model's predictions differ from the actual labels. The RMSE of a model can be obtained by computing the square root of the model's Mean Squared Error (MSE).
+
+The features matrix X_test, the array y_test, as well as the decision tree regressor dt that you trained in the previous exercise are available in your workspace.
