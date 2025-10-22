@@ -187,3 +187,5 @@ print("Test set RMSE of dt: {:.2f}".format(rmse_dt))
 > output:    Test set RMSE of dt: 4.37
 
 *Great work! In the next exercise, you'll compare the test-set RMSE of dt to that of a linear regression model trained on the same dataset.*
+
+### Linear regression vs regression tree
