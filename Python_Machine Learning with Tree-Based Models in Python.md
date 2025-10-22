@@ -161,3 +161,7 @@ dt.fit(X_train, y_train)
 In this exercise, you will evaluate the test set performance of dt using the Root Mean Squared Error (RMSE) metric. The RMSE of a model measures, on average, how much the model's predictions differ from the actual labels. The RMSE of a model can be obtained by computing the square root of the model's Mean Squared Error (MSE).
 
 The features matrix X_test, the array y_test, as well as the decision tree regressor dt that you trained in the previous exercise are available in your workspace.
+* Import the function mean_squared_error as MSE from sklearn.metrics.
+* Predict the test set labels and assign the output to y_pred.
+* Compute the test set MSE by calling MSE and assign the result to mse_dt.
+* Compute the test set RMSE and assign it to rmse_dt.
