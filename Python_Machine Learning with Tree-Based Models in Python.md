@@ -136,3 +136,4 @@ print(f'Accuracy achieved by using the gini index: {accuracy_gini:.3f}')
 *Nice work! Notice how the two models achieve almost the same accuracy. Most of the time, the gini index and entropy lead to the same results. The gini index is slightly faster to compute and is the default criterion used in the DecisionTreeClassifier model of scikit-learn.*
 
 ### Decision tree for regression
+### Train your first regression tree
