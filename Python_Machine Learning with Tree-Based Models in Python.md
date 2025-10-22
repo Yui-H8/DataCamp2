@@ -157,3 +157,4 @@ dt.fit(X_train, y_train)
 ```
 *Great work! In the next exercise, you'll evaluate dt's performance on the test set.*
 
+### Evaluate the regression tree
