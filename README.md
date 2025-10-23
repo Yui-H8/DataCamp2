@@ -19,3 +19,8 @@ https://app.datacamp.com/learn/courses/
 ---
 ### AWS
 * Introduction to Amazon Bedrock
+
+
+---
+### Open AI
+* Multi-Modal Systems with the OpenAI API
