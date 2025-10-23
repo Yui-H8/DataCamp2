@@ -7,3 +7,15 @@ If you'd like to hear more from Logan, check out the full ChatGPT and the OpenAI
 * Open the openai-audio.mp3 file.
 * Create a transcription request to the Audio endpoint with audio_file.
 * Extract and print the transcript text from the response.
+```Python
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Open the openai-audio.mp3 file
+audio_file = open("openai-audio.mp3", "rb")
+
+# Create a transcript from the audio file
+response = client.audio.transcriptions.create(model="whisper-1", file=audio_file)
+
+# Extract and print the transcript text
+print(response.text)
+```
