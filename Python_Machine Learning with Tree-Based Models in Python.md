@@ -212,3 +212,5 @@ print('Linear Regression test set RMSE: {:.2f}'.format(rmse_lr))
 # Print rmse_dt
 print('Regression Tree test set RMSE: {:.2f}'.format(rmse_dt))
 ```
+> Linear Regression test set RMSE: 5.10
+> Regression Tree test set RMSE: 4.37
