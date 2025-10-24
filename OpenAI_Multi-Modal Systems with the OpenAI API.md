@@ -39,3 +39,5 @@ response = client.audio.transcriptions.create(model="whisper-1", file=audio_file
 
 print(response.text)
 ```
+> Olá, o meu nome é Eduardo, sou CTO no Datacamp. Espero que esteja a gostar deste curso que o James e eu criamos para você. Esta API permite enviar um áudio e trazer para inglês. O áudio original está em português.
+
