@@ -23,3 +23,5 @@ print(response.text)
 
 *Audibly awesome! Using an OpenAI model to transcribe a recording of an OpenAI developer talking about OpenAI is mind-bending stuff. Have a listen and see how the model performed!   
 Link to Download(https://assets.datacamp.com/production/repositories/6309/datasets/9e5a65b42c1a9fe8756e30e4d255883a8466b671/audio-logan-advocate-openai.mp3)*
+
+### Transcribing a non-English language
