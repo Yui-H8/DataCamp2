@@ -47,3 +47,6 @@ print(response.text)
 OpenAI's audio models can not only transcribe audio into its native language, but also support translation capabilities for creating English transcriptions.
 
 In this exercise, you'll return to the Portuguese audio, but this time, you'll translate it into English!
+* Open the audio.m4a file.
+* Create a translation request to the Audio endpoint.
+* Extract and print the translated text from the response.
