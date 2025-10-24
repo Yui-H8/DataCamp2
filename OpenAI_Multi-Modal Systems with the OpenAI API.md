@@ -44,3 +44,6 @@ print(response.text)
 *Awesome work! See how the audio was transcribed in Portuguese! Being able to transcribe speech into the native language is very cool. Let's finish by translating audio from one language into English.(https://assets.datacamp.com/production/repositories/6309/datasets/443390237150862833705a6e0599478575a1276a/audio-portuguese.m4a)*
 
 ### Translating Portuguese
+OpenAI's audio models can not only transcribe audio into its native language, but also support translation capabilities for creating English transcriptions.
+
+In this exercise, you'll return to the Portuguese audio, but this time, you'll translate it into English!
