@@ -26,3 +26,5 @@ Link to Download(https://assets.datacamp.com/production/repositories/6309/datase
 
 ### Transcribing a non-English language
 OpenAI's audio models can not only transcribe English speech but also perform well in speech in many other languages.
+* Open the audio.m4a file in read-binary mode.
+* Create a transcription request to the Audio endpoint.
