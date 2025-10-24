@@ -25,3 +25,4 @@ print(response.text)
 Link to Download(https://assets.datacamp.com/production/repositories/6309/datasets/9e5a65b42c1a9fe8756e30e4d255883a8466b671/audio-logan-advocate-openai.mp3)*
 
 ### Transcribing a non-English language
+OpenAI's audio models can not only transcribe English speech but also perform well in speech in many other languages.
