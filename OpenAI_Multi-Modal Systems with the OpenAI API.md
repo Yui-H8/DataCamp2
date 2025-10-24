@@ -63,3 +63,5 @@ response = client.audio.translations.create(model="whisper-1", file=audio_file)
 print(response.text)
 ```
 > Hello, my name is Eduardo, I am a CTO at Datacamp. I hope you are enjoying this course that James and I have created for you. This API allows you to send an audio and bring it to English. The original audio is in Portuguese.
+
+*Look at that—that's a pretty good translation! The model may not always be perfect, outputting minor wording differences or imperfect grammar, but it performs well for the most widely-used languages.*
