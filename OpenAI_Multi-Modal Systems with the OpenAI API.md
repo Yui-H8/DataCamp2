@@ -41,3 +41,5 @@ print(response.text)
 ```
 > Olá, o meu nome é Eduardo, sou CTO no Datacamp. Espero que esteja a gostar deste curso que o James e eu criamos para você. Esta API permite enviar um áudio e trazer para inglês. O áudio original está em português.
 
+*Awesome work! See how the audio was transcribed in Portuguese! Being able to transcribe speech into the native language is very cool. Let's finish by translating audio from one language into English.(https://assets.datacamp.com/production/repositories/6309/datasets/443390237150862833705a6e0599478575a1276a/audio-portuguese.m4a)*
+
