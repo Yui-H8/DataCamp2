@@ -87,4 +87,4 @@ response = client.audio.speech.create(
 # Stream the response to an MP3 file
 response.stream_to_file("output.mp3")
 ```
-*Nice job! Give the final audio you generated a listen and see what you think!*
+*Nice job! Give the final audio you generated a listen and see what you think!(https://assets.datacamp.com/production/repositories/7030/datasets/91941ead3792bcc10856b7cdb63e922839c4c1cf/tts3.mp3)*
