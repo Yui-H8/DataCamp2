@@ -72,8 +72,9 @@ print(response.text)
 OpenAI now provide models for creating human-like speech from a text input, so-called text-to-speech or TTS. OpenAI provide several voices to choose from, and they provide the ability to stream the response to local files or downstream applications.
 * Create the text-to-speech request for "Hi! How's your day going?", using the "ballad" voice.
 * Stream the response to an .mp3 file.
-
-* 
+> Hint   
+> Provide the voice argument to .create().   
+> Use the .stream_to_file() method to stream the response to a local file.    
 ```python
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
