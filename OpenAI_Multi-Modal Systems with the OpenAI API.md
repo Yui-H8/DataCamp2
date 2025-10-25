@@ -95,3 +95,4 @@ Let's have a go at some non-English text. Try sending the following text input t
 
 Dnes je krásný slunečný den.
 The text is in the Czech language, which is spoken primarily in the Czech Republic.
+* Send the Czech text provided to the gpt-4o-mini-tts model using the "coral" voice.
