@@ -69,3 +69,4 @@ print(response.text)
 ---
 
 ### OpenAI's text-to-speech (TTS)
+OpenAI now provide models for creating human-like speech from a text input, so-called text-to-speech or TTS. OpenAI provide several voices to choose from, and they provide the ability to stream the response to local files or downstream applications.
