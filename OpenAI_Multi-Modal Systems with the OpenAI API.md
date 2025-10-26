@@ -114,3 +114,4 @@ response.stream_to_file("output.mp3")
 Text moderation is a vital component of most social media platforms, internet chatrooms, and many other user-facing systems. It serves the purpose of preventing the distribution and promotion of inappropriate content, such as hate speech.
 
 In this exercise, you'll compare OpenAI's text moderation model to traditional methods of moderation: manual moderation and keyword pattern matching.
+* Classify the statements as being properties of OpenAI's moderation model, keyword pattern matching, or manual moderation.
