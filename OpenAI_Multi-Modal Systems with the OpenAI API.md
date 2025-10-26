@@ -111,3 +111,6 @@ response.stream_to_file("output.mp3")
 *Masterfully generated! Give it a listen and see what you think! The quality of the generated voice, in terms of accent and exact pronunciation, can vary substantially for different non-English languages, but it's generally understandable to native speakers.(https://assets.datacamp.com/production/repositories/7030/datasets/93463f96effec13393dadd34a78540eeec7354c8/output_cz.mp3)*
 
 ### Why use text moderation models?
+Text moderation is a vital component of most social media platforms, internet chatrooms, and many other user-facing systems. It serves the purpose of preventing the distribution and promotion of inappropriate content, such as hate speech.
+
+In this exercise, you'll compare OpenAI's text moderation model to traditional methods of moderation: manual moderation and keyword pattern matching.
