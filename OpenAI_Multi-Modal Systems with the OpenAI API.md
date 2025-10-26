@@ -96,3 +96,15 @@ Let's have a go at some non-English text. Try sending the following text input t
 Dnes je krásný slunečný den.
 The text is in the Czech language, which is spoken primarily in the Czech Republic.
 * Send the Czech text provided to the gpt-4o-mini-tts model using the "coral" voice.
+```python
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Pass the non-English text to the model
+response = client.audio.speech.create(
+    model="gpt-4o-mini-tts",
+    voice="coral",
+    input="Dnes je krásný slunečný den."
+)
+
+response.stream_to_file("output.mp3")
+```
