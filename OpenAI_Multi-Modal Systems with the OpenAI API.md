@@ -119,3 +119,6 @@ In this exercise, you'll compare OpenAI's text moderation model to traditional m
 *Great job! Moderation models represent a significant advancement in the way that content is moderated. Head on over to the next exercise to use OpenAI's Moderation model yourself!*
 
 ### Requesting moderation
+Aside from text and chat completion models, OpenAI provides models with other capabilities, including text moderation. OpenAI's text moderation model is designed for evaluating prompts and responses to determine if they violate OpenAI's usage policies, including inciting hate speech and promoting violence.
+
+In this exercise, you'll test out OpenAI's moderation functionality on a sentence that may have been flagged as containing violent content using traditional word detection algorithms.
