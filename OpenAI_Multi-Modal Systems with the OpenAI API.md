@@ -122,3 +122,5 @@ In this exercise, you'll compare OpenAI's text moderation model to traditional m
 Aside from text and chat completion models, OpenAI provides models with other capabilities, including text moderation. OpenAI's text moderation model is designed for evaluating prompts and responses to determine if they violate OpenAI's usage policies, including inciting hate speech and promoting violence.
 
 In this exercise, you'll test out OpenAI's moderation functionality on a sentence that may have been flagged as containing violent content using traditional word detection algorithms.
+* Check if "My favorite book is To Kill a Mockingbird." violates OpenAI’s policies using the Moderations endpoint.
+* Print the category scores to see the results.
