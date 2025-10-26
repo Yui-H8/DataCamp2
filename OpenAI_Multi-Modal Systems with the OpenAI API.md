@@ -115,3 +115,5 @@ Text moderation is a vital component of most social media platforms, internet ch
 
 In this exercise, you'll compare OpenAI's text moderation model to traditional methods of moderation: manual moderation and keyword pattern matching.
 * Classify the statements as being properties of OpenAI's moderation model, keyword pattern matching, or manual moderation.
+
+*Great job! Moderation models represent a significant advancement in the way that content is moderated. Head on over to the next exercise to use OpenAI's Moderation model yourself!*
