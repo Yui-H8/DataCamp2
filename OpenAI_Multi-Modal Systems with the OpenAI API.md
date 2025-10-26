@@ -128,3 +128,15 @@ In this exercise, you'll test out OpenAI's moderation functionality on a sentenc
 > Create a request to the Moderations endpoint using the .create() method on client.moderations.    
 > Pass the text to check as an input parameter.    
 > Access category scores via .category_scores.
+```python
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Create a request to the Moderation endpoint
+response = client.moderations.create(
+    model="text-moderation-latest",
+    input="My favorite book is To Kill a Mockingbird."
+)
+
+# Print the category scores
+print(response.results[0].category_scores)
+```
