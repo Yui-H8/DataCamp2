@@ -117,3 +117,5 @@ In this exercise, you'll compare OpenAI's text moderation model to traditional m
 * Classify the statements as being properties of OpenAI's moderation model, keyword pattern matching, or manual moderation.
 
 *Great job! Moderation models represent a significant advancement in the way that content is moderated. Head on over to the next exercise to use OpenAI's Moderation model yourself!*
+
+### Requesting moderation
