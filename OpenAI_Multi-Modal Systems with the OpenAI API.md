@@ -124,3 +124,7 @@ Aside from text and chat completion models, OpenAI provides models with other ca
 In this exercise, you'll test out OpenAI's moderation functionality on a sentence that may have been flagged as containing violent content using traditional word detection algorithms.
 * Check if "My favorite book is To Kill a Mockingbird." violates OpenAI’s policies using the Moderations endpoint.
 * Print the category scores to see the results.
+> Hint    
+> Create a request to the Moderations endpoint using the .create() method on client.moderations.    
+> Pass the text to check as an input parameter.    
+> Access category scores via .category_scores.
