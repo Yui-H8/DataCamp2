@@ -178,3 +178,4 @@ Out[5]:
  'self-harm/instructions': 5.426785065765216e-08,
  'harassment/threatening': 1.1516095810293336e-06}
 ```
+*Fantastic work! Applications built on top of the OpenAI often contain multiple moderation steps to ensure that users cannot send inappropriate content to the model and to mitigate the risk of surfacing inappropriate content to users.*
