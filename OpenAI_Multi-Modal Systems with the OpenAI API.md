@@ -145,3 +145,6 @@ print(response.results[0].category_scores)
 *You moderated magnificently! Having access to the category scores means that you can set your own thresholds for flagging content.*
 
 ### Examining moderation category scores
+The same request you created in the last exercise to the Moderation endpoint has been run again, sending the sentence "My favorite book is To Kill a Mockingbird." to the model. The response from the API has been printed for you, and is available as response.
+
+Extract the category scores to determine the correct interpretation from the following list of statements.
