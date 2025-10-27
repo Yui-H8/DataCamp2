@@ -152,3 +152,29 @@ Extract the category scores to determine the correct interpretation from the fol
 > Higher category_scores indicate that the model is more confident that the text contains a violation.
 > You can extract the category_scores using response.results[0].category_scores.    
 > Call .model_dump() on the category scores to get a nicely formatted dictionary.
+```Python
+
+response.results[0].category_scores.model_dump()
+Out[5]:
+
+{'harassment': 5.243551186140394e-06,
+ 'harassment_threatening': 1.1516095810293336e-06,
+ 'hate': 4.767837526742369e-05,
+ 'hate_threatening': 3.2021056028952444e-08,
+ 'illicit': None,
+ 'illicit_violent': None,
+ 'self_harm': 9.466615438213921e-07,
+ 'self_harm_instructions': 5.426785065765216e-08,
+ 'self_harm_intent': 1.5536235764557205e-07,
+ 'sexual': 3.545879735611379e-06,
+ 'sexual_minors': 1.1304399549771915e-06,
+ 'violence': 0.0001064608441083692,
+ 'violence_graphic': 1.086988686438417e-05,
+ 'self-harm': 9.466615438213921e-07,
+ 'sexual/minors': 1.1304399549771915e-06,
+ 'hate/threatening': 3.2021056028952444e-08,
+ 'violence/graphic': 1.086988686438417e-05,
+ 'self-harm/intent': 1.5536235764557205e-07,
+ 'self-harm/instructions': 5.426785065765216e-08,
+ 'harassment/threatening': 1.1516095810293336e-06}
+```
