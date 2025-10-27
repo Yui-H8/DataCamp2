@@ -148,7 +148,7 @@ print(response.results[0].category_scores)
 The same request you created in the last exercise to the Moderation endpoint has been run again, sending the sentence "My favorite book is To Kill a Mockingbird." to the model. The response from the API has been printed for you, and is available as response.
 
 Extract the category scores to determine the correct interpretation from the following list of statements.
-> Hint
+> Hint    
 > Higher category_scores indicate that the model is more confident that the text contains a violation.
 > You can extract the category_scores using response.results[0].category_scores.    
 > Call .model_dump() on the category scores to get a nicely formatted dictionary.
