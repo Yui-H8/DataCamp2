@@ -60,3 +60,5 @@ print(response.choices[0].message.content)
 ### Interpreting error messages
 You are debugging an application that makes requests to the OpenAI API and while debugging you run into the following errors. Identify their definition and possible solution among the choices presented.
 * Match the definitions and solutions to the corresponding errors.
+
+*Congratulations! Recognizing errors is fundamental for troubleshooting your application. Head to the next exercise for more practice on handling errors!*
