@@ -14,3 +14,5 @@ Out[2]:
 ```
 
 *Great job untangling the response message! You'll be using the Chat Completions endpoint throughout the course, and accessing the response message is key in using the endpoint effectively.*
+
+### Formatting model response as JSON
