@@ -58,3 +58,5 @@ print(response.choices[0].message.content)
 
 ---
 ### Interpreting error messages
+
+* Match the definitions and solutions to the corresponding errors.
