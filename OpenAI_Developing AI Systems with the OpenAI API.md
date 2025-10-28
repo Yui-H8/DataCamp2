@@ -6,3 +6,6 @@ The format of the output response from the Chat Completions endpoint is an objec
 In this example, you've just submitted a request to the API to list three Python libraries with the year they were first released, and it has returned a response.
 
 For the response shown, what is the correct way to extract the content of the message only?
+
+
+*Great job untangling the response message! You'll be using the Chat Completions endpoint throughout the course, and accessing the response message is key in using the endpoint effectively.*
