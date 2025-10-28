@@ -23,3 +23,20 @@ In this and all the following exercises, the openai library has already been loa
 * Create a request to the Chat Completions endpoint.
 * Specify that the request should use the json_object response format.
 * Extract and print the model response.
+```python
+# Create the OpenAI client
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Create the request
+response = client.chat.completions.create(
+  model="gpt-4o-mini",
+  messages=[
+   {"role": "user", "content": "I have these notes with book titles and authors: New releases this week! The Beholders by Hester Musson, The Mystery Guest by Nita Prose. Please organize the titles and authors in a json file."}
+  ],
+  # Specify the response format
+  response_format={"type": "json_object"}
+)
+
+# Print the response
+print(response.choices[0].message.content)
+```
