@@ -54,3 +54,4 @@ print(response.choices[0].message.content)
   ]
 }
 ```
+*Excellent work! The code you just completed is a great starting point for you to continue building a well-structured application using the OpenAI API.*
