@@ -19,3 +19,7 @@ Out[2]:
 As a librarian cataloging new books, you aim to leverage the OpenAI API to automate the creation of a JSON file from text notes you received from a colleague. Your task is to extract relevant information such as book titles and authors and to do this, you use the OpenAI API to convert the text notes, that include book titles and authors, into structured JSON files.
 
 In this and all the following exercises, the openai library has already been loaded. Entering your own API key is not necessary to create requests and complete the exercises in this course; however, you may do so if you prefer.
+* Create an OpenAI API client.
+* Create a request to the Chat Completions endpoint.
+* Specify that the request should use the json_object response format.
+* Extract and print the model response.
