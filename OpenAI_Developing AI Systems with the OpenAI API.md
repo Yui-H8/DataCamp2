@@ -40,3 +40,17 @@ response = client.chat.completions.create(
 # Print the response
 print(response.choices[0].message.content)
 ```
+```python 
+{
+  "new_releases": [
+    {
+      "title": "The Beholders",
+      "author": "Hester Musson"
+    },
+    {
+      "title": "The Mystery Guest",
+      "author": "Nita Prose"
+    }
+  ]
+}
+```
