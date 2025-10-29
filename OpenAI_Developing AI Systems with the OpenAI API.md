@@ -88,3 +88,36 @@ try:
 except openai.AuthenticationError as e:
     print("Please double check your authentication key and try again, the one provided is not valid.")
 ```
+> Here is the provided information in JSON format:
+
+```json
+[
+    {
+        "company_name": "PurpleLabs Solutions",
+        "address": {
+            "street": "123 Main Street",
+            "suite": "Suite 100",
+            "city": "Anytown",
+            "country": "USA"
+        }
+    },
+    {
+        "company_name": "InnovateNow Enterprises",
+        "address": {
+            "street": "789 Oak Avenue",
+            "suite": "Suite 300",
+            "city": "Innovation City",
+            "country": "USA"
+        }
+    },
+    {
+        "company_name": "PeakPerformance Inc.",
+        "address": {
+            "street": "456 Elm Street",
+            "suite": "Suite 200",
+            "city": "Dreamville",
+            "country": "USA"
+        }
+    }
+]
+```
