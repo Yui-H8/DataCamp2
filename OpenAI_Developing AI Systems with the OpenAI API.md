@@ -122,3 +122,5 @@ except openai.AuthenticationError as e:
 ]
 ```
 *Well done on using the try/except block correctly! Handling exceptions is one of the key components when integrating with production systems.*
+
+### Avoiding rate limits with retry
