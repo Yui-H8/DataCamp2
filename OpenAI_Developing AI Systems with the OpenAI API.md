@@ -69,3 +69,6 @@ You are working at a logistics company on developing an application that uses th
 To address this requirement, you decide to print a custom message in case the users fail to provide a valid key for authentication, and use a try and except block to handle that.
 
 The message variable has already been imported.
+* Use the try statement to attempt making a request to the API.
+* Print the response if the request succeeds.
+* Use the except statement to handle the authentication error that may occur.
