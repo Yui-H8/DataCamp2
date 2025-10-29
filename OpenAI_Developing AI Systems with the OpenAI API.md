@@ -125,3 +125,6 @@ except openai.AuthenticationError as e:
 
 ### Avoiding rate limits with retry
 You've created a function to run Chat Completions with a custom message but have noticed it sometimes fails due to rate limits. You decide to use the @retry decorator from the tenacity library to avoid errors when possible.
+* Import the tenacity library with required functions: retry, wait_random_exponential, and stop_after_attempt.
+* Create an OpenAI API client.
+* Complete the retry decorators with the parameters required to start retrying at an interval of 5 seconds, up to 40 seconds, and to stop after 4 attempts
