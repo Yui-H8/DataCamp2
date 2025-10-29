@@ -62,3 +62,5 @@ You are debugging an application that makes requests to the OpenAI API and while
 * Match the definitions and solutions to the corresponding errors.
 
 *Congratulations! Recognizing errors is fundamental for troubleshooting your application. Head to the next exercise for more practice on handling errors!*
+
+### Handling exceptions
