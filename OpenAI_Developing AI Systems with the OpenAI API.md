@@ -72,3 +72,4 @@ The message variable has already been imported.
 * Use the try statement to attempt making a request to the API.
 * Print the response if the request succeeds.
 * Use the except statement to handle the authentication error that may occur.
+> Hint: You can capture the authentication error using the variable openai.AuthenticationError from the openai library.
