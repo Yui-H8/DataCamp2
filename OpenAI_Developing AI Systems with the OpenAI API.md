@@ -124,3 +124,4 @@ except openai.AuthenticationError as e:
 *Well done on using the try/except block correctly! Handling exceptions is one of the key components when integrating with production systems.*
 
 ### Avoiding rate limits with retry
+You've created a function to run Chat Completions with a custom message but have noticed it sometimes fails due to rate limits. You decide to use the @retry decorator from the tenacity library to avoid errors when possible.
