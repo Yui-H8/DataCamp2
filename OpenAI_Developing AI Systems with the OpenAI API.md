@@ -148,3 +148,20 @@ def get_response(model, message):
     return response.choices[0].message.content
 print(get_response("gpt-4o-mini", {"role": "user", "content": "List ten holiday destinations."}))
 ```
+<script.py>
+output:
+    Sure! Here are ten popular holiday destinations:
+    
+    1. **Bali, Indonesia** - Known for its stunning beaches, lush rice terraces, and vibrant culture.
+    2. **Paris, France** - Famous for its iconic landmarks, gourmet cuisine, and romantic ambiance.
+    3. **Tokyo, Japan** - A bustling metropolis blending traditional culture with modern technology, offering unique experiences and cuisine.
+    4. **Santorini, Greece** - Renowned for its white-washed buildings, beautiful sunsets, and crystal-clear waters.
+    5. **Maui, Hawaii, USA** - Offers breathtaking landscapes, luxury resorts, and beautiful beaches.
+    6. **Rome, Italy** - A city rich in history, known for its ancient ruins, art, and delicious food.
+    7. **Cape Town, South Africa** - Famous for its stunning landscapes, including the Table Mountain and nearby vineyards.
+    8. **Reykjavik, Iceland** - Known for its unique natural beauty, hot springs, and the chance to see the Northern Lights.
+    9. **Sydney, Australia** - Known for its iconic Opera House, beautiful harbor beaches, and vibrant urban culture.
+    10. **Cancun, Mexico** - Popular for its beautiful beaches, luxurious resorts, and vibrant nightlife.
+    
+    Each of these destinations offers a unique experience for travelers!
+  </script.py>
