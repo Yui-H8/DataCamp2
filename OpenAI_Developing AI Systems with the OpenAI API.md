@@ -170,3 +170,8 @@ output:
 *Well done completing the exercise! Retrying is a helpful way to handle potential errors when a greater amount of traffic is expected on the application. In the next exercises, you'll explore more ways to set up your application to avoid rate limits.*
 
 ### Batching messages
+You are developing a fitness application to track running and cycling training, but find out that all your customers' distances have been measured in kilometers, and you'd like to have them also converted to miles.
+
+You decide to use the OpenAI API to send requests for each measurement, but want to avoid using a for loop that would send too many requests. You decide to send the requests in batches, specifying a system message that asks to convert each of the measurements from kilometers to miles and present the results in a table containing both the original and converted measurements.
+
+The measurements list (containing a list of floats) and the get_response() function have already been imported.
