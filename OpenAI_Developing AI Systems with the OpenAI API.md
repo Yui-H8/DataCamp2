@@ -175,3 +175,5 @@ You are developing a fitness application to track running and cycling training, 
 You decide to use the OpenAI API to send requests for each measurement, but want to avoid using a for loop that would send too many requests. You decide to send the requests in batches, specifying a system message that asks to convert each of the measurements from kilometers to miles and present the results in a table containing both the original and converted measurements.
 
 The measurements list (containing a list of floats) and the get_response() function have already been imported.
+* Provide a system message to request a response with all measurements as a table (make sure you specify that they are in kilometers and should be converted into miles).
+* Append one user message per measurement to the messages list.
