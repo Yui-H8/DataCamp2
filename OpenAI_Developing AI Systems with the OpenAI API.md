@@ -129,3 +129,6 @@ You've created a function to run Chat Completions with a custom message but have
 * Import the tenacity library with required functions: retry, wait_random_exponential, and stop_after_attempt.
 * Create an OpenAI API client.
 * Complete the retry decorators with the parameters required to start retrying at an interval of 5 seconds, up to 40 seconds, and to stop after 4 attempts
+> Hint
+> The wait_random_exponential() key is used to set the minimum of 5 seconds and maximum of 40 seconds intervals for retrying.    
+> The stop_after_attempt() is used to set the maximum number of @retry attempts to 4.
