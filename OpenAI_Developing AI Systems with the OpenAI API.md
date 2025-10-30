@@ -168,3 +168,5 @@ output:
 
   
 *Well done completing the exercise! Retrying is a helpful way to handle potential errors when a greater amount of traffic is expected on the application. In the next exercises, you'll explore more ways to set up your application to avoid rate limits.*
+
+### Batching messages
