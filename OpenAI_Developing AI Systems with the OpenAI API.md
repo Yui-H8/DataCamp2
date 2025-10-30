@@ -139,7 +139,7 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
 # Add the appropriate parameters to the decorator
-@retry(stop=stop_after_attempt(3), wait=wait_random_exponential(2))
+@retry(stop=stop_after_attempt(4), wait=wait_random_exponential(min=5, max=40))
 def get_response(model, message):
     response = client.chat.completions.create(
       model=model,
