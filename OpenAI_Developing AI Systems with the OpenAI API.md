@@ -177,3 +177,6 @@ You decide to use the OpenAI API to send requests for each measurement, but want
 The measurements list (containing a list of floats) and the get_response() function have already been imported.
 * Provide a system message to request a response with all measurements as a table (make sure you specify that they are in kilometers and should be converted into miles).
 * Append one user message per measurement to the messages list.
+> Hint   
+> The system message should contain the request for conversion into miles, and also for the table format with all measurements.
+> You can use a list comprehension to append the measurements to the message.
