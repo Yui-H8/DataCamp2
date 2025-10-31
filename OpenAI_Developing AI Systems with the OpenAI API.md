@@ -215,3 +215,6 @@ The tiktoken library has been preloaded.
 * Use the tiktoken library to create an encoding for the gpt-4o-mini model.
 * Check for the expected number of tokens in the input message.
 * Print the response if the message passes both checks.
+> Hint   
+> Use .encoding_for_model() to obtain the encoding.   
+> Use .encode() to obtain tokens from your message.
