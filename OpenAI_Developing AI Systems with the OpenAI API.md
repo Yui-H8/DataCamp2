@@ -180,3 +180,18 @@ The measurements list (containing a list of floats) and the get_response() funct
 > Hint   
 > The system message should contain the request for conversion into miles, and also for the table format with all measurements.
 > You can use a list comprehension to append the measurements to the message.
+```python
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+messages = []
+# Provide a system message and user messages to send the batch
+messages.append({
+            "role": "system",
+            "content": "Convert each measurement, given in kilometers, into miles, and reply with a table of all measurements."
+        })
+# Append measurements to the message
+[messages.append({"role": "user", "content": str(i) }) for i in measurements]
+
+response = get_response(messages)
+print(response)
+```
