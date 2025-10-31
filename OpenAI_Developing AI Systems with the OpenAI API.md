@@ -281,3 +281,11 @@ if num_tokens <= 100:
 
 必要なら、**安全にトークン上限をチェックしてレスポンスを出力する修正版**を書けるよ。書こうか？
 ```
+<script.py> output:
+    Sure! Here are two great color pairings for a shirt and a jacket:
+    
+    1. **Classic Combo**: A white shirt paired with a navy blue jacket. This combination is timeless and versatile, suitable for both casual and formal occasions.
+    
+    2. **Bold Contrast**: A light gray shirt paired with a forest green jacket. This pairing offers a modern and stylish look, perfect for making a statement while still being cohesive.
+    
+    Feel free to mix and match based on your personal style!
