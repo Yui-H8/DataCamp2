@@ -212,3 +212,6 @@ If you have more measurements to convert, feel free to share!
 An e-commerce platform just hired you to improve the performance of their customer service bot built using the OpenAI API. You've decided to start by ensuring that the input messages do not cause any rate limit issue by setting a limit of 100 tokens, and test it with a sample input message.
 
 The tiktoken library has been preloaded.
+* Use the tiktoken library to create an encoding for the gpt-4o-mini model.
+* Check for the expected number of tokens in the input message.
+* Print the response if the message passes both checks.
