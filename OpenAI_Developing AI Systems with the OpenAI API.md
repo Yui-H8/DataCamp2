@@ -195,3 +195,14 @@ messages.append({
 response = get_response(messages)
 print(response)
 ```
+```
+  To convert kilometers to miles, you multiply the kilometers by 0.621371. Here are the conversions for the given measurements:
+
+| Kilometers | Miles    |
+|------------|----------|
+| 5.2        | 3.228    |
+| 6.3        | 3.913    |
+| 3.7        | 2.298    |
+
+If you have more measurements to convert, feel free to share!
+```
