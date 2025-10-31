@@ -206,3 +206,4 @@ print(response)
 
 If you have more measurements to convert, feel free to share!
 ```
+*Great work using batching to avoid sending multiple requests! Through batching you can improve efficiency by consolidating multiple operations into a single request. Excellent way to handle your requests!*
