@@ -7,3 +7,6 @@ Which table has the most rows?
 *Great start! Knowing how much data you have is a first step in exploratory data analysis.*
 
 ### Count missing values
+Which column of fortune500 has the most missing values? To find out, you'll need to check each column individually, although here we'll check just two: ticker and industry.
+
+Course Note: While you're unlikely to encounter this issue during this exercise, note that if you run a query that takes more than a few seconds to execute, your session may expire or you may be disconnected from the server. You will not have this issue with any of the exercise solutions, so if your session expires or disconnects, there's an error with your query.
