@@ -20,6 +20,9 @@ https://app.datacamp.com/learn/courses/
 ### AWS
 * Introduction to Amazon Bedrock
 
+---
+### SQL
+* Exploratory Data Analysis in SQL
 
 ---
 ### Open AI
