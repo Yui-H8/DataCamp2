@@ -27,3 +27,4 @@ SELECT count(*) - count(ticker) AS missing
 SELECT count(*) - count(industry) AS missing
 FROM fortune500;
 ```
+*Good work! ticker contained quite a few more missing values than industry; this is vital information as you begin to explore your data.*
