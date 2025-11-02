@@ -22,3 +22,8 @@ SELECT count(*) - count(ticker) AS missing
 ```
 
 2. Repeat for the industry column: subtract the count of the non-null industry values from the total number of rows in fortune500; alias the difference as missing.
+```sql
+-- Count the number of null values in the industry column
+SELECT count(*) - count(industry) AS missing
+FROM fortune500;
+```
