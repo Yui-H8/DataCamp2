@@ -37,3 +37,10 @@ To join the tables, you need to find a column that they have in common where the
 Reference the entity relationship diagram (https://assets.datacamp.com/production/repositories/3567/datasets/be54d796caa17b30ad02d180eed75f067d4aa4f8/erdiagram.png) if needed.
 * Closely inspect the contents of the company and fortune500 tables to find a column present in both tables that can also be considered to uniquely identify each company.
 * Join the company and fortune500 tables with an INNER JOIN.
+```sql
+SELECT company.name
+-- Table(s) to select from
+  FROM company
+       INNER JOIN fortune500
+       ON company.ticker = fortune500.ticker;
+```
