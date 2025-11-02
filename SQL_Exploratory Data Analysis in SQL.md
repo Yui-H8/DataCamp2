@@ -20,3 +20,5 @@ Course Note: While you're unlikely to encounter this issue during this exercise,
 SELECT count(*) - count(ticker) AS missing
   FROM fortune500;
 ```
+
+2. Repeat for the industry column: subtract the count of the non-null industry values from the total number of rows in fortune500; alias the difference as missing.
