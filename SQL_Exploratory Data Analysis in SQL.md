@@ -45,3 +45,5 @@ SELECT company.name
        ON company.ticker = fortune500.ticker;
 ```
 *You got it! You can join tables when they share a column with consistent data values.*
+
+### Foreign keys
