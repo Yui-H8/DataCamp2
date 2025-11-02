@@ -44,3 +44,4 @@ SELECT company.name
        INNER JOIN fortune500
        ON company.ticker = fortune500.ticker;
 ```
+*You got it! You can join tables when they share a column with consistent data values.*
