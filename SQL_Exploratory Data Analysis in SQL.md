@@ -61,3 +61,12 @@ What is the most common stackoverflow tag_type? What companies have a tag of tha
 
 To generate a list of such companies, you'll need to join three tables together.
 1. First, using the tag_type table, count the number of tags with each type. Order the results to find the most common tag type.
+```sql
+-- Count the number of tags with each type
+SELECT type, COUNT(type) AS count
+  FROM tag_type
+ -- To get the count for each type, what do you need to do?
+ GROUP BY type
+ -- Order the results with the most common tag types listed first
+ ORDER BY count DESC;
+```
