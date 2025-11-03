@@ -53,3 +53,5 @@ Using what you know about foreign keys, why can't the tag column in the tag_type
 > answer: stackoverflow.tag contains duplicate values
 
 *Brillant! Foreign keys must reference a column with unique values for each row so the referenced row can be identified.*
+
+### Read an entity relationship diagram
