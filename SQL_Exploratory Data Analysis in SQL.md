@@ -57,7 +57,7 @@ Using what you know about foreign keys, why can't the tag column in the tag_type
 ### Read an entity relationship diagram
 The information you need is sometimes split across multiple tables in the database.
 
-What is the most common stackoverflow tag_type? What companies have a tag of that type?
+What is the most common stackoverflow tag_type? What companies have a tag of that type? (https://assets.datacamp.com/production/repositories/3567/datasets/be54d796caa17b30ad02d180eed75f067d4aa4f8/erdiagram.png)
 
 To generate a list of such companies, you'll need to join three tables together.
 1. First, using the tag_type table, count the number of tags with each type. Order the results to find the most common tag type.
