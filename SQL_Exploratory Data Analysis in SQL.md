@@ -50,3 +50,6 @@ SELECT company.name
 Recall that foreign keys reference another row in the database via a unique ID. Values in a foreign key column are restricted to values in the referenced column OR NULL.
 
 Using what you know about foreign keys, why can't the tag column in the tag_type table be a foreign key that references the tag column in the stackoverflow table?
+> answer: stackoverflow.tag contains duplicate values
+
+*Brillant! Foreign keys must reference a column with unique values for each row so the referenced row can be identified.*
