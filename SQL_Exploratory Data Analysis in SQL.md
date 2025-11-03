@@ -70,3 +70,5 @@ SELECT type, COUNT(type) AS count
  -- Order the results with the most common tag types listed first
  ORDER BY count DESC;
 ```
+2. Join the tag_company, company, and tag_type tables, keeping only mutually occurring records.
+* Select company.name, tag_type.tag, and tag_type.type for tags with the most common type from the previous step.
