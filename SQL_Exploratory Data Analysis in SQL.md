@@ -60,3 +60,4 @@ The information you need is sometimes split across multiple tables in the databa
 What is the most common stackoverflow tag_type? What companies have a tag of that type?
 
 To generate a list of such companies, you'll need to join three tables together.
+1. First, using the tag_type table, count the number of tags with each type. Order the results to find the most common tag type.
