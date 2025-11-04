@@ -126,3 +126,4 @@ Utilities: Gas and Electric	22
 When you cast data from one type to another, information can be lost or changed. See how the casting changes values and practice casting data using the CAST() function and > the :: syntax.
 > SELECT CAST(value AS new_type);
 > SELECT value::new_type;
+1. Select profits_change and profits_change cast as integer from fortune500. Look at how the values were converted.
