@@ -86,3 +86,5 @@ SELECT company.name, tag_type.tag, tag_type.type
   WHERE type='cloud';
 ```
 *Superb! You could combine these steps in a single query by using a subquery in the WHERE clause instead of the value 'cloud'.*
+
+### Coalesce
