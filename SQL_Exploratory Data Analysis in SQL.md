@@ -100,3 +100,5 @@ In the fortune500 data, industry contains some missing values. Use coalesce() to
 * Alias the result of the call to coalesce() as industry2.
 * Count the number of rows with each industry2 value.
 * Find the most common value of industry2.
+> Hint: To see the most common values, ORDER BY count DESC.
+> You can use an alias in the GROUP BY clause.
