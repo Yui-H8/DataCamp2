@@ -93,5 +93,6 @@ The coalesce() function can be useful for specifying a default or backup value w
 coalesce() checks arguments in order and returns the first non-NULL value, if one exists.
 - coalesce(NULL, 1, 2) = 1
 - coalesce(NULL, NULL) = NULL
-- coalesce(2, 3, NULL) = 2     
+- coalesce(2, 3, NULL) = 2
+
 In the fortune500 data, industry contains some missing values. Use coalesce() to use the value of sector as the industry when industry is NULL. Then find the most common industry.
