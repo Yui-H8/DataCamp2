@@ -88,3 +88,10 @@ SELECT company.name, tag_type.tag, tag_type.type
 *Superb! You could combine these steps in a single query by using a subquery in the WHERE clause instead of the value 'cloud'.*
 
 ### Coalesce
+The coalesce() function can be useful for specifying a default or backup value when a column contains NULL values.
+
+coalesce() checks arguments in order and returns the first non-NULL value, if one exists.
+- coalesce(NULL, 1, 2) = 1
+- coalesce(NULL, NULL) = NULL
+- coalesce(2, 3, NULL) = 2
+In the fortune500 data, industry contains some missing values. Use coalesce() to use the value of sector as the industry when industry is NULL. Then find the most common industry.
