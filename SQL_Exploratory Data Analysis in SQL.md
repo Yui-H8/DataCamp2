@@ -123,3 +123,6 @@ Utilities: Gas and Electric	22
 *Terrific! coalesce is essential when the value you need could be in more than one column. In the next exercise, you'll use coalesce as part of a self join.*
 
 ### Effects of casting
+When you cast data from one type to another, information can be lost or changed. See how the casting changes values and practice casting data using the CAST() function and > the :: syntax.
+> SELECT CAST(value AS new_type);
+> SELECT value::new_type;
