@@ -116,3 +116,7 @@ SELECT coalesce(industry, sector, 'Unknown') AS industry2,
 -- Limit results to get just the one value you want
  LIMIT 1;
 ```
+```
+industry2	count
+Utilities: Gas and Electric	22
+```
