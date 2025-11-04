@@ -96,3 +96,7 @@ coalesce() checks arguments in order and returns the first non-NULL value, if on
 - coalesce(2, 3, NULL) = 2
 
 In the fortune500 data, industry contains some missing values. Use coalesce() to use the value of sector as the industry when industry is NULL. Then find the most common industry.
+* Use coalesce() to select the first non-NULL value from industry, sector, or 'Unknown' as a fallback value.
+* Alias the result of the call to coalesce() as industry2.
+* Count the number of rows with each industry2 value.
+* Find the most common value of industry2.
