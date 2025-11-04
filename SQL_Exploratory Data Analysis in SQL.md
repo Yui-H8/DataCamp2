@@ -103,3 +103,16 @@ In the fortune500 data, industry contains some missing values. Use coalesce() to
   
 > Hint: To see the most common values, ORDER BY count DESC.
 > You can use an alias in the GROUP BY clause.
+```sql
+-- Use coalesce
+SELECT coalesce(industry, sector, 'Unknown') AS industry2,
+       -- Don't forget to count!
+       count(*) 
+  FROM fortune500 
+-- Group by what? (What are you counting by?)
+ GROUP BY industry2
+-- Order results to see most common first
+ ORDER BY count DESC
+-- Limit results to get just the one value you want
+ LIMIT 1;
+```
