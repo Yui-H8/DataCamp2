@@ -121,3 +121,5 @@ industry2	count
 Utilities: Gas and Electric	22
 ```
 *Terrific! coalesce is essential when the value you need could be in more than one column. In the next exercise, you'll use coalesce as part of a self join.*
+
+### Effects of casting
