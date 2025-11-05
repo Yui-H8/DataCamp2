@@ -134,3 +134,4 @@ SELECT profits_change,
        CAST(profits_change AS integer) AS profits_change_int
   FROM fortune500;
 ```
+2. Compare the results of casting of dividing the integer value 10 by 3 to the result of dividing the numeric value 10 by 3.
