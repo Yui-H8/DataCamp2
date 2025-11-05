@@ -141,3 +141,7 @@ SELECT 10/3,
        -- Cast 10 as numeric and divide by 3
        10::numeric/3;
 ```
+```
+?column?	?column?
+3	3.3333333333333333
+```
