@@ -145,3 +145,4 @@ SELECT 10/3,
 ?column?	?column?
 3	3.3333333333333333
 ```
+3. Now cast numbers that appear as text as numeric. Note: 1e3 is scientific notation.
