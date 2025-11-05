@@ -135,3 +135,9 @@ SELECT profits_change,
   FROM fortune500;
 ```
 2. Compare the results of casting of dividing the integer value 10 by 3 to the result of dividing the numeric value 10 by 3.
+```sql
+-- Divide 10 by 3
+SELECT 10/3,
+       -- Cast 10 as numeric and divide by 3
+       10::numeric/3;
+```
