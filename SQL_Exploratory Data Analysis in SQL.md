@@ -127,3 +127,10 @@ When you cast data from one type to another, information can be lost or changed.
 > SELECT CAST(value AS new_type);
 > SELECT value::new_type;
 1. Select profits_change and profits_change cast as integer from fortune500. Look at how the values were converted.
+```sql
+-- Select the original value
+SELECT profits_change, 
+	   -- Cast profits_change
+       CAST(profits_change AS integer) AS profits_change_int
+  FROM fortune500;
+```
