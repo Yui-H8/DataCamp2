@@ -154,3 +154,7 @@ SELECT '3.2'::numeric,
        '02314'::numeric,
        '0002'::numeric;
 ```
+```
+numeric	numeric	numeric	numeric	numeric	numeric
+3.2	-123	1000	0.001	2314	2
+```
