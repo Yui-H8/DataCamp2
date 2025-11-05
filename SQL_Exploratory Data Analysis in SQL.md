@@ -163,3 +163,11 @@ numeric	numeric	numeric	numeric	numeric	numeric
 ### Summarize the distribution of numeric values
 Was 2017 a good or bad year for revenue of Fortune 500 companies? Examine how revenue changed from 2016 to 2017 by first looking at the distribution of revenues_change and then counting companies whose revenue increased.
 1. Use GROUP BY and count() to examine the values of revenues_change. Order the results by revenues_change to see the distribution.
+```sql
+-- Select the count of each value of revenues_change
+SELECT revenues_change, COUNT(*)
+  FROM fortune500
+ GROUP BY revenues_change
+  -- order by the values of revenues_change
+ ORDER BY 1 DESC;
+```
