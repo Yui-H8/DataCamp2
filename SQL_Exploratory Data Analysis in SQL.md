@@ -158,3 +158,4 @@ SELECT '3.2'::numeric,
 numeric	numeric	numeric	numeric	numeric	numeric
 3.2	-123	1000	0.001	2314	2
 ```
+*Good job! Note that numbers cast as integer are rounded to the nearest whole number and division produces different results for integer values than for numeric values.*
