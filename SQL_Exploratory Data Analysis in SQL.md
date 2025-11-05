@@ -161,3 +161,4 @@ numeric	numeric	numeric	numeric	numeric	numeric
 *Good job! Note that numbers cast as integer are rounded to the nearest whole number and division produces different results for integer values than for numeric values.*
 
 ### Summarize the distribution of numeric values
+Was 2017 a good or bad year for revenue of Fortune 500 companies? Examine how revenue changed from 2016 to 2017 by first looking at the distribution of revenues_change and then counting companies whose revenue increased.
