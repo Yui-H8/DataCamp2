@@ -171,3 +171,4 @@ SELECT revenues_change, COUNT(*)
   -- order by the values of revenues_change
  ORDER BY 1 DESC;
 ```
+2. Repeat step 1, but this time, cast revenues_change as an integer to reduce the number of different values.
