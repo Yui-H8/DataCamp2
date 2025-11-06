@@ -172,3 +172,11 @@ SELECT revenues_change, COUNT(*)
  ORDER BY 1 DESC;
 ```
 2. Repeat step 1, but this time, cast revenues_change as an integer to reduce the number of different values.
+```sql
+-- Select the count of each revenues_change integer value
+SELECT revenues_change::integer, COUNT(*)
+  FROM fortune500
+ GROUP BY revenues_change::integer
+ -- order by the values of revenues_change
+ ORDER BY 1 DESC;
+```
