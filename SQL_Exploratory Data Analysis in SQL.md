@@ -191,3 +191,7 @@ SELECT COUNT(*)
 *You got it. Examining distributions and counting observations of interest are two first steps in exploring data. In the next chapter, we'll learn other functions and approaches for summarizing numeric data.*
 
 ### Division
+* Compute revenue per employee by dividing revenues by employees; casting is used here to produce a numeric result.
+* Take the average of revenue per employee with avg(); alias this as avg_rev_employee.
+* Group by sector.
+* Order by the average revenue per employee.
