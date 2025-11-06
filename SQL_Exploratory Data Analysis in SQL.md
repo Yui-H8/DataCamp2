@@ -205,3 +205,5 @@ SELECT sector,
  ORDER BY avg_rev_employee DESC;
 ```
 *Sensational! You know to watch out for integer division problems, and that ordering your query results by the value of interest will help you make sense of the results.*
+
+### Explore with division
