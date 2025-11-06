@@ -180,3 +180,4 @@ SELECT revenues_change::integer, COUNT(*)
  -- order by the values of revenues_change
  ORDER BY 1 DESC;
 ```
+3. How many of the Fortune 500 companies had revenues increase in 2017 compared to 2016? To find out, count the rows of fortune500 where revenues_change indicates an increase.
