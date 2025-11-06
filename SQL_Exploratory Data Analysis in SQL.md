@@ -204,3 +204,4 @@ SELECT sector,
  -- Use the column alias to order the results
  ORDER BY avg_rev_employee DESC;
 ```
+*Sensational! You know to watch out for integer division problems, and that ordering your query results by the value of interest will help you make sense of the results.*
