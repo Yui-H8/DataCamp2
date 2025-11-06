@@ -188,3 +188,4 @@ SELECT COUNT(*)
  -- Where...
  WHERE revenues_change > 0;
 ```
+*You got it. Examining distributions and counting observations of interest are two first steps in exploring data. In the next chapter, we'll learn other functions and approaches for summarizing numeric data.*
