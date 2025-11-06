@@ -212,3 +212,5 @@ In exploring a new database, it can be unclear what the data means and how colum
 What information does the unanswered_pct column in the stackoverflow table contain? Is it the percent of questions with the tag that are unanswered (unanswered ?s with tag/all ?s with tag)? Or is it something else, such as the percent of all unanswered questions on the site with the tag (unanswered ?s with tag/all unanswered ?s)?
 
 Divide unanswered_count (unanswered ?s with tag) by question_count (all ?s with tag) to see if the value matches that of unanswered_pct to determine the answer.
+* Exclude rows where question_count is 0 to avoid a divide by zero error.
+* Limit the result to 10 rows.
