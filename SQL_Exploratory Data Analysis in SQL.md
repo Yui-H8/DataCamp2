@@ -195,3 +195,12 @@ SELECT COUNT(*)
 * Take the average of revenue per employee with avg(); alias this as avg_rev_employee.
 * Group by sector.
 * Order by the average revenue per employee.
+```sql
+-- Select average revenue per employee by sector
+SELECT sector, 
+       avg(revenues/employees::numeric) AS avg_rev_employee
+  FROM fortune500
+ GROUP BY sector
+ -- Use the column alias to order the results
+ ORDER BY avg_rev_employee DESC;
+```
