@@ -226,3 +226,4 @@ SELECT unanswered_count/question_count::numeric AS computed_pct,
 ```
 *Super! The values don't match. unanswered_pct is the percent of unanswered questions on Stack Overflow with the tag, not the percent of questions with the tag that are unanswered.*
 
+### Summarize numeric columns
