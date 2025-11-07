@@ -231,3 +231,11 @@ Summarize the profit column in the fortune500 table using the functions you've l
 
 You can access the course slides for reference using the PDF icon in the upper right corner of the screen.
 1. Compute the min(), avg(), max(), and stddev() of profits; don't use any aliases here.
+```sql
+-- Select min, avg, max, and stddev of fortune500 profits
+SELECT min(profits),
+       avg(profits),
+       max(profits),
+       stddev(profits)
+  FROM fortune500;
+```
