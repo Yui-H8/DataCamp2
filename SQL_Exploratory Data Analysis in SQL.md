@@ -230,3 +230,4 @@ SELECT unanswered_count/question_count::numeric AS computed_pct,
 Summarize the profit column in the fortune500 table using the functions you've learned.
 
 You can access the course slides for reference using the PDF icon in the upper right corner of the screen.
+1. Compute the min(), avg(), max(), and stddev() of profits; don't use any aliases here.
