@@ -239,3 +239,8 @@ SELECT min(profits),
        stddev(profits)
   FROM fortune500;
 ```
+
+
+> Hint
+> Remember to select sector so you know which values go with which sector.
+> To order by the average, you can order by avg, which is the name the average column will have in the result.
