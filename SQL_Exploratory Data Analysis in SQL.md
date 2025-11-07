@@ -239,7 +239,7 @@ SELECT min(profits),
        stddev(profits)
   FROM fortune500;
 ```
-
+2. Repeat Step 1, but this time, creating a grouped summary of profits by sector, ordering the results by the average profits for each sector; don't use any aliases here.
 
 > Hint
 > Remember to select sector so you know which values go with which sector.
