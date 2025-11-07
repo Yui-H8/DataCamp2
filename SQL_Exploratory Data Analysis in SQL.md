@@ -227,3 +227,6 @@ SELECT unanswered_count/question_count::numeric AS computed_pct,
 *Super! The values don't match. unanswered_pct is the percent of unanswered questions on Stack Overflow with the tag, not the percent of questions with the tag that are unanswered.*
 
 ### Summarize numeric columns
+Summarize the profit column in the fortune500 table using the functions you've learned.
+
+You can access the course slides for reference using the PDF icon in the upper right corner of the screen.
