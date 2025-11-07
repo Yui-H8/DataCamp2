@@ -241,6 +241,19 @@ SELECT min(profits),
 ```
 2. Repeat Step 1, but this time, creating a grouped summary of profits by sector, ordering the results by the average profits for each sector; don't use any aliases here.
 
-> Hint
-> Remember to select sector so you know which values go with which sector.
+> Hint    
+> Remember to select sector so you know which values go with which sector.    
 > To order by the average, you can order by avg, which is the name the average column will have in the result.
+```sql
+-- Select sector and summary measures of fortune500 profits
+SELECT sector,
+       min(profits),
+       avg(profits),
+       max(profits),
+       stddev(profits)
+  FROM fortune500
+ -- What to group by?
+ GROUP BY sector
+ -- Order by the average profits
+ ORDER BY avg;
+```
