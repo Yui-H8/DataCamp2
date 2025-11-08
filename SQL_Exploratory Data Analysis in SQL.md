@@ -285,3 +285,7 @@ SELECT stddev(maxval),
          -- Compute max by...
          GROUP BY tag) AS max_results; -- alias for subquery
 ```
+```
+stddev	min	max	avg
+176458.37952720	30	1138658	52652.433962264151
+```
