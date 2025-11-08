@@ -270,3 +270,18 @@ For this exercise, what is the standard deviation across tags in the maximum num
 > Hint
 > Make sure to use the stddev() function and not one of its alternatives.    
 > maxval should be the argument to all of the functions in the outer query.
+```sql
+-- Compute standard deviation of maximum values
+SELECT stddev(maxval),
+       -- min
+       min(maxval),
+       -- max
+       max(maxval),
+       -- avg
+       avg(maxval)
+  -- Subquery to compute max of question_count by tag
+  FROM (SELECT max(question_count) AS maxval
+          FROM stackoverflow
+         -- Compute max by...
+         GROUP BY tag) AS max_results; -- alias for subquery
+```
