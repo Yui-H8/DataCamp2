@@ -259,3 +259,8 @@ SELECT sector,
 ```
 
 ### Summarize group statistics
+Sometimes you want to understand how a value varies across groups. For example, how does the maximum value per group vary across groups?
+
+To find out, first summarize by group, and then compute summary statistics of the group results. One way to do this is to compute group values in a subquery, and then summarize the results of the subquery.
+
+For this exercise, what is the standard deviation across tags in the maximum number of Stack Overflow questions per day? What about the mean, min, and max of the maximums as well?
