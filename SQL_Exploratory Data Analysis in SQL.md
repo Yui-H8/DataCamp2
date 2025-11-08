@@ -257,3 +257,5 @@ SELECT sector,
  -- Order by the average profits
  ORDER BY avg;
 ```
+
+### Summarize group statistics
