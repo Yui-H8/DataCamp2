@@ -300,3 +300,4 @@ Remember that trunc() truncates numbers by replacing lower place value digits wi
 trunc(value_to_truncate, places_to_truncate)
 ```
 Negative values for places_to_truncate indicate digits to the left of the decimal to replace, while positive values indicate digits to the right of the decimal to keep.
+1. Use trunc() to truncate employees to the 100,000s (5 zeros). Count the number of observations with each truncated value.
