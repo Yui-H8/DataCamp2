@@ -289,3 +289,4 @@ SELECT stddev(maxval),
 stddev	min	max	avg
 176458.37952720	30	1138658	52652.433962264151
 ```
+*Great job summarizing! A subquery was necessary here because the tag maximums must be computed before you can summarize them.*
