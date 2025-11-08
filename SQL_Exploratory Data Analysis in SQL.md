@@ -293,3 +293,10 @@ stddev	min	max	avg
 
 ---
 ### Truncate
+Use trunc() to examine the distributions of attributes of the Fortune 500 companies.
+
+Remember that trunc() truncates numbers by replacing lower place value digits with zeros:
+```
+trunc(value_to_truncate, places_to_truncate)
+```
+Negative values for places_to_truncate indicate digits to the left of the decimal to replace, while positive values indicate digits to the right of the decimal to keep.
