@@ -264,3 +264,6 @@ Sometimes you want to understand how a value varies across groups. For example, 
 To find out, first summarize by group, and then compute summary statistics of the group results. One way to do this is to compute group values in a subquery, and then summarize the results of the subquery.
 
 For this exercise, what is the standard deviation across tags in the maximum number of Stack Overflow questions per day? What about the mean, min, and max of the maximums as well?
+* Start by writing a subquery to compute the max() of question_count per tag; alias the subquery result as maxval.
+* Then compute the standard deviation of maxval with stddev().
+* Compute the min(), max(), and avg() of maxval too.
