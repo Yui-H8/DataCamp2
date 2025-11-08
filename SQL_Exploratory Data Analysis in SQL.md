@@ -267,3 +267,6 @@ For this exercise, what is the standard deviation across tags in the maximum num
 * Start by writing a subquery to compute the max() of question_count per tag; alias the subquery result as maxval.
 * Then compute the standard deviation of maxval with stddev().
 * Compute the min(), max(), and avg() of maxval too.
+> Hint
+> Make sure to use the stddev() function and not one of its alternatives.    
+> maxval should be the argument to all of the functions in the outer query.
