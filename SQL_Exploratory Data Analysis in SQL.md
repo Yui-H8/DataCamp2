@@ -381,3 +381,5 @@ SELECT lower, upper, count(question_count)
  -- Order by lower to put bins in order
  ORDER BY lower;
 ```
+
+*Awesome! generate_series allows you to group values into any size interval and also include ranges with zero values.*
