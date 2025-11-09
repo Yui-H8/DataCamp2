@@ -327,3 +327,5 @@ SELECT trunc(employees, -4) AS employee_bin,
  ORDER BY employee_bin;
 ```
 *Awesome! Start exploring a distribution by grouping values into large bins, then refine as needed for ranges of values where there are a lot of observations.*
+
+### Generate series
