@@ -346,3 +346,6 @@ SELECT min(question_count),
  -- For tag dropbox
  where tag = 'dropbox';
 ```
+2. Next, use generate_series() to create bins of size 50 from 2200 to 3100.
+* To do this, you need an upper and lower bound to define a bin.
+* This will require you to modify the stopping value of the lower bound and the starting value of the upper bound by the bin width.
