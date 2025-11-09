@@ -301,3 +301,14 @@ trunc(value_to_truncate, places_to_truncate)
 ```
 Negative values for places_to_truncate indicate digits to the left of the decimal to replace, while positive values indicate digits to the right of the decimal to keep.
 1. Use trunc() to truncate employees to the 100,000s (5 zeros). Count the number of observations with each truncated value.
+```sql
+-- Truncate employees
+SELECT trunc(employees, -5) AS employee_bin,
+       -- Count number of companies with each truncated value
+       COUNT(*)
+  FROM fortune500
+ -- Use alias to group
+ GROUP BY employee_bin
+ -- Use alias to order
+ ORDER BY 2 DESC;
+```
