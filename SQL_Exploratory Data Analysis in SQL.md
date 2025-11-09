@@ -313,3 +313,16 @@ SELECT trunc(employees, -5) AS employee_bin,
  ORDER BY 2 DESC;
 ```
 2. Repeat step 1 for companies with < 100,000 employees (most common). This time, truncate employees to the 10,000s place.
+```sql
+-- Truncate employees
+SELECT trunc(employees, -4) AS employee_bin,
+       -- Count number of companies with each truncated value
+       count(*)
+  FROM fortune500
+ -- Limit to which companies?
+ WHERE employees < 100000
+ -- Use alias to group
+ GROUP BY employee_bin
+ -- Use alias to order
+ ORDER BY employee_bin;
+```
