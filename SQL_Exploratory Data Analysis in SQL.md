@@ -329,3 +329,10 @@ SELECT trunc(employees, -4) AS employee_bin,
 *Awesome! Start exploring a distribution by grouping values into large bins, then refine as needed for ranges of values where there are a lot of observations.*
 
 ### Generate series
+Summarize the distribution of the number of questions with the tag "dropbox" on Stack Overflow per day by binning the data.
+
+Recall:
+```
+generate_series(from, to, step)
+```
+You can reference the slides using the PDF icon in the upper right corner of the screen.
