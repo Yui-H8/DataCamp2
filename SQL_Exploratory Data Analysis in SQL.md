@@ -354,3 +354,6 @@ SELECT min(question_count),
 SELECT generate_series(2200, 3050, 50) AS lower,
        generate_series(2250, 3100, 50) AS upper;
 ```
+3. Select lower and upper from bins, along with the count of values within each bin bounds.
+* To do this, you'll need to join 'dropbox', which contains the question_count for tag "dropbox", to the bins created by generate_series().
+* The join should occur where the count is greater than or equal to the lower bound, and strictly less than the upper bound.
