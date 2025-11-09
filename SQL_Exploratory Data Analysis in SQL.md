@@ -312,3 +312,4 @@ SELECT trunc(employees, -5) AS employee_bin,
  -- Use alias to order
  ORDER BY 2 DESC;
 ```
+2. Repeat step 1 for companies with < 100,000 employees (most common). This time, truncate employees to the 10,000s place.
