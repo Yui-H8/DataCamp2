@@ -349,3 +349,8 @@ SELECT min(question_count),
 2. Next, use generate_series() to create bins of size 50 from 2200 to 3100.
 * To do this, you need an upper and lower bound to define a bin.
 * This will require you to modify the stopping value of the lower bound and the starting value of the upper bound by the bin width.
+```sql
+-- Create lower and upper bounds of bins
+SELECT generate_series(2200, 3050, 50) AS lower,
+       generate_series(2250, 3100, 50) AS upper;
+```
