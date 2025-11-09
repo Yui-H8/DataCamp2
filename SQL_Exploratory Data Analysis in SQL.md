@@ -337,3 +337,12 @@ generate_series(from, to, step)
 ```
 You can reference the slides using the PDF icon in the upper right corner of the screen.
 1. Start by selecting the minimum and maximum of the question_count column for the tag 'dropbox' so you know the range of values to cover with the bins.
+```sql
+-- Select the min and max of question_count
+SELECT min(question_count), 
+       max(question_count)
+  -- From what table?
+  FROM stackoverflow
+ -- For tag dropbox
+ where tag = 'dropbox';
+```
