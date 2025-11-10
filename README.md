@@ -15,6 +15,7 @@ https://app.datacamp.com/learn/courses/
 * Explainable AI in Python
 * Introduction to APIs in Python
 * Machine Learning with Tree-Based Models in Python
+* Supervised Learning with scikit-learn
 
 ---
 ### AWS
