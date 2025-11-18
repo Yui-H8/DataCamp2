@@ -7,3 +7,6 @@ Text embedding models create numerical representations from text inputs. This ab
 
 ### What are embeddings?
 Which of the following statements about embedding models are correct?
+
+
+*Nice job! This ability to extract the semantic meaning behind text in numerical form unlocks all sorts of different AI applications. Let's see if you can recognize them in the next exercise!*
