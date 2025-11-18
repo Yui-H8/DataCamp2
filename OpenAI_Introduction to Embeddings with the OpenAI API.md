@@ -16,3 +16,5 @@ Which of the following statements about embedding models are correct?
 Embedding models convert text into numerical representations that are able to capture the context and intent behind the text. This unlocks powerful applications beyond what is possible with other types of AI models.
 
 In this exercise, you'll test your ability to identify use cases for embedding models.
+
+*Embeddings can be used for quite a few different tasks, but they really shine in recommendation, classification, and semantic search, so we'll return to these applications throughout the course. Time to create your very first embeddings using the OpenAI API! Best of luck!*
