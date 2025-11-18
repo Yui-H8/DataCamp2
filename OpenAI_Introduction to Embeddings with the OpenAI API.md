@@ -13,3 +13,6 @@ Which of the following statements about embedding models are correct?
 *Nice job! This ability to extract the semantic meaning behind text in numerical form unlocks all sorts of different AI applications. Let's see if you can recognize them in the next exercise!*
 
 ### Embeddings applications
+Embedding models convert text into numerical representations that are able to capture the context and intent behind the text. This unlocks powerful applications beyond what is possible with other types of AI models.
+
+In this exercise, you'll test your ability to identify use cases for embedding models.
