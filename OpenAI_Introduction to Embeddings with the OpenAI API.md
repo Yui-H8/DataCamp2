@@ -20,3 +20,8 @@ In this exercise, you'll test your ability to identify use cases for embedding m
 *Embeddings can be used for quite a few different tasks, but they really shine in recommendation, classification, and semantic search, so we'll return to these applications throughout the course. Time to create your very first embeddings using the OpenAI API! Best of luck!*
 
 ### Creating embeddings
+In this exercise, you'll create your very first embeddings using the OpenAI API. Normally, to interact with the OpenAI API, you would need an OpenAI API key, and creating embeddings would incur a cost. However, you do not need to create or provide an API key in this course.
+
+The <OPENAI_API_TOKEN> placeholder has been provided in the code, which will send valid requests for the exercises in this course. If, at any point in the course, you hit a RateLimitError, pause for a moment and try again.
+
+The OpenAI class from the openai library will be imported for you throughout the course, and after this exercise, the client will be created for you.
