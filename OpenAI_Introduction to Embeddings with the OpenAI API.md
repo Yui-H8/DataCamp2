@@ -11,3 +11,5 @@ Which of the following statements about embedding models are correct?
 * They capture the semantic meaning behind text
 
 *Nice job! This ability to extract the semantic meaning behind text in numerical form unlocks all sorts of different AI applications. Let's see if you can recognize them in the next exercise!*
+
+### Embeddings applications
