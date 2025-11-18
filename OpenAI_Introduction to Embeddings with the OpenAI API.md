@@ -18,3 +18,5 @@ Embedding models convert text into numerical representations that are able to ca
 In this exercise, you'll test your ability to identify use cases for embedding models.
 
 *Embeddings can be used for quite a few different tasks, but they really shine in recommendation, classification, and semantic search, so we'll return to these applications throughout the course. Time to create your very first embeddings using the OpenAI API! Best of luck!*
+
+### Creating embeddings
