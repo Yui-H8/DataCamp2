@@ -35,3 +35,18 @@ The OpenAI class from the openai library will be imported for you throughout the
 > To create a request to the Embeddings endpoint, call the .create() method on the client.embeddings class.   
 > The text to embed should be assigned as a string to the input argument.   
 > The response has a .model_dump() method for converting to a dictionary.
+
+```python
+# Create an OpenAI client
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Create a request to obtain embeddings
+response = client.embeddings.create(
+  model="text-embedding-3-small",
+  input="This can contain any text."
+)
+
+# Convert the response into a dictionary
+response_dict = response.model_dump()
+print(response_dict)
+```
