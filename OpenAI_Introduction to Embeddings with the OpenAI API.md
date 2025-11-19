@@ -64,3 +64,7 @@ Recall that the response is structured like a nested Python dictionary, and it c
 1. Extract and print the 'total_tokens' used from response_dict.
 > Hint    
 > The 'total_tokens' are nested inside the 'usage' key of response_dict.
+```python
+# Extract the total_tokens from response_dict
+print(response_dict['usage']['total_tokens'])
+```
