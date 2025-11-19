@@ -55,3 +55,4 @@ print(response_dict)
 ```
 *Congratulations on creating your first text embeddings! These may just look like random numbers, but they represent the semantic meaning of your text input. Time to dig into the response!*
 
+### Digging into the embeddings response
