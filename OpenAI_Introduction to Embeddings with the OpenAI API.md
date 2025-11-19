@@ -56,3 +56,8 @@ print(response_dict)
 *Congratulations on creating your first text embeddings! These may just look like random numbers, but they represent the semantic meaning of your text input. Time to dig into the response!*
 
 ### Digging into the embeddings response
+You've been able to successfully use the OpenAI Embeddings endpoint to embed text data, and in this exercise, you'll finish this off by extracting information from the API's response.
+
+You've been provided with a response from the Embeddings API, which has already been converted into a dictionary and stored as response_dict. You'll need to extract the desired information from this dictionary. This response_dict has been printed for you, so you can view its contents and structure.
+
+Recall that the response is structured like a nested Python dictionary, and it can be accessed in much the same way.
