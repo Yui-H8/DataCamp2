@@ -61,3 +61,4 @@ You've been able to successfully use the OpenAI Embeddings endpoint to embed tex
 You've been provided with a response from the Embeddings API, which has already been converted into a dictionary and stored as response_dict. You'll need to extract the desired information from this dictionary. This response_dict has been printed for you, so you can view its contents and structure.
 
 Recall that the response is structured like a nested Python dictionary, and it can be accessed in much the same way.
+1. Extract and print the 'total_tokens' used from response_dict.
