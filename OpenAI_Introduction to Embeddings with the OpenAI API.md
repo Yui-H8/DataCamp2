@@ -62,3 +62,5 @@ You've been provided with a response from the Embeddings API, which has already 
 
 Recall that the response is structured like a nested Python dictionary, and it can be accessed in much the same way.
 1. Extract and print the 'total_tokens' used from response_dict.
+> Hint    
+> The 'total_tokens' are nested inside the 'usage' key of response_dict.
