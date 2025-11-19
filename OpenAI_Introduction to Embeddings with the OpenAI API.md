@@ -25,3 +25,7 @@ In this exercise, you'll create your very first embeddings using the OpenAI API.
 The <OPENAI_API_TOKEN> placeholder has been provided in the code, which will send valid requests for the exercises in this course. If, at any point in the course, you hit a RateLimitError, pause for a moment and try again.
 
 The OpenAI class from the openai library will be imported for you throughout the course, and after this exercise, the client will be created for you.
+
+* Create an OpenAI client (you can leave the api_key set to the placeholder provided).
+* Create a request to the Embeddings endpoint, passing the text-embedding-3-small model any text you wish.
+* Convert the model response into a dictionary.
