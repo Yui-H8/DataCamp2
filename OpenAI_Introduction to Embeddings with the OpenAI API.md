@@ -105,3 +105,20 @@ products = [
 > Hint    
 > The input argument of client.embeddings.create() can accept a list of strings to embed multiple pieces of text at once.   
 > To access the embeddings from response_dict, index the list under the 'data' key using i and extract the 'embedding' from the resulting dictionary.
+```python
+# Extract a list of product short descriptions from products
+product_descriptions = [product['short_description'] for product in products]
+
+# Create embeddings for each product description
+response = client.embeddings.create(
+    model="text-embedding-3-small",
+    input=product_descriptions
+)
+response_dict = response.model_dump()
+
+# Extract the embeddings from response_dict and store in products
+for i, product in enumerate(products):
+    product['embedding'] = response_dict['data'][i]['embedding']
+    
+print(products[0].items())
+```
