@@ -82,7 +82,7 @@ print(response_dict['data'][0]['embedding'])
 You've been provided with a list of dictionaries called products, which contains product information for different products sold by an online retailer. It's your job to embed the 'short_description' for each product to enable semantic search for the retailer's website.
 
 Here's a preview of the products list of dictionaries:
-```
+```python
 products = [
     {
         "title": "Smartphone X1",
@@ -99,3 +99,6 @@ products = [
     ...
 ]
 ```
+* Create a list called product_descriptions containing the 'short_description' for each product in products using a list comprehension.
+* Create embeddings for each product 'short_description' using batching, passing the input to the text-embedding-3-small model.
+* Extract the embeddings for each product from response_dict and store them in products under a new key called 'embedding'.
