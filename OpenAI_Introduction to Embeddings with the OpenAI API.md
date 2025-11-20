@@ -68,3 +68,4 @@ Recall that the response is structured like a nested Python dictionary, and it c
 # Extract the total_tokens from response_dict
 print(response_dict['usage']['total_tokens'])
 ```
+2. Extract the embeddings from response_dict.
