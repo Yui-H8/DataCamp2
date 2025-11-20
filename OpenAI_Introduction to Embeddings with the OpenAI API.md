@@ -102,3 +102,6 @@ products = [
 * Create a list called product_descriptions containing the 'short_description' for each product in products using a list comprehension.
 * Create embeddings for each product 'short_description' using batching, passing the input to the text-embedding-3-small model.
 * Extract the embeddings for each product from response_dict and store them in products under a new key called 'embedding'.
+> Hint    
+> The input argument of client.embeddings.create() can accept a list of strings to embed multiple pieces of text at once.   
+> To access the embeddings from response_dict, index the list under the 'data' key using i and extract the 'embedding' from the resulting dictionary.
