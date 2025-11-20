@@ -69,3 +69,8 @@ Recall that the response is structured like a nested Python dictionary, and it c
 print(response_dict['usage']['total_tokens'])
 ```
 2. Extract the embeddings from response_dict.
+
+```python
+# Extract the embeddings from response_dict
+print(response_dict['data'][0]['embedding'])
+```
