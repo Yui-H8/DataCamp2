@@ -128,3 +128,5 @@ print(products[0].items())
 In [1]:
 ```
 *Fantastic! Here's the keys and values for the first review, showing the embeddings have been successfully created and stored. Being able to create embeddings for multiple inputs and store the results for later use will enable so many more use cases. Head on over to the next exercise to explore these embeddings you created!*
+
+### Visualizing the embedded descriptions
