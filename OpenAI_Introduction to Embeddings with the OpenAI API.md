@@ -76,3 +76,6 @@ print(response_dict['usage']['total_tokens'])
 print(response_dict['data'][0]['embedding'])
 ```
 *These numbers may appear random and meaningless, but they encode much of the information from the input text, which is what enables the embeddings applications we've discussed. Head on over to the next video to find out what these numbers can do!*
+
+---
+### Embedding product descriptions
