@@ -79,3 +79,6 @@ print(response_dict['data'][0]['embedding'])
 
 ---
 ### Embedding product descriptions
+You've been provided with a list of dictionaries called products, which contains product information for different products sold by an online retailer. It's your job to embed the 'short_description' for each product to enable semantic search for the retailer's website.
+
+Here's a preview of the products list of dictionaries:
