@@ -82,3 +82,20 @@ print(response_dict['data'][0]['embedding'])
 You've been provided with a list of dictionaries called products, which contains product information for different products sold by an online retailer. It's your job to embed the 'short_description' for each product to enable semantic search for the retailer's website.
 
 Here's a preview of the products list of dictionaries:
+```
+products = [
+    {
+        "title": "Smartphone X1",
+        "short_description": "The latest flagship smartphone with AI-powered features and 5G connectivity.",
+        "price": 799.99,
+        "category": "Electronics",
+        "features": [
+            "6.5-inch AMOLED display",
+            "Quad-camera system with 48MP main sensor",
+            "Face recognition and fingerprint sensor",
+            "Fast wireless charging"
+        ]
+    },
+    ...
+]
+```
