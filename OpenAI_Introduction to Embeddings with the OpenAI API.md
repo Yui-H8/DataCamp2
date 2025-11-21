@@ -170,3 +170,4 @@ embeddings = [product['embedding'] for product in products]
 tsne = TSNE(n_components=2, perplexity=5)
 embeddings_2d = tsne.fit_transform(np.array(embeddings))
 ```
+3. Create a scatter plot of the 2D embeddings, plotting the first column from embeddings_2d on the x-axis and the second column on the y-axis.
