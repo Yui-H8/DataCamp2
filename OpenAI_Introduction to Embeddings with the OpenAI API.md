@@ -152,3 +152,4 @@ products = [
     ...
 ]
 ```
+1. Create two lists by extracting information from products using list comprehensions: categories, containing the 'category' of each product, and embeddings, containing the embedded short description.
