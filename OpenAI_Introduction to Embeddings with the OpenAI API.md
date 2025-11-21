@@ -130,3 +130,25 @@ In [1]:
 *Fantastic! Here's the keys and values for the first review, showing the embeddings have been successfully created and stored. Being able to create embeddings for multiple inputs and store the results for later use will enable so many more use cases. Head on over to the next exercise to explore these embeddings you created!*
 
 ### Visualizing the embedded descriptions
+Now that you've created embeddings from the product descriptions, it's time to explore them! You'll use **t-SNE** to reduce the number of dimensions in the embeddings data from 1,536 to two, which will make the data much easier to visualize.
+
+You'll start with the products list of dictionaries you worked with in the last exercise, containing product information and the embeddings you created from the 'short_description'. As a reminder, here's a preview of    
+products:
+```python
+products = [
+    {
+        "title": "Smartphone X1",
+        "short_description": "The latest flagship smartphone with AI-powered features and 5G connectivity.",
+        "price": 799.99,
+        "category": "Electronics",
+        "features": [
+            "6.5-inch AMOLED display",
+            "Quad-camera system with 48MP main sensor",
+            "Face recognition and fingerprint sensor",
+            "Fast wireless charging"
+        ],
+        "embedding": [-0.014650369994342327, ..., 0.008677126839756966]
+    },
+    ...
+]
+```
