@@ -180,3 +180,4 @@ for i, category in enumerate(categories):
 
 plt.show()
 ```
+*Perfect plotting! Notice that the embedded product descriptions are broadly clustered by category! Hopefully you're starting to see how some of these embeddings applications work under the hood. If a user searched for "smartphone," you could embed their search query and return them the product nearest to it in the vector space. Head on over to the next video to see how to calculate this similarity!*
