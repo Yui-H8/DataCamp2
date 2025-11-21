@@ -161,3 +161,12 @@ categories = [product['category'] for product in products]
 embeddings = [product['embedding'] for product in products]
 ```
 2. Reduce the number of embeddings dimensions from 1,536 to two using the tsne model provided.
+```python
+# Create reviews and embeddings lists using list comprehensions
+categories = [product['category'] for product in products]
+embeddings = [product['embedding'] for product in products]
+
+# Reduce the number of embeddings dimensions to two using t-SNE
+tsne = TSNE(n_components=2, perplexity=5)
+embeddings_2d = tsne.fit_transform(np.array(embeddings))
+```
