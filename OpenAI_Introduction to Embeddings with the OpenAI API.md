@@ -160,3 +160,4 @@ products = [
 categories = [product['category'] for product in products]
 embeddings = [product['embedding'] for product in products]
 ```
+2. Reduce the number of embeddings dimensions from 1,536 to two using the tsne model provided.
