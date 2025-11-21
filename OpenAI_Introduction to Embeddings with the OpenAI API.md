@@ -155,3 +155,8 @@ products = [
 1. Create two lists by extracting information from products using list comprehensions: categories, containing the 'category' of each product, and embeddings, containing the embedded short description.
 > Hint    
 > The categories list comprehension should extract the value from the 'category' key for each item in products.
+```python
+# Create categories and embeddings lists using list comprehensions
+categories = [product['category'] for product in products]
+embeddings = [product['embedding'] for product in products]
+```
