@@ -189,3 +189,17 @@ To identify the most semantically similar texts, you need to apply a distance me
 In this exercise, you've been provided with four vectors: A, B, C, and D. It's your task to find out which vector is most similar to A using cosine distance.
 
 Which vector is the most similar to A? distance has already been imported from scipy.spatial.
+```
+In [1]:
+distance.cosine(A,B)
+Out[1]:
+0.16579245471375115
+In [2]:
+distance.cosine(A,C)
+Out[2]:
+0.22159319134316824
+In [3]:
+distance.cosine(A,D)
+Out[3]:
+0.0856038050506811
+```
