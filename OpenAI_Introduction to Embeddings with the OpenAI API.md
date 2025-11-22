@@ -203,3 +203,4 @@ distance.cosine(A,D)
 Out[3]:
 0.0856038050506811
 ```
+*Great work! In this exercise, the points you were working with had three dimensions rather than the 1,536 that OpenAI embeddings have, but the code is exactly the same! Head on over to the next exercise to apply your new distance calculating skills and enable a semantic search application.*
