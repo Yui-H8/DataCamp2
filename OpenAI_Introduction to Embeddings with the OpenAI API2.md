@@ -8,7 +8,23 @@ As you continue to work with embeddings, you'll find yourself making repeated ca
 > Hint  
 > Recall that the list of embeddings for each input is stored under the 'data' key of response_dict.    
 > To extract the embedded short_description as a single list, make sure to zero-index before printing.
+```python
+# Define a create_embeddings function
+def create_embeddings(texts):
+  response = client.embeddings.create(
+    model="text-embedding-3-small",
+    input=texts
+  )
+  response_dict = response.model_dump()
+  
+  return [data['embedding'] for data in response_dict['data']]
 
+# Embed short_description and print
+print(create_embeddings(short_description)[0])
+
+# Embed list_of_descriptions and print
+print(create_embeddings(list_of_descriptions))
+```
 
 ```
 <script.py> output:
