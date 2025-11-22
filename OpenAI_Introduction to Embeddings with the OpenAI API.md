@@ -187,3 +187,5 @@ plt.show()
 To identify the most semantically similar texts, you need to apply a distance metric. A popular choice is the cosine distance.
 
 In this exercise, you've been provided with four vectors: A, B, C, and D. It's your task to find out which vector is most similar to A using cosine distance.
+
+Which vector is the most similar to A? distance has already been imported from scipy.spatial.
