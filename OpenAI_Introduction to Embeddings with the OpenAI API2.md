@@ -43,3 +43,7 @@ numpy has been imported as np, and distance is available from scipy.spatial. A c
 * Embed the text, "soap", using your create_embeddings() custom function and extract a single list of embeddings.
 * Compute the cosine distance between the query_embedding and the embeddings in product.
 * Find and print the 'short_description' of the most similar product to the search text using the cosine distances in distances.
+> Hint   
+> To compute the cosine distance, call distance.cosine() on the query embedding and embedded product description.   
+> If you can't remember the structure of the products list of dictionaries, run products[0].keys() to view the keys in the first product dictionary.   
+> The np.argmin() function will return the index of the minimum value in a list.
