@@ -62,3 +62,7 @@ for product in products:
 min_dist_ind = np.argmin(distances)
 print(products[min_dist_ind]['short_description'])
 ```
+```
+Pamper yourself or a loved one with this spa gift basket full of relaxation goodies.
+In [1]:
+```
