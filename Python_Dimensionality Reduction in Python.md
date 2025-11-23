@@ -6,3 +6,20 @@ High-dimensional datasets can be overwhelming and leave you not knowing where to
 
 ---
 ### Finding the number of dimensions in a dataset
+```
+In [2]:
+pokemon_df.describe()
+Out[2]:
+
+            HP   Attack  Defense  Generation
+count  160.000  160.000  160.000       160.0
+mean    64.612   74.981   70.175         1.0
+std     27.921   29.180   28.884         0.0
+min     10.000    5.000    5.000         1.0
+25%     45.000   52.000   50.000         1.0
+50%     60.000   71.000   65.000         1.0
+75%     80.000   95.000   85.000         1.0
+max    250.000  155.000  180.000         1.0
+In [3]:
+
+```
