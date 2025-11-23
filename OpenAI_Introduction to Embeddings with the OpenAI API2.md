@@ -66,3 +66,4 @@ print(products[min_dist_ind]['short_description'])
 Pamper yourself or a loved one with this spa gift basket full of relaxation goodies.
 In [1]:
 ```
+*Congratulations on completing Chapter 1! Look how far you've come! The process you've worked through of creating embeddings, computing similarity scores, and extracting the most similar result is at the heart of so many embeddings applications. In the next chapter, you'll learn how to implement the other use cases we've discussed as well as a few other tricks that will help you create more robust applications. See you there!*
