@@ -25,3 +25,4 @@ pokemon_df.shape
 Out[3]:
 (160, 7)
 ```
+### Removing features without variance
