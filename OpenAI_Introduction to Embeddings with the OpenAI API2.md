@@ -40,3 +40,6 @@ Being able to compute similarity between embeddings is a key step within embeddi
 You'll compare a piece of text to these embedded descriptions to identify the most similar description.
 
 numpy has been imported as np, and distance is available from scipy.spatial. A create_embeddings() function has already been defined for you and is available to use for creating embeddings from a single input.
+* Embed the text, "soap", using your create_embeddings() custom function and extract a single list of embeddings.
+* Compute the cosine distance between the query_embedding and the embeddings in product.
+* Find and print the 'short_description' of the most similar product to the search text using the cosine distances in distances.
