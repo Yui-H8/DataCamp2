@@ -33,3 +33,5 @@ print(create_embeddings(list_of_descriptions))
 In [1]:
 ```
 *Perfect! With your create_embeddings() function in hand, you'll no longer have to write out every API call. Head on over to the next exercise to compare text similarity using embeddings!*
+
+### Finding the most similar product
