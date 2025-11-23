@@ -35,3 +35,8 @@ In [1]:
 *Perfect! With your create_embeddings() function in hand, you'll no longer have to write out every API call. Head on over to the next exercise to compare text similarity using embeddings!*
 
 ### Finding the most similar product
+Being able to compute similarity between embeddings is a key step within embeddings applications. In this exercise, you'll return to the products list of dictionaries that you worked with previously, which contains the embedded short descriptions you also created earlier.
+
+You'll compare a piece of text to these embedded descriptions to identify the most similar description.
+
+numpy has been imported as np, and distance is available from scipy.spatial. A create_embeddings() function has already been defined for you and is available to use for creating embeddings from a single input.
