@@ -50,3 +50,12 @@ df_selected = pokemon_df[number_cols + non_number_cols]
 # Prints the first 5 lines of the new DataFrame
 print(df_selected.head())
 ```
+```
+script.py> output:
+       HP  Attack  Defense                   Name   Type  Legendary
+    0  45      49       49              Bulbasaur  Grass      False
+    1  60      62       63                Ivysaur  Grass      False
+    2  80      82       83               Venusaur  Grass      False
+    3  80     100      123  VenusaurMega Venusaur  Grass      False
+    4  39      52       43             Charmander   Fire      False
+```
