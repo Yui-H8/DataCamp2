@@ -59,3 +59,4 @@ script.py> output:
     3  80     100      123  VenusaurMega Venusaur  Grass      False
     4  39      52       43             Charmander   Fire      False
 ```
+3. Find the non-numeric feature without variance and remove its name from the list assigned to non_number_cols.
