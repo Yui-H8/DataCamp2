@@ -36,3 +36,4 @@ number_cols = ['HP', 'Attack', 'Defense', 'Generation']
 pokemon_df.describe(exclude='number')
 number_cols.remove('Generation')
 ```
+2. Combine the two lists of feature names to sub-select the chosen features from pokemon_df.
