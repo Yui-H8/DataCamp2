@@ -27,3 +27,4 @@ Out[3]:
 ```
 ### Removing features without variance
 A sample of the Pokemon dataset has been loaded as pokemon_df. To get an idea of which features have little variance you should use the IPython Shell to calculate summary statistics on this sample. Then adjust the code to create a smaller, easier to understand, dataset.
+1. Use the .describe() method to find the numeric feature without variance and remove its name from the list assigned to number_cols.
