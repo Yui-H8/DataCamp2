@@ -60,3 +60,5 @@ script.py> output:
     4  39      52       43             Charmander   Fire      False
 ```
 3. Find the non-numeric feature without variance and remove its name from the list assigned to non_number_cols.
+> Hint   
+> Use the exclude argument of pokemon_df's .describe() method to leave out numeric columns.
