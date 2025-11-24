@@ -30,3 +30,9 @@ A sample of the Pokemon dataset has been loaded as pokemon_df. To get an idea of
 1. Use the .describe() method to find the numeric feature without variance and remove its name from the list assigned to number_cols.
 > Hint   
 > In the overview provided by .describe() this feature will have the same minimum and maximum plus a standard deviation of zero.
+```python
+# Remove the feature without variance from this list
+number_cols = ['HP', 'Attack', 'Defense', 'Generation']
+pokemon_df.describe(exclude='number')
+number_cols.remove('Generation')
+```
