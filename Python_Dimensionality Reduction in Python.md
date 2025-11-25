@@ -90,3 +90,10 @@ Two data samples have been pre-loaded as ansur_df_1 and ansur_df_2.
 
 Seaborn has been imported as sns.
 1. Create a pairplot of the ansur_df_1 data sample and color the points using the 'Gender' feature.
+```python
+# Create a pairplot and color the points using the 'Gender' feature
+sns.pairplot(ansur_df_1, hue='Gender', diag_kind='hist')
+
+# Show the plot
+plt.show()
+```
