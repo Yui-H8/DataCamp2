@@ -130,3 +130,4 @@ sns.pairplot(reduced_df, hue='Gender', diag_kind='hist')
 # Show the plot
 plt.show()
 ```
+*Correct, the body height (inches) and stature (meters) hold the same information in a different unit + all the individuals in the second sample have two legs.*
