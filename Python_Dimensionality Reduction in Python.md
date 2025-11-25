@@ -110,3 +110,4 @@ sns.pairplot(reduced_df, hue='Gender')
 # Show the plot
 plt.show()
 ```
+3. Now create a pairplot of the ansur_df_2 data sample and color the points using the 'Gender' feature.
