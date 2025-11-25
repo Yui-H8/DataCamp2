@@ -120,3 +120,13 @@ sns.pairplot(ansur_df_2, hue='Gender', diag_kind='hist')
 plt.show()
 ```
 4. One feature has no variance, remove it from the dataset.
+```python
+# Remove the redundant feature
+reduced_df = ansur_df_2.drop('n_legs', axis=1)
+
+# Create a pairplot and color the points using the 'Gender' feature
+sns.pairplot(reduced_df, hue='Gender', diag_kind='hist')
+
+# Show the plot
+plt.show()
+```
