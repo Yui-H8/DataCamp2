@@ -83,3 +83,4 @@ print(df_selected.head())
 3  80     100      123  VenusaurMega Venusaur  Grass
 4  39      52       43             Charmander   Fire
 ```
+### Visually detecting redundant features
