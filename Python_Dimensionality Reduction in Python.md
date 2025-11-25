@@ -100,3 +100,13 @@ plt.show()
 2. Two features are basically duplicates, remove one of them from the dataset.
 > Hint   
 > Remember to set the axis argument correctly so that columns are dropped instead of rows.
+```python
+# Remove one of the redundant features 
+reduced_df = ansur_df_1.drop('body_height', axis=1)
+
+# Create a pairplot and color the points using the 'Gender' feature
+sns.pairplot(reduced_df, hue='Gender')
+
+# Show the plot
+plt.show()
+```
