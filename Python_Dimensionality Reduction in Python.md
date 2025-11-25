@@ -111,3 +111,12 @@ sns.pairplot(reduced_df, hue='Gender')
 plt.show()
 ```
 3. Now create a pairplot of the ansur_df_2 data sample and color the points using the 'Gender' feature.
+```python
+# Create a pairplot and color the points using the 'Gender' feature
+sns.pairplot(ansur_df_2, hue='Gender', diag_kind='hist')
+
+
+# Show the plot
+plt.show()
+```
+4. One feature has no variance, remove it from the dataset.
