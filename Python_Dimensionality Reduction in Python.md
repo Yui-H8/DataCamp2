@@ -84,3 +84,8 @@ print(df_selected.head())
 4  39      52       43             Charmander   Fire
 ```
 ### Visually detecting redundant features
+Data visualization is a crucial step in any data exploration. Let's use Seaborn to explore some samples of the US Army ANSUR body measurement dataset.
+
+Two data samples have been pre-loaded as ansur_df_1 and ansur_df_2.
+
+Seaborn has been imported as sns.
