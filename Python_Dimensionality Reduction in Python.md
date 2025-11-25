@@ -89,3 +89,4 @@ Data visualization is a crucial step in any data exploration. Let's use Seaborn 
 Two data samples have been pre-loaded as ansur_df_1 and ansur_df_2.
 
 Seaborn has been imported as sns.
+1. Create a pairplot of the ansur_df_1 data sample and color the points using the 'Gender' feature.
