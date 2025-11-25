@@ -97,3 +97,4 @@ sns.pairplot(ansur_df_1, hue='Gender', diag_kind='hist')
 # Show the plot
 plt.show()
 ```
+2. Two features are basically duplicates, remove one of them from the dataset.
