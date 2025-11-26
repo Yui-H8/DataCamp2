@@ -146,3 +146,4 @@ What is a good use case to use t-SNE?
 > When you want to visually explore the patterns in a high dimensional dataset.
 
 ### Fitting t-SNE to the ANSUR data
+t-SNE is a great technique for visual exploration of high dimensional datasets. In this exercise, you'll apply it to the ANSUR dataset. You'll remove non-numeric columns from the pre-loaded dataset df and fit TSNE to this numeric dataset.
