@@ -134,3 +134,5 @@ plt.show()
 
 ### Advantage of feature selection
 What advantage does feature selection have over feature extraction?
+> Answwer:
+> The selected features remain unchanged, and are therefore easier to interpret.
