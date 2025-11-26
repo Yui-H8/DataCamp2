@@ -139,3 +139,6 @@ What advantage does feature selection have over feature extraction?
 *Correct! Extracted features can be quite hard to interpret.*
 
 ### t-SNE intuition
+t-SNE is super powerful, but do you know exactly when to use it?
+
+What is a good use case to use t-SNE?
