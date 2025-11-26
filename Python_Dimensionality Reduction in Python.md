@@ -133,3 +133,4 @@ plt.show()
 *Correct, the body height (inches) and stature (meters) hold the same information in a different unit + all the individuals in the second sample have two legs.*
 
 ### Advantage of feature selection
+What advantage does feature selection have over feature extraction?
