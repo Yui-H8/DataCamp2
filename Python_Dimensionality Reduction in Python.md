@@ -144,3 +144,5 @@ t-SNE is super powerful, but do you know exactly when to use it?
 What is a good use case to use t-SNE?
 > Answer:
 > When you want to visually explore the patterns in a high dimensional dataset.
+
+### Fitting t-SNE to the ANSUR data
