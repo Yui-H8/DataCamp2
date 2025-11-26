@@ -136,3 +136,4 @@ plt.show()
 What advantage does feature selection have over feature extraction?
 > Answwer:
 > The selected features remain unchanged, and are therefore easier to interpret.
+*Correct! Extracted features can be quite hard to interpret.*
