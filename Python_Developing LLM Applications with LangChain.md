@@ -23,3 +23,16 @@ response = llm.invoke(prompt)
 
 print(response.content)
 ```
+```
+<script.py> output:
+    LangChain is a powerful framework for developing applications that utilize large language models (LLMs). Here are three reasons for using LangChain in LLM application development:
+    
+    1. **Modularity and Flexibility**: LangChain provides a modular architecture that allows developers to easily compose various components needed for language model applications. This means you can integrate different modules for prompt generation, memory management, chains of logic, and output handling, which simplifies the development process and allows for easy experimentation with different configurations.
+    
+    2. **Enhanced Capabilities**: LangChain offers built-in features like document retrieval, data augmentation, and memory management, enabling applications to handle more complex tasks. This means developers can create applications that not only respond to user prompts but also retrieve and integrate relevant information from various data sources, enhancing the overall performance and capabilities of the LLM.
+    
+    3. **Rich Ecosystem and Community Support**: LangChain has a growing ecosystem with a variety of integrations and a supportive community. This provides developers with access to a wealth of resources, tutorials, and pre-built components, making it easier to get started and troubleshoot issues. Additionally, the active community helps in keeping the framework up to date with the latest advancements in AI and language models.
+    
+    Overall, LangChain streamlines the development of LLM applications, enhances their capabilities, and provides valuable community resources.
+In [1]:
+```
