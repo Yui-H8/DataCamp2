@@ -198,3 +198,4 @@ sns.scatterplot(x="x", y="y", hue='Gender', data=df)
 # Show the plot
 plt.show()
 ```
+*Eureka! There is a Male and a Female cluster. t-SNE found these gender differences in body shape without being told about them explicitly! From the second plot you learned there are more males in the Combat Arms Branch.*
