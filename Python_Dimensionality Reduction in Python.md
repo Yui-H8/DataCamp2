@@ -169,3 +169,5 @@ print(tsne_features.shape)
     (6068, 2)
 ```
 *Good job! t-SNE reduced the more than 90 features in the dataset to just 2 which you can now plot.*
+
+### t-SNE visualisation of dimensionality
