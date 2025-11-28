@@ -175,3 +175,10 @@ Time to look at the results of your hard work. In this exercise, you will visual
 
 seaborn has already been imported as sns and matplotlib.pyplot as plt.
 1. Use seaborn's sns.scatterplot to create the plot. Color the points by 'Component'.
+```python
+# Color the points according to Army Component
+sns.scatterplot(x="x", y="y", hue='Component', data=df)
+
+# Show the plot
+plt.show()
+```
