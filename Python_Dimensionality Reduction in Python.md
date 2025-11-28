@@ -168,3 +168,4 @@ print(tsne_features.shape)
 <script.py> output:
     (6068, 2)
 ```
+*Good job! t-SNE reduced the more than 90 features in the dataset to just 2 which you can now plot.*
