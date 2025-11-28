@@ -190,3 +190,4 @@ sns.scatterplot(x="x", y="y", hue='Branch', data=df)
 # Show the plot
 plt.show()
 ```
+3. Color the points of the scatterplot by 'Gender'.
