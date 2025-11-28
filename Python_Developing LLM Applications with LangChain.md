@@ -39,3 +39,6 @@ In [1]:
 *Very nicely done! The standardized syntax that LangChain offers means that models can be quickly changed in and out as new ones are released and tested. Let's see this in action by trying a model from Hugging Face!*
 
 ### Hugging Face models in LangChain!
+There are thousands of models freely available to download and use on Hugging Face. Hugging Face integrates really nicely into LangChain via its partner library, langchain-huggingface, which is available for you to use.
+
+In this exercise, you'll load and call the crumb/nano-mistral model from Hugging Face. This is a ultra-light LLM designed to be fine-tuned for greater performance.
