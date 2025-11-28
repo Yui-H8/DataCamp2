@@ -13,3 +13,13 @@ OpenAI's GPT-series models are some of the highest performing LLMs around. They 
 The ChatOpenAI class has already been imported.
 * Define an OpenAI chat model using a LangChain class; leave the API key placeholder as it is.
 * Invoke the LLM you defined to respond to the prompt provided (feel free to experiment with other prompts here).
+```python
+# Define the LLM
+llm = ChatOpenAI(model="gpt-4o-mini", api_key="<OPENAI_API_TOKEN>")
+
+# Predict the words following the text in question
+prompt = 'Three reasons for using LangChain for LLM application development.'
+response = llm.invoke(prompt)
+
+print(response.content)
+```
