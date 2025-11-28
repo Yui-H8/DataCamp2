@@ -164,3 +164,7 @@ m = TSNE(learning_rate=50)
 tsne_features = m.fit_transform(df_numeric)
 print(tsne_features.shape)
 ```
+```
+<script.py> output:
+    (6068, 2)
+```
