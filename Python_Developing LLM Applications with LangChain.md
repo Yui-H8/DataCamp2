@@ -36,3 +36,4 @@ print(response.content)
     Overall, LangChain streamlines the development of LLM applications, enhances their capabilities, and provides valuable community resources.
 In [1]:
 ```
+*Very nicely done! The standardized syntax that LangChain offers means that models can be quickly changed in and out as new ones are released and tested. Let's see this in action by trying a model from Hugging Face!*
