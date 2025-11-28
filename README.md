@@ -16,6 +16,7 @@ https://app.datacamp.com/learn/courses/
 * Introduction to APIs in Python
 * Machine Learning with Tree-Based Models in Python
 * Supervised Learning with scikit-learn
+* Developing LLM Applications with LangChain
 
 ---
 ### AWS
