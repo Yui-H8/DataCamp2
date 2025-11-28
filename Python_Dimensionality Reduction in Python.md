@@ -183,3 +183,10 @@ sns.scatterplot(x="x", y="y", hue='Component', data=df)
 plt.show()
 ```
 2. Color the points of the scatterplot by 'Branch'.
+```python
+# Color the points by Army Branch
+sns.scatterplot(x="x", y="y", hue='Branch', data=df)
+
+# Show the plot
+plt.show()
+```
