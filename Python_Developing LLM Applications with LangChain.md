@@ -62,3 +62,8 @@ prompt = "Hugging Face is"
 response = llm.invoke(prompt)
 print(response)
 ```
+```
+<script.py> output:
+    Hugging Face is a great way to get a little bit of a break from the stresses of life. It'
+In [1]:
+```
