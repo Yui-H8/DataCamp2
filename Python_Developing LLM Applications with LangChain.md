@@ -67,3 +67,4 @@ print(response)
     Hugging Face is a great way to get a little bit of a break from the stresses of life. It'
 In [1]:
 ```
+*Nice job! 🤗 This syntax for defining and invoking LLMs unlocks the ability to use almost any model! Now that you have nailed the defining and invoking LLM workflow, let's look at strategies for prompting these models effectively.*
