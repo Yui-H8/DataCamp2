@@ -76,3 +76,6 @@ The classes necessary for completing this exercise, including ChatOpenAI, have b
 * Convert the template text provided into a standard (non-chat) prompt template.
 * Create a chain to pass the prompt template into the LLM.
 * Invoke the chain on the question variable provided.
+> Hint
+> Use the .from_template() method of PromptTemplate to convert a template string into a LangChain prompt template.
+> To chain a prompt template into an LLM using LCEL, separate the components with the | operator, with the prompt template object coming first.
