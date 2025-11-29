@@ -70,3 +70,6 @@ In [1]:
 *Nice job! 🤗 This syntax for defining and invoking LLMs unlocks the ability to use almost any model! Now that you have nailed the defining and invoking LLM workflow, let's look at strategies for prompting these models effectively.*
 
 ### Prompt templates and chaining
+In this exercise, you'll begin using two of the core components in LangChain: prompt templates and chains!
+
+The classes necessary for completing this exercise, including ChatOpenAI, have been pre-loaded for you.
