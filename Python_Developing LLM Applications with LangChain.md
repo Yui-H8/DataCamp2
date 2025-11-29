@@ -45,3 +45,20 @@ In this exercise, you'll load and call the crumb/nano-mistral model from Hugging
 * Import HuggingFacePipeline from langchain_huggingface to work with Hugging Face models.
 * Define a text generation LLM by calling HuggingFacePipeline.from_model_id().
 * Set the model_id parameter to specify which Hugging Face model to use.
+```python
+# Import the HuggingFacePipeline class for defining Hugging Face pipelines
+from langchain_huggingface import HuggingFacePipeline
+
+# Define the LLM from the Hugging Face model ID
+llm = HuggingFacePipeline.from_model_id(
+    model_id="crumb/nano-mistral",
+    task="text-generation",
+    pipeline_kwargs={"max_new_tokens": 20}
+)
+
+prompt = "Hugging Face is"
+
+# Invoke the model
+response = llm.invoke(prompt)
+print(response)
+```
