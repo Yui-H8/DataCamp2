@@ -128,3 +128,6 @@ country = "Japan"
 response = llm_chain.invoke({"country": country})
 print(response.content)
 ```
+
+
+*Nice job! Hopefully you're beginning to the power of prompt templates for translating user inputs into model inputs. Try experimenting with other countries to see how the model performs for more complex flags, like 'Spain'. When you're done, head on over to the next video to learn how to scale-up your prompts for larger numbers of examples!*
