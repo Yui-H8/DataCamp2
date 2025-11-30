@@ -102,3 +102,6 @@ In [1]:
 *Your perfectly pieced-together prompt produced pristine performance! Well-designed prompt templates are at the heart of many LangChain applications; keep experimenting to find the template that gives you optimum performance!*
 
 ### Chat prompt templates
+Given the importance of chat models in many LLM applications, LangChain provides functionality for creating prompt templates to structure messages to different chat roles.
+
+The ChatPromptTemplate class has already been imported for you, and an LLM has already been defined.
