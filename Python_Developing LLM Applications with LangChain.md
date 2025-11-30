@@ -100,3 +100,5 @@ content='LangChain simplifies the development of applications that utilize large
 In [1]:
 ```
 *Your perfectly pieced-together prompt produced pristine performance! Well-designed prompt templates are at the heart of many LangChain applications; keep experimenting to find the template that gives you optimum performance!*
+
+### Chat prompt templates
