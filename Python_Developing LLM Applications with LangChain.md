@@ -191,3 +191,4 @@ prompt_template = FewShotPromptTemplate(
 prompt = prompt_template.invoke({"input": "What is Jack's favorite technology on DataCamp?"})
 print(prompt.text)
 ```
+*Fabulous few-shot prompting! Invoking the prompt template allows you to see exactly what context the model will have. Now for the final piece: create an LCEL chain to combine the few-shot template with an LLM!*
