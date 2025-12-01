@@ -199,3 +199,6 @@ Time to combine your components together into a chain! The few-shot prompt you c
 All of the LangChain classes necessary for completing this exercise have been pre-loaded for you.
 * Instantiate an OpenAI chat LLM using the ChatOpenAI class.
 * Create a chain from the prompt template and LLM using the | operator, then invoke it using the .invoke() method.
+> Hint
+> Use ChatOpenAI as the class name for creating the OpenAI LLM.
+> For the chain, use prompt_template | llm syntax, then call .invoke() on the chain object.
