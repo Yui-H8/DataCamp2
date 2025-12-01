@@ -176,3 +176,18 @@ All of the LangChain classes necessary for completing this exercise have been pr
 > Hint   
 > For the template string, use question and answer as the variable names to match the dictionary keys in your examples.
 > Look at the suffix="Question: {input}" - the input variable name is input (found in the curly brackets).
+```python
+# Complete the prompt for formatting answers
+example_prompt = PromptTemplate.from_template("Question: {question}\n{answer}")
+
+# Create the few-shot prompt
+prompt_template = FewShotPromptTemplate(
+    examples=examples,
+    example_prompt=example_prompt,
+    suffix="Question: {input}",
+    input_variables=["input"],
+)
+
+prompt = prompt_template.invoke({"input": "What is Jack's favorite technology on DataCamp?"})
+print(prompt.text)
+```
