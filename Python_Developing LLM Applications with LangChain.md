@@ -194,3 +194,6 @@ print(prompt.text)
 *Fabulous few-shot prompting! Invoking the prompt template allows you to see exactly what context the model will have. Now for the final piece: create an LCEL chain to combine the few-shot template with an LLM!*
 
 ### Implementing few-shot prompting
+Time to combine your components together into a chain! The few-shot prompt you created in the previous exercise is still available for you to use, along with examples and example_prompt.
+
+All of the LangChain classes necessary for completing this exercise have been pre-loaded for you.
