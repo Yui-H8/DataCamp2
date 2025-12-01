@@ -170,3 +170,6 @@ Question: Example question
 Example Answer
 ```
 All of the LangChain classes necessary for completing this exercise have been pre-loaded for you.
+* Complete the prompt for formatting answers so it includes the question and answer keys.
+* Create the few-shot prompt using FewShotPromptTemplate with examples and example_prompt.
+* Complete the list of input variables based on the suffix provided.
