@@ -202,3 +202,18 @@ All of the LangChain classes necessary for completing this exercise have been pr
 > Hint
 > Use ChatOpenAI as the class name for creating the OpenAI LLM.
 > For the chain, use prompt_template | llm syntax, then call .invoke() on the chain object.
+```python
+prompt_template = FewShotPromptTemplate(
+    examples=examples,
+    example_prompt=example_prompt,
+    suffix="Question: {input}",
+    input_variables=["input"],
+)
+
+# Create an OpenAI chat LLM
+llm = ChatOpenAI(model="gpt-4o-mini", api_key='<OPENAI_API_TOKEN>')
+
+# Create and invoke the chain
+llm_chain = prompt_template | llm
+print(llm_chain.invoke({"input": "What is Jack's favorite technology on DataCamp?"}))
+```
