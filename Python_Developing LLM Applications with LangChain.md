@@ -173,3 +173,6 @@ All of the LangChain classes necessary for completing this exercise have been pr
 * Complete the prompt for formatting answers so it includes the question and answer keys.
 * Create the few-shot prompt using FewShotPromptTemplate with examples and example_prompt.
 * Complete the list of input variables based on the suffix provided.
+> Hint   
+> For the template string, use question and answer as the variable names to match the dictionary keys in your examples.
+> Look at the suffix="Question: {input}" - the input variable name is input (found in the curly brackets).
