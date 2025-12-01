@@ -164,3 +164,9 @@ examples = [
 *Well done! With your examples dataset all set up, you're ready to create your few-shot prompt template!*
 
 ### Building the few-shot prompt template
+With your examples in a structured format, it's now time to create the few-shot prompt template! You'll create a template that converts the question-answer pairs into the following format:
+```
+Question: Example question
+Example Answer
+```
+All of the LangChain classes necessary for completing this exercise have been pre-loaded for you.
