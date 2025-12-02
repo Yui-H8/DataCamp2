@@ -1,1 +1,6 @@
 # Retrieval Augmented Generation (RAG) with LangChain
+---
+
+Large Language Models (LLMs) are being integrated into computers, phones, and software applications, but they do have one drawback: their knowledge is limited by their training data, which is slow and costly. Enter Retrieval Augmented Generation (RAG)! RAG enables you to integrate external data with LLMs. In this course, you'll learn state-of-the-art techniques for loading, processing, and retrieving external data for LLMs! You'll utilize vector databases, the latest LLMs, including GPT-4o-Mini, and the LangChain framework to create RAG applications. This course concludes with a chapter on Graph RAG, a twist on traditional RAG that uses graph databases for more reliable data retrieval.
+
+---
