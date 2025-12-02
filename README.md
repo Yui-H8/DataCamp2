@@ -17,6 +17,7 @@ https://app.datacamp.com/learn/courses/
 * Machine Learning with Tree-Based Models in Python
 * Supervised Learning with scikit-learn
 * Developing LLM Applications with LangChain
+* Retrieval Augmented Generation (RAG) with LangChain
 
 ---
 ### AWS
