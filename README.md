@@ -31,3 +31,4 @@ https://app.datacamp.com/learn/courses/
 ### Open AI
 * Multi-Modal Systems with the OpenAI API
 * Developing AI Systems with the OpenAI API
+* Introduction to Embeddings with the OpenAI API
