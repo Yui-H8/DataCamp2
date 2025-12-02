@@ -5,3 +5,8 @@ Large Language Models (LLMs) are being integrated into computers, phones, and so
 
 ---
 ### Loading PDF files for RAG
+To begin implementing Retrieval Augmented Generation (RAG), you'll first need to load the documents that the model will access. These documents can come from a variety of sources, and LangChain supports document loaders for many of them.
+
+In this exercise, you'll use a document loader to load a PDF document containing the paper, Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks by Lewis et al. (2021). This file is available for you as 'rag_paper.pdf'.
+
+Note: pypdf, a dependency for loading PDF documents in LangChain, has already been installed for you.
