@@ -10,3 +10,6 @@ To begin implementing Retrieval Augmented Generation (RAG), you'll first need to
 In this exercise, you'll use a document loader to load a PDF document containing the paper, Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks by Lewis et al. (2021). This file is available for you as 'rag_paper.pdf'.
 
 Note: pypdf, a dependency for loading PDF documents in LangChain, has already been installed for you.
+* Import the appropriate class for loading PDF documents in LangChain.
+* Create a document loader for the 'rag_paper.pdf' document.
+* Load the document into memory to view the contents of the first document, or page.
