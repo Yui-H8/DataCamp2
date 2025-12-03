@@ -87,3 +87,7 @@ If you're not familiar with HTML, it's a markup language for creating web pages.
 </html>
 ```
 In this exercise, you'll load an HTML file taken containing a DataCamp blog post webpage. The necessary classes have already been imported for you.
+* Use the UnstructuredHTMLLoader class to load the datacamp-blog.html file in the current directory.
+* Load the documents into memory.
+* Print the first document's page content.
+* Print the first document's metadata.
