@@ -73,3 +73,17 @@ In [1]:
 *Great work! PDFs are incredibly common in business and academia, and with a RAG workflow, you can start having conversations with them!*
 
 ### Loading HTML files for RAG
+'s possible to load documents from many different formats, including complex formats like HTML.
+
+If you're not familiar with HTML, it's a markup language for creating web pages. Here's a small example:
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Heading</h2>
+  <p>Here's some text and an image below:</p>
+  <img src="image.jpg" alt="..." width="104" height="142">
+</body>
+</html>
+```
+In this exercise, you'll load an HTML file taken containing a DataCamp blog post webpage. The necessary classes have already been imported for you.
