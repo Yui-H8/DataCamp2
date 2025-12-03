@@ -70,3 +70,4 @@ combine masked language models [8] with a differentiable retriever, have shown p
 arXiv:2005.11401v4  [cs.CL]  12 Apr 2021' metadata={'source': 'rag_paper.pdf', 'page': 0}
 In [1]:
 ```
+*Great work! PDFs are incredibly common in business and academia, and with a RAG workflow, you can start having conversations with them!*
