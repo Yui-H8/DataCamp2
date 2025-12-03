@@ -13,6 +13,6 @@ Note: pypdf, a dependency for loading PDF documents in LangChain, has already be
 * Import the appropriate class for loading PDF documents in LangChain.
 * Create a document loader for the 'rag_paper.pdf' document.
 * Load the document into memory to view the contents of the first document, or page.
-> Hint
-> The PyPDFLoader class can load PDFs from a given file path.
+> Hint    
+> The PyPDFLoader class can load PDFs from a given file path.    
 > Load the document into memory with the .load() method.
