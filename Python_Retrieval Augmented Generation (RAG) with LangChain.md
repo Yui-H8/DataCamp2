@@ -16,3 +16,14 @@ Note: pypdf, a dependency for loading PDF documents in LangChain, has already be
 > Hint    
 > The PyPDFLoader class can load PDFs from a given file path.    
 > Load the document into memory with the .load() method.
+```pyrhon
+# Import library
+from langchain_community.document_loaders import PyPDFLoader
+
+# Create a document loader for rag_paper.pdf
+loader = PyPDFLoader('rag_paper.pdf')
+
+# Load the document
+data = loader.load()
+print(data[0])
+```
