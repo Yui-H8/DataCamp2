@@ -91,6 +91,6 @@ In this exercise, you'll load an HTML file taken containing a DataCamp blog post
 * Load the documents into memory.
 * Print the first document's page content.
 * Print the first document's metadata.
-> Hint
+> Hint    
 > To access a document loader's metadata, access its .metadata attribute.    
 > To access a document loader's content, use the .page_content attribute
