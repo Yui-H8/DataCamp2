@@ -94,3 +94,16 @@ In this exercise, you'll load an HTML file taken containing a DataCamp blog post
 > Hint    
 > To access a document loader's metadata, access its .metadata attribute.    
 > To access a document loader's content, use the .page_content attribute
+```python
+# Create a document loader for unstructured HTML
+loader = UnstructuredHTMLLoader("datacamp-blog.html")
+
+# Load the document
+data = loader.load()
+
+# Print the first document's content
+print(data[0].page_content)
+
+# Print the first document's metadata
+print(data[0].metadata)
+```
