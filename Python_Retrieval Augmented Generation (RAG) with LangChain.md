@@ -108,3 +108,6 @@ print(data[0].page_content)
 print(data[0].metadata)
 ```
 *You star! You could combine web scraping and LangChain to create a RAG workflow that allows you to speak to webpages. Imagine that! Head on over to the next video to learn about the next step in setting-up a RAG workflow: document splitting!*
+
+---
+### Getting started with text splitting
