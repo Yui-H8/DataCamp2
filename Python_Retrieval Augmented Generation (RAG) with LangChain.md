@@ -140,3 +140,6 @@ print([len(chunk) for chunk in chunks])
 *Well done! CharacterTextSplitter's strength is in its simplicity, but splitting this way can result in meaningless chunks and loss of context between chunks. Additionally, CharacterTextSplitter can fail to create chunks smaller than chunk_size, so let's move on to a method that can help mitigate that risk: RecursiveCharacterTextSplitter.*
 
 ### Recursively splitting documents
+Splitting on a single character is simple and predictable, but it often produces sub-optimal chunks. In this exercise, you'll apply recursive character splitting to split the Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks paper you loaded in a earlier exercise.
+
+Recall that recursive character splitting iterates over a list of characters, splitting on each in turn to see if chunks can be created beneath the chunk_size limit.
