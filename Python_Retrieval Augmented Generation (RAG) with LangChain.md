@@ -137,3 +137,5 @@ print([len(chunk) for chunk in chunks])
     ['RAG (retrieval augmented generation) is an advanced NLP model that combines retrieval mechanisms with generative capabilities', 'RAG aims to improve the accuracy and relevance of its outputs by grounding responses in precise, contextually appropriate data']
     [125, 126]
 ```
+*Well done! CharacterTextSplitter's strength is in its simplicity, but splitting this way can result in meaningless chunks and loss of context between chunks. Additionally, CharacterTextSplitter can fail to create chunks smaller than chunk_size, so let's move on to a method that can help mitigate that risk: RecursiveCharacterTextSplitter.*
+
