@@ -132,3 +132,8 @@ chunks = text_splitter.split_text(text)
 print(chunks)
 print([len(chunk) for chunk in chunks])
 ```
+```
+<script.py> output:
+    ['RAG (retrieval augmented generation) is an advanced NLP model that combines retrieval mechanisms with generative capabilities', 'RAG aims to improve the accuracy and relevance of its outputs by grounding responses in precise, contextually appropriate data']
+    [125, 126]
+```
