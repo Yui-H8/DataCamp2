@@ -111,3 +111,4 @@ print(data[0].metadata)
 
 ---
 ### Getting started with text splitting
+Time to start splitting! You've been provided with a statement about RAG stored in the string variable text. Your job is to split this string on occurrences of the '.' character. Take a look at the splitting results to see how this strategy performed.
