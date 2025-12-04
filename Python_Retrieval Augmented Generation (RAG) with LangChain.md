@@ -117,3 +117,18 @@ Time to start splitting! You've been provided with a statement about RAG stored 
 > Hint   
 > To split text into chunks based on a specific character, use the CharacterTextSplitter class and the separator argument.   
 > To apply a LangChain splitter to a string, call the .split_text() method.
+```Python
+text = '''RAG (retrieval augmented generation) is an advanced NLP model that combines retrieval mechanisms with generative capabilities. RAG aims to improve the accuracy and relevance of its outputs by grounding responses in precise, contextually appropriate data.'''
+
+# Define a text splitter that splits on the '.' character
+text_splitter = CharacterTextSplitter(
+    separator = '.',
+    chunk_size = 75,  
+    chunk_overlap = 10  
+)
+
+# Split the text using text_splitter
+chunks = text_splitter.split_text(text)
+print(chunks)
+print([len(chunk) for chunk in chunks])
+```
