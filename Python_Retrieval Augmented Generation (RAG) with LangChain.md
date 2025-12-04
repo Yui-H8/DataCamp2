@@ -112,3 +112,5 @@ print(data[0].metadata)
 ---
 ### Getting started with text splitting
 Time to start splitting! You've been provided with a statement about RAG stored in the string variable text. Your job is to split this string on occurrences of the '.' character. Take a look at the splitting results to see how this strategy performed.
+* Define a LangChain character text splitter that will split on the '.' character with a chunk size of 75 and chunk overlap of 10.
+* Split text using the text_splitter you defined.
