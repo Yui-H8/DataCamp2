@@ -145,3 +145,6 @@ Splitting on a single character is simple and predictable, but it often produces
 Recall that recursive character splitting iterates over a list of characters, splitting on each in turn to see if chunks can be created beneath the chunk_size limit.
 * Define a LangChain recursive character text splitter to split recursively through the character list ['\n', '.', ' ', ''] with a chunk size of 75 and chunk overlap of 10.
 * Split document using the text_splitter you defined and an appropriate method.
+> Hint
+> To split text into chunks based on a specific character, use the RecursiveCharacterTextSplitter class and its separators argument.
+> To apply a LangChain splitter to a loaded document, call the .split_documents() method.
