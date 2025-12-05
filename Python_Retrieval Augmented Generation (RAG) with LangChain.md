@@ -148,3 +148,19 @@ Recall that recursive character splitting iterates over a list of characters, sp
 > Hint   
 > To split text into chunks based on a specific character, use the RecursiveCharacterTextSplitter class and its separators argument.   
 > To apply a LangChain splitter to a loaded document, call the .split_documents() method.
+```python
+loader = PyPDFLoader("rag_paper.pdf")
+document = loader.load()
+
+# Define a text splitter that splits recursively through the character list
+text_splitter = RecursiveCharacterTextSplitter(
+    separators = ['\n', '.', ' ', ''],
+    chunk_size=75,  
+    chunk_overlap=10  
+)
+
+# Split the document using text_splitter
+chunks = text_splitter.split_documents(document)
+print(chunks)
+print([len(chunk.page_content) for chunk in chunks])
+```
