@@ -11,3 +11,13 @@ Creating and using an OpenAI API key is not required in this exercise. You can l
 > Hint
 > The OpenAIEmbeddings class can be used to access embedding models from OpenAI.
 > The Chroma.from_documents() method can be used to embed and store document chunks in one step
+```python
+# Initialize the OpenAI embedding model
+embedding_model = OpenAIEmbeddings(api_key="<OPENAI_API_TOKEN>", model='text-embedding-3-small')
+
+# Create a Chroma vector store and embed the chunks
+vector_store = Chroma.from_documents(
+    documents=chunks,        # 分割済み文書を渡す
+    embedding=embedding_model # Embeddingモデルを渡す
+)
+```
