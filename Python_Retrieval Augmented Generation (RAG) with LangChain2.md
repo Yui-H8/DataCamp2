@@ -8,3 +8,6 @@ The chunks you created from splitting the Retrieval-Augmented Generation for Kno
 Creating and using an OpenAI API key is not required in this exercise. You can leave the <OPENAI_API_TOKEN> placeholder, which will send valid requests to the OpenAI API.
 * Initialize the default embedding model from OpenAI.
 * Embed the document chunks using embedding_model and store them in a Chroma vector database.
+> Hint
+> The OpenAIEmbeddings class can be used to access embedding models from OpenAI.
+> The Chroma.from_documents() method can be used to embed and store document chunks in one step
