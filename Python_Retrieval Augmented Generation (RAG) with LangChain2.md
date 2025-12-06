@@ -65,3 +65,6 @@ Context: {context}
 Question: {question}
 ```
 The vector_store of embedded document chunks that you created previously has also been loaded for you, along with all of the libraries and classes required.
+* Convert the Chroma vector_store into a retriever object for use in the LCEL retrieval chain.
+* Create the LCEL retrieval chain to combine the retriever, the prompt_template, the llm, and a string output parser so it can answer input questions.
+* Invoke the chain on the question provided.
