@@ -50,3 +50,6 @@ chain = prompt_template | llm
 # Invoke the chain on the inputs provided
 print(chain.invoke({"context": "DataCamp's RAG course was created by Meri Nova and James Chapman!", "question": "Who created DataCamp's RAG course?"}))
 ```
+```
+content="DataCamp's RAG course was created by Meri Nova and James Chapman." additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 16, 'prompt_tokens': 62, 'total_tokens': 78, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_aa07c96156', 'finish_reason': 'stop', 'logprobs': None} id='run-71d750b9-ff59-469d-ac9d-ea80c87756d4-0' usage_metadata={'input_tokens': 62, 'output_tokens': 16, 'total_tokens': 78, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+```
