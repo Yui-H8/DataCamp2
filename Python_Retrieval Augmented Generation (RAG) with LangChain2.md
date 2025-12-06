@@ -22,3 +22,6 @@ vector_store = Chroma.from_documents(
 )
 ```
 *You did it! With your document chunks embedded and stored, everything is in place to connect your vector store to an LLM and begin talking to your documents. Head on over to the next video to learn how to do this final step!*
+
+---
+### Creating the retrieval prompt
