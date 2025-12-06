@@ -69,6 +69,6 @@ The vector_store of embedded document chunks that you created previously has als
 * Create the LCEL retrieval chain to combine the retriever, the prompt_template, the llm, and a string output parser so it can answer input questions.
 * Invoke the chain on the question provided.
 > Hint    
-> The .as_retriever() method is used to convert vector stores into retrievers; this method can take a dictionary of search_kwargs to change the retriever's configuration.
-> RunnablePassthrough() is used to indicate where an input will enter the chain.
+> The .as_retriever() method is used to convert vector stores into retrievers; this method can take a dictionary of search_kwargs to change the retriever's configuration.     
+> RunnablePassthrough() is used to indicate where an input will enter the chain.     
 > StrOutputParser() should be the final step in the chain to convert the model response into a string.
