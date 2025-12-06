@@ -28,3 +28,6 @@ vector_store = Chroma.from_documents(
 A key piece of any RAG implementation is the retrieval prompt. In this exercise, you'll create a chat prompt template for your retrieval chain and test that the LLM is able to respond using only the context provided.
 
 An llm has already been defined for you to use.
+* Convert the string prompt into a reusable chat prompt template.
+* Create an LCEL chain to integrate the prompt template with the llm provided.
+* Invoke the chain on the inputs provided to see if you model can respond using only the context provided.
