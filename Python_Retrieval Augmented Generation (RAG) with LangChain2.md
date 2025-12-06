@@ -31,3 +31,6 @@ An llm has already been defined for you to use.
 * Convert the string prompt into a reusable chat prompt template.
 * Create an LCEL chain to integrate the prompt template with the llm provided.
 * Invoke the chain on the inputs provided to see if you model can respond using only the context provided.
+> Hint
+> The the ChatPromptTemplate.from_template() method can be used to convert prompt strings into chat prompt templates.
+> When integrating prompt templates and LLMs using LCEL (LangChain Expression Language), start with the prompt template.
