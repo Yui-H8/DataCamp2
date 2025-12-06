@@ -34,3 +34,19 @@ An llm has already been defined for you to use.
 > Hint    
 > The the ChatPromptTemplate.from_template() method can be used to convert prompt strings into chat prompt templates.    
 > When integrating prompt templates and LLMs using LCEL (LangChain Expression Language), start with the prompt template.
+```python
+prompt = """
+Use the only the context provided to answer the following question. If you don't know the answer, reply that you are unsure.
+Context: {context}
+Question: {question}
+"""
+
+# Convert the string into a chat prompt template
+prompt_template = ChatPromptTemplate.from_template(prompt)
+
+# Create an LCEL chain to test the prompt
+chain = prompt_template | llm
+
+# Invoke the chain on the inputs provided
+print(chain.invoke({"context": "DataCamp's RAG course was created by Meri Nova and James Chapman!", "question": "Who created DataCamp's RAG course?"}))
+```
