@@ -56,3 +56,12 @@ content="DataCamp's RAG course was created by Meri Nova and James Chapman." addi
 *You're doing great! Your test has provided confidence that the model is able to provide responses based purely on the context provided. You might extend this to create a dataset of test questions to evaluate your prompt/model combination. Now for the final step: creating a retrieval chain that will connect your vector store, prompt template, and LLM. You've got this!*
 
 ### Building the retrieval chain
+Now for the finale of the chapter! You'll create a retrieval chain using LangChain's Expression Language (LCEL). This will combine the vector store containing your embedded document chunks from the RAG paper you loaded earlier, a prompt template, and an LLM so you can begin talking to your documents.
+
+Here's a reminder of the prompt_template you created in the previous exercise, and which is available for you to use:
+```
+Use the only the context provided to answer the following question. If you don't know the answer, reply that you are unsure.
+Context: {context}
+Question: {question}
+```
+The vector_store of embedded document chunks that you created previously has also been loaded for you, along with all of the libraries and classes required.
