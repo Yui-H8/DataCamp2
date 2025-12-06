@@ -25,3 +25,6 @@ vector_store = Chroma.from_documents(
 
 ---
 ### Creating the retrieval prompt
+A key piece of any RAG implementation is the retrieval prompt. In this exercise, you'll create a chat prompt template for your retrieval chain and test that the LLM is able to respond using only the context provided.
+
+An llm has already been defined for you to use.
