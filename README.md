@@ -19,6 +19,7 @@ https://app.datacamp.com/learn/courses/
 * Developing LLM Applications with LangChain
 * Dimensionality Reduction in Python
 * Retrieval Augmented Generation (RAG) with LangChain
+* End-to-End RAG with Weaviate
 
 ---
 ### AWS
