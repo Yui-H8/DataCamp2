@@ -6,7 +6,8 @@ Learn how to go from simple LLM calls to multi-modal RAG workflows with Weaviate
 
 ---
 ### Text Generation with LLMs
-
+**Large Language Models (LLMs)**
+Large Language Models (LLMs) is a type of Generative AI model that can generate text based on the input/prompt it receives.
 
 * Ask the LLM the general knowledge question.
 * Ask the LLM about Weaviate's work-from-home policy.
