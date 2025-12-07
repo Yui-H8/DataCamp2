@@ -130,3 +130,6 @@ The authors mentioned in the provided context are:
 38. Fabrizio Silvestri
 39. Sebastian Riedel
 ```
+*RAG implementations like this have countless applications; from customer service chatbots that can access support articles, to study assistants that can help you understand technical documentation.
+
+This is only the beginning! Head on over to Chapter 2 to learn about more sophisticated techniques for document splitting, embedding, and retrieval. See you there!*
