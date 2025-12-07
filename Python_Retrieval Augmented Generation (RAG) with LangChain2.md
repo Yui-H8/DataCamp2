@@ -72,3 +72,18 @@ The vector_store of embedded document chunks that you created previously has als
 > The .as_retriever() method is used to convert vector stores into retrievers; this method can take a dictionary of search_kwargs to change the retriever's configuration.     
 > RunnablePassthrough() is used to indicate where an input will enter the chain.     
 > StrOutputParser() should be the final step in the chain to convert the model response into a string.
+```python
+# Convert the vector store into a retriever
+retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 2})
+
+# Create the LCEL retrieval chain
+chain = (
+    {"context": retriever, "question": RunnablePassthrough()}
+    | prompt_template
+    | llm
+    | StrOutputParser()
+)
+
+# Invoke the chain
+print(chain.invoke("Who are the authors?"))
+```
