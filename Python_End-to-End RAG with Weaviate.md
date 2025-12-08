@@ -57,7 +57,9 @@ no_context_response = client.chat.completions.create(
 
 print(no_context_response.choices[0].message.content)
 ```
-
+```
+I'm sorry, but I don't have access to information about Weaviate's flexible work policy as of September 2025.
+```
 
 
 
