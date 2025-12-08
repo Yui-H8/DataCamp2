@@ -43,6 +43,34 @@ A model's knowledge could be incomplete as a result of limited training data. Or
 
 Complete the LLM call to answer the question: What is Weaviate's flexible work policy as of September, 2025?
 ```python
+no_context_response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {
+            "role": "user",
+            "content": """
+                Answer only. What is Weaviate's flexible work policy as of September, 2025?
+            """,
+        }
+    ],
+)
+
+print(no_context_response.choices[0].message.content)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+```python
 weaviate_wfh_facts = """
 Weaviate is a fully remote company with people living and working across the world.
 It provides a home office budget, flexible time off, and local benefits.
