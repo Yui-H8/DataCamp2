@@ -34,3 +34,6 @@ response = client.chat.completions.create(
 
 print(response.choices[0].message.content)
 ```
+```
+The capital of France is Paris.
+```
