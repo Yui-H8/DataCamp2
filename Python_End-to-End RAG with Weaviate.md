@@ -98,3 +98,5 @@ Weaviate's website
  in this case), we were able to get the correct answer.
 
 This is great, but it would be a pain to do this manually every time we wanted to ask a question. So, how can we automate this? That's where vector embeddings come in.
+
+*And you're off the mark! For LLMs, context is everything—they can't answer confidently or accurately to things they aren't aware of from their training data or prompt.*
