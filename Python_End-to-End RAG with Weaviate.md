@@ -37,3 +37,8 @@ print(response.choices[0].message.content)
 ```
 The capital of France is Paris.
 ```
+LLMs (Large Language Models) are trained on vast amounts of text data. However, their knowledge is not complete.
+
+A model's knowledge could be incomplete as a result of limited training data. Or, the knowledge could have become out of date.
+
+Complete the LLM call to answer the question: What is Weaviate's flexible work policy as of September, 2025?
