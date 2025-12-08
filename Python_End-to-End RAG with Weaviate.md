@@ -66,3 +66,6 @@ context_response = client.chat.completions.create(
 
 print(context_response.choices[0].message.content)
 ```
+```
+Weaviate has a fully remote work policy, providing flexible time off and allowing employees to work from anywhere in the world.
+```
