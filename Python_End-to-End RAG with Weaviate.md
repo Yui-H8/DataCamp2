@@ -12,3 +12,22 @@ Large Language Models (LLMs) is a type of Generative AI model that can generate 
 * Ask the LLM the general knowledge question.
 * Ask the LLM about Weaviate's work-from-home policy.
 * Ask the same question again, but this time, integrating additional context into the prompt, stored in weaviate_wfh_facts.
+```python
+from openai import OpenAI
+
+client = OpenAI()
+
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {
+            "role": "user",
+            "content": """
+                What is the capital of France?
+            """,
+        }
+    ],
+)
+
+print(response.choices[0].message.content)
+```
