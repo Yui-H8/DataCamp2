@@ -69,3 +69,8 @@ print(context_response.choices[0].message.content)
 ```
 Weaviate has a fully remote work policy, providing flexible time off and allowing employees to work from anywhere in the world.
 ```
+By providing additional context from a source (
+Weaviate's website
+ in this case), we were able to get the correct answer.
+
+This is great, but it would be a pain to do this manually every time we wanted to ask a question. So, how can we automate this? That's where vector embeddings come in.
