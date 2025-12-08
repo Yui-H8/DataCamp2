@@ -60,17 +60,11 @@ print(no_context_response.choices[0].message.content)
 ```
 I'm sorry, but I don't have access to information about Weaviate's flexible work policy as of September 2025.
 ```
+The model should answer that it does not know. This is a trivial demonstration, but the same issue exists in all domains, such as in science, law, business, or even personal use. So, how can we improve on this?
 
+One solution is to provide the model with additional "context" to help it answer questions. Here's an example:
 
-
-
-
-
-
-
-
-
-
+Complete the LLM call to ask the same question again, but this time, integrating context into the prompt, stored in weaviate_wfh_facts.
 
 ```python
 weaviate_wfh_facts = """
