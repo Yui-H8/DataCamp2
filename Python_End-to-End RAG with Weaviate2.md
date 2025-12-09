@@ -34,3 +34,16 @@ The output embedding is a list of numbers. It is also called a "vector" as a gen
 Multiple embeddings can be generated at once. This is usually more efficient than generating them one by one.
 
 Embed the strings in the texts list in a single embedding API request, and compare the length and numbers of each embedding vector.
+```Python
+# Multiple embeddings
+texts = [
+    "Weaviate is a fully remote company with people living and working across the world.",
+    "Weaviate provides a home office budget, flexible time off, and local benefits.",
+    "Weaviate also allows its employees to connect with colleagues worldwide and enjoy our annual company trip."
+]
+
+batch_response = client.embeddings.create(
+    input=texts,
+    model="text-embedding-3-small"
+)
+```
