@@ -19,3 +19,4 @@ response = client.embeddings.create(
     model="text-embedding-3-small",
 )
 ```
+Let's inspect the embedding:
