@@ -8,3 +8,7 @@
   
 **What are vector embeddings?**    
 Vector embeddings represent semantic meaning as a set of numbers. The key concept of vector embeddings is that similar meanings or concepts are close together in this space.
+```python
+from openai import OpenAI
+client = OpenAI()
+```
