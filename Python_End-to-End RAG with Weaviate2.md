@@ -47,3 +47,10 @@ batch_response = client.embeddings.create(
     model="text-embedding-3-small"
 )
 ```
+```python
+# Inspect the embeddings
+for i, embedding in enumerate(batch_response.data):
+    print(f"Source text: {texts[i]}")
+    print(f"Embedding {i+1}: {embedding.embedding[:5]}...")  # Print first 10 elements of each embedding
+    print(f"Length: {len(embedding.embedding)}\n")
+```
