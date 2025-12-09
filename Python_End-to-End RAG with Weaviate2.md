@@ -20,3 +20,7 @@ response = client.embeddings.create(
 )
 ```
 Let's inspect the embedding:
+```python
+print(f"Embedding length: {len(response.data[0].embedding)}")
+print(f"Embedding: {response.data[0].embedding[:5]}...")
+```
