@@ -28,3 +28,9 @@ print(f"Embedding: {response.data[0].embedding[:5]}...")
 Embedding length: 1536
 Embedding: [0.0029289894737303257, 0.02506072074174881, 0.05786540359258652, 0.06938133388757706, -0.003239748068153858]...
 ```
+The output embedding is a list of numbers. It is also called a "vector" as a generic name for multi-dimensional numbers.
+
+**Generating multiple embeddings**    
+Multiple embeddings can be generated at once. This is usually more efficient than generating them one by one.
+
+Embed the strings in the texts list in a single embedding API request, and compare the length and numbers of each embedding vector.
