@@ -24,3 +24,7 @@ Let's inspect the embedding:
 print(f"Embedding length: {len(response.data[0].embedding)}")
 print(f"Embedding: {response.data[0].embedding[:5]}...")
 ```
+```
+Embedding length: 1536
+Embedding: [0.0029289894737303257, 0.02506072074174881, 0.05786540359258652, 0.06938133388757706, -0.003239748068153858]...
+```
