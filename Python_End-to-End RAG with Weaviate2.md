@@ -12,3 +12,10 @@ Vector embeddings represent semantic meaning as a set of numbers. The key concep
 from openai import OpenAI
 client = OpenAI()
 ```
+```Python
+# Single embedding
+response = client.embeddings.create(
+    input="Weaviate is a fully remote company with people living and working across the world.",
+    model="text-embedding-3-small",
+)
+```
