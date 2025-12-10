@@ -72,3 +72,23 @@ All embeddings from the same model configuration have the same length.
 As a demonstration, let's try a setup with a different parameter to generate embeddings (note the dimensions parameter).
 
 Embed the texts list again, but this time, change the model output dimensions to 512.
+```python
+# Multiple embeddings
+texts = [
+    "Weaviate is a fully remote company with people living and working across the world.",
+    "Weaviate provides a home office budget, flexible time off, and local benefits.",
+    "Weaviate also allows its employees to connect with colleagues worldwide and enjoy our annual company trip."
+]
+
+batch_dim_response = client.embeddings.create(
+    input=texts,
+    model="text-embedding-3-small",
+    dimensions = 512
+)
+
+# Inspect the embeddings
+for i, embedding in enumerate(batch_dim_response.data):
+    print(f"Source text: {texts[i]}")
+    print(f"Embedding {i+1}: {embedding.embedding[:5]}...")  # Print first few elements of each embedding
+    print(f"Length: {len(embedding.embedding)}\n")
+```
