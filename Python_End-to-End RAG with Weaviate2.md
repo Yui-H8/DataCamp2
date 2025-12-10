@@ -120,3 +120,5 @@ An embedding model is like a "translator" that translates the meaning of text in
 
 **Metrics for comparing embeddings**　　
 Embeddings can be compared for their semantic similarity. Typically, a "cosine" distance is used for this.
+
+Embed the two texts provided about Weaviate and compute the cosine distance between the two vectors.
