@@ -122,3 +122,19 @@ An embedding model is like a "translator" that translates the meaning of text in
 Embeddings can be compared for their semantic similarity. Typically, a "cosine" distance is used for this.
 
 Embed the two texts provided about Weaviate and compute the cosine distance between the two vectors.
+```pyton
+from openai import OpenAI
+
+client = OpenAI()
+
+response = client.embeddings.create(
+    input=[
+        "Weaviate is a fully remote company with people living and working across the world.",
+        "Weaviate provides a home office budget, flexible time off, and local benefits.",
+    ],
+    model="text-embedding-3-small",
+)
+
+e1 = response.data[0].embedding
+e2 = response.data[1].embedding
+```
