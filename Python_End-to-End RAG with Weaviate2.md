@@ -108,3 +108,5 @@ Length: 512
 Each one of these embedding vectors is still the same length, but that length is now 512 instead of 1536
 
 An embedding model is like a "translator" that translates the meaning of text into a set of numbers. Each model setup will generate outputs in its own different "language" of numbers.
+
+*Great job! Now that you learned to encode the semantic meaning of these texts, you're ready to begin comparing embeddings to find which ones are the most similar. This is what powers the retrieval part of the RAG workflow!*
