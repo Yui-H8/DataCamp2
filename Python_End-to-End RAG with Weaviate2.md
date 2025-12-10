@@ -138,3 +138,4 @@ response = client.embeddings.create(
 e1 = response.data[0].embedding
 e2 = response.data[1].embedding
 ```
+We can use scipy to compare these embeddings:
