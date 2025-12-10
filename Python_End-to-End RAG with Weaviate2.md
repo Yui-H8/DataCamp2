@@ -67,3 +67,8 @@ Source text: Weaviate also allows its employees to connect with colleagues world
 Embedding 3: [0.014970372430980206, 0.005227535497397184, 0.03144584596157074, 0.05697879567742348, -0.011086676269769669]...
 Length: 1536
 ```
+All embeddings from the same model configuration have the same length.
+
+As a demonstration, let's try a setup with a different parameter to generate embeddings (note the dimensions parameter).
+
+Embed the texts list again, but this time, change the model output dimensions to 512.
