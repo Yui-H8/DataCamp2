@@ -145,3 +145,6 @@ from scipy.spatial.distance import cosine
 e1_e2_distance = cosine(e1, e2)
 print(f"Cosine distance: {e1_e2_distance:.3f}")
 ```
+```
+Cosine distance: 0.310
+```
