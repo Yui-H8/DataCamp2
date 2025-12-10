@@ -117,3 +117,6 @@ An embedding model is like a "translator" that translates the meaning of text in
 * Embed a third text about a different topic, compute the cosine distance to e1, and compare this distance to the previous distance.
 * Embed the strings in texts along with the query_text variable, loop over embeddings, calculating the distance between the embedding and query_embedding, and sort the distances to find the top 2 most similar texts.
 * Return all of the texts with a cosine distance less than max_distance.
+
+**Metrics for comparing embeddings**　　
+Embeddings can be compared for their semantic similarity. Typically, a "cosine" distance is used for this.
