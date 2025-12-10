@@ -92,3 +92,16 @@ for i, embedding in enumerate(batch_dim_response.data):
     print(f"Embedding {i+1}: {embedding.embedding[:5]}...")  # Print first few elements of each embedding
     print(f"Length: {len(embedding.embedding)}\n")
 ```
+```
+Source text: Weaviate is a fully remote company with people living and working across the world.
+Embedding 1: [0.004319458268582821, 0.03695770725607872, 0.0853356346487999, 0.10231848061084747, -0.004777742084115744]...
+Length: 512
+
+Source text: Weaviate provides a home office budget, flexible time off, and local benefits.
+Embedding 2: [-0.030071353539824486, 0.030708981677889824, 0.15105609595775604, 0.0928879827260971, -0.025793075561523438]...
+Length: 512
+
+Source text: Weaviate also allows its employees to connect with colleagues worldwide and enjoy our annual company trip.
+Embedding 3: [0.021647470071911812, 0.007643715478479862, 0.04547329992055893, 0.0823887512087822, -0.016065416857600212]...
+Length: 512
+```
