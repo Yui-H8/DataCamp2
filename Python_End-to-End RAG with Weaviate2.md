@@ -105,3 +105,6 @@ Source text: Weaviate also allows its employees to connect with colleagues world
 Embedding 3: [0.021647470071911812, 0.007643715478479862, 0.04547329992055893, 0.0823887512087822, -0.016065416857600212]...
 Length: 512
 ```
+Each one of these embedding vectors is still the same length, but that length is now 512 instead of 1536
+
+An embedding model is like a "translator" that translates the meaning of text into a set of numbers. Each model setup will generate outputs in its own different "language" of numbers.
