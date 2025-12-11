@@ -149,3 +149,10 @@ print(f"Cosine distance: {e1_e2_distance:.3f}")
 Cosine distance: 0.310
 ```
 Embed a third text about a different topic, compute the cosine distance between e1 and e3, and compare this distance to previous distance.
+```python
+response = client.embeddings.create(input="AcmeCo is a producer of high-quality widgets", model="text-embedding-3-small")
+e3 = response.data[0].embedding
+
+e1_e3_distance = cosine(e1, e3)
+print(f"Cosine distance: {e1_e3_distance:.3f}")
+```
