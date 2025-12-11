@@ -159,3 +159,9 @@ print(f"Cosine distance: {e1_e3_distance:.3f}")
 ```
 Cosine distance: 0.744
 ```
+
+You can see that the more similar the meanings, the lower the cosine distance.
+
+This makes embeddings great for information retrieval. These distances can be used to rank documents by their relevance to a query.
+
+Embed the strings in texts along with the query_text variable, loop over each embedded text (embeddings), calculating the distance between the embedding and query_embedding, and sort the distances to find the top 2 most similar texts.
