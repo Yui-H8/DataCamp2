@@ -184,3 +184,12 @@ query_response = client.embeddings.create(input=query_text, model="text-embeddin
 query_embedding = query_response.data[0].embedding
 ```
 Calculate the cosine distance between the query and each document:
+```python
+# Calculate cosine distances between the last embedding (query) and the others
+distances = []
+for i, embedding in enumerate(embeddings):
+    distance = cosine(query_embedding, embedding)  # Cosine distance
+    distances.append((texts[i], distance))
+
+print(distances)
+```
