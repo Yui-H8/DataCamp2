@@ -178,3 +178,8 @@ response = client.embeddings.create(input=texts, model="text-embedding-3-small")
 embeddings = [item.embedding for item in response.data]
 ```
 Embed the query:
+```python
+query_text = "Weaviate work from home policy"
+query_response = client.embeddings.create(input=query_text, model="text-embedding-3-small")
+query_embedding = query_response.data[0].embedding
+```
