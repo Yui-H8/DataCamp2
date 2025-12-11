@@ -183,3 +183,4 @@ query_text = "Weaviate work from home policy"
 query_response = client.embeddings.create(input=query_text, model="text-embedding-3-small")
 query_embedding = query_response.data[0].embedding
 ```
+Calculate the cosine distance between the query and each document:
