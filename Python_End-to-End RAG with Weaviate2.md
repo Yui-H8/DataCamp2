@@ -148,3 +148,4 @@ print(f"Cosine distance: {e1_e2_distance:.3f}")
 ```
 Cosine distance: 0.310
 ```
+Embed a third text about a different topic, compute the cosine distance between e1 and e3, and compare this distance to previous distance.
