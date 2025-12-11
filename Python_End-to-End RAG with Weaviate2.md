@@ -165,7 +165,16 @@ You can see that the more similar the meanings, the lower the cosine distance.
 This makes embeddings great for information retrieval. These distances can be used to rank documents by their relevance to a query.
 
 Embed the strings in texts along with the query_text variable, loop over each embedded text (embeddings), calculating the distance between the embedding and query_embedding, and sort the distances to find the top 2 most similar texts.
+```python
+texts = [
+    "AcmeCo is a producer of high-quality widgets",
+    "AcmeCo is a hybrid workplace, requiring employees to be in the office at least 3 days a week",
+    "Weaviate is a fully remote company with people living and working across the world.",
+    "Weaviate provides a home office budget, flexible time off, and local benefits.",
+    "Weaviate also allows its employees to connect with colleagues worldwide and enjoy our annual company trip.",
+]
 
-
-
+response = client.embeddings.create(input=texts, model="text-embedding-3-small")
+embeddings = [item.embedding for item in response.data]
+```
 Embed the query:
