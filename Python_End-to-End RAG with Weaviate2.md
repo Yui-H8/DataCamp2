@@ -156,3 +156,6 @@ e3 = response.data[0].embedding
 e1_e3_distance = cosine(e1, e3)
 print(f"Cosine distance: {e1_e3_distance:.3f}")
 ```
+```
+Cosine distance: 0.744
+```
