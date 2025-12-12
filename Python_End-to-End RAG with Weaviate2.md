@@ -197,3 +197,7 @@ print(distances)
 [('AcmeCo is a producer of high-quality widgets', 0.7889421930731979), ('AcmeCo is a hybrid workplace, requiring employees to be in the office at least 3 days a week', 0.6031844472646926), ('Weaviate is a fully remote company with people living and working across the world.', 0.3271398828066763), ('Weaviate provides a home office budget, flexible time off, and local benefits.', 0.29224175408450226), ('Weaviate also allows its employees to connect with colleagues worldwide and enjoy our annual company trip.', 0.442520047441344)]
 ```
 With these, you can retrieve the relevant context. From this, you can narrow down to the top-k most similar documents:
+```python
+# Sort by distance value
+distances.sort(key=lambda x: x[1])
+```
