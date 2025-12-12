@@ -205,3 +205,8 @@ distances.sort(key=lambda x: x[1])
 # Get the top 2 most similar texts
 retrieved_texts = [text for text, _ in distances[:2]]
 ```
+```python
+# Get text
+max_distance = 0.6  # Adjust this threshold as needed
+retrieved_texts = [text for text, d in distances if d < max_distance]
+```
