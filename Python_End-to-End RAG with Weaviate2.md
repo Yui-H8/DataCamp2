@@ -230,3 +230,5 @@ Retrieved texts below distance threshold (0.6) :
 Both methods are useful, depending on your circumstances. For the rest of our course, we'll use the top-k most similar documents.
 
 This ability to find similar objects is the "retrieval" part of "retrieval-augmented generation" (RAG). Next, you will see how the rest of the RAG pipeline works.
+
+*Nice job! What you've done here is perform the retrieval part of the RAG process (the "R") by-hand. Let's put it all together and complete the full workflow with the "A" and "G".*
