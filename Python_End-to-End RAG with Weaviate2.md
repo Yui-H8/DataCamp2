@@ -201,15 +201,22 @@ With these, you can retrieve the relevant context. From this, you can narrow dow
 # Sort by distance value
 distances.sort(key=lambda x: x[1])
 ```
-Or list all documents within a certain distance threshold:
 
-Return all of the texts with a cosine distance less than max_distance.
 ```
 # Get the top 2 most similar texts
 retrieved_texts = [text for text, _ in distances[:2]]
 ```
+Or list all documents within a certain distance threshold:
+
+Return all of the texts with a cosine distance less than max_distance.
 ```python
 # Get text
 max_distance = 0.6  # Adjust this threshold as needed
 retrieved_texts = [text for text, d in distances if d < max_distance]
+```
+```python
+
+print(f"Retrieved texts below distance threshold ({max_distance}) :\n" + "-" * 30)
+for text in retrieved_texts:
+    print(f"- {text}")
 ```
