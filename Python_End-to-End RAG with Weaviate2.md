@@ -220,3 +220,10 @@ print(f"Retrieved texts below distance threshold ({max_distance}) :\n" + "-" * 3
 for text in retrieved_texts:
     print(f"- {text}")
 ```
+```
+Retrieved texts below distance threshold (0.6) :
+------------------------------
+- Weaviate provides a home office budget, flexible time off, and local benefits.
+- Weaviate is a fully remote company with people living and working across the world.
+- Weaviate also allows its employees to connect with colleagues worldwide and enjoy our annual company trip
+```
