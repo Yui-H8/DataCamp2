@@ -227,3 +227,6 @@ Retrieved texts below distance threshold (0.6) :
 - Weaviate is a fully remote company with people living and working across the world.
 - Weaviate also allows its employees to connect with colleagues worldwide and enjoy our annual company trip
 ```
+Both methods are useful, depending on your circumstances. For the rest of our course, we'll use the top-k most similar documents.
+
+This ability to find similar objects is the "retrieval" part of "retrieval-augmented generation" (RAG). Next, you will see how the rest of the RAG pipeline works.
