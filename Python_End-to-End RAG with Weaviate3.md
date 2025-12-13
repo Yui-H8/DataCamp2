@@ -55,3 +55,7 @@ distances.sort(key=lambda x: x[1])
 # Get the top 2 most similar texts
 retrieved_texts = [text for text, _ in distances[:2]]
 ```
+#### Augmentation
+Once we have retrieved the relevant texts, we can augment the original query with this information.
+
+Create a structured prompt that combines the query_text with the retrieved texts (retrieved_texts).
