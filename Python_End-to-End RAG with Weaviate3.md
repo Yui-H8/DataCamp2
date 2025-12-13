@@ -64,3 +64,10 @@ combined_context = query_text + "\n\n" + "\n\n".join(retrieved_texts)
 
 print(combined_context)
 ```
+```
+Weaviate work from home policy
+
+Weaviate provides a home office budget, flexible time off, and local benefits.
+
+Weaviate is a fully remote company with people living and working across the world.
+```
