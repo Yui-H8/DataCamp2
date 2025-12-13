@@ -23,3 +23,35 @@ The R (retrieval) step aims to find documents that are most "on-topic", or relev
 Vector search, which you learned about earlier, is an effective way to do this:
 
 Re-run the code to embed texts and query_text, and retrieve the two most similar texts to the query text.
+```python
+from scipy.spatial.distance import cosine
+from openai import OpenAI
+
+client = OpenAI()
+
+texts = [
+    "AcmeCo is a producer of high-quality widgets",
+    "AcmeCo is a hybrid workplace, requiring employees to be in the office at least 3 days a week",
+    "Weaviate is a fully remote company with people living and working across the world.",
+    "Weaviate provides a home office budget, flexible time off, and local benefits.",
+    "Weaviate also allows its employees to connect with colleagues worldwide and enjoy our annual company trip.",
+]
+
+response = client.embeddings.create(input=texts, model="text-embedding-3-small")
+embeddings = [item.embedding for item in response.data]
+query_text = "Weaviate work from home policy"
+query_response = client.embeddings.create(input=query_text, model="text-embedding-3-small")
+query_embedding = query_response.data[0].embedding
+
+# Calculate cosine distances between the last embedding (query) and the others
+distances = []
+for i, embedding in enumerate(embeddings):
+    distance = cosine(query_embedding, embedding)  # Cosine distance
+    distances.append((texts[i], distance))
+
+# Sort by distance value
+distances.sort(key=lambda x: x[1])
+
+# Get the top 2 most similar texts
+retrieved_texts = [text for text, _ in distances[:2]]
+```
