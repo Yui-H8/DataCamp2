@@ -93,3 +93,4 @@ Weaviate provides a home office budget, flexible time off, and local benefits.
 ============================================================
 Weaviate is a fully remote company with people living and working across the world.
 ```
+Now, we are ready to send the augmented context to the LLM!
