@@ -71,3 +71,6 @@ Weaviate provides a home office budget, flexible time off, and local benefits.
 
 Weaviate is a fully remote company with people living and working across the world.
 ```
+This is a good start, but it could be better structured. One problem is that it's difficult to distinguish between the original query and the retrieved texts.
+
+So, let's format the combined context a bit better to help the model interpret the information:
