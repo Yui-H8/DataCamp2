@@ -84,3 +84,12 @@ Retrieved data:""" + separator + separator.join(retrieved_texts)
 
 print(combined_context)
 ```
+```
+Please answer this question 'Weaviate work from home policy', ONLY using the included information:
+
+Retrieved data:
+============================================================
+Weaviate provides a home office budget, flexible time off, and local benefits.
+============================================================
+Weaviate is a fully remote company with people living and working across the world.
+```
