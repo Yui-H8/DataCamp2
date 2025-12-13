@@ -59,3 +59,8 @@ retrieved_texts = [text for text, _ in distances[:2]]
 Once we have retrieved the relevant texts, we can augment the original query with this information.
 
 Create a structured prompt that combines the query_text with the retrieved texts (retrieved_texts).
+```python
+combined_context = query_text + "\n\n" + "\n\n".join(retrieved_texts)
+
+print(combined_context)
+```
