@@ -126,3 +126,5 @@ You may have noticed that this is a relatively manual process.
 The good news is, we can make this process much simpler, and more scalable, by using an AI-native database such as Weaviate.
 
 Let's take a look at how to do that in the next section.
+
+*You did it! In the next chapter, we'll use Weaviate to orchestrate the RAG process, but the "R", "A", and "G" will still be going on under-the-hood.*
