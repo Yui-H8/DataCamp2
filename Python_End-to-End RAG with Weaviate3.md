@@ -95,7 +95,7 @@ Weaviate is a fully remote company with people living and working across the wor
 ```
 Now, we are ready to send the augmented context to the LLM!
 
-**Generation**　　　　
+#### Generation　　
 Once the combined context is constructed, the only thing left to do is to send it to the LLM to generate a response.
 
 Send combined_context as a request to the OpenAI chat completions model provided.
