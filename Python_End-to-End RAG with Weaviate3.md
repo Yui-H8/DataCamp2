@@ -99,3 +99,16 @@ Now, we are ready to send the augmented context to the LLM!
 Once the combined context is constructed, the only thing left to do is to send it to the LLM to generate a response.
 
 Send combined_context as a request to the OpenAI chat completions model provided.
+```python
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {
+            "role": "user",
+            "content":combined_context
+        }
+    ],
+)
+
+print(response.choices[0].message.content)
+```
