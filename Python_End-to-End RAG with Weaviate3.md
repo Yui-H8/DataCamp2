@@ -115,3 +115,14 @@ print(response.choices[0].message.content)
 ```
 Weaviate has a fully remote work policy, allowing employees to work from anywhere in the world. They also provide a home office budget, flexible time off, and local benefits.
 ```
+It's that simple.
+
+Even better, this can be done by querying as large a knowledge base as you have available.
+
+Our example uses a very small knowledge base of just a few sentences. But even if you had a much larger knowledge base, the same techniques would apply. You simply need a retrieval system that can quickly find the most relevant documents.
+
+You may have noticed that this is a relatively manual process.
+
+The good news is, we can make this process much simpler, and more scalable, by using an AI-native database such as Weaviate.
+
+Let's take a look at how to do that in the next section.
