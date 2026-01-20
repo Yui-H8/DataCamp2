@@ -20,6 +20,7 @@ https://app.datacamp.com/learn/courses/
 * Dimensionality Reduction in Python
 * Retrieval Augmented Generation (RAG) with LangChain
 * End-to-End RAG with Weaviate
+* Natural Language Processing (NLP) in Python
 
 ---
 ### AWS
