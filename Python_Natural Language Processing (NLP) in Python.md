@@ -7,3 +7,6 @@ Unlock the power of Natural Language Processing (NLP) and take your text analysi
 ---
 ### Sentence and word tokenization
 Tokenization is an important first step in NLP. It involves breaking text into smaller units called tokens, which is key to working with language data. Your task is to tokenize a snippet of a news article into both sentences and words.
+* Import the nltk library.
+* Download the punkt_tab package.
+* Tokenize the text into sentences.
