@@ -30,3 +30,6 @@ However, many investors are optimistic about future growth.
 sentences = nltk.sent_tokenize(text)
 print(sentences)
 ```
+```
+['\nThe stock market saw a significant dip today.', 'Experts believe the downturn may continue.', 'However, many investors are optimistic about future growth.']
+```
