@@ -10,3 +10,8 @@ Tokenization is an important first step in NLP. It involves breaking text into s
 * Import the nltk library.
 * Download the punkt_tab package.
 * Tokenize the text into sentences.
+```
+Hint
+The punkt_tab package can be downloaded using the nltk.download() function.
+Sentence tokenization can be performed through the sent_tokenize() function from nltk.
+```
