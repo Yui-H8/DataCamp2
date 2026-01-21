@@ -39,3 +39,18 @@ Hint
 The first element of a list s can be accessed by s[0].
 Word tokenization can be performed through the word_tokenize() function from nltk.
 ```
+```python
+import nltk
+nltk.download('punkt_tab')
+
+text = """
+The stock market saw a significant dip today. Experts believe the downturn may continue.
+However, many investors are optimistic about future growth.
+"""
+
+sentences = nltk.sent_tokenize(text)
+
+# Tokenize the first sentence into words
+words = nltk.word_tokenize(sentences[0])
+print(words)
+```
