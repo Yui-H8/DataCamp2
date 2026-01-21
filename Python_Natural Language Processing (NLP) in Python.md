@@ -81,8 +81,20 @@ Theword_tokenize() function can be used to perform word tokenization.
 Use stopwords.words() to get the stop words list, and don't forget to pass the language name.
 Use a list comprehension to loop through tokens, convert each of them to lowercase with .lower(), and include it in filtered_tokens only if it's not in stop_words.
 ```
+```python
+feedback = "I reached out to support and got a helpful response within minutes!!! Very #impressed"
 
+# Tokenize the text
+tokens = word_tokenize(feedback)
 
+# Get the list of English stop words
+stop_words = stopwords.words('english')
+
+# Remove stop words 
+filtered_tokens = [word for word in tokens if word.lower() not in stop_words]
+
+print(filtered_tokens)
+```
 ```
 ['reached', 'support', 'got', 'helpful', 'response', 'within', 'minutes', '!', '!', '!', '#', 'impressed']
 ```
