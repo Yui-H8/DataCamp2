@@ -60,3 +60,6 @@ print(words)
 *Bravo! You've successfully tokenized the text into sentences and words. Now you're ready to continue your preprocessing journey!*
 
 ### NLP workflow
+NLP enables computers to understand, interpret, and generate human language. This process involves several key steps that transform raw text into meaningful insights.
+
+Arrange the steps of the NLP workflow in the correct order to understand how machines process language.
