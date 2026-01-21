@@ -34,3 +34,8 @@ print(sentences)
 ['\nThe stock market saw a significant dip today.', 'Experts believe the downturn may continue.', 'However, many investors are optimistic about future growth.']
 ```
 * Tokenize the first sentence you obtained into words.
+```
+Hint
+The first element of a list s can be accessed by s[0].
+Word tokenization can be performed through the word_tokenize() function from nltk.
+```
