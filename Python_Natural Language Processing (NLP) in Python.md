@@ -63,3 +63,4 @@ print(words)
 NLP enables computers to understand, interpret, and generate human language. This process involves several key steps that transform raw text into meaningful insights.
 
 Arrange the steps of the NLP workflow in the correct order to understand how machines process language.
+* Arrange the components of the NLP workflow in the correct order.
