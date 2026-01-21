@@ -58,3 +58,5 @@ print(words)
 ['The', 'stock', 'market', 'saw', 'a', 'significant', 'dip', 'today', '.']
 ```
 *Bravo! You've successfully tokenized the text into sentences and words. Now you're ready to continue your preprocessing journey!*
+
+### NLP workflow
