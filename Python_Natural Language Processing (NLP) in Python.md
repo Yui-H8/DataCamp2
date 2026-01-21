@@ -69,3 +69,6 @@ Arrange the steps of the NLP workflow in the correct order to understand how mac
 
 ---
 ### Removing stop words
+You're working on a project where the goal is to classify feedback from users into different categories like "product issues", "service issues", and "suggestions". Often, stop words don't carry much meaning in distinguishing between categories. Your task is to remove these stop words to focus on the important words that will help a machine later on categorize the feedback into the correct topics.
+
+The functions word_tokenize from nltk.tokenize and stopwords.words from nltk.corpus have been imported for you. Additionally, the NLTK resources punkt_tab and stopwords have already been downloaded.
