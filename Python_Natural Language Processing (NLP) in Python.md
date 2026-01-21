@@ -54,4 +54,7 @@ sentences = nltk.sent_tokenize(text)
 words = nltk.word_tokenize(sentences[0])
 print(words)
 ```
+```
+['The', 'stock', 'market', 'saw', 'a', 'significant', 'dip', 'today', '.']
+```
 *Bravo! You've successfully tokenized the text into sentences and words. Now you're ready to continue your preprocessing journey!*
