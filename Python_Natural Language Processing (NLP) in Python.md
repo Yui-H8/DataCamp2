@@ -33,3 +33,4 @@ print(sentences)
 ```
 ['\nThe stock market saw a significant dip today.', 'Experts believe the downturn may continue.', 'However, many investors are optimistic about future growth.']
 ```
+* Tokenize the first sentence you obtained into words.
