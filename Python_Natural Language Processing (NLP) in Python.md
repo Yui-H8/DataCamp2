@@ -54,3 +54,4 @@ sentences = nltk.sent_tokenize(text)
 words = nltk.word_tokenize(sentences[0])
 print(words)
 ```
+*Bravo! You've successfully tokenized the text into sentences and words. Now you're ready to continue your preprocessing journey!*
