@@ -75,3 +75,9 @@ The functions word_tokenize from nltk.tokenize and stopwords.words from nltk.cor
 * Tokenize the provided feedback into words.
 * Get the list of English stopwords.
 * Remove English stop words and save the result in filtered_tokens.
+```
+Hint
+Theword_tokenize() function can be used to perform word tokenization.
+Use stopwords.words() to get the stop words list, and don't forget to pass the language name.
+Use a list comprehension to loop through tokens, convert each of them to lowercase with .lower(), and include it in filtered_tokens only if it's not in stop_words.
+```
