@@ -66,3 +66,6 @@ Arrange the steps of the NLP workflow in the correct order to understand how mac
 * Arrange the components of the NLP workflow in the correct order.
 
 *Great job! You've successfully arranged the steps of the NLP workflow. Keep up the good work!*
+
+---
+### Removing stop words
