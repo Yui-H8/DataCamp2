@@ -99,3 +99,5 @@ print(filtered_tokens)
 ['reached', 'support', 'got', 'helpful', 'response', 'within', 'minutes', '!', '!', '!', '#', 'impressed']
 ```
 *Excellent! You've successfully removed stop words from the feedback. Now you have a simplified list of tokens to give for a machine! But before doing that, let's go a step further and deal with punctuation.*
+
+### Removing punctuation
