@@ -119,3 +119,6 @@ clean_tokens = [word for word in filtered_tokens if word.lower() not in string.p
 
 print(clean_tokens)
 ```
+```
+['reached', 'support', 'got', 'helpful', 'response', 'within', 'minutes', 'impressed']
+```
