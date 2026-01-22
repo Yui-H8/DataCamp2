@@ -105,3 +105,7 @@ Now that you've removed stop words from the feedback text, it's time to handle p
 
 Your task is to remove punctuation from the list of tokens provided, helping to clean up the data even further.
 * Clean the filtered_tokens list by removing all punctuation.
+```
+Hint
+You can filter out punctuation by checking if each token is not in string.punctuation.
+```
