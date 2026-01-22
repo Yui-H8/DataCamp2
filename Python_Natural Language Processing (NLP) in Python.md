@@ -109,3 +109,13 @@ Your task is to remove punctuation from the list of tokens provided, helping to 
 Hint
 You can filter out punctuation by checking if each token is not in string.punctuation.
 ```
+```python
+import string
+
+filtered_tokens = ['reached', 'support', 'got', 'helpful', 'response', 'within', 'minutes', '!', '!', '!', '#', 'impressed']
+
+# Remove punctuation
+clean_tokens = [word for word in filtered_tokens if word.lower() not in string.punctuation]
+
+print(clean_tokens)
+```
