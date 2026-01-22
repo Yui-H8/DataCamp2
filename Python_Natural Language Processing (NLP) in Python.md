@@ -129,3 +129,6 @@ print(clean_tokens)
 You're analyzing user reviews for a travel website. These reviews often include inconsistent capitalization like "TRAVEL" and "travel". To prepare the text for sentiment analysis and topic extraction, you'll first convert all words to lowercase, then tokenize them and clean them from stop words and punctuation.
 
 The word_tokenize() function, a stop_words list have been provided. NLTK resources are already downloaded.
+* Convert the provided review into lowercase.
+* Tokenize the lower_text into words.
+* Use list comprehension to remove stop words and punctuation using the lists of stop_words and string.punctuation.
