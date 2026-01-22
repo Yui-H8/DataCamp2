@@ -104,3 +104,4 @@ print(filtered_tokens)
 Now that you've removed stop words from the feedback text, it's time to handle punctuation. The tokens you obtained in the previous exercise still contain punctuation marks, which are often unnecessary when categorizing feedback.
 
 Your task is to remove punctuation from the list of tokens provided, helping to clean up the data even further.
+* Clean the filtered_tokens list by removing all punctuation.
