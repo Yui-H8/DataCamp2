@@ -122,3 +122,4 @@ print(clean_tokens)
 ```
 ['reached', 'support', 'got', 'helpful', 'response', 'within', 'minutes', 'impressed']
 ```
+*Great job! You've successfully removed the punctuation from the list of tokens, leaving the most meaningful words that a machine can use to categorize the content.*
