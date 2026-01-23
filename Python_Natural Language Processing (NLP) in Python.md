@@ -161,3 +161,5 @@ print(clean_tokens)
 Now that you've cleaned the review text and removed stop words and punctuation, you're ready to normalize the remaining words using stemming to reduce words to their root form. This helps group similar words together, making your analysis more consistent and efficient.
 
 The PorterStemmer class has been provided, along with a list of clean_tokens.
+* Initialize the PorterStemmer().
+* Use a list comprehension to stem each token from the clean_tokens list.
