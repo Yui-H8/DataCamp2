@@ -132,3 +132,9 @@ The word_tokenize() function, a stop_words list have been provided. NLTK resourc
 * Convert the provided review into lowercase.
 * Tokenize the lower_text into words.
 * Use list comprehension to remove stop words and punctuation using the lists of stop_words and string.punctuation.
+```
+Hint
+Using .lower() is the right way to transform a text into lowercase.
+In a list comprehension, you can add multiple conditions as follows [item for item in collection if condition1 and condition2].
+Use not in to check if a word is not in the stop_words list.
+```
