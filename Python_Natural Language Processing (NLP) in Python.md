@@ -166,7 +166,17 @@ The PorterStemmer class has been provided, along with a list of clean_tokens.
 ```
 To apply stemming, use stemmer.stem() and pass the token you want to stem.
 ```
+```python
+clean_tokens = ['flying', 'lot', 'lately', 'flights', 'keep', 'getting', 'delayed', 'honestly', 'traveling', 'work', 'gets', 'exhausting', 'endless', 'delays', 'every', 'travel', 'teaches', 'something', 'new']
 
+# Create stemmer
+stemmer = PorterStemmer()
+
+# Stem each token
+stemmed_tokens = [stemmer.stem(word) for word in clean_tokens]
+
+print(stemmed_tokens)
+```
 ```
 ['fli', 'lot', 'late', 'flight', 'keep', 'get', 'delay', 'honestli', 'travel', 'work', 'get', 'exhaust', 'endless', 'delay', 'everi', 'travel', 'teach', 'someth', 'new']
 ```
