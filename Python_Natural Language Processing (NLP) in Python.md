@@ -183,3 +183,6 @@ print(stemmed_tokens)
 *Well done! Notice how words like 'traveling', 'travel', 'delays', and 'delayed' were reduced to a common root form. While some results may not be complete English words, this simplification helps group similar terms together, making it easier to extract insights from the reviews.*
 
 ### Lemmatization
+While continuing your analysis of user reviews, you noticed that stemming sometimes produces non-standard words like "fli" from "flying", which can reduce interpretability. To address this, you'll now use lemmatization, which returns actual words and helps improve the clarity and accuracy of your analysis.
+
+WordNetLemmatizer has been imported, stop_words has been defined, and the necessary NLTK resources have been downloaded.
