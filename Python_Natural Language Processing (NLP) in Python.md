@@ -180,3 +180,4 @@ print(stemmed_tokens)
 ```
 ['fli', 'lot', 'late', 'flight', 'keep', 'get', 'delay', 'honestli', 'travel', 'work', 'get', 'exhaust', 'endless', 'delay', 'everi', 'travel', 'teach', 'someth', 'new']
 ```
+*Well done! Notice how words like 'traveling', 'travel', 'delays', and 'delayed' were reduced to a common root form. While some results may not be complete English words, this simplification helps group similar terms together, making it easier to extract insights from the reviews.*
