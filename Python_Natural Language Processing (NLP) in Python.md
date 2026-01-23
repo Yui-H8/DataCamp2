@@ -186,3 +186,5 @@ print(stemmed_tokens)
 While continuing your analysis of user reviews, you noticed that stemming sometimes produces non-standard words like "fli" from "flying", which can reduce interpretability. To address this, you'll now use lemmatization, which returns actual words and helps improve the clarity and accuracy of your analysis.
 
 WordNetLemmatizer has been imported, stop_words has been defined, and the necessary NLTK resources have been downloaded.
+* Create an instance lemmatizer of the WordNetLemmatizer() class.
+* Use the lemmatizer to lemmatize the lower_tokens.
