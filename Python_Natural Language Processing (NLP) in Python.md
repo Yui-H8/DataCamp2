@@ -138,3 +138,17 @@ Using .lower() is the right way to transform a text into lowercase.
 In a list comprehension, you can add multiple conditions as follows [item for item in collection if condition1 and condition2].
 Use not in to check if a word is not in the stop_words list.
 ```
+```python
+review = "I have been FLYING a lot lately and the Flights just keep getting DELAYED. Honestly, traveling for WORK gets exhausting with endless delays, but every trip teaches you something new!"
+
+# Lowercase the review
+lower_text = review.lower()
+
+# Tokenize the lower_text into words
+tokens = word_tokenize(lower_text)
+
+# Remove stop words and punctuation
+clean_tokens = [word for word in tokens if word not in stop_words and word not in string.punctuation]
+
+print(clean_tokens)
+```
