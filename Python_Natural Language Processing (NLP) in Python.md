@@ -158,4 +158,6 @@ print(clean_tokens)
 *Great start! You've successfully converted the review to lowercase and removed stop words and punctuation. Next, you'll stem the cleaned tokens to make the analysis more efficient.*
 
 ### Stemming
+Now that you've cleaned the review text and removed stop words and punctuation, you're ready to normalize the remaining words using stemming to reduce words to their root form. This helps group similar words together, making your analysis more consistent and efficient.
 
+The PorterStemmer class has been provided, along with a list of clean_tokens.
