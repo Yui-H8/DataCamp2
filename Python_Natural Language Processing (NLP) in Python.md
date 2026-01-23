@@ -152,3 +152,6 @@ clean_tokens = [word for word in tokens if word not in stop_words and word not i
 
 print(clean_tokens)
 ```
+```
+['flying', 'lot', 'lately', 'flights', 'keep', 'getting', 'delayed', 'honestly', 'traveling', 'work', 'gets', 'exhausting', 'endless', 'delays', 'every', 'trip', 'teaches', 'something', 'new']
+```
