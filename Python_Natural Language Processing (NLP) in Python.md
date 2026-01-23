@@ -166,3 +166,7 @@ The PorterStemmer class has been provided, along with a list of clean_tokens.
 ```
 To apply stemming, use stemmer.stem() and pass the token you want to stem.
 ```
+
+```
+['fli', 'lot', 'late', 'flight', 'keep', 'get', 'delay', 'honestli', 'travel', 'work', 'get', 'exhaust', 'endless', 'delay', 'everi', 'travel', 'teach', 'someth', 'new']
+```
