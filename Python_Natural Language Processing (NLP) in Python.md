@@ -163,3 +163,6 @@ Now that you've cleaned the review text and removed stop words and punctuation, 
 The PorterStemmer class has been provided, along with a list of clean_tokens.
 * Initialize the PorterStemmer().
 * Use a list comprehension to stem each token from the clean_tokens list.
+```
+To apply stemming, use stemmer.stem() and pass the token you want to stem.
+```
