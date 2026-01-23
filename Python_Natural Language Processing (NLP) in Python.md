@@ -156,3 +156,6 @@ print(clean_tokens)
 ['flying', 'lot', 'lately', 'flights', 'keep', 'getting', 'delayed', 'honestly', 'traveling', 'work', 'gets', 'exhausting', 'endless', 'delays', 'every', 'trip', 'teaches', 'something', 'new']
 ```
 *Great start! You've successfully converted the review to lowercase and removed stop words and punctuation. Next, you'll stem the cleaned tokens to make the analysis more efficient.*
+
+### Stemming
+
