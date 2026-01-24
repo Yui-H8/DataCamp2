@@ -203,3 +203,6 @@ lemmatized_tokens = [lemmatizer.lemmatize(word) for word in clean_tokens]
 
 print(lemmatized_tokens)
 ```
+```
+['flying', 'lot', 'lately', 'flight', 'keep', 'getting', 'delayed', 'honestly', 'traveling', 'work', 'get', 'exhausting', 'endless', 'delay', 'every', 'travel', 'teach', 'something', 'new']
+```
