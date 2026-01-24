@@ -192,3 +192,14 @@ WordNetLemmatizer has been imported, stop_words has been defined, and the necess
 Hint
 Use the lemmatizer.lemmatize() method to lemmatize each token.
 ```
+```python
+clean_tokens = ['flying', 'lot', 'lately', 'flights', 'keep', 'getting', 'delayed', 'honestly', 'traveling', 'work', 'gets', 'exhausting', 'endless', 'delays', 'every', 'travel', 'teaches', 'something', 'new']
+
+# Create lemmatizer
+lemmatizer = WordNetLemmatizer()
+
+# Lemmatize each token
+lemmatized_tokens = [lemmatizer.lemmatize(word) for word in clean_tokens]
+
+print(lemmatized_tokens)
+```
