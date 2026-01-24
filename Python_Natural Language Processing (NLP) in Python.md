@@ -206,3 +206,4 @@ print(lemmatized_tokens)
 ```
 ['flying', 'lot', 'lately', 'flight', 'keep', 'getting', 'delayed', 'honestly', 'traveling', 'work', 'get', 'exhausting', 'endless', 'delay', 'every', 'travel', 'teach', 'something', 'new']
 ```
+*Great job finishing Chapter 1! You've learned how to preprocess text data using tokenization, stop word and punctuation removal, and normalization. In the next chapter, you'll take the cleaned text you've prepared and start transforming it into numerical features that a machine can understand. Let's keep going!*
