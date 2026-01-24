@@ -188,3 +188,7 @@ While continuing your analysis of user reviews, you noticed that stemming someti
 WordNetLemmatizer has been imported, stop_words has been defined, and the necessary NLTK resources have been downloaded.
 * Create an instance lemmatizer of the WordNetLemmatizer() class.
 * Use the lemmatizer to lemmatize the lower_tokens.
+```
+Hint
+Use the lemmatizer.lemmatize() method to lemmatize each token.
+```
