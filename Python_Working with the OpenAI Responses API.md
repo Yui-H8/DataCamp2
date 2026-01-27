@@ -6,3 +6,6 @@ Building AI applications has never been more accessible with the Responses API! 
 
 ---
 ### Your First Responses API Call
+Time to get hands-on with OpenAI's Responses API! You'll be using the openai library to begin making requests to the Responses API endpoint.
+
+The OpenAI class has already been imported from openai.
