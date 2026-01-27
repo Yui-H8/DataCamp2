@@ -40,3 +40,4 @@ print(response.output_text)
     Key points in simple terms:
     - You send a request describing
 ```
+*Nice job! The syntax for requests to the Responses API is intentionally simple, yet powerful. As you progress, you'll learn to master the various response parameters, and even integrate tools for the model to use!*
