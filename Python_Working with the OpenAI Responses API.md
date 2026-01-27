@@ -18,3 +18,18 @@ To create an OpenAI client, use the OpenAI class from the openai library.
 You can create requests to the Responses API endpoint using client.responses.create().
 User prompts should be sent to the input argument.
 ```
+```python
+# Define an OpenAI API client
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Create the OpenAI API request
+response = client.responses.create(
+    model="gpt-5-mini",
+    input="In simple terms, what is the OpenAI Responses API?",
+    reasoning={"effort": "minimal"},
+    max_output_tokens=100
+)
+
+# Print the generated text from the response
+print(response.output_text)
+```
