@@ -9,3 +9,6 @@ Building AI applications has never been more accessible with the Responses API! 
 Time to get hands-on with OpenAI's Responses API! You'll be using the openai library to begin making requests to the Responses API endpoint.
 
 The OpenAI class has already been imported from openai.
+* Define an OpenAI API client, leaving the api_key placeholder unchanged.
+* Create an OpenAI API request to the "gpt-5-mini" model, sending the prompt "In simple terms, what is the OpenAI Responses API?"; leave the reasoning and max_output_tokens parameter unchanged.
+* Print the generated text from the response object.
