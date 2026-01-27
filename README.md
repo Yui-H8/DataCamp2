@@ -21,6 +21,7 @@ https://app.datacamp.com/learn/courses/
 * Retrieval Augmented Generation (RAG) with LangChain
 * End-to-End RAG with Weaviate
 * Natural Language Processing (NLP) in Python
+* Working with the OpenAI Responses API
 
 ---
 ### AWS
