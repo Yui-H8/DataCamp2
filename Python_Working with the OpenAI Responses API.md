@@ -33,3 +33,10 @@ response = client.responses.create(
 # Print the generated text from the response
 print(response.output_text)
 ```
+```
+<script.py> output:
+    The OpenAI Responses API is a way for programs to talk to OpenAI models (like GPT) and get helpful answers, text, or actions back. Instead of calling lots of different endpoints for chat, images, or tools, the Responses API provides a single, flexible interface where you send a prompt or instructions and the model returns a structured response. 
+    
+    Key points in simple terms:
+    - You send a request describing
+```
