@@ -12,3 +12,9 @@ The OpenAI class has already been imported from openai.
 * Define an OpenAI API client, leaving the api_key placeholder unchanged.
 * Create an OpenAI API request to the "gpt-5-mini" model, sending the prompt "In simple terms, what is the OpenAI Responses API?"; leave the reasoning and max_output_tokens parameter unchanged.
 * Print the generated text from the response object.
+```
+Hint
+To create an OpenAI client, use the OpenAI class from the openai library.
+You can create requests to the Responses API endpoint using client.responses.create().
+User prompts should be sent to the input argument.
+```
