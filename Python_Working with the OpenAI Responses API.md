@@ -47,3 +47,13 @@ You're building a customer support AI system for a financial services company. F
 
 The OpenAI client is already available for you to use as client. This will be available throughout the remainder of the course.
 * Create a Responses API request to "gpt-5-mini" that contains clear instructions to only respond to questions about account balances and transaction history, and not other requests for password resets, loan applications, or investment advice, specifically.
+```python
+# Create a guardrailed AI response
+response = client.responses.create(
+    model="gpt-5-mini",
+    instructions=""" only respond to questions about account balances and transaction history, and not other requests for password resets, loan applications, or investment advice """,
+    input="Can you help me reset my password?"
+)
+
+print(response.output_text)
+```
