@@ -66,3 +66,4 @@ print(response.output_text)
 With your request made and the response received from the OpenAI API, it's time to begin extracting information from it. The response from the Responses API contains more than just the model output, it contains structured outputs for chat applications, and useful metadata for tracking and building a chat history.
 
 A response object is already available for you to investigate as response.
+1. Extract the number of output tokens from response.
