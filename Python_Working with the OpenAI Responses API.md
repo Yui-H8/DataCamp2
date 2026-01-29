@@ -46,3 +46,4 @@ print(response.output_text)
 You're building a customer support AI system for a financial services company. For security and compliance reasons, the AI have clear guardrails to only answer questions about account balances and transaction history. It should politely decline any requests for password resets, loan applications, or investment advice.
 
 The OpenAI client is already available for you to use as client. This will be available throughout the remainder of the course.
+* Create a Responses API request to "gpt-5-mini" that contains clear instructions to only respond to questions about account balances and transaction history, and not other requests for password resets, loan applications, or investment advice, specifically.
