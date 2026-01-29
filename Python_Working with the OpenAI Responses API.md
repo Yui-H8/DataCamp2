@@ -83,3 +83,10 @@ print(response.usage.output_tokens)
 Hint
 The ID can be found in the response object's .id attribute.
 ```
+```Python
+# Extract the response ID
+print(response.id)
+```
+```
+resp_0e8c8a2849bbfbf500697bca1e5b8881969bc9e906f47586db
+```
