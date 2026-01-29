@@ -61,3 +61,5 @@ print(response.output_text)
     Sorry — I can’t help with password resets. I can only assist with questions about account balances or transaction history. If you’d like, tell me which account and what date range or how many recent transactions you want to see, and I’ll help with that.
 ```
 *Excellent work! You've successfully restricted the AI's capabilities using clear model instructions. This approach is crucial for building safe and compliant AI systems that stay within their intended scope.*
+
+### Extracting Information from the Response
