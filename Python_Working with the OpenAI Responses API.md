@@ -71,3 +71,7 @@ A response object is already available for you to investigate as response.
 Hint
 You can extract the .output_tokens attribute from the object extracted from the response using the .usage attribute.
 ```
+```python
+# Extract the number of output tokens
+print(response.usage.output_tokens)
+```
