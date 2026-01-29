@@ -91,3 +91,7 @@ print(response.id)
 resp_0e8c8a2849bbfbf500697bca1e5b8881969bc9e906f47586db
 ```
 3. Extract the output in a structured way by unpacking and printing each item in response.
+```
+Hint
+You can access a structured output from the response using the .output attribute.
+```
