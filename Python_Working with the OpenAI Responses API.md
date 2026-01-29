@@ -79,3 +79,7 @@ print(response.usage.output_tokens)
 50
 ```
 2. Extract the ID from response.
+```
+Hint
+The ID can be found in the response object's .id attribute.
+```
