@@ -63,3 +63,6 @@ print(response.output_text)
 *Excellent work! You've successfully restricted the AI's capabilities using clear model instructions. This approach is crucial for building safe and compliant AI systems that stay within their intended scope.*
 
 ### Extracting Information from the Response
+With your request made and the response received from the OpenAI API, it's time to begin extracting information from it. The response from the Responses API contains more than just the model output, it contains structured outputs for chat applications, and useful metadata for tracking and building a chat history.
+
+A response object is already available for you to investigate as response.
