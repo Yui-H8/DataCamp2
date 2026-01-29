@@ -67,3 +67,7 @@ With your request made and the response received from the OpenAI API, it's time 
 
 A response object is already available for you to investigate as response.
 1. Extract the number of output tokens from response.
+```
+Hint
+You can extract the .output_tokens attribute from the object extracted from the response using the .usage attribute.
+```
