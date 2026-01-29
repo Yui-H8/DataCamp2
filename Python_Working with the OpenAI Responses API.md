@@ -104,3 +104,4 @@ for item in response.output:
 ResponseReasoningItem(id='rs_0e2ed9b8d01fd14600697bca4005088197b0198e32bb288342', summary=[], type='reasoning', content=None, encrypted_content=None, status=None)
 ResponseOutputMessage(id='msg_0e2ed9b8d01fd14600697bca402bb48197bfc53754c26d4f82', content=[ResponseOutputText(annotations=[], text='The OpenAI Responses API is a unified endpoint that lets developers send prompts, instructions, or conversation data to access a variety of OpenAI models (including text, code', type='output_text', logprobs=[])], role='assistant', status='incomplete', type='message')
 ```
+*Excellent extraction! As you've seen, the Responses API makes it elegantly simple for developers to build AI applications. In the next video, you'll learn how to use different parameters to control for output quality, length, and cost—key measures in any Generative AI app!*
