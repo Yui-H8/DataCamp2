@@ -95,3 +95,8 @@ resp_0e8c8a2849bbfbf500697bca1e5b8881969bc9e906f47586db
 Hint
 You can access a structured output from the response using the .output attribute.
 ```
+```python
+# Extract and print each item in the response
+for item in response.output:
+    print(item)
+```
