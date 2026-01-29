@@ -75,3 +75,6 @@ You can extract the .output_tokens attribute from the object extracted from the 
 # Extract the number of output tokens
 print(response.usage.output_tokens)
 ```
+```
+50
+```
