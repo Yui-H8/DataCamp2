@@ -57,3 +57,6 @@ response = client.responses.create(
 
 print(response.output_text)
 ```
+```
+    Sorry — I can’t help with password resets. I can only assist with questions about account balances or transaction history. If you’d like, tell me which account and what date range or how many recent transactions you want to see, and I’ll help with that.
+```
