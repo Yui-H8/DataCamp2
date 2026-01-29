@@ -78,3 +78,4 @@ print(response.usage.output_tokens)
 ```
 50
 ```
+2. Extract the ID from response.
