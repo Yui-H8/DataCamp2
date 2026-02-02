@@ -149,3 +149,13 @@ Poetic: Words gathered in a room where ink on a quiet page would have done the w
 
 ```
 3. Repeat your prompt one last time, this time, to the gpt-5 model.
+```python
+# Prompt gpt-5 with minimal reasoning
+response = client.responses.create(
+    model="gpt-5",
+    input='Write the same sentence in three tones: professional, sarcastic, and poetic. The sentence is: "The meeting could have been an email."',
+  reasoning={"effort": "minimal"}
+)
+
+print(response.output_text)
+```
