@@ -112,3 +112,13 @@ Let's experiment with some of the different LLMs that OpenAI has to offer. All o
 In this exercise, you can enter any prompts you wish, but try to use the same one in each step to make a clearer comparison! If you're struggling for ideas, you can use the one provided.
 
 1. Send a prompt to the "gpt-5-nano" model with reasoning effort reduced to 'minimal'.
+```python
+# Prompt gpt-5-nano with minimal reasoning
+response = client.responses.create(
+    model="gpt-5-nano",
+    input='Write the same sentence in three tones: professional, sarcastic, and poetic. The sentence is: "The meeting could have been an email."',
+  reasoning={"effort": "minimal"}
+)
+
+print(response.output_text)
+```
