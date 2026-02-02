@@ -167,3 +167,6 @@ print(response.output_text)
 *Excellent experimentation! Remember, the best model is the one that meets your quality and speed requirements for the lowest cost.*
 
 ### Reasoning About Reasoning
+Now you've experimented with the different models available, let's try out the two other parameters introduced in the video: reasoning and max_output_tokens.
+
+Here's the challenge:
