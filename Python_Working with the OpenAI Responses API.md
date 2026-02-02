@@ -107,3 +107,6 @@ ResponseOutputMessage(id='msg_0e2ed9b8d01fd14600697bca402bb48197bfc53754c26d4f82
 *Excellent extraction! As you've seen, the Responses API makes it elegantly simple for developers to build AI applications. In the next video, you'll learn how to use different parameters to control for output quality, length, and cost—key measures in any Generative AI app!*
 
 ### Experimenting with More Powerful Models
+Let's experiment with some of the different LLMs that OpenAI has to offer. All of these models have reasoning capabilities, but to make the differences between the base models clearer, keep the reasoning effort to 'minimal'.
+
+In this exercise, you can enter any prompts you wish, but try to use the same one in each step to make a clearer comparison! If you're struggling for ideas, you can use the one provided.
