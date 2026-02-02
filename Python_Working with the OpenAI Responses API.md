@@ -197,3 +197,34 @@ runtime = time.time() - start_time
 print(response.output_text)
 print(f"\nRuntime: {runtime:.2f} seconds")
 ```
+```
+start_time = time.time()
+prompt = "How many of the letter 's' are in the sentence, 'Mississippi are possessive over their successes?'"
+
+# Complete the challenge!
+response = client.responses.create(
+    model="gpt-5-mini",
+    input=prompt,
+    reasoning={"effort": "minimal"}
+)
+
+runtime = time.time() - start_time
+
+print(response.output_text)
+print(f"\nRuntime: {runtime:.2f} seconds")
+Count every letter "s" (case-insensitive) in the sentence:
+"Mississippi are possessive over their successes?"
+
+Let's tally:
+- Mississippi: M i s s i s s i p p i → 4 s
+- are: 0
+- possessive: p o s s e s s i v e → 4 s
+- over: 0
+- their: 0
+- successes: s u c c e s s e s → 4 s
+Total = 4 + 4 + 4 = 12
+
+There are 12 letter "s" characters in the sentence.
+
+Runtime: 3.83 seconds
+```
