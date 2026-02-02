@@ -148,3 +148,4 @@ Sarcastic: Oh great — another meeting that absolutely could not possibly have 
 Poetic: Words gathered in a room where ink on a quiet page would have done the work.
 
 ```
+3. Repeat your prompt one last time, this time, to the gpt-5 model.
