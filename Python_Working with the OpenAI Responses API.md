@@ -175,3 +175,9 @@ Here's the challenge:
 You can use any model out of the options: gpt-5-nano, gpt-5-mini, and gpt-5.
 
 * Complete the challenge by correctly finding the answer to the prompt provided, and in under 8 seconds!
+```
+Hint
+There are three key parameters to experiment with: model, max_output_tokens, and reasoning.
+The reasoning parameter takes a dictionary with an 'effort' key.
+Remember to start with a small model and minimal reasoning, then increasing if necessary.
+```
