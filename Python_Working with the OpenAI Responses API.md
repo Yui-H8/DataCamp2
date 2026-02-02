@@ -165,3 +165,5 @@ print(response.output_text)
 - Poetic: A room of voices stirred the air, yet all we needed was a whisper on the wire.
 ```
 *Excellent experimentation! Remember, the best model is the one that meets your quality and speed requirements for the lowest cost.*
+
+### Reasoning About Reasoning
