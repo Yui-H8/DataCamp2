@@ -173,3 +173,5 @@ Here's the challenge:
 * Find the correct answer to the question: How many of the letter 's' are in the sentence, 'Mississippi are possessive over their successes?' using an LLM. Spoiler: the answer is 12.
 * The code must run in under 8 seconds!    
 You can use any model out of the options: gpt-5-nano, gpt-5-mini, and gpt-5.
+
+* Complete the challenge by correctly finding the answer to the prompt provided, and in under 8 seconds!
