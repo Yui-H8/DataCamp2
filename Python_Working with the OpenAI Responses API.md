@@ -164,3 +164,4 @@ print(response.output_text)
 - Sarcastic: Wow, what a thrilling hour to discover everything could’ve been in a two-line email.
 - Poetic: A room of voices stirred the air, yet all we needed was a whisper on the wire.
 ```
+*Excellent experimentation! Remember, the best model is the one that meets your quality and speed requirements for the lowest cost.*
