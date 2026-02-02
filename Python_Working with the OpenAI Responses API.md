@@ -140,3 +140,11 @@ response = client.responses.create(
 
 print(response.output_text)
 ```
+```
+Professional: That meeting’s content could have been conveyed more efficiently via email.
+
+Sarcastic: Oh great — another meeting that absolutely could not possibly have been an email.
+
+Poetic: Words gathered in a room where ink on a quiet page would have done the work.
+
+```
