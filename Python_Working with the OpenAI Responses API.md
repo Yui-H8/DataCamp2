@@ -129,3 +129,4 @@ Sure. Here it is in three tones:
 - Sarcastic: Oh great, another meeting—that could have been an email, you know.
 - Poetic: A chorus of minutes and murmurs, when a single email would have carried the truth.
 ```
+2. Send the same prompt to the gpt-5-mini model; again, with reasoning effort reduced to 'minimal'.
