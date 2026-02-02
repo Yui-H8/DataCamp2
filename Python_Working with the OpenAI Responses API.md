@@ -181,3 +181,19 @@ There are three key parameters to experiment with: model, max_output_tokens, and
 The reasoning parameter takes a dictionary with an 'effort' key.
 Remember to start with a small model and minimal reasoning, then increasing if necessary.
 ```
+```python
+start_time = time.time()
+prompt = "How many of the letter 's' are in the sentence, 'Mississippi are possessive over their successes?'"
+
+# Complete the challenge!
+response = client.responses.create(
+    model="gpt-5-mini",
+    input=prompt,
+    reasoning={"effort": "minimal"}
+)
+
+runtime = time.time() - start_time
+
+print(response.output_text)
+print(f"\nRuntime: {runtime:.2f} seconds")
+```
