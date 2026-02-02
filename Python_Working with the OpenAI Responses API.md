@@ -130,3 +130,13 @@ Sure. Here it is in three tones:
 - Poetic: A chorus of minutes and murmurs, when a single email would have carried the truth.
 ```
 2. Send the same prompt to the gpt-5-mini model; again, with reasoning effort reduced to 'minimal'.
+```python
+# Prompt gpt-5-mini with minimal reasoning
+response = client.responses.create(
+    model="gpt-5-mini",
+    input='Write the same sentence in three tones: professional, sarcastic, and poetic. The sentence is: "The meeting could have been an email."',
+  reasoning={"effort": "minimal"}
+)
+
+print(response.output_text)
+```
