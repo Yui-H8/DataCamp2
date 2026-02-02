@@ -122,3 +122,10 @@ response = client.responses.create(
 
 print(response.output_text)
 ```
+```
+Sure. Here it is in three tones:
+
+- Professional: The meeting could have been communicated effectively via email.
+- Sarcastic: Oh great, another meeting—that could have been an email, you know.
+- Poetic: A chorus of minutes and murmurs, when a single email would have carried the truth.
+```
