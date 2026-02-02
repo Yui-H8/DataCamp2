@@ -228,3 +228,5 @@ There are 12 letter "s" characters in the sentence.
 
 Runtime: 3.83 seconds
 ```
+
+*Well reasoned! This is very close to the process you'd go through when designing a new AI product or feature. Let's wrap up this chapter by talking about how to have a conversation with these models using the Responses API!*
