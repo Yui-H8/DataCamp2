@@ -232,3 +232,4 @@ Runtime: 3.83 seconds
 *Well reasoned! This is very close to the process you'd go through when designing a new AI product or feature. Let's wrap up this chapter by talking about how to have a conversation with these models using the Responses API!*
 
 ### From One Message to Another
+Time for you to begin chaining responses together to retain context between requests! This is, in effect, creating a conversation history—a key part of conversations.
