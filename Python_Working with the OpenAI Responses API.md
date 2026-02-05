@@ -234,3 +234,8 @@ Runtime: 3.83 seconds
 ### From One Message to Another
 Time for you to begin chaining responses together to retain context between requests! This is, in effect, creating a conversation history—a key part of conversations.
 1. Create a Responses API request with the prompt provided. Extract the ID from response1 so the conversation can be continued.
+```
+Hint
+Remember that user inputs should go to the input parameter.
+You can extract the response ID using its .id attribute.
+```
