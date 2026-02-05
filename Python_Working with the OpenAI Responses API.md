@@ -239,3 +239,15 @@ Hint
 Remember that user inputs should go to the input parameter.
 You can extract the response ID using its .id attribute.
 ```
+```python
+# Create the first request
+response1 = client.responses.create(
+    model="gpt-5-mini",
+    input="Draft a short LinkedIn post announcing that I'm learning about the OpenAI Responses API to upskill in AI engineering on DataCamp!",
+    reasoning={"effort": "minimal"}
+)
+
+# Extract the ID from response1
+conversation_id = response1
+print("Initial post:", response1.output_text)
+```
