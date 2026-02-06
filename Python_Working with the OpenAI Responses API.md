@@ -248,9 +248,14 @@ response1 = client.responses.create(
 )
 
 # Extract the ID from response1
-conversation_id = response1
+conversation_id = response1.id
 print("Initial post:", response1.output_text)
 ```
 ```
-Initial post: Excited to share that I’m upskilling in AI engineering on DataCamp — currently learning the OpenAI Responses API! Diving into prompt design, multimodal inputs, and building smarter, more reliable AI workflows. Looking forward to applying these skills to real projects and connecting with others exploring generative AI. #AI #AIEngineering #DataCamp #OpenAI #LearningJourney
+Initial post: Excited to share that I’m upskilling in AI engineering on DataCamp — currently learning the OpenAI Responses API! 🎯
+
+I’m diving into how Responses streamlines building smarter, more interactive applications and exploring best practices for prompt design, safety, and efficient inference. Looking forward to applying these skills to real projects and connecting with others working at the intersection of data and AI. 🚀
+
+Any tips or resources you’ve found helpful for learning the Responses API or putting it into production?
+
 ```
