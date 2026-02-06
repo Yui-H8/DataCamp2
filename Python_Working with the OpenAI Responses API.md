@@ -300,3 +300,4 @@ Hint
 Start with the while loop, and everything underneath it should be indented once.
 The user_input variable needs to be defined before making the Responses API request.
 ```
+*You got it! Congratulations on completing Chapter 1! In Chapter 2, we'll look at how to provide tools like web search to LLMs, including how you can define your own tools, so stay tuned!*
