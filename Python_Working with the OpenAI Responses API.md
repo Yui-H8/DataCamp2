@@ -295,3 +295,8 @@ Now that you've mastered creating and using conversation history, time to get fa
 
 You've been given the template code for this conversation control flow, but it's all jumbled up!
 * Arrange the code blocks in the correct order, including indentation.
+```
+Hint
+Start with the while loop, and everything underneath it should be indented once.
+The user_input variable needs to be defined before making the Responses API request.
+```
