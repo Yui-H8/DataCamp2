@@ -291,3 +291,6 @@ Revised post: Excited to share that I’m upskilling in AI engineering on DataCa
 ```
 
 ### Enabling Chat Conversations
+Now that you've mastered creating and using conversation history, time to get familiar with the second piece of the puzzle: the control flow logic.
+
+You've been given the template code for this conversation control flow, but it's all jumbled up!
