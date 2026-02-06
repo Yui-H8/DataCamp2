@@ -263,3 +263,25 @@ Any tips or resources you’ve found helpful for learning the Responses API or p
 Hint
 You can pass the conversation_id variable you created in the last step to the previous_response_id parameter of the first request.
 ```
+```python
+# Create the first request
+response1 = client.responses.create(
+    model="gpt-5-mini",
+    input="Draft a short LinkedIn post announcing that I'm learning about the OpenAI Responses API to upskill in AI engineering on DataCamp!",
+    reasoning={"effort": "minimal"}
+)
+
+# Extract the ID from response1
+conversation_id = response1.id
+print("Initial post:", response1.output_text)
+
+# Create the second request
+response2 = client.responses.create(
+    model="gpt-5-mini",
+    input="Add more emojis.",
+    reasoning={"effort": "minimal"},
+    previous_response_id=conversation_id,
+)
+
+print("Revised post:", response2.output_text)
+```
