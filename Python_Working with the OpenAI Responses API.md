@@ -285,3 +285,7 @@ response2 = client.responses.create(
 
 print("Revised post:", response2.output_text)
 ```
+```
+Initial post: Excited to share that I’m upskilling in AI engineering on DataCamp — currently learning the OpenAI Responses API! Diving into prompt design, model responses, and real-world integrations to build smarter, more reliable AI tools. Looking forward to applying these skills to projects and connecting with others exploring AI engineering. #AI #AIEngineering #OpenAI #DataCamp #UpSkilling
+Revised post: Excited to share that I’m upskilling in AI engineering on DataCamp — currently learning the OpenAI Responses API! 🤖📚 Diving into prompt design, model responses, and real-world integrations to build smarter, more reliable AI tools. 🚀💡 Looking forward to applying these skills to projects and connecting with others exploring AI engineering. 🔗🤝 #AI #AIEngineering #OpenAI #DataCamp #UpSkilling
+```
