@@ -259,3 +259,7 @@ I’m diving into how Responses streamlines building smarter, more interactive a
 Any tips or resources you’ve found helpful for learning the Responses API or putting it into production?
 ```
 2. Chain a second request to the first, requesting more emojis!
+```
+Hint
+You can pass the conversation_id variable you created in the last step to the previous_response_id parameter of the first request.
+```
