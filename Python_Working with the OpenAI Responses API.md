@@ -251,3 +251,6 @@ response1 = client.responses.create(
 conversation_id = response1
 print("Initial post:", response1.output_text)
 ```
+```
+Initial post: Excited to share that I’m upskilling in AI engineering on DataCamp — currently learning the OpenAI Responses API! Diving into prompt design, multimodal inputs, and building smarter, more reliable AI workflows. Looking forward to applying these skills to real projects and connecting with others exploring generative AI. #AI #AIEngineering #DataCamp #OpenAI #LearningJourney
+```
