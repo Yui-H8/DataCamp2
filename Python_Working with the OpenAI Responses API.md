@@ -257,5 +257,5 @@ Initial post: Excited to share that I’m upskilling in AI engineering on DataCa
 I’m diving into how Responses streamlines building smarter, more interactive applications and exploring best practices for prompt design, safety, and efficient inference. Looking forward to applying these skills to real projects and connecting with others working at the intersection of data and AI. 🚀
 
 Any tips or resources you’ve found helpful for learning the Responses API or putting it into production?
-
 ```
+2. Chain a second request to the first, requesting more emojis!
