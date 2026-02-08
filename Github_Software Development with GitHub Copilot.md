@@ -46,3 +46,5 @@ Copilot will search the web and provide a Stack Overflow link
 Copilot will show all files it plans to change
 ```
 *Correct! Ask Mode provides you guidance without modifying code.*
+
+### Inline, Ask, or Edit? You decide
