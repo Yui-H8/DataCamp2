@@ -16,4 +16,7 @@ Which of the following should you include as examples of what Copilot can help d
 〇 Write tests covering edge cases and different scenarios
 Automatically monitor production systems and fix bugs without human oversight
 ```
-*Well done! You’ve picked the right examples of what Copilot can help with. It’s great at writing, testing, and explaining code—but it still needs your guidance.*
+*Well done! You’ve picked the right examples of what Copilot can help with. It’s great at writing, testing, and explaining 
+
+---
+### Highlight, prompt, done
