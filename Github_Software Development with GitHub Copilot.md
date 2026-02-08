@@ -32,3 +32,5 @@ Copilot Chat - Edit Mode
 Autocomplete
 ```
 *Inline Chat is perfect for quick fixes of small, contained bugs.*
+
+### No edits, just ideas
