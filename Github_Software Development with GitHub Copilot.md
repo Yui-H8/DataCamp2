@@ -53,3 +53,4 @@ You've used Copilot to fix a bug in a method and asked for architectural advice 
 Now you're looking at a list of remaining tasks; some are quick edits, others need deeper planning or bigger changes.
 
 Let's match each task to the Copilot interface that fits it best.
+* Classify each task into the Copilot interface that's best suited for it.
