@@ -73,3 +73,6 @@ Agent Mode is limited to running MCP tools only
 *Correct! Agent Mode is built to take multiple steps and use tools to achieve your goal.*
 
 ### Wait, what is Copilot asking?
+You continue using Agent Mode to refactor and test your code. You asked Copilot to run the full test suite to confirm everything works, fixing failing tests along the way.
+
+Now, you see a pop-up asking for permission. What's happening here?
