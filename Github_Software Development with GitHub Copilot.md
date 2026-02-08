@@ -25,3 +25,9 @@ You're fixing a small bug in the .mark_completed() method.
 The logic is almost correct, but the task isn't marked complete. You've highlighted the function and want Copilot to help you fix it.
 
 Based on this task and what's shown in the image, which Copilot interface is best suited for this situation?
+```
+Copilot Chat - Ask Mode
+Copilot Chat - Edit Mode
+Inline Chat
+Autocomplete
+```
