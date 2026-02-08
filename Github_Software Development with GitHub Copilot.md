@@ -48,3 +48,8 @@ Copilot will show all files it plans to change
 *Correct! Ask Mode provides you guidance without modifying code.*
 
 ### Inline, Ask, or Edit? You decide
+You've used Copilot to fix a bug in a method and asked for architectural advice on how to modularize the app.
+
+Now you're looking at a list of remaining tasks; some are quick edits, others need deeper planning or bigger changes.
+
+Let's match each task to the Copilot interface that fits it best.
