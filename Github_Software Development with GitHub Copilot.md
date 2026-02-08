@@ -76,3 +76,9 @@ Agent Mode is limited to running MCP tools only
 You continue using Agent Mode to refactor and test your code. You asked Copilot to run the full test suite to confirm everything works, fixing failing tests along the way.
 
 Now, you see a pop-up asking for permission. What's happening here?
+```
+Copilot is waiting for you to switch to Edit Mode
+Copilot is requesting permission to execute a terminal command
+Copilot is asking you to highlight the test function
+Copilot is automatically saving test results to a file
+```
