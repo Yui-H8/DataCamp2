@@ -54,3 +54,5 @@ Now you're looking at a list of remaining tasks; some are quick edits, others ne
 
 Let's match each task to the Copilot interface that fits it best.
 * Classify each task into the Copilot interface that's best suited for it.
+  
+*Nice work! You've matched each task to the Copilot interface that fits it best. Knowing when to use Inline, Ask, or Edit Mode helps you get faster, more accurate results from Copilot.*
