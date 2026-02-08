@@ -41,7 +41,8 @@ After fixing some bugs in task_manager.py, you want to make the script more modu
 Based on what you've learned, what can you expect Copilot to do in this mode?
 ```
 Copilot will refactor your code to add a service layer
-Copilot will suggest an app structure, but won't modify your code
+〇 Copilot will suggest an app structure, but won't modify your code
 Copilot will search the web and provide a Stack Overflow link
 Copilot will show all files it plans to change
 ```
+*Correct! Ask Mode provides you guidance without modifying code.*
