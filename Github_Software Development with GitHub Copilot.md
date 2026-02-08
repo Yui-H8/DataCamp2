@@ -71,3 +71,5 @@ Agent Mode always requires you to specify which file to edit
 Agent Mode is limited to running MCP tools only
 ```
 *Correct! Agent Mode is built to take multiple steps and use tools to achieve your goal.*
+
+### Wait, what is Copilot asking?
