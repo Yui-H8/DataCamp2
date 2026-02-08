@@ -64,3 +64,9 @@ You're starting a large refactor across multiple files in your project.
 Instead of editing each file manually, you open Copilot's Agent Mode and describe the goal.
 
 Which of the following statements is true about how Agent Mode operates?
+```
+Agent Mode makes a single suggestion and stops
+Agent Mode always requires you to specify which file to edit
+Agent Mode can autonomously iterate to refactor code, using tools or running commands if needed
+Agent Mode is limited to running MCP tools only
+```
