@@ -20,3 +20,8 @@ Automatically monitor production systems and fix bugs without human oversight
 
 ---
 ### Highlight, prompt, done
+You're fixing a small bug in the .mark_completed() method.
+
+The logic is almost correct, but the task isn't marked complete. You've highlighted the function and want Copilot to help you fix it.
+
+Based on this task and what's shown in the image, which Copilot interface is best suited for this situation?
