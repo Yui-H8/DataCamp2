@@ -34,3 +34,8 @@ Autocomplete
 *Inline Chat is perfect for quick fixes of small, contained bugs.*
 
 ### No edits, just ideas
+After fixing some bugs in task_manager.py, you want to make the script more modular. You open Copilot Chat in Ask Mode and type:
+
+"How can I restructure this app using a service layer?"
+
+Based on what you've learned, what can you expect Copilot to do in this mode?
