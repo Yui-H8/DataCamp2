@@ -67,6 +67,7 @@ Which of the following statements is true about how Agent Mode operates?
 ```
 Agent Mode makes a single suggestion and stops
 Agent Mode always requires you to specify which file to edit
-Agent Mode can autonomously iterate to refactor code, using tools or running commands if needed
+〇 Agent Mode can autonomously iterate to refactor code, using tools or running commands if needed
 Agent Mode is limited to running MCP tools only
 ```
+*Correct! Agent Mode is built to take multiple steps and use tools to achieve your goal.*
