@@ -28,6 +28,7 @@ Based on this task and what's shown in the image, which Copilot interface is bes
 ```
 Copilot Chat - Ask Mode
 Copilot Chat - Edit Mode
-Inline Chat
+〇 Inline Chat
 Autocomplete
 ```
+*Inline Chat is perfect for quick fixes of small, contained bugs.*
