@@ -10,3 +10,9 @@ You've been tasked with rolling out GitHub Copilot across your development team 
 You'd like to ensure the team understands the full range of capabilities available.
 
 Which of the following should you include as examples of what Copilot can help developers do?
+```
+Explain what complex code does by analyzing it and summarizing it
+Diagnose bugs by walking through error traces and identifying root causes
+Write tests covering edge cases and different scenarios
+Automatically monitor production systems and fix bugs without human oversight
+```
