@@ -11,8 +11,9 @@ You'd like to ensure the team understands the full range of capabilities availab
 
 Which of the following should you include as examples of what Copilot can help developers do?
 ```
-Explain what complex code does by analyzing it and summarizing it
-Diagnose bugs by walking through error traces and identifying root causes
-Write tests covering edge cases and different scenarios
+〇 Explain what complex code does by analyzing it and summarizing it
+〇 Diagnose bugs by walking through error traces and identifying root causes
+〇 Write tests covering edge cases and different scenarios
 Automatically monitor production systems and fix bugs without human oversight
 ```
+*Well done! You’ve picked the right examples of what Copilot can help with. It’s great at writing, testing, and explaining code—but it still needs your guidance.*
