@@ -78,7 +78,8 @@ You continue using Agent Mode to refactor and test your code. You asked Copilot 
 Now, you see a pop-up asking for permission. What's happening here?
 ```
 Copilot is waiting for you to switch to Edit Mode
-Copilot is requesting permission to execute a terminal command
+〇 Copilot is requesting permission to execute a terminal command
 Copilot is asking you to highlight the test function
 Copilot is automatically saving test results to a file
 ```
+*Correct! Copilot asks for permission before executing terminal commands or using certain tools. You can configure when to allow these permissions.*
