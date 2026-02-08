@@ -59,3 +59,8 @@ Let's match each task to the Copilot interface that fits it best.
 
 ---
 ### What sets Agent Mode apart
+You're starting a large refactor across multiple files in your project.
+
+Instead of editing each file manually, you open Copilot's Agent Mode and describe the goal.
+
+Which of the following statements is true about how Agent Mode operates?
