@@ -40,3 +40,7 @@ https://app.datacamp.com/learn/courses/
 ---
 ### Github
 * Software Development with GitHub Copilot
+
+---
+### Azure
+* Develop Azure Event-based and Message-based Solutions
