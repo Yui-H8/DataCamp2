@@ -23,3 +23,5 @@ It notifies the application immediately when an event occurs, rather than waitin
 It guarantees that no events will ever be lost during transmission.
 ```
 *Correct! Event-driven architecture pushes notifications to applications the moment something happens, eliminating the delay caused by polling intervals. This enables real-time responsiveness.*
+
+### Setting up a basic event flow
