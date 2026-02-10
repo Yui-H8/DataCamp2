@@ -25,4 +25,7 @@ It guarantees that no events will ever be lost during transmission.
 *Correct! Event-driven architecture pushes notifications to applications the moment something happens, eliminating the delay caused by polling intervals. This enables real-time responsiveness.*
 
 ### Setting up a basic event flow
-The purpose of this exercise is to get familiar with how Event Grid resources are created. We will choose a multipurpose Event Grid resource, as it can be used by any application type, regardless of whether it's hosted in Azure or not. We will go into more details on event flows in the next video.
+The purpose of this exercise is to get familiar with how Event Grid resources are created. We will choose a multipurpose Event Grid resource, as it can be used by any application type, regardless of whether it's hosted in Azure or not. We will go into more details on event flows in the next video.   
+**Choose an Event Grid Topic resource**   
+* In Azure portal, search for Event Grid.
+* Scroll down until you see the Topics section and create a resource under it.
