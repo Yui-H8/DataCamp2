@@ -15,3 +15,4 @@ By the end of the course, you’ll be able to design and implement scalable, res
 
 ---
 ### Understanding event-driven architecture
+A financial services company currently uses a polling-based system that checks for stock price changes every 30 seconds. Traders have complained that they are missing critical price movements because updates arrive too late. The development team is evaluating a move to event-driven architecture. What is the primary advantage of this approach over their current polling-based system?
