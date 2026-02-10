@@ -22,3 +22,4 @@ It eliminates the need for network communication between services.
 It notifies the application immediately when an event occurs, rather than waiting for the next scheduled check.
 It guarantees that no events will ever be lost during transmission.
 ```
+*Correct! Event-driven architecture pushes notifications to applications the moment something happens, eliminating the delay caused by polling intervals. This enables real-time responsiveness.*
