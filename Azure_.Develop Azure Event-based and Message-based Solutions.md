@@ -12,3 +12,6 @@ Through practical exercises, you’ll learn how to publish and subscribe to even
 
 
 By the end of the course, you’ll be able to design and implement scalable, resilient, and event-driven solutions that seamlessly connect Azure services with third-party systems—skills that are directly applicable to real-world cloud applications and Azure developer roles.
+
+---
+### Understanding event-driven architecture
