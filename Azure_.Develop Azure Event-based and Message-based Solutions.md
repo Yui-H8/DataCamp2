@@ -49,3 +49,9 @@ Topic endpoint and one of the access keys allow applications to connect to an Ev
 *The Access Keys page of an Event Grid topic has two access keys to choose from.*
 
 ### Setting up Event Grid
+Place Event Grid in the most appropriate spot on this diagram. This diagram describes the following process:
+
+1. User applies for a loan
+2. The back-end web service asynchronously instructs an external Azure Function to generate the agreement, which may take a few minutes
+3. The back-end web service synchronously creates a small entry in the database, recording the fact the user made a loan application
+4. A document-generation process continues in the background and the document is saved into Blob storage once ready
