@@ -67,3 +67,6 @@ Place Event Grid in the most appropriate spot on this diagram. This diagram desc
 Imagine you are building a message board. Once a new message appears on it, all users and applications that monitor the message board are notified of it immediately. In this exercise, you will build a webhook endpoint that will facilitate this. An Azure Function will be triggered via an HTTP request. When it's triggered, it will send an event to the Even Grid.
 
 You will create this function, connect it to a real Event Grid instance, and test it by sending an HTTP request to it.
+
+1. **Find Azure Function App**
+
