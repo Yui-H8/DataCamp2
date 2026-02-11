@@ -55,3 +55,9 @@ Place Event Grid in the most appropriate spot on this diagram. This diagram desc
 2. The back-end web service asynchronously instructs an external Azure Function to generate the agreement, which may take a few minutes
 3. The back-end web service synchronously creates a small entry in the database, recording the fact the user made a loan application
 4. A document-generation process continues in the background and the document is saved into Blob storage once ready
+```
+1. User applies for a loan
+2. External Azure Function is instructed to generate the agreement
+3. A record of the loan application is added to the database
+4. Document is stored in Blob storage
+```
