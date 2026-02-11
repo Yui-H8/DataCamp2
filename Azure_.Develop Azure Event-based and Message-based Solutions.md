@@ -47,3 +47,5 @@ Expand the Settings section in the menu on the left and select the Access keys
 Topic endpoint and one of the access keys allow applications to connect to an Event Grid topic securely and publish events to it. Typically, these values are securely stored in the settings or environment variables of the publisher app, so they aren't exposed via the code, which enhances application security.
 
 *The Access Keys page of an Event Grid topic has two access keys to choose from.*
+
+### Setting up Event Grid
