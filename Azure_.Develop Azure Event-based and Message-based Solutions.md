@@ -64,3 +64,6 @@ Place Event Grid in the most appropriate spot on this diagram. This diagram desc
 *Event Grid is used here to outsource asynchronous and potentially long-running task to an external service, so it doesn't block the main thread.*
 
 ### Connecting a custom app to Event Grid
+Imagine you are building a message board. Once a new message appears on it, all users and applications that monitor the message board are notified of it immediately. In this exercise, you will build a webhook endpoint that will facilitate this. An Azure Function will be triggered via an HTTP request. When it's triggered, it will send an event to the Even Grid.
+
+You will create this function, connect it to a real Event Grid instance, and test it by sending an HTTP request to it.
