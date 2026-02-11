@@ -26,6 +26,10 @@ It guarantees that no events will ever be lost during transmission.
 
 ### Setting up a basic event flow
 The purpose of this exercise is to get familiar with how Event Grid resources are created. We will choose a multipurpose Event Grid resource, as it can be used by any application type, regardless of whether it's hosted in Azure or not. We will go into more details on event flows in the next video.   
-**Choose an Event Grid Topic resource**   
+1. **Choose an Event Grid Topic resource**   
 * In Azure portal, search for Event Grid.
 * Scroll down until you see the Topics section and create a resource under it.
+
+2. **Create an Event Grid Topic**
+* Choose an existing Resource group from the drop-down list, give the topic the name of "sale-events", and choose East US as the location.
+* Create the resource, leaving all remaining options as their default values.
