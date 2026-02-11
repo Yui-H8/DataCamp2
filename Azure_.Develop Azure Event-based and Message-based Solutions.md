@@ -33,3 +33,5 @@ The purpose of this exercise is to get familiar with how Event Grid resources ar
 2. **Create an Event Grid Topic**
 * Choose an existing Resource group from the drop-down list, give the topic the name of "sale-events", and choose East US as the location.
 * Create the resource, leaving all remaining options as their default values.
+
+3. Review the topic connection settings
