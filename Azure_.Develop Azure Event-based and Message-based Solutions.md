@@ -62,3 +62,5 @@ Place Event Grid in the most appropriate spot on this diagram. This diagram desc
 4. Document is stored in Blob storage
 ```
 *Event Grid is used here to outsource asynchronous and potentially long-running task to an external service, so it doesn't block the main thread.*
+
+### Connecting a custom app to Event Grid
