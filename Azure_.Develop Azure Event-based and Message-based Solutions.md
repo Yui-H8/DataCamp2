@@ -69,4 +69,9 @@ Imagine you are building a message board. Once a new message appears on it, all 
 You will create this function, connect it to a real Event Grid instance, and test it by sending an HTTP request to it.
 
 1. **Find Azure Function App**
+Find Azure Function App
+
+* Search for the Function App with the name of function-app.. and open it.   
+> Note: you may need to refresh the screen if you can't find the function app on the first attempt.
+
 
