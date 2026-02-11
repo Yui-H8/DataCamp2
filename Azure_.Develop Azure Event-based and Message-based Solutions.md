@@ -34,8 +34,14 @@ The purpose of this exercise is to get familiar with how Event Grid resources ar
 * Choose an existing Resource group from the drop-down list, give the topic the name of "sale-events", and choose East US as the location.
 * Create the resource, leaving all remaining options as their default values.
 
-3. Review the topic connection settings
+3. **Review the topic connection settings**
 * Open the topic's Overview page and locate the Topic endpoint. You'll use this URL to publish events later.
 * Expand the Settings section in the menu on the left and select the Access keys
 
+Topic endpoint and one of the access keys allow applications to connect to an Event Grid topic securely and publish events to it. Typically, these values are securely stored in the settings or environment variables of the publisher app, so they aren't exposed via the code, which enhances application security.
+
+4. **Review the topic connection settings**
+
+Open the topic's Overview page and locate the Topic endpoint. You'll use this URL to publish events later.
+Expand the Settings section in the menu on the left and select the Access keys
 Topic endpoint and one of the access keys allow applications to connect to an Event Grid topic securely and publish events to it. Typically, these values are securely stored in the settings or environment variables of the publisher app, so they aren't exposed via the code, which enhances application security.
