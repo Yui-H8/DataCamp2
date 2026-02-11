@@ -57,7 +57,8 @@ Place Event Grid in the most appropriate spot on this diagram. This diagram desc
 4. A document-generation process continues in the background and the document is saved into Blob storage once ready
 ```
 1. User applies for a loan
-2. External Azure Function is instructed to generate the agreement
+〇 2. External Azure Function is instructed to generate the agreement
 3. A record of the loan application is added to the database
 4. Document is stored in Blob storage
 ```
+*Event Grid is used here to outsource asynchronous and potentially long-running task to an external service, so it doesn't block the main thread.*
