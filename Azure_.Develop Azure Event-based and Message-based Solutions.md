@@ -35,3 +35,5 @@ The purpose of this exercise is to get familiar with how Event Grid resources ar
 * Create the resource, leaving all remaining options as their default values.
 
 3. Review the topic connection settings
+* Open the topic's Overview page and locate the Topic endpoint. You'll use this URL to publish events later.
+* Expand the Settings section in the menu on the left and select the Access keys
