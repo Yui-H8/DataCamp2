@@ -83,3 +83,5 @@ Find Azure Function App
 * Apply these changes.
 
 > Note: deployment slot checkbox can be left unchecked while adding environment variables.
+
+3. **Create HTTP Function trigger**
