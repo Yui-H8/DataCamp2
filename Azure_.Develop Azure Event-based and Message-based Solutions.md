@@ -124,3 +124,6 @@ module.exports = async function (context, req) {
 > Once an HTTP request is sent to the Function endpoint, the JavaScript code inside the function sends the request to the Event Grid Topic. The endpoint URL is extracted from environment variables via process.env.EVENT_GRID_TOPIC_ENDPOIN. The secret key is extracted from process.env.EVENT_GRID_TOPIC_KEY. The event variable holds the event payload. The await fetch invocation submits this payload to the endpoint via a POST HTTP request, placing the secret key into the aeg-sas-key header.
 
 5. **Test the function**
+* Open the Get function URL dialog from the top of the screen
+* You will see three function URLs. Copy any of then into a new tab.
+* You should see a message indicating that an event has been sent successfully.
