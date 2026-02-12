@@ -81,3 +81,5 @@ Find Azure Function App
   - Name - "EVENT_GRID_TOPIC_ENDPOINT"; Value - the topic endpoint value.
   - Name - "EVENT_GRID_TOPIC_KEY"; Value - one of the keys from Access keys.
 * Apply these changes.
+
+> Note: deployment slot checkbox can be left unchecked while adding environment variables.
