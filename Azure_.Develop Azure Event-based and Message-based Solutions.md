@@ -91,3 +91,32 @@ Since the connection settings are stored in environment variables, they are stor
 
 4. **Add the JavaScript trigger function**
 * Replace all existing code with the following, which you can copy by using Ctrl + C on Windows or Linux or Command + C on Mac, and paste by using Ctr + V on any machine:
+```JavaScript
+module.exports = async function (context, req) {
+    const endpoint = process.env.EVENT_GRID_TOPIC_ENDPOINT;
+    const key = process.env.EVENT_GRID_TOPIC_KEY;
+    if (!endpoint || !key) throw new Error("Missing endpoint or key");
+
+    const event = {
+      id: (globalThis.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random()}`),
+      subject: "/demo/app",
+      eventType: "MessageCreated",
+      dataVersion: "1.0",
+      data: { message: "Hello from Event Grid!" },
+      eventTime: new Date()
+    };
+
+    const res = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "aeg-sas-key": key,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify([event])
+    });
+
+    const text = await res.text();
+    context.log("Publish response:", res.status, text);
+    context.res = { status: res.ok ? 200 : 500, body: res.ok ? "Event published" : text };
+};
+```
