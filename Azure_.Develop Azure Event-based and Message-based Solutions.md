@@ -74,4 +74,4 @@ Find Azure Function App
 * Search for the Function App with the name of function-app.. and open it.   
 > Note: you may need to refresh the screen if you can't find the function app on the first attempt.
 
-
+2. **Obtain Event Grid connection settings**
