@@ -75,3 +75,9 @@ Find Azure Function App
 > Note: you may need to refresh the screen if you can't find the function app on the first attempt.
 
 2. **Obtain Event Grid connection settings**
+Open a new tab in the learner environment and navigate to portal.azure.com.
+Find an Event Grid Topic with the name of egtopic-... open it, and find both the Topic endpoint URL and access key.
+In the original Function App, expand Settings, choose Environment Variables, add the following environment variables, then save and confirm the settings:
+Name - "EVENT_GRID_TOPIC_ENDPOINT"; Value - the topic endpoint value.
+Name - "EVENT_GRID_TOPIC_KEY"; Value - one of the keys from Access keys.
+Apply these changes.
