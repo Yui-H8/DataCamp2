@@ -85,3 +85,4 @@ Find Azure Function App
 > Note: deployment slot checkbox can be left unchecked while adding environment variables.
 
 3. **Create HTTP Function trigger**
+Since the connection settings are stored in environment variables, they are stored securely and we can update them easily without having to rewrite the code. We will now add the code that will consume them.
