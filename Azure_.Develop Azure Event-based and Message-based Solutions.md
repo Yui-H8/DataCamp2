@@ -88,3 +88,5 @@ Find Azure Function App
 Since the connection settings are stored in environment variables, they are stored securely and we can update them easily without having to rewrite the code. We will now add the code that will consume them.
 * Go back to the Overview page of the Function App and create a new Function from there.
 * Create an HTTP trigger with the name of publish_message with the default authorization setting
+
+4. **Add the JavaScript trigger function**
