@@ -90,3 +90,4 @@ Since the connection settings are stored in environment variables, they are stor
 * Create an HTTP trigger with the name of publish_message with the default authorization setting
 
 4. **Add the JavaScript trigger function**
+* Replace all existing code with the following, which you can copy by using Ctrl + C on Windows or Linux or Command + C on Mac, and paste by using Ctr + V on any machine:
