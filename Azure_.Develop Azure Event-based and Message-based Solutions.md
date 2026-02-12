@@ -120,3 +120,4 @@ module.exports = async function (context, req) {
     context.res = { status: res.ok ? 200 : 500, body: res.ok ? "Event published" : text };
 };
 ```
+* Save the change.
