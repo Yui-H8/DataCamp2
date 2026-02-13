@@ -151,3 +151,5 @@ module.exports = async function (context, azeventgrid) {
   context.log(`Processed Message: ${message}`);
 };
 ```
+> Click here for further explanation    
+This code is executed when a message is placed in an Event Grid Topic that the function is bound to. Inside this endpoint, we first log the event data, i.e. the whole JSON the event consists of. Then, we separately log the message extracted from the event data JSON.
