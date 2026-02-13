@@ -127,3 +127,7 @@ module.exports = async function (context, req) {
 * Open the Get function URL dialog from the top of the screen
 * You will see three function URLs. Copy any of then into a new tab.
 * You should see a message indicating that an event has been sent successfully.
+
+6. **How did you extract Event Grid Topic endpoint and its key from environment variables?**
+*process.env contains the full collection of environment variables available to the process that runs the code.*
+
