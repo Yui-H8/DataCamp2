@@ -137,3 +137,6 @@ In this exercise, we will add Function App that can subscribe to an Event Grid t
 To demonstrate how Event Grid can share events between completely different applications, you will create a separate instance of Azure Function to act as the event subscriber.
 
 1. Add an Event Grid subscriber function
+* Find the Azure Function with the name function-app... if you aren't on it already.
+* Create a new function. Choose the Event Grid trigger and give it a name of "MessageSubscriber".
+* Once created, replace the code with the following and save the changes:
