@@ -132,3 +132,6 @@ module.exports = async function (context, req) {
 *process.env contains the full collection of environment variables available to the process that runs the code.*
 
 ### Building an event subscriber
+In this exercise, we will add Function App that can subscribe to an Event Grid topic. Such an app, which can be anything and not necessarily Azure Function App, receives the events from other services. This is how, for example, a mobile app receives notifications.
+
+To demonstrate how Event Grid can share events between completely different applications, you will create a separate instance of Azure Function to act as the event subscriber.
