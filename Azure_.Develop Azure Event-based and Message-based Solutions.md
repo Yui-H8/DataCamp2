@@ -155,3 +155,6 @@ module.exports = async function (context, azeventgrid) {
 This code is executed when a message is placed in an Event Grid Topic that the function is bound to. Inside this endpoint, we first log the event data, i.e. the whole JSON the event consists of. Then, we separately log the message extracted from the event data JSON.
 
 2. Connect the function to the Event Grid subscription
+* Open the Integration blade on top
+* Navigate to the Event Grid Trigger (eventGridEvent) link in the trigger card.
+* In the dialog that opens, choose the Create Event Grid subscription.
