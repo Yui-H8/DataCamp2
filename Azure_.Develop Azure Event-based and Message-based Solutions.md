@@ -157,5 +157,6 @@ This code is executed when a message is placed in an Event Grid Topic that the f
 2. Connect the function to the Event Grid subscription
 * Open the Integration blade on top
 * Navigate to the Event Grid Trigger (eventGridEvent) link in the trigger card.
-* In the dialog that opens, choose the Create Event Grid subscription.　　　　
+* In the dialog that opens, choose the Create Event Grid subscription.
+  
 You should be taken to a new page where a subscription is configured.
