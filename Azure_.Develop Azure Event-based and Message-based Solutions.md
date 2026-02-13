@@ -140,3 +140,14 @@ To demonstrate how Event Grid can share events between completely different appl
 * Find the Azure Function with the name function-app... if you aren't on it already.
 * Create a new function. Choose the Event Grid trigger and give it a name of "MessageSubscriber".
 * Once created, replace the code with the following and save the changes:
+```
+module.exports = async function (context, azeventgrid) {
+  context.log("Event received:", JSON.stringify(azeventgrid));
+
+  const data = (azeventgrid && azeventgrid.data) || {};
+  context.log("Event Data:", JSON.stringify(data));
+
+  const message = (data && data.message) ? data.message : "No message provided";
+  context.log(`Processed Message: ${message}`);
+};
+```
