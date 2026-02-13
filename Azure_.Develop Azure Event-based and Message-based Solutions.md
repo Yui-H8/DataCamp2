@@ -131,3 +131,4 @@ module.exports = async function (context, req) {
 6. **How did you extract Event Grid Topic endpoint and its key from environment variables?**
 *process.env contains the full collection of environment variables available to the process that runs the code.*
 
+### Building an event subscriber
