@@ -181,4 +181,4 @@ If the event is shown in the graph, it means it has been received and processed 
 *How would you configure a subscription to a specific Event Grit topic inside an Azure Function with an Event Grid trigger?*
 
 ---
-### Setting up an MQTT broker
+### Setting up an MQTT(Message Queuing Telemetry Transport) broker
