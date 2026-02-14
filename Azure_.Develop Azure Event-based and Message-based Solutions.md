@@ -186,3 +186,4 @@ Event routing is an important feature of Event Grid. It enables Event Grid to tr
 
 1. Create an Event Grid Namespace
 In Event Grid, event routing functionality is enabled in a multipurpose Event Grid Namespace resource. Therefore, let's create an instance of this resource.
+* Navigate to Event Grid and create a Namespaces Event Grid.
