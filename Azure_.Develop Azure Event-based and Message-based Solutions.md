@@ -169,3 +169,7 @@ Please note that the subscription can also be created from Event Grid Topic. The
 
 4. Test the subscription
 If you still have the HTTP trigger function from the previous exercise, you can test the event flow end to end.
+* Paste the URL of the original HTTP trigger function into a new browser tab.
+* Go to the egtopic-... Event Grid instance.
+* Navigate to the message-subscription subscription.
+* See that the graph is showing a processed event.
