@@ -183,3 +183,5 @@ If the event is shown in the graph, it means it has been received and processed 
 ---
 ### Setting up an MQTT(Message Queuing Telemetry Transport) broker
 Event routing is an important feature of Event Grid. It enables Event Grid to translate MQTT messages, such as IoT device telemetry, into standard Event Grid messages that can be handled by any applications, such as Azure Functions. In this exercise, we will set up Event Routing, which would be the first step to connect IoT devices, such as wearables and sensors, to our system.
+
+1. Create an Event Grid Namespace
