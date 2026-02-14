@@ -166,3 +166,6 @@ You should be taken to a new page where a subscription is configured.
 * From the Topic Types drop-down list, select Event Grid Topic. Select the available value in the Subscription field. Select the available value in the Resource group drop-down. Select the egtopic-... Event Grid Topic in the Resource drop-down. Once all the options have been selected, create the subscription.
 > Click here for further explanation   
 Please note that the subscription can also be created from Event Grid Topic. The process is similar, but works in the opposite direction. Instead of selecting the Event Grid Topic, you will need to select the Azure Function with an Event Grid trigger. The end result will be identical.
+
+4. Test the subscription
+If you still have the HTTP trigger function from the previous exercise, you can test the event flow end to end.
