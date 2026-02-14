@@ -162,4 +162,5 @@ This code is executed when a message is placed in an Event Grid Topic that the f
 You should be taken to a new page where a subscription is configured.
 
 3. Complete the subscription integration
-4. 
+* Give your subscription the name of "message-subscription". In the Event Schema drop-down list select Event Grid Schema.
+* From the Topic Types drop-down list, select Event Grid Topic. Select the available value in the Subscription field. Select the available value in the Resource group drop-down. Select the egtopic-... Event Grid Topic in the Resource drop-down. Once all the options have been selected, create the subscription.
