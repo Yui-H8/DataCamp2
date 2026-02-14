@@ -177,3 +177,5 @@ If you still have the HTTP trigger function from the previous exercise, you can 
 If the event is shown in the graph, it means it has been received and processed by the Event Grid Trigger function.
 
 5. How would you configure a subscription to a specific Event Grit topic inside an Azure Function with an Event Grid trigger?
+
+*How would you configure a subscription to a specific Event Grit topic inside an Azure Function with an Event Grid trigger?*
