@@ -194,3 +194,5 @@ Hint
 3. Select East US from the Location drop-down list
 4. Click Review + Create
 5. Click Create
+
+2. Configure the Event Grid Namespace
