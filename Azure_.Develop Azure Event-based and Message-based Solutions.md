@@ -160,3 +160,6 @@ This code is executed when a message is placed in an Event Grid Topic that the f
 * In the dialog that opens, choose the Create Event Grid subscription.
   
 You should be taken to a new page where a subscription is configured.
+
+3. Complete the subscription integration
+4. 
