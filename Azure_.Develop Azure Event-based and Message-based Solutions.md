@@ -173,3 +173,5 @@ If you still have the HTTP trigger function from the previous exercise, you can 
 * Go to the egtopic-... Event Grid instance.
 * Navigate to the message-subscription subscription.
 * See that the graph is showing a processed event.
+
+If the event is shown in the graph, it means it has been received and processed by the Event Grid Trigger function.
