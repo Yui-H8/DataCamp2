@@ -217,3 +217,6 @@ In this exercise, we will finish setting up event routing functionality. Once do
 Once set up, all MQTT messages that go into this instance of Event Grid will be routed to this topic. Different clients, such as different types of IoT devices, can start start sending their telemetry to this topic via the MQTT protocol. Any subscribers to the topic can then receive and handle this data.
 
 1. Create a namespace topic
+* Go to Event Grid and, under the MQTT Broker card, choose View
+* In the newly created Event Grid Namespace, create a new topic and give it a name of message-topic.
+* Once the topic has been created, the name message-topic should appear on the Topics page. Navigate to it.
