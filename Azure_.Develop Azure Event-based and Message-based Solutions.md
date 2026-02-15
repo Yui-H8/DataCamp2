@@ -228,3 +228,5 @@ Once set up, all MQTT messages that go into this instance of Event Grid will be 
 3. Configure event routing
 * Navigate back to the main Overview page of the Event Grid namespace resource. Expand the MQTT broker section on the left select the Routing blade.
 * Once on the page, enable routing and apply routing to the message-topic, which can be selected as Namespace topic.
+
+4. What type of Event Grid resource contains an MQTT broker?
