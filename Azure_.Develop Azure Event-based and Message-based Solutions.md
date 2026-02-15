@@ -202,3 +202,5 @@ Hint
 3. Enable the MQTT broker
 * Once at the Overview page navigate to Configuration under the Settings blade.
 * Tick the Enable MQTT broker box. Apply the changes and wait for the changes to be applied.
+
+It may take a few minutes for the broker to get provisioned. Once created, make sure you complete the next exercise in the same sitting to make sure the resource is still available.
