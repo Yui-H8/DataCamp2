@@ -204,3 +204,5 @@ Hint
 * Tick the Enable MQTT broker box. Apply the changes and wait for the changes to be applied.
 
 It may take a few minutes for the broker to get provisioned. Once created, make sure you complete the next exercise in the same sitting to make sure the resource is still available.
+
+4. Why do you need to enable MQTT broker in order to enable event routing in an Event Grid Namespace?
