@@ -200,3 +200,5 @@ Hint
 * All remaining options can be left as their default values.
 
 3. Enable the MQTT broker
+* Once at the Overview page navigate to Configuration under the Settings blade.
+* Tick the Enable MQTT broker box. Apply the changes and wait for the changes to be applied.
