@@ -224,3 +224,5 @@ Once set up, all MQTT messages that go into this instance of Event Grid will be 
 2. Create a topic subscription
 * Add a new subscription. Call your subscription message-subscription.
 * Expand the Entities section on the left and go to the Subscriptions blade. Once on the subscriptions page, you should see the message-subscription option listed.
+
+3. Configure event routing
