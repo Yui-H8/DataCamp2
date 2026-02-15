@@ -220,3 +220,5 @@ Once set up, all MQTT messages that go into this instance of Event Grid will be 
 * Go to Event Grid and, under the MQTT Broker card, choose View
 * In the newly created Event Grid Namespace, create a new topic and give it a name of message-topic.
 * Once the topic has been created, the name message-topic should appear on the Topics page. Navigate to it.
+
+2. Create a topic subscription
