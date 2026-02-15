@@ -230,3 +230,12 @@ Once set up, all MQTT messages that go into this instance of Event Grid will be 
 * Once on the page, enable routing and apply routing to the message-topic, which can be selected as Namespace topic.
 
 4. What type of Event Grid resource contains an MQTT broker?
+```
+Hint
+1. Navigate to Event Grid, choose MQTT Broker and click View
+2. Expand the Event broker section and click the Topics option
+3. Click the + Topic button on top of the screen
+4. Fill the Name field with message-topic
+5. Click Create
+6. Navigate to the Topics page and click on the message-topic item in the list
+```
