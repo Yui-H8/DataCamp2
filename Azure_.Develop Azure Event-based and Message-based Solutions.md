@@ -206,3 +206,7 @@ Hint
 It may take a few minutes for the broker to get provisioned. Once created, make sure you complete the next exercise in the same sitting to make sure the resource is still available.
 
 4. Why do you need to enable MQTT broker in order to enable event routing in an Event Grid Namespace?
+```
+Hint
+Event routing is specifically designed to route MQTT messages to an Event Grid topic that other applications can subscribe to. Therefore, to enable event routing, we would need to enable MQTT broker.
+```
