@@ -210,3 +210,5 @@ It may take a few minutes for the broker to get provisioned. Once created, make 
 Hint
 Event routing is specifically designed to route MQTT messages to an Event Grid topic that other applications can subscribe to. Therefore, to enable event routing, we would need to enable MQTT broker.
 ```
+
+### Configuring event routing
