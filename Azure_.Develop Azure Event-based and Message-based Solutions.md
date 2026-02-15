@@ -226,3 +226,5 @@ Once set up, all MQTT messages that go into this instance of Event Grid will be 
 * Expand the Entities section on the left and go to the Subscriptions blade. Once on the subscriptions page, you should see the message-subscription option listed.
 
 3. Configure event routing
+* Navigate back to the main Overview page of the Event Grid namespace resource. Expand the MQTT broker section on the left select the Routing blade.
+* Once on the page, enable routing and apply routing to the message-topic, which can be selected as Namespace topic.
