@@ -198,3 +198,5 @@ Hint
 2. Configure the Event Grid Namespace
 * Choose an existing resource group from the drop-down list give the namespace any valid unique name, and choose East US as the location.
 * All remaining options can be left as their default values.
+
+3. Enable the MQTT broker
