@@ -212,3 +212,6 @@ Event routing is specifically designed to route MQTT messages to an Event Grid t
 ```
 
 ### Configuring event routing
+In this exercise, we will finish setting up event routing functionality. Once done, we will have an MQTT broker fully set up with event routing, ready for an IoT Hub to connect to it.
+
+Once set up, all MQTT messages that go into this instance of Event Grid will be routed to this topic. Different clients, such as different types of IoT devices, can start start sending their telemetry to this topic via the MQTT protocol. Any subscribers to the topic can then receive and handle this data.
