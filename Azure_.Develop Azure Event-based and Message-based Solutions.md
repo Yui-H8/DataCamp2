@@ -246,3 +246,6 @@ The purpose of this exercise is to set up an Event Grid topic that can manage sy
 
 BLOB is an acronym that stands for Binary Large Object, which is a generic name for unstructured data, such as a file of any format. Events, such as file uploads and deletions of the uploaded files from the container are emitted as system events. These are the systems events we can capture.
 1. Create a Storage Blob
+* Search for a storage account with the name of storage....
+* Navigate to Storage accounts and open the pre-made account.
+* Navigate to Containers under Data storage and create a Container named "blobs"
