@@ -249,3 +249,5 @@ BLOB is an acronym that stands for Binary Large Object, which is a generic name 
 * Search for a storage account with the name of storage....
 * Navigate to Storage accounts and open the pre-made account.
 * Navigate to Containers under Data storage and create a Container named "blobs"
+
+2. Create an Event Grid System Topic
