@@ -256,3 +256,6 @@ BLOB is an acronym that stands for Binary Large Object, which is a generic name 
 * Give your topic any valid name. Enable the system managed identity. Finalize the topic.
 
 This topic will listen to any events happening inside the Blob Container, but not the events associated with the modification of container itself.
+
+3. What user actions would trigger events in the System Topic we just created?
+
