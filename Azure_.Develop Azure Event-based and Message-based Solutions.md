@@ -260,3 +260,4 @@ This topic will listen to any events happening inside the Blob Container, but no
 3. What user actions would trigger events in the System Topic we just created?
 
 ---
+### Event filtering
