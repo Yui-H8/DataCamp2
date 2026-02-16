@@ -242,3 +242,6 @@ Hint
 *This is the resource reserved for MQTT brokers.*
 
 ### Working with system events
+The purpose of this exercise is to set up an Event Grid topic that can manage system events, which are the events emitted by native services hosted on Azure, such as Storage Accounts, Azure Functions, and so on. We will set up a storage account. Then we will create an Event Grid system topic that the updates from a Blob Storage can be sent to.
+
+BLOB is an acronym that stands for Binary Large Object, which is a generic name for unstructured data, such as a file of any format. Events, such as file uploads and deletions of the uploaded files from the container are emitted as system events. These are the systems events we can capture.
