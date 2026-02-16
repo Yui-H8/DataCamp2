@@ -251,3 +251,6 @@ BLOB is an acronym that stands for Binary Large Object, which is a generic name 
 * Navigate to Containers under Data storage and create a Container named "blobs"
 
 2. Create an Event Grid System Topic
+* Go to Event Grid. Scroll down until you see System topic card. Create a new instance of System Topic
+* Select Storage Accounts as the topic type. Select the available subscription from the drop-down list. Select the available resource group. Select the name of the Storage Account we created earlier.
+* Give your topic any valid name. Enable the system managed identity. Finalize the topic.
