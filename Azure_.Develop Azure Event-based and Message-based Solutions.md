@@ -240,3 +240,5 @@ Hint
 6. Navigate to the Topics page and click on the message-topic item in the list
 ```
 *This is the resource reserved for MQTT brokers.*
+
+### Working with system events
