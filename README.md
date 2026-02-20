@@ -10,6 +10,12 @@ https://app.datacamp.com/learn/courses/
 ---
 #### Exercise　　
 ---
+### AI
+* Responsible AI Data Management
+
+
+
+---
 ### Python
 * Multi-Modal Models with Hugging Face
 * Explainable AI in Python
