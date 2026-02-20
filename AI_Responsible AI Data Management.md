@@ -22,3 +22,15 @@ The start of any project involves understanding how to integrate and implement r
 * Classify the statements into the correct dimensions.
 
 *Kudos for understanding the role of each responsible data dimension in an ethical AI project!*
+
+### Planning a responsible AI project
+Planning is the key to a responsible AI project. A healthcare company wants to develop an AI tool to use images to classify skin conditions and increase the accuracy of diagnoses. You are working on this project.
+
+Which steps should you plan to incorporate responsible data use throughout the project? Select the three answers that apply.
+```
+Ensure compliance with laws for medical data
+Ensure the dataset has diverse skin types, ages, genders, and ethnicities
+Identify any underrepresented groups in the data to avoid biased or inaccurate results
+Data is provided by the healthcare company and bias assessment is not required
+Monitoring post-deployment changes in data is outside of your scope
+```
