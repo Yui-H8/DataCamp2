@@ -16,3 +16,9 @@ Efficient resources use ensures ethical and fair AI in model development
 〇 Responsible AI practice integrates diverse demographics, reducing inadvertent biases in modeling
 ```
 *Great job at balancing tech and ethics!*
+
+### Dimensions of responsible data
+The start of any project involves understanding how to integrate and implement responsible data dimensions. This ensures the ethical development and deployment of AI tools and fosters public trust.
+* Classify the statements into the correct dimensions.
+
+*Kudos for understanding the role of each responsible data dimension in an ethical AI project!*
