@@ -9,9 +9,10 @@ Balancing technical efficiency with responsible AI dimensions is crucial when bu
 
 Identify the statements that are true for responsible AI development. Select the three answers that apply.
 ```
-High assessment on fairness does not guarantee high model accuracy
-Diversity ensures equal representation and treatment of all groups in model outcomes
+〇 High assessment on fairness does not guarantee high model accuracy
+〇 Diversity ensures equal representation and treatment of all groups in model outcomes
 Accuracy guarantees fairness and responsible AI outcomes in model's performance
 Efficient resources use ensures ethical and fair AI in model development
-Responsible AI practice integrates diverse demographics, reducing inadvertent biases in modeling
+〇 Responsible AI practice integrates diverse demographics, reducing inadvertent biases in modeling
 ```
+*Great job at balancing tech and ethics!*
