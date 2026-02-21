@@ -55,9 +55,13 @@ Responsible data management practices are aligned with and guided by the profess
 
 Which of these statements correctly describes this professional code of conduct? Select the two answers that apply.
 ```
-Ethical conduct is in protecting the privacy of users and handling their data with confidentiality\
+〇 Ethical conduct is in protecting the privacy of users and handling their data with confidentiality\
 Professional duties prioritize tech's positive societal impact over risks\
-Ethical tech conduct demands fairness, preventing discrimination in solutions\
+〇 Ethical tech conduct demands fairness, preventing discrimination in solutions\
 Tech excellence and robustness ensure innovation and should be prioritized
 Any innovation has risk, but its future value can outweigh ethical considerations and potential dilemmas
 ```
+*Bravo on professional and ethical growth!*
+
+---
+---
