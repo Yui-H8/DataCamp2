@@ -34,3 +34,10 @@ Identify any underrepresented groups in the data to avoid biased or inaccurate r
 Data is provided by the healthcare company and bias assessment is not required
 Monitoring post-deployment changes in data is outside of your scope
 ```
+*Bravo on advancing healthcare innovation responsibly!*
+
+### Responsible data use
+AI-driven advertising systems are popular, highlighting a need for responsible AI practices to ensure fairness and transparency in ad targeting.
+
+> In this scenario, AI Culture Horizon, a cultural organization, faced issues with its AI-driven promotional campaign for a new free museum opening. The company's AI model, which used data on users' browsing history and demographics, came under scrutiny. Concerns were raised that the algorithm disproportionately targeted advertisements towards higher-income neighborhoods, inadvertently neglecting broader outreach and engagement with diverse communities.
+
