@@ -94,3 +94,10 @@ Informed consent is obtained after the personal data is tested in an AI model
 Consent for organizational data is typically obtained through formal contracts, such as Data Use Agreements (DUAs). These agreements are essential in data sharing between companies in an AI project. Knowing the common parts of DUAs helps developers quickly identify terms of usage and clarify data compliance issues.
 
 *Mastering the components of DUA ensures accurate data utilization in the project—well done!*
+
+### Types of licenses
+The pretrained model RoBERTa-Large, available on the Hugging Face platform, is widely utilized within the AI community. Its license outlines the permissible use of the model, ensuring compliance and ethical utilization:
+
+License: mit
+
+*Congratulations! Understanding licenses is a knowledge that you need for your AI mastery!*
