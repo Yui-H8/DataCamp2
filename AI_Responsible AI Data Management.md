@@ -101,3 +101,8 @@ The pretrained model RoBERTa-Large, available on the Hugging Face platform, is w
 License: mit
 
 *Congratulations! Understanding licenses is a knowledge that you need for your AI mastery!*
+
+### Licensing agreements
+Understanding the common elements of license agreements ensures legal compliance and proper use of data, especially in AI projects where data usage is fundamental. Licensing agreements outlines developers' rights and obligations, preventing potential legal disputes and creating trust and transparency. Which of the following components are likely to be in a licensing agreement?
+
+*You're on your way to ensuring proper legal compliance and usage.*
