@@ -49,3 +49,15 @@ You're part of a team developing an AI student admission system for universities
 ---
 ### Trade-offs in responsible AI
 Applying responsible AI in real-world scenarios demands professional judgment, a skill that can only be fully developed through practical experience and hands-on involvement in diverse AI projects. Working through short scenarios allows you to train your ethical muscles and build skills in responsible data dimensions.
+
+### Professional duties and ethical conduct
+Responsible data management practices are aligned with and guided by the professional code of conduct, which establishes the duties and responsibilities of data professionals. Understanding these duties and responsibilities is key to responsible AI and growing a successful professional career in technology.
+
+Which of these statements correctly describes this professional code of conduct? Select the two answers that apply.
+```
+Ethical conduct is in protecting the privacy of users and handling their data with confidentiality\
+Professional duties prioritize tech's positive societal impact over risks\
+Ethical tech conduct demands fairness, preventing discrimination in solutions\
+Tech excellence and robustness ensure innovation and should be prioritized
+Any innovation has risk, but its future value can outweigh ethical considerations and potential dilemmas
+```
