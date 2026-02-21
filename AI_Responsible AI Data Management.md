@@ -92,3 +92,5 @@ Informed consent is obtained after the personal data is tested in an AI model
 
 ### Data use agreements (DUAs)
 Consent for organizational data is typically obtained through formal contracts, such as Data Use Agreements (DUAs). These agreements are essential in data sharing between companies in an AI project. Knowing the common parts of DUAs helps developers quickly identify terms of usage and clarify data compliance issues.
+
+*Mastering the components of DUA ensures accurate data utilization in the project—well done!*
