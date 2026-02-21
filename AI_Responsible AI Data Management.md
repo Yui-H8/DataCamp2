@@ -65,3 +65,6 @@ Any innovation has risk, but its future value can outweigh ethical consideration
 
 ---
 ---
+### Data protection laws
+In data protection and privacy regulation, pivotal laws include the GDPR in the EU, HIPAA in the US, and the CCPA in California. Understanding the fundamental principles of these regulations is essential for AI projects.
+* Classify the statements as either GDPR, HIPAA or CCPA.
