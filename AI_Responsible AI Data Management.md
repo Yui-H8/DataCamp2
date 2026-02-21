@@ -41,3 +41,7 @@ AI-driven advertising systems are popular, highlighting a need for responsible A
 
 > In this scenario, AI Culture Horizon, a cultural organization, faced issues with its AI-driven promotional campaign for a new free museum opening. The company's AI model, which used data on users' browsing history and demographics, came under scrutiny. Concerns were raised that the algorithm disproportionately targeted advertisements towards higher-income neighborhoods, inadvertently neglecting broader outreach and engagement with diverse communities.
 
+*Congratulations! You are a hero of AI-driven targeted advertising!*
+
+### Fairness in AI projects
+You're part of a team developing an AI student admission system for universities. This system aims to fairly evaluate applicants based on various factors. The team considers three different approaches to assess fairness in the project, including disparate impact, equal opportunity and demographic parity.
