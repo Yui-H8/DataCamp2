@@ -45,3 +45,7 @@ AI-driven advertising systems are popular, highlighting a need for responsible A
 
 ### Fairness in AI projects
 You're part of a team developing an AI student admission system for universities. This system aims to fairly evaluate applicants based on various factors. The team considers three different approaches to assess fairness in the project, including disparate impact, equal opportunity and demographic parity.
+
+---
+### Trade-offs in responsible AI
+Applying responsible AI in real-world scenarios demands professional judgment, a skill that can only be fully developed through practical experience and hands-on involvement in diverse AI projects. Working through short scenarios allows you to train your ethical muscles and build skills in responsible data dimensions.
