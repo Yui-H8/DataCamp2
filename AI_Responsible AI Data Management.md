@@ -74,3 +74,17 @@ In data protection and privacy regulation, pivotal laws include the GDPR in the 
 ### Data regulation in a project
 You work for a UK healthcare company and develop an AI diagnostic tool for providers in the EU and US. You have already booked a meeting with the legal team and now researching relevant data laws to gain insight.
 * Group each data regulation for the use case.
+
+*Well done on your research! Now you're all prepped for the meeting with the legal team!*
+
+### Data owner rights and compliance
+You develop a recommender system for an online health food shop. The system uses customer data, including dietary preferences, purchase history, and health goals, and data from local organic farms about seasonal produce availability and sourcing practices.
+
+You're planning for a meeting with a legal team to discuss how to manage the consent around the customer data. Before you go in, you have decided on some approaches you believe to be suitable. Which two options do you bring to the meeting to discuss?
+```
+Informed consent is required for personal data such as family name and date of birth
+Informed consent can be acquired through interactive prompts, checkboxes, and clear opt-in/opt-out options
+A DUA is necessary for external organic farms to ensure proper handling and data use
+The DUA establishes the informed consent procedure for the personal customer data
+Informed consent is obtained after the personal data is tested in an AI model
+```
