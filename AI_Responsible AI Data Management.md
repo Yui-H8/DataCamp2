@@ -110,8 +110,9 @@ Understanding the common elements of license agreements ensures legal compliance
 ### Selecting a license
 You are developing an Open Source platform for healthy food online shopping. Your platform relies on community contributions to the products database. You allow wide-ranging use of your platform, including for profit, while maintaining credit and allowing derivative works with other licensing. Which licenses should you consider?
 ```
-Permissive Open Source License - MIT License
-Permissive Open Source license - Apache License
+〇 Permissive Open Source License - MIT License
+〇 Permissive Open Source license - Apache License
 License without any terms - Public Domain
 Strong copyleft license - GPL
 ```
+*License selection successfully mastered!*
