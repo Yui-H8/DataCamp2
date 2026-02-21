@@ -68,3 +68,9 @@ Any innovation has risk, but its future value can outweigh ethical consideration
 ### Data protection laws
 In data protection and privacy regulation, pivotal laws include the GDPR in the EU, HIPAA in the US, and the CCPA in California. Understanding the fundamental principles of these regulations is essential for AI projects.
 * Classify the statements as either GDPR, HIPAA or CCPA.
+
+*Congratulations! Understanding key aspects of data regulations puts you on the path to success in AI projects.*
+
+### Data regulation in a project
+You work for a UK healthcare company and develop an AI diagnostic tool for providers in the EU and US. You have already booked a meeting with the legal team and now researching relevant data laws to gain insight.
+* Group each data regulation for the use case.
