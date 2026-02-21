@@ -106,3 +106,12 @@ License: mit
 Understanding the common elements of license agreements ensures legal compliance and proper use of data, especially in AI projects where data usage is fundamental. Licensing agreements outlines developers' rights and obligations, preventing potential legal disputes and creating trust and transparency. Which of the following components are likely to be in a licensing agreement?
 
 *You're on your way to ensuring proper legal compliance and usage.*
+
+### Selecting a license
+You are developing an Open Source platform for healthy food online shopping. Your platform relies on community contributions to the products database. You allow wide-ranging use of your platform, including for profit, while maintaining credit and allowing derivative works with other licensing. Which licenses should you consider?
+```
+Permissive Open Source License - MIT License
+Permissive Open Source license - Apache License
+License without any terms - Public Domain
+Strong copyleft license - GPL
+```
