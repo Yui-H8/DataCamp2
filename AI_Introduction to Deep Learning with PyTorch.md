@@ -64,3 +64,4 @@ Adjustment type: torch.int64
 Temperatures shape: torch.Size([2, 3])
 Temperatures type: torch.int64
 ```
+2. Add the temperatures and adjustment tensors.
