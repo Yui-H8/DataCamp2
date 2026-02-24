@@ -34,3 +34,4 @@ output:
     tensor([[72, 75, 78],
             [70, 73, 76]])
 ```
+*Great job! You've successfully created a tensor using temperature data. This is your first step towards building your first neural network!*
