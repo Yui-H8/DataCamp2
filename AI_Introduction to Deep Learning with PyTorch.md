@@ -42,3 +42,7 @@ While collecting temperature data, you notice the readings are off by two degree
 The torch library and the temperatures tensor are loaded for you.
 1. Display the shape of the adjustment tensor.    
 * Display the data type of the adjustment tensor.
+```
+Hint
+You can access the shape and data type of a tensor using tensor.shape and tensor.dtype.
+```
