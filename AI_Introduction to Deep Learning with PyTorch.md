@@ -72,3 +72,8 @@ adjustment = torch.tensor([[2, 2, 2], [2, 2, 2]])
 corrected_temperatures = temperatures + adjustment
 print("Corrected temperatures:", corrected_temperatures)
 ```
+```
+<script.py> output:
+    Corrected temperatures: tensor([[74, 77, 80],
+            [72, 75, 78]])
+```
