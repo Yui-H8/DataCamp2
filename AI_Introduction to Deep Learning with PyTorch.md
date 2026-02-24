@@ -40,3 +40,5 @@ output:
 While collecting temperature data, you notice the readings are off by two degrees. Add two degrees to the temperatures tensor after verifying its shape and data type with torch to ensure compatibility with the adjustment tensor.
 
 The torch library and the temperatures tensor are loaded for you.
+1. Display the shape of the adjustment tensor.    
+* Display the data type of the adjustment tensor.
