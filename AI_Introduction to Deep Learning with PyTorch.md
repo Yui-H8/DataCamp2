@@ -18,3 +18,14 @@ Tensors are PyTorch's core data structure and the foundation of deep learning. T
 Here you have a Python list named temperatures containing daily readings from two weather stations. Try converting this into a tensor!
 * Begin by importing torch.
 * Create a tensor from the Python list temperatures.
+```python
+# Import PyTorch
+import torch
+
+temperatures = [[72, 75, 78], [70, 73, 76]]
+
+# Create a tensor from temperatures
+temp_tensor = torch.tensor(temperatures)
+
+print(temp_tensor)
+```
