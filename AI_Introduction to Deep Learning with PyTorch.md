@@ -29,3 +29,8 @@ temp_tensor = torch.tensor(temperatures)
 
 print(temp_tensor)
 ```
+```
+output:
+    tensor([[72, 75, 78],
+            [70, 73, 76]])
+```
