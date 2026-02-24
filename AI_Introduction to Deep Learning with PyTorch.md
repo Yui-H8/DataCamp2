@@ -65,3 +65,10 @@ Temperatures shape: torch.Size([2, 3])
 Temperatures type: torch.int64
 ```
 2. Add the temperatures and adjustment tensors.
+```python
+adjustment = torch.tensor([[2, 2, 2], [2, 2, 2]])
+
+# Add the temperatures and adjustment tensors
+corrected_temperatures = temperatures + adjustment
+print("Corrected temperatures:", corrected_temperatures)
+```
