@@ -16,3 +16,5 @@ Deep learning is everywhere, from smartphone cameras to voice assistants or self
 Tensors are PyTorch's core data structure and the foundation of deep learning. They're similar to NumPy arrays but have unique features.
 
 Here you have a Python list named temperatures containing daily readings from two weather stations. Try converting this into a tensor!
+* Begin by importing torch.
+* Create a tensor from the Python list temperatures.
