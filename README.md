@@ -12,6 +12,7 @@ https://app.datacamp.com/learn/courses/
 ---
 ### AI
 * Responsible AI Data Management
+* Introduction to Deep Learning with PyTorch
 
 
 
