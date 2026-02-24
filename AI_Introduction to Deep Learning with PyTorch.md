@@ -77,3 +77,4 @@ print("Corrected temperatures:", corrected_temperatures)
     Corrected temperatures: tensor([[74, 77, 80],
             [72, 75, 78]])
 ```
+*Excellent! You've verified the tensors and adjusted the temperature data. Next, let’s learn the role of tensors within neural networks.*
