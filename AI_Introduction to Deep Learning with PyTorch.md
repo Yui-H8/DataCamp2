@@ -58,3 +58,9 @@ print("Adjustment type:", adjustment.dtype)
 print("Temperatures shape:", temperatures.shape)
 print("Temperatures type:", temperatures.dtype)
 ```
+```
+Adjustment shape: torch.Size([2, 3])
+Adjustment type: torch.int64
+Temperatures shape: torch.Size([2, 3])
+Temperatures type: torch.int64
+```
