@@ -46,3 +46,15 @@ The torch library and the temperatures tensor are loaded for you.
 Hint
 You can access the shape and data type of a tensor using tensor.shape and tensor.dtype.
 ```
+```python
+adjustment = torch.tensor([[2, 2, 2], [2, 2, 2]])
+
+# Display the shape of the adjustment tensor
+print("Adjustment shape:", adjustment.shape)
+
+# Display the type of the adjustment tensor
+print("Adjustment type:", adjustment.dtype)
+
+print("Temperatures shape:", temperatures.shape)
+print("Temperatures type:", temperatures.dtype)
+```
