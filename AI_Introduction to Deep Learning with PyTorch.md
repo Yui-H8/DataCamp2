@@ -35,3 +35,8 @@ output:
             [70, 73, 76]])
 ```
 *Great job! You've successfully created a tensor using temperature data. This is your first step towards building your first neural network!*
+
+### Checking and adding tensors
+While collecting temperature data, you notice the readings are off by two degrees. Add two degrees to the temperatures tensor after verifying its shape and data type with torch to ensure compatibility with the adjustment tensor.
+
+The torch library and the temperatures tensor are loaded for you.
