@@ -83,3 +83,5 @@ print("Corrected temperatures:", corrected_temperatures)
 Neural networks often contain many layers, but most of them are linear layers. Understanding a single linear layer helps you grasp how they work before adding complexity.
 
 Apply a linear layer to an input tensor and observe the output.
+* Create a Linear layer that takes 3 features as input and returns 2 outputs.
+* Pass input_tensor through the linear layer.
