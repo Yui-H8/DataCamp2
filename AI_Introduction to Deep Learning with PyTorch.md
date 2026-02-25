@@ -112,3 +112,13 @@ print(output)
 tensor([[ 0.0722, -0.4016]], grad_fn=<AddmmBackward0>)
 ```
 *Brilliant! You've successfully built and applied a linear layer—an essential building block of neural networks.*
+
+### Understanding weights
+In a linear model, weights and biases play a crucial role in determining how inputs are transformed into outputs. Understanding their function is key to building effective neural networks. Now, let's test your understanding!
+
+What is the role of weights in a neural network?
+```
+Weights provide a fixed baseline value for the neuron's output
+Weights determine the number of neurons in each layer of the network
+Weights determine how much influence each input has on the neuron's output
+```
