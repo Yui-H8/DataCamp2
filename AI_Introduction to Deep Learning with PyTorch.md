@@ -147,5 +147,7 @@ output = model(input_tensor)
 print(output)
 ```
 ```
+output:
 tensor([[-0.8577]], grad_fn=<AddmmBackward0>)
 ```
+*Great job! Modern neural networks often span hundreds of layers. You'll review how to stack them next.*
