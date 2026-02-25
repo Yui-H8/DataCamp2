@@ -111,3 +111,4 @@ print(output)
 ```
 tensor([[ 0.0722, -0.4016]], grad_fn=<AddmmBackward0>)
 ```
+*Brilliant! You've successfully built and applied a linear layer—an essential building block of neural networks.*
