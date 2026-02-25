@@ -151,3 +151,8 @@ output:
 tensor([[-0.8577]], grad_fn=<AddmmBackward0>)
 ```
 *Great job! Modern neural networks often span hundreds of layers. You'll review how to stack them next.*
+
+### Stacking linear layers
+Nice work building your first network with two linear layers. Let's stack some more layers. Remember that a neural network can have as many hidden layers as we want, provided the inputs and outputs line up.
+
+This network is designed to ingest the following input:
