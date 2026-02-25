@@ -146,3 +146,6 @@ model = nn.Sequential(nn.Linear(8, 4),
 output = model(input_tensor)
 print(output)
 ```
+```
+tensor([[-0.8577]], grad_fn=<AddmmBackward0>)
+```
