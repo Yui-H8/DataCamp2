@@ -162,3 +162,5 @@ input_tensor = torch.Tensor(
     )
 ```
 * Reorder the items provided to create a neural network with three hidden layers and an output of size 2.
+
+*Nicely done! You're building a solid grasp of inputs and outputs in neural networks.*
