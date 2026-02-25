@@ -123,3 +123,7 @@ Weights determine the number of neurons in each layer of the network
 Weights determine how much influence each input has on the neuron's output
 ```
 *Well done! Weights adjust the contribution of each input feature, allowing the network to learn patterns and make better predictions.*
+
+---
+### Your first neural network
+It's time for you to implement a small neural network containing two linear layers in sequence.
