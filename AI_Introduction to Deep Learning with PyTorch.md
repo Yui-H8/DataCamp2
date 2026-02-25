@@ -108,3 +108,6 @@ output = linear_layer(input_tensor)
 
 print(output)
 ```
+```
+tensor([[ 0.0722, -0.4016]], grad_fn=<AddmmBackward0>)
+```
