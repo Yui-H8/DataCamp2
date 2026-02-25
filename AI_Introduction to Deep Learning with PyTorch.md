@@ -85,3 +85,9 @@ Neural networks often contain many layers, but most of them are linear layers. U
 Apply a linear layer to an input tensor and observe the output.
 * Create a Linear layer that takes 3 features as input and returns 2 outputs.
 * Pass input_tensor through the linear layer.
+```
+Hint
+Use nn.Linear() to create a linear layer; make sure to capitalize the L.
+The linear layer's input should have 3 features, and its output should have 2 features.
+Apply linear_layer() to input_tensor to compute the output.
+```
