@@ -127,3 +127,4 @@ Weights determine how much influence each input has on the neuron's output
 ---
 ### Your first neural network
 It's time for you to implement a small neural network containing two linear layers in sequence.
+* Add a container for stacking layers in sequence.
