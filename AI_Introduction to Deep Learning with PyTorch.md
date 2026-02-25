@@ -161,3 +161,4 @@ input_tensor = torch.Tensor(
     [[2, 7, 9, 5, 3]]
     )
 ```
+* Reorder the items provided to create a neural network with three hidden layers and an output of size 2.
