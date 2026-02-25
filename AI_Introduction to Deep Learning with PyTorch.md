@@ -78,3 +78,8 @@ print("Corrected temperatures:", corrected_temperatures)
             [72, 75, 78]])
 ```
 *Excellent! You've verified the tensors and adjusted the temperature data. Next, let’s learn the role of tensors within neural networks.*
+
+### Linear layer network
+Neural networks often contain many layers, but most of them are linear layers. Understanding a single linear layer helps you grasp how they work before adding complexity.
+
+Apply a linear layer to an input tensor and observe the output.
