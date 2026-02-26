@@ -198,3 +198,7 @@ for p in model.parameters():
   
 print(f"The number of parameters in the model is {total}")
 ```
+```
+output:
+The number of parameters in the model is 53
+```
