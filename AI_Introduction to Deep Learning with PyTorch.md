@@ -183,3 +183,18 @@ Hint
 You can access the parameters to iterate through with the model's .parameters attribute.
 The .numel() method returns the number of elements of a tensor; make sure to add the elements at each iteration to the total.
 ```
+```python
+import torch.nn as nn
+
+model = nn.Sequential(nn.Linear(9, 4),
+                      nn.Linear(4, 2),
+                      nn.Linear(2, 1))
+
+total = 0
+
+# Calculate the number of parameters in the model
+for p in model.parameters():
+  total += p.numel()
+  
+print(f"The number of parameters in the model is {total}")
+```
