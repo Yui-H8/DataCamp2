@@ -178,3 +178,8 @@ model = nn.Sequential(nn.Linear(9, 4),
 ```
 Answer: 53 ( (10*4) + (5*2) + (3*1) )
 2. Use .numel() to confirm your manual calculation by iterating through the model's parameters to updating the total variable.
+```
+Hint
+You can access the parameters to iterate through with the model's .parameters attribute.
+The .numel() method returns the number of elements of a tensor; make sure to add the elements at each iteration to the total.
+```
