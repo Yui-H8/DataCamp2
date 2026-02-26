@@ -176,4 +176,5 @@ model = nn.Sequential(nn.Linear(9, 4),
                       nn.Linear(4, 2),
                       nn.Linear(2, 1))
 ```
-Answer: 53 ((10*4)+(5*2)+(3*1))
+Answer: 53 ( (10*4) + (5*2) + (3*1) )
+2. Use .numel() to confirm your manual calculation by iterating through the model's parameters to updating the total variable.
