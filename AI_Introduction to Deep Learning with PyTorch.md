@@ -169,3 +169,10 @@ input_tensor = torch.Tensor(
 Deep learning models are famous for having a lot of parameters. With more parameters comes more computational complexity and longer training times, and a deep learning practitioner must know how many parameters their model has.
 
 In this exercise, you'll first calculate the number of parameters manually. Then, you'll verify your result using the .numel() method.
+1. Question
+Manually calculate the number of parameters of the model below. How many does it have? Use the console as a calculator.
+```python
+model = nn.Sequential(nn.Linear(9, 4),
+                      nn.Linear(4, 2),
+                      nn.Linear(2, 1))
+```
