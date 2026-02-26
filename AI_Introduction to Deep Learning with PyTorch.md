@@ -164,3 +164,8 @@ input_tensor = torch.Tensor(
 * Reorder the items provided to create a neural network with three hidden layers and an output of size 2.
 
 *Nicely done! You're building a solid grasp of inputs and outputs in neural networks.*
+
+### Counting the number of parameters
+Deep learning models are famous for having a lot of parameters. With more parameters comes more computational complexity and longer training times, and a deep learning practitioner must know how many parameters their model has.
+
+In this exercise, you'll first calculate the number of parameters manually. Then, you'll verify your result using the .numel() method.
