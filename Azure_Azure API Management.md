@@ -8,3 +8,5 @@ In this course, you’ll learn how to create, publish, and protect APIs using Az
 ---
 
 ### Weather API: invoking and formatting a response
+Modern apps often fetch data from a web API and then shape the response before showing it to users. In this exercise, you'll simulate calling a weather API for two cities and produce a single JSON payload with a parent key. This mirrors sending a GET request and rendering the resulting JSON.
+
