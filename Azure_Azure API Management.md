@@ -13,3 +13,14 @@ Modern apps often fetch data from a web API and then shape the response before s
 * Use the provided API to fetch current weather for London and Paris.
 * Combine the two results into one response object grouped under a single parent key.
 * Print the JSON response.
+```python
+# Fetch weather for two cities
+london_weather = get_weather('London')
+paris_weather = get_weather('Paris')
+
+# Combine under a parent key
+payload = {'weather': [london_weather, paris_weather]}
+
+print("Current weather report:")
+respond(payload)
+```
