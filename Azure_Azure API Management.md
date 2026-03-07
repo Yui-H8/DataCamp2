@@ -43,3 +43,4 @@ Current weather report:
   ]
 }
 ```
+*Nicely done! You invoked the API for two cities, wrapped the results under 'weather', and emitted a clean JSON payload.*
