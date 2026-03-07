@@ -24,3 +24,22 @@ payload = {'weather': [london_weather, paris_weather]}
 print("Current weather report:")
 respond(payload)
 ```
+```
+Current weather report:
+{
+  "weather": [
+    {
+      "city": "London",
+      "temp_c": 18,
+      "condition": "Cloudy",
+      "humidity": 72
+    },
+    {
+      "city": "Paris",
+      "temp_c": 21,
+      "condition": "Sunny",
+      "humidity": 55
+    }
+  ]
+}
+```
