@@ -94,3 +94,6 @@ For a broader look at serverless execution and use cases, see: Azure Functions o
 Imagine you are developing an online ordering system for a restaurant. The mobile app needs a backend service that can provide customers with the current menu whenever they open the app.
 
 To support this, you’ll create a simple API endpoint named restaurantmenuitems that returns a static JSON list of menu options. Later, this API could be expanded to fetch live data from a database or adjust menu items based on availability, but for now, this exercise will get you started with the basics.
+1. Import required dependencies into the Azure function
+
+Open the function you created in the previous exercise and remove all the code except for the following line:
