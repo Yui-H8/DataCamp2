@@ -84,3 +84,6 @@ Navigate to the function to see the code
 If the function works correctly, the message displayed in the browser upon pasting the URL should be as follows:
 
 **This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response**
+
+4. What is the purpose of a HTTP trigger?
+
