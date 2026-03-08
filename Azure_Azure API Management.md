@@ -62,4 +62,8 @@ Imagine you’re building a weather application that shows users the forecast fo
    * Review + create the resource
      
 The resource may take a few moments to provision
+
 2. Create an HTTP trigger
+   * Once created, Go to resource and navigate to Create function
+   * Add a HTTP Trigger function to it
+   * Enter restaurant_menu_items exactly as the Name of the function and save it
