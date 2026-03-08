@@ -76,3 +76,7 @@ Type "restaurantmenuitems" in the Provide a function name field and click Create
 Navigate to the function to see the code
 ```
 3. Test the Function
+   * Navigate to it and examine its Python code
+   * Examine the url by clicking the Get function URL button
+   * Copy any of the URLs from the dialog that opens into the address bar of any browser
+   * If you want to use key shortcuts for copying and pasting, use Ctrl + C and Ctrl + V, as the virtual machine runs Windows
