@@ -97,3 +97,7 @@ To support this, you’ll create a simple API endpoint named restaurantmenuitems
 1. Import required dependencies into the Azure function
 
 Open the function you created in the previous exercise and remove all the code except for the following line:
+```
+import azure.functions as func
+```
+Add the following to line 2 to reference a library that can deal with data in the JSON format:
