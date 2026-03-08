@@ -67,3 +67,11 @@ The resource may take a few moments to provision
    * Once created, Go to resource and navigate to Create function
    * Add a HTTP Trigger function to it
    * Enter restaurant_menu_items exactly as the Name of the function and save it
+```
+Hint
+Either click on the Go to resource link immediately after the Function App has been created or navigate to the resource via the Portal home page
+Click the Create function button
+Choose HTTP Trigger and click Next
+Type "restaurantmenuitems" in the Provide a function name field and click Create
+Navigate to the function to see the code
+```
