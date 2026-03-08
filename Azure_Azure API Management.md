@@ -54,3 +54,9 @@ Let's test our understanding of HTTP verbs and how they are used in a RESTful AP
 ### Setting up a Function App
 Imagine you’re building a weather application that shows users the forecast for their city. To make this work, you need a lightweight backend API that can process requests—such as retrieving weather data for a given location—and return it quickly to the app. Azure Function Apps are ideal here because they allow you to deploy APIs with minimal setup, automatically scale to handle traffic spikes (like during a storm), and keep costs low when demand is quiet.
 1. Create an Azure Function App instance and enable it to run Python code
+   * Create a Function App with the Consumption pricing tier
+   * Assign the available Resource group
+   * Give the app a Name of your choice
+   * Select Python as the Runtime stack with East US as the Region
+   * Select 3.12 as the version
+   * Review + create the resource
