@@ -101,3 +101,7 @@ Open the function you created in the previous exercise and remove all the code e
 import azure.functions as func
 ```
 Add the following to line 2 to reference a library that can deal with data in the JSON format:
+```
+import json
+```
+Copy using Ctrl + C or Command + C depending if you're using a Windows or a Mac. You need to paste in the Azure interface using Ctrl + V given it's a Windows machine.
