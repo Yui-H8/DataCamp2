@@ -80,3 +80,7 @@ Navigate to the function to see the code
    * Examine the url by clicking the Get function URL button
    * Copy any of the URLs from the dialog that opens into the address bar of any browser
    * If you want to use key shortcuts for copying and pasting, use Ctrl + C and Ctrl + V, as the virtual machine runs Windows
+
+If the function works correctly, the message displayed in the browser upon pasting the URL should be as follows:
+
+**This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response**
