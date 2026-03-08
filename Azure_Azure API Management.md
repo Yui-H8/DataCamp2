@@ -75,3 +75,4 @@ Choose HTTP Trigger and click Next
 Type "restaurantmenuitems" in the Provide a function name field and click Create
 Navigate to the function to see the code
 ```
+3. Test the Function
