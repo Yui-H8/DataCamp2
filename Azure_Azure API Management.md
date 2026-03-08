@@ -87,3 +87,5 @@ If the function works correctly, the message displayed in the browser upon pasti
 
 4. What is the purpose of a HTTP trigger?
 
+*Nice work! The purpose of the HTTP triggers is to associate executable logic with a specific HTTP endpoint address. 
+For a broader look at serverless execution and use cases, see: Azure Functions overview on Microsoft Learn*
