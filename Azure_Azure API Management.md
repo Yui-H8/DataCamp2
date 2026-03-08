@@ -47,3 +47,4 @@ Current weather report:
 
 ---
 ### HTTP verbs and RESTful architecture
+Let's test our understanding of HTTP verbs and how they are used in a RESTful API architecture. We will do so by assigning a specific action type to the most appropriate HTTP verb according to the RESTful architecture standards.
