@@ -121,3 +121,5 @@ MENU = {
     "desserts": ["Tiramisu", "Gelato"]
 }
 ```
+Click here for further explanation
+> This Python code defines a dictionary named MENU, which organizes a set of menu items into categories. The variable name representing the dictionary. It holds the entire menu data in a structured way. The outer {} braces indicate that MENU is a dictionary. A dictionary in Python stores key-value pairs. The keys in the dictionary are "starters", "mains", and "desserts". These represent the categories of menu items. The values are lists of strings (denoted by []), with each list containing the items for that category.
