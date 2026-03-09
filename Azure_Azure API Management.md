@@ -168,4 +168,9 @@ def get_menu(req: func.HttpRequest) -> func.HttpResponse:
 **Note: If there is an error when you paste the URL, navigate back to the Function app and click back into the function and get new URL**
 
 Click here for further explanation
-> The @app.route(...) is a decorator that registers the function as an HTTP-triggered Azure Function. route="restaurant_menu_items" specifies the URL route where the function is accessible. In this case, the function will be invoked via a URL ending in /restaurant_items_menu. methods=["GET"] defines that the endpoint is only accessible via a GET HTTP verb. def get_menu(req: func.HttpRequest) -> func.HttpResponse defines the function called whenever a request is made to the /restaurant_menu_items route. func.HttpResponse(...) constructs the HTTP response to send back to the client.
+> The @app.route(...) is a decorator that registers the function as an HTTP-triggered Azure Function.
+> route="restaurant_menu_items" specifies the URL route where the function is accessible. In this case, the function will be invoked via a URL ending in /restaurant_items_menu. methods=["GET"] defines that the endpoint is only accessible via a GET HTTP verb.
+> ```
+> def get_menu(req: func.HttpRequest) -> func.HttpResponse
+> ```
+> defines the function called whenever a request is made to the /restaurant_menu_items route. func.HttpResponse(...) constructs the HTTP response to send back to the client.
