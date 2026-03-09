@@ -111,4 +111,6 @@ Copy using Ctrl + C or Command + C depending if you're using a Windows or a Mac.
 ```
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 ```
+3. Define the static data that will represent our restaurant menu
 
+Next add:
