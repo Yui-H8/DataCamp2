@@ -140,3 +140,26 @@ Save your code.
 Hint
 The complete Python code should be as follows:
 ```
+```python
+import azure.functions as func
+import json
+
+# Create the Function App
+app = func.FunctionApp()
+
+# Sample menu
+MENU = {
+    "starters": ["Tomato Soup", "Garlic Bread"],
+    "mains": ["Margherita Pizza", "Pasta Carbonara"],
+    "desserts": ["Tiramisu", "Gelato"]
+}
+
+# Define the route with auth level
+@app.route(route="restaurant_menu_items", methods=["GET"], auth_level=func.AuthLevel.FUNCTION)
+def get_menu(req: func.HttpRequest) -> func.HttpResponse:
+    return func.HttpResponse(
+        body=json.dumps(MENU),
+        mimetype="application/json",
+        status_code=200
+    )
+```
