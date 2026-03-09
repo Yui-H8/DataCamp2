@@ -114,3 +114,10 @@ app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 3. Define the static data that will represent our restaurant menu
 
 Next add:
+```python
+MENU = {
+    "starters": ["Tomato Soup", "Garlic Bread"],
+    "mains": ["Margherita Pizza", "Pasta Carbonara"],
+    "desserts": ["Tiramisu", "Gelato"]
+}
+```
