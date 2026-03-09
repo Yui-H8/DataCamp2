@@ -126,3 +126,12 @@ Click here for further explanation
 
 4. Define the HTTP trigger
    * Lastly, add the following code below:
+```python
+@app.route(route="restaurant_menu_items", methods=["GET"])
+def get_menu(req: func.HttpRequest) -> func.HttpResponse:
+    return func.HttpResponse(
+        body=json.dumps(MENU),
+        mimetype="application/json",
+        status_code=200
+    )
+```
