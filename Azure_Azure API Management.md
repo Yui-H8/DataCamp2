@@ -174,3 +174,5 @@ Click here for further explanation
 > def get_menu(req: func.HttpRequest) -> func.HttpResponse
 > ```
 > defines the function called whenever a request is made to the /restaurant_menu_items route. func.HttpResponse(...) constructs the HTTP response to send back to the client.
+
+6. What is the purpose of the `route` parameter in the `@app.route()` invocation?
