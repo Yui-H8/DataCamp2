@@ -135,3 +135,8 @@ def get_menu(req: func.HttpRequest) -> func.HttpResponse:
         status_code=200
     )
 ```
+Save your code.
+```
+Hint
+The complete Python code should be as follows:
+```
