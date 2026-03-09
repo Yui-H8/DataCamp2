@@ -107,4 +107,8 @@ import json
 Copy using Ctrl + C or Command + C depending if you're using a Windows or a Mac. You need to paste in the Azure interface using Ctrl + V given it's a Windows machine.
 
 2. Configure the Function App
-   
+   Add the following line to reference an Azure Function:
+```
+app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
+```
+
