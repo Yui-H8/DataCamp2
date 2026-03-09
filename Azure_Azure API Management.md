@@ -105,3 +105,6 @@ Add the following to line 2 to reference a library that can deal with data in th
 import json
 ```
 Copy using Ctrl + C or Command + C depending if you're using a Windows or a Mac. You need to paste in the Azure interface using Ctrl + V given it's a Windows machine.
+
+2. Configure the Function App
+   
