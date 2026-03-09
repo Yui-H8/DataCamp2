@@ -163,3 +163,7 @@ def get_menu(req: func.HttpRequest) -> func.HttpResponse:
         status_code=200
     )
 ```
+5. This is the endpoint code that will return the menu data when invoked. Let's test our function by getting its URL and pasting it into a browser. It should return restaurant menu data.
+
+**Note: If there is an error when you paste the URL, navigate back to the Function app and click back into the function and get new URL**
+
