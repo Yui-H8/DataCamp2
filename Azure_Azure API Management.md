@@ -222,3 +222,5 @@ By integrating the Function App with API Management, the restaurant can publish 
    * Select Function App
    * Find the function app that has the name starting with function-app-... and select the HTTP trigger function
    * Keep the default setting while creating the connection
+2. Test the new API endpoint
+3. 
