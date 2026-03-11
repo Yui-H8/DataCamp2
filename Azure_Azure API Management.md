@@ -182,3 +182,6 @@ Click here for further explanation
 Now that we have built the API, the restaurant wants to securely share this API with delivery partners, such as food delivery apps. Using API Management, the restaurant can expose the API to external partners while controlling access, applying security policies, and monitoring usage. This ensures the menu data is consistently available, reliable, and protected, even as more partners and customers begin using it.
 
 1. Setting up an API Management instance
+　* Create an API Management service instance with a unique Resource name in the East US Region
+Organization name and and Administrator email are mandatory, but we can provide any company name and any valid email
+Select the Consumption pricing tier
