@@ -187,3 +187,4 @@ Organization name and and Administrator email are mandatory, but we can provide 
 Select the Consumption pricing tier
 > Click here to learn more about pricing tier SLA
 > Consumption tier mentions SLA, which stands for Service Level Agreement. This is the level of availability that Azure guarantees. It's measured in percentage uptime, such as the SLA of 99.99% means that the service will be reachable 99.99% of the time. The higher is the availability - the more expensive is the pricing tier.
+2. Finalize API Management
