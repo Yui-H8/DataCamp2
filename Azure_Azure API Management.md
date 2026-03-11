@@ -197,3 +197,7 @@ Since API Management takes a significantly long time to create, we will not wait
 3. Which of the following is not a responsibility of an Azure API Management service?
 
 *Correct, as the responsibility of the API management is to manage the endpoints of the existing APIs and not to provide the back-end logic for them.*
+
+---
+### Azure API management fundamentals
+Which 2 of the following actions are performed in the Management Plane of the API Management Service?
