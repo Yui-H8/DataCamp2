@@ -234,3 +234,5 @@ By integrating the Function App with API Management, the restaurant can publish 
 * Send the request and ensure that there is a plain-text greeting message in the response.
 
 3. Why can the same URL path be accessible via different HTTP verbs in a REST API?
+
+*Correct! RESTful architecture mandates that the endpoint path name is kept the same for the endpoints that work with the same data type. HTTP verbs are used for different action types. Congratulations! You have now successfully connected your first endpoint to the API Management!*
