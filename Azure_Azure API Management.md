@@ -232,3 +232,5 @@ By integrating the Function App with API Management, the restaurant can publish 
 }
 ```
 * Send the request and ensure that there is a plain-text greeting message in the response.
+
+3. Why can the same URL path be accessible via different HTTP verbs in a REST API?
