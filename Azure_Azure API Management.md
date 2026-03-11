@@ -216,3 +216,9 @@ Returning to our restaurant example, the restaurantmenuitems function you create
 
 By integrating the Function App with API Management, the restaurant can publish the restaurantmenuitems API as a managed service. This means partners will connect through a controlled gateway, allowing the restaurant to scale safely, protect the API with authentication, and track how often it’s being used.
 1. Connect APIM to Azure Function HTTP endpoint
+   * Continue, or navigate back to the API Management instance
+   * Expand the APIs section in the menu on the left and choose the APIs option
+   * Explore the Create from Azure resource at the bottom of the page and scroll to the right
+   * Select Function App
+   * Find the function app that has the name starting with function-app-... and select the HTTP trigger function
+   * Keep the default setting while creating the connection
