@@ -190,4 +190,6 @@ Select the Consumption pricing tier
 
 2. Finalize API Management
 * Once the form has been filled, Click Review + create followed by Create on the next page
-Proceed through to the next exercise as the resource provisions
+* Proceed through to the next exercise as the resource provisions
+  
+Since API Management takes a significantly long time to create, we will not wait for the entire creation process to complete.
