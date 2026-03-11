@@ -215,3 +215,4 @@ Documenting the APIs
 Returning to our restaurant example, the restaurantmenuitems function you created provides menu data as a REST API. On its own, the function works fine for internal use. However, once the restaurant decides to share this API with delivery partners or mobile app developers, it needs to ensure secure access, apply rate limits, and monitor usage.
 
 By integrating the Function App with API Management, the restaurant can publish the restaurantmenuitems API as a managed service. This means partners will connect through a controlled gateway, allowing the restaurant to scale safely, protect the API with authentication, and track how often it’s being used.
+1. Connect APIM to Azure Function HTTP endpoint
