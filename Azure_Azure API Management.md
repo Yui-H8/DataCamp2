@@ -226,3 +226,8 @@ By integrating the Function App with API Management, the restaurant can publish 
    Navigate to the Test tab    
    If you have multiple HTTP verbs listed, choose the POST endpoint    
    Add the following response payload, replacing "your name" with your actual name in the Request body field:
+```
+{
+  "name": "your name"
+}
+```
