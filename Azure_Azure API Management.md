@@ -231,3 +231,4 @@ By integrating the Function App with API Management, the restaurant can publish 
   "name": "your name"
 }
 ```
+* Send the request and ensure that there is a plain-text greeting message in the response.
