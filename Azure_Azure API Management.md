@@ -201,3 +201,11 @@ Since API Management takes a significantly long time to create, we will not wait
 ---
 ### Azure API management fundamentals
 Which 2 of the following actions are performed in the Management Plane of the API Management Service?
+```
+Routing requests to the back-end services
+Connecting APIs to backend services
+Applying security policies to the requests
+Configuring access policies for each API
+Configuring a user-facing site
+Documenting the APIs
+```
