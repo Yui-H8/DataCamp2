@@ -39,3 +39,5 @@ Haiku, because it’s the most affordable model for large-scale analysis.
 Sonnet, since it balances speed with solid language skills.
 ```
 *Correct! Opus is ideal for analyzing complex legal documents at scale.*
+
+### End-to-end Claude prompting
