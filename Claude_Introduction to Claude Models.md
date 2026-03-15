@@ -13,3 +13,17 @@ Pass any question or instruction to the prompt argument and see how Claude respo
 Here are a couple of prompts to try if you're struggling for ideas:
 * What capabilities make Claude well-suited for enterprise applications?
 * Give me two examples of how I could use Claude in a Python app.
+```python
+from anthropic import Anthropic
+
+client = Anthropic(api_key="datacamp-token", base_url=url)
+
+response = client.messages.create(
+    model="claude-sonnet-4-0",
+    max_tokens=100,
+    # Enter your prompt
+    messages=[{"role": "user", "content": "What capabilities make Claude well-suited for enterprise applications?"}]
+)
+
+print(response.content[0].text)
+```
