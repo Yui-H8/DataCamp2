@@ -35,6 +35,7 @@ You’ve just been hired as an AI consultant by Lexiform, a startup building AI 
 Which Claude model should we use for this application?
 ```
 Haiku, because it’s the most affordable model for large-scale analysis.
-Opus, because it’s built for high-stakes tasks involving complex documents.
+〇 Opus, because it’s built for high-stakes tasks involving complex documents.
 Sonnet, since it balances speed with solid language skills.
 ```
+*Correct! Opus is ideal for analyzing complex legal documents at scale.*
