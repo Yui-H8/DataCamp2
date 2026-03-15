@@ -6,3 +6,10 @@ Unlock the power of Claude to build safe, thoughtful, and high-impact AI experie
 
 ---
 ### Try your first Claude prompt!
+To preview what's ahead, the Python code for sending a request to the Anthropic API is ready for you.
+
+Pass any question or instruction to the prompt argument and see how Claude responds!
+
+Here are a couple of prompts to try if you're struggling for ideas:
+* What capabilities make Claude well-suited for enterprise applications?
+* Give me two examples of how I could use Claude in a Python app.
