@@ -28,3 +28,5 @@ response = client.messages.create(
 print(response.content[0].text)
 ```
 *Great job! You've successfully created your first prompt, and invoked Claude to respond! This structure is key as you build more advanced prompts!*
+
+### Claude’s key advantages
