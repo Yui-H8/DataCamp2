@@ -41,3 +41,4 @@ Sonnet, since it balances speed with solid language skills.
 *Correct! Opus is ideal for analyzing complex legal documents at scale.*
 
 ### End-to-end Claude prompting
+As part of a company hackathon, your team is prototyping QuickAid, a help-desk bot for event attendees. Step one is to prove you can hit the Claude API from Python, get a live response, and print it to the console. Nail this, and the judges will green-light the rest of your prototype.
