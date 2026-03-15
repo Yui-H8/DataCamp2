@@ -33,3 +33,8 @@ print(response.content[0].text)
 You’ve just been hired as an AI consultant by Lexiform, a startup building AI tools for law firms. Their flagship product will review lengthy corporate contracts and flag clauses related to liability. These documents often exceed 100 pages and are filled with dense legal language. The engineering lead turns to you and asks:
 
 Which Claude model should we use for this application?
+```
+Haiku, because it’s the most affordable model for large-scale analysis.
+Opus, because it’s built for high-stakes tasks involving complex documents.
+Sonnet, since it balances speed with solid language skills.
+```
