@@ -14,3 +14,5 @@ They are used only for managing networking and security.
 They focus solely on analytics and data visualization.
 ```
 *Correct! Azure compute services power application execution through resources like VMs, App Services, and containers.*
+
+### Create an App Service plan
