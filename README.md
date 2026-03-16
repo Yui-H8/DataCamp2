@@ -53,3 +53,4 @@ https://app.datacamp.com/learn/courses/
 ### Azure
 * Develop Azure Event-based and Message-based Solutions
 * Azure API Management
+* Azure App Services
