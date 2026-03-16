@@ -9,7 +9,8 @@ In today's cloud-first world, deploying and managing scalable web applications i
 Which of the following best describes Azure compute services?
 ```
 They provide storage and database solutions for applications.
-They include services such as Virtual Machines, App Services, and Containers for running applications.
+〇 They include services such as Virtual Machines, App Services, and Containers for running applications.
 They are used only for managing networking and security.
 They focus solely on analytics and data visualization.
 ```
+*Correct! Azure compute services power application execution through resources like VMs, App Services, and containers.*
