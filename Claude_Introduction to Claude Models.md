@@ -120,3 +120,5 @@ To better control responses from QuickAid, users can now click either "Quick Ans
 Implement both calls and print the side-by-side results so the hackathon panel can see the difference at a glance.
 
 The anthropic library has been pre-imported and the client has been pre-defined
+* Set max_tokens as 25 for the short response to get a very concise answer (about 15-20 words).
+* Set max_tokens as 200 for the long response to get a detailed explanation (about 150 words).
