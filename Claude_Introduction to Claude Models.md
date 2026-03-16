@@ -92,3 +92,4 @@ I can help you with a wide variety of tasks! Here are some examples:
 
 ### Extracting Claude's response
 At the hackathon, your teammate needs the exact reply text to wire into the React front-end. Show them how to slice the response object and print just Claude’s answer, so that it can be displayed on your app.
+* Extract and print Claude's response from the given response object.
