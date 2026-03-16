@@ -16,3 +16,4 @@ They focus solely on analytics and data visualization.
 *Correct! Azure compute services power application execution through resources like VMs, App Services, and containers.*
 
 ### Create an App Service plan
+Your team is preparing to launch their first web application on Azure. Before the app can go live, you need to set up the environment where it will run. This means start by creating an App Service Plan in the Azure Portal, the foundation that defines the app's region, pricing tier, and computing resources.
