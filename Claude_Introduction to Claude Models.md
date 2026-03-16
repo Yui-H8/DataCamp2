@@ -107,3 +107,9 @@ response = client.messages.create(
 # Extract and print Claude's response
 print(response.content[0].text)
 ```
+```
+Claude is an AI assistant created by Anthropic using constitutional AI techniques to train a large language model that processes text inputs and generates helpful, harmless, and honest responses.
+
+<script.py> output:
+    Claude is an AI assistant created by Anthropic using constitutional AI and reinforcement learning from human feedback to train a large language model that can engage in helpful, harmless, and honest conversations.
+```
