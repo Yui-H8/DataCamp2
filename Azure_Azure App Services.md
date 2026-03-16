@@ -17,3 +17,9 @@ They focus solely on analytics and data visualization.
 
 ### Create an App Service plan
 Your team is preparing to launch their first web application on Azure. Before the app can go live, you need to set up the environment where it will run. This means start by creating an App Service Plan in the Azure Portal, the foundation that defines the app's region, pricing tier, and computing resources.
+1. Step1
+   * Start the creation of a new App Service Plan in the existing resource group.
+   * Give the App Service Plan a name of your choice and configure the plan to use Linux as the operating system.
+   * Use East US for the region and choose Free for the pricing plan.
+   * Skip to Review and Create, wait for the final validation and click Create.
+   * Wait for the App Service Plan to deploy successfully.
