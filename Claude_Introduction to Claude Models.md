@@ -116,3 +116,7 @@ Claude is an AI assistant created by Anthropic using constitutional AI technique
 *Great job! You've successfully sent a prompt to Claude and extracted the response, this is the foundation for building AI-powered applications!!*
 
 ### Controlling response length with tokens
+To better control responses from QuickAid, users can now click either "Quick Answer", for a tweet-sized blurb, or "Deep Dive", for a fuller explanation.
+Implement both calls and print the side-by-side results so the hackathon panel can see the difference at a glance.
+
+The anthropic library has been pre-imported and the client has been pre-defined
