@@ -44,3 +44,6 @@ Sonnet, since it balances speed with solid language skills.
 As part of a company hackathon, your team is prototyping QuickAid, a help-desk bot for event attendees. Step one is to prove you can hit the Claude API from Python, get a live response, and print it to the console. Nail this, and the judges will green-light the rest of your prototype.
 * Initialize the Anthropic client.
 * Set the parameter to specify the Claude Sonnet model.
+> Hint
+> Initialize the client using anthropic.Anthropic().
+> For the model parameter, use model with "claude-sonnet-4-0" to specify the Claude 4 Sonnet model.
