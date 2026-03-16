@@ -122,3 +122,13 @@ Implement both calls and print the side-by-side results so the hackathon panel c
 The anthropic library has been pre-imported and the client has been pre-defined
 * Set max_tokens as 25 for the short response to get a very concise answer (about 15-20 words).
 * Set max_tokens as 200 for the long response to get a detailed explanation (about 150 words).
+```python
+prompt = "Explain what artificial intelligence is."
+# Create short response (25 tokens)
+short_response = client.messages.create(model="claude-sonnet-4-0", max_tokens=25, messages=[{"role": "user", "content": prompt}])
+# Create long response (200 tokens)
+long_response = client.messages.create(model="claude-sonnet-4-0", max_tokens=200, messages=[{"role": "user", "content": prompt}])
+
+print("Short response:", short_response.content[0].text)
+print("Long response:", long_response.content[0].text)
+```
