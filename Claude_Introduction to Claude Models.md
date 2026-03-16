@@ -47,3 +47,18 @@ As part of a company hackathon, your team is prototyping QuickAid, a help-desk b
 > Hint
 > Initialize the client using anthropic.Anthropic().
 > For the model parameter, use model with "claude-sonnet-4-0" to specify the Claude 4 Sonnet model.
+```python
+from anthropic import Anthropic
+# Initialize the Anthropic client
+client = Anthropic(api_key="datacamp-token", base_url=url)
+
+response = client.messages.create(
+    # Set the Claude Sonnet Model
+    model="claude-sonnet-4-0",
+    max_tokens=150,
+    messages=[
+        {"role": "user", "content": "What can you help me with today?"}
+    ])
+
+print(response.content[0].text)
+```
