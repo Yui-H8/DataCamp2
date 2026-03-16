@@ -113,3 +113,4 @@ Claude is an AI assistant created by Anthropic using constitutional AI technique
 <script.py> output:
     Claude is an AI assistant created by Anthropic using constitutional AI and reinforcement learning from human feedback to train a large language model that can engage in helpful, harmless, and honest conversations.
 ```
+*Great job! You've successfully sent a prompt to Claude and extracted the response, this is the foundation for building AI-powered applications!!*
