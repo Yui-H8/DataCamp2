@@ -88,3 +88,4 @@ I can help you with a wide variety of tasks! Here are some examples:
 - Writing stories, poems, or scripts
 - Planning projects
 ```
+*Great job! You've successfully sent a prompt to Claude and extracted the response, this is the foundation for building AI-powered applications!!*
