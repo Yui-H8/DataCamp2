@@ -132,3 +132,25 @@ long_response = client.messages.create(model="claude-sonnet-4-0", max_tokens=200
 print("Short response:", short_response.content[0].text)
 print("Long response:", long_response.content[0].text)
 ```
+```
+Short response: Artificial Intelligence (AI) refers to computer systems that can perform tasks typically requiring human intelligence. Here's a breakdown of the
+Long response: Artificial Intelligence (AI) refers to computer systems designed to perform tasks that typically require human intelligence. Here's a breakdown of the key aspects:
+
+## What AI Does
+AI systems can:
+- **Learn** from data and experience
+- **Reason** through problems and make decisions
+- **Recognize patterns** in images, speech, or text
+- **Generate content** like writing, images, or code
+- **Adapt** their behavior based on new information
+
+## Types of AI
+- **Narrow AI**: Designed for specific tasks (like chess programs, voice assistants, or recommendation systems)
+- **General AI**: Hypothetical AI that could match human intelligence across all domains (not yet achieved)
+
+## How It Works
+AI systems typically use:
+- **Machine learning**: Algorithms that improve through data exposure
+- **Neural networks**: Computing systems inspired by biological brain structures
+- **Deep learning**: Advanced neural networks with many layers
+```
