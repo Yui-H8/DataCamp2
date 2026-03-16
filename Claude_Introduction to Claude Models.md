@@ -62,3 +62,29 @@ response = client.messages.create(
 
 print(response.content[0].text)
 ```
+```
+I can help you with a wide variety of tasks! Here are some examples:
+
+**Writing & Communication**
+- Drafting emails, letters, or documents
+- Editing and proofreading text
+- Creative writing assistance
+- Summarizing content
+
+**Learning & Research**
+- Explaining concepts across many subjects
+- Helping with homework or study questions
+- Research assistance and fact-checking
+- Language learning support
+
+**Problem-Solving & Analysis**
+- Breaking down complex problems
+- Data analysis and interpretation
+- Coding help and debugging
+- Math and logic problems
+
+**Creative Projects**
+- Brainstorming ideas
+- Writing stories, poems, or scripts
+- Planning projects
+```
