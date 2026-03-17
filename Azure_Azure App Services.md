@@ -23,3 +23,4 @@ Your team is preparing to launch their first web application on Azure. Before th
    * Use East US for the region and choose Free for the pricing plan.
    * Skip to Review and Create, wait for the final validation and click Create.
    * Wait for the App Service Plan to deploy successfully.
+2. When designing an App Service Plan, which factor most directly affects both performance and cost?
