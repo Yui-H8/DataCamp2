@@ -41,3 +41,10 @@ It only supports Windows-based applications.
 
 ### Create a simple Web App
 You've been asked to quickly set up a demo website for your marketing team to showcase a new campaign. You'll deploy a Web App using the Azure Portal, and configure the necessary settings.
+1. Step1
+   * Go to App Services and create a new Web App in the existing resource group.
+   * Give the Web App a name of your choice.
+   * Use Python 3.10 as the runtime stack and East US for the region.
+   * Configure the Web App to a use a new App Service Plan or use an existing plan if available.
+   * Go to Review and Create, wait for the final validation and click Create.
+   * Wait for the Web App to deploy successfully.
