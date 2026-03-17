@@ -38,3 +38,6 @@ It requires you to manually manage virtual machines and operating systems.
 It only supports Windows-based applications.
 ```
 *Well done! You've identified the key benefits of Azure App Service - speed, simplicity, and scalability without server management.*
+
+### Create a simple Web App
+You've been asked to quickly set up a demo website for your marketing team to showcase a new campaign. You'll deploy a Web App using the Azure Portal, and configure the necessary settings.
