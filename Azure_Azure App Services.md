@@ -31,3 +31,9 @@ Depending on Plan
 Why use Azure App Service for hosting your applications?
 
 Choose the two correct answers.
+```
+It allows you to deploy applications quickly without managing servers.
+It provides automatic scaling based on application traffic.
+It requires you to manually manage virtual machines and operating systems.
+It only supports Windows-based applications.
+```
