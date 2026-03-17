@@ -25,4 +25,6 @@ Your team is preparing to launch their first web application on Azure. Before th
    * Wait for the App Service Plan to deploy successfully.
 2. When designing an App Service Plan, which factor most directly affects both performance and cost?
 
-*When designing an App Service Plan, which factor most directly affects both performance and cost?*
+Depending Plan
+
+### Why use App Service?
