@@ -79,3 +79,4 @@ You've just finished preparing your web app for deployment and want a smooth, re
    * Restart the Web App and wait for the action to complete (it might take a few minutes).
      
 Once restarted, you can also browse the Web App URL and see the new look of the website.
+4. What is the main advantage of using the Run From Package feature in Azure Web Apps?
