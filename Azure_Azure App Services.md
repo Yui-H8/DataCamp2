@@ -97,5 +97,5 @@ One of the powerful aspects of Azure Web Apps is that you can adjust behavior wi
    * The variable is responsible for the greeting message displayed on the home page and it can be changed without deploying new code.
 3. Step3
    What are the benefits of storing configuration settings in environment variables?
-> Hint
+> Hint   
 > Think about why environment variables exist - what problem do they solve when managing applications in production?
