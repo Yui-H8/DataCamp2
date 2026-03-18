@@ -99,3 +99,5 @@ One of the powerful aspects of Azure Web Apps is that you can adjust behavior wi
    What are the benefits of storing configuration settings in environment variables?
 > Hint   
 > Think about why environment variables exist - what problem do they solve when managing applications in production?
+
+*Correct! Environment variables make configuration changes simple and flexible, without redeployment.*
