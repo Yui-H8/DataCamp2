@@ -48,3 +48,8 @@ You've been asked to quickly set up a demo website for your marketing team to sh
    * Configure the Web App to a use a new App Service Plan or use an existing plan if available.
    * Go to Review and Create, wait for the final validation and click Create.
    * Wait for the Web App to deploy successfully.
+2. Step2
+   * Open the newly created Web App.
+   * Identify the default domain of the Web App on the Overview blade.
+   * Open the URL listed in the default domain and wait for it to load.
+   * Since this is the first time someone is accessing the newly created Web App, it might take a few moments.
