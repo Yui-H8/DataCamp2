@@ -62,3 +62,4 @@ The next exercises build on the project you've already started. For the best exp
 ---
 ### Run a Web App from a ZIP package
 You've just finished preparing your web app for deployment and want a smooth, reliable way to get it running in Azure. Instead of sending files one by one, imagine packaging everything neatly into a single bundle - ready to go in one move. This method provides faster startup, atomic deployments, and easier rollbacks, making it a recommended approach for managing application deployments.
+1. These steps continue from the previous exercise. If you've lost your progress, please repeat the earlier instructions before moving on.
