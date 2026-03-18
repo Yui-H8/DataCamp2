@@ -63,3 +63,8 @@ The next exercises build on the project you've already started. For the best exp
 ### Run a Web App from a ZIP package
 You've just finished preparing your web app for deployment and want a smooth, reliable way to get it running in Azure. Instead of sending files one by one, imagine packaging everything neatly into a single bundle - ready to go in one move. This method provides faster startup, atomic deployments, and easier rollbacks, making it a recommended approach for managing application deployments.
 1. These steps continue from the previous exercise. If you've lost your progress, please repeat the earlier instructions before moving on.
+   * Create a new Storage Account with a unique name in East US region.
+   * Leave most settings to their default and wait for the storage account to deploy successfully.
+   * Once the Storage Account has been created, go ahead and add a new storage container called "web-packages".
+   * Open web-packages container and upload the local file found at Desktop / Resources / webapp
+   * This is the source code of the Web App project which will we will be using for this exercise.
