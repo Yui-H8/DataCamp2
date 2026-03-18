@@ -92,3 +92,6 @@ One of the powerful aspects of Azure Web Apps is that you can adjust behavior wi
    * Navigate to your Web App, go to Environment variables blade (under Settings group) and add variable WELCOME_TEXT with a value of your choosing.
    * Restart the Web App and wait for the action to complete.
    * Open the website; pay attention to the text displayed on the home page.
+2. Step2
+   * Change the 'WELCOME_TEXT' environment variable, restart the Web App and refresh the home page once again.
+   * The variable is responsible for the greeting message displayed on the home page and it can be changed without deploying new code.
