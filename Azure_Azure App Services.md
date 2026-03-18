@@ -86,4 +86,4 @@ Once restarted, you can also browse the Web App URL and see the new look of the 
 *Correct! Running directly from a single package file makes deployments much simpler and more predictable. Keep it up!*
 
 ### Configure Web App settings
-### 
+One of the powerful aspects of Azure Web Apps is that you can adjust behavior without touching the application code. By using environment variables, you can control settings like messages, connection strings, or feature flags directly from the Azure portal. This means you can make quick changes, test different configurations, or roll out updates without needing to redeploy the app
