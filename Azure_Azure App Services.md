@@ -82,3 +82,5 @@ Once restarted, you can also browse the Web App URL and see the new look of the 
 4. What is the main advantage of using the Run From Package feature in Azure Web Apps?
 > Hint
 > Think about how this feature reduces the complexity of copying and managing many files during deployment.
+
+*Correct! Running directly from a single package file makes deployments much simpler and more predictable. Keep it up!*
