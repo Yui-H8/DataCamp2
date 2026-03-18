@@ -58,3 +58,6 @@ The next exercises build on the project you've already started. For the best exp
 3. What heading text is displayed on the Web App page?
 
 *Correct! This is the default heading shown when the web app has been created successfully but not yet customized.*
+
+---
+### Run a Web App from a ZIP package
