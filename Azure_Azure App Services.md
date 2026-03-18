@@ -53,3 +53,6 @@ You've been asked to quickly set up a demo website for your marketing team to sh
    * Identify the default domain of the Web App on the Overview blade.
    * Open the URL listed in the default domain and wait for it to load.
    * Since this is the first time someone is accessing the newly created Web App, it might take a few moments.
+
+The next exercises build on the project you've already started. For the best experience, try to complete this chapter's exercises in one session.
+
