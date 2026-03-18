@@ -77,3 +77,5 @@ You've just finished preparing your web app for deployment and want a smooth, re
    * To to that, navigate to the Configuration blade (under Settings) and copy this text in the Startup command field: gunicorn --bind=0.0.0.0:$PORT app:app
    * Don't forget to save before leaving this screen.
    * Restart the Web App and wait for the action to complete (it might take a few minutes).
+     
+Once restarted, you can also browse the Web App URL and see the new look of the website.
