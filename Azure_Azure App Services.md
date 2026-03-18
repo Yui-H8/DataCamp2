@@ -56,3 +56,5 @@ You've been asked to quickly set up a demo website for your marketing team to sh
 
 The next exercises build on the project you've already started. For the best experience, try to complete this chapter's exercises in one session.
 3. What heading text is displayed on the Web App page?
+
+*Correct! This is the default heading shown when the web app has been created successfully but not yet customized.*
