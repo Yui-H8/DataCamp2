@@ -68,3 +68,7 @@ You've just finished preparing your web app for deployment and want a smooth, re
    * Once the Storage Account has been created, go ahead and add a new storage container called "web-packages".
    * Open web-packages container and upload the local file found at Desktop / Resources / webapp
    * This is the source code of the Web App project which will we will be using for this exercise.
+2. Step2
+   * Once the file was uploaded, right click on the file (webapp) and generate a new SAS (you do not need to change any settings) and copy the Blob SAS URL.
+   * Navigate to your previously created Web App, go to Environment variables blade (under Settings group) and add variable WEBSITE_RUN_FROM_PACKAGE with the value of the Blob SAS URL.
+   * This will configure the Web App to use the previously uploaded ZIP package as the source of the website.
