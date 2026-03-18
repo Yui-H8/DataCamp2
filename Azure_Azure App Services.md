@@ -72,3 +72,8 @@ You've just finished preparing your web app for deployment and want a smooth, re
    * Once the file was uploaded, right click on the file (webapp) and generate a new SAS (you do not need to change any settings) and copy the Blob SAS URL.
    * Navigate to your previously created Web App, go to Environment variables blade (under Settings group) and add variable WEBSITE_RUN_FROM_PACKAGE with the value of the Blob SAS URL.
    * This will configure the Web App to use the previously uploaded ZIP package as the source of the website.
+3. Setp3
+   * In order to make possible for the web app content to run, we also need to introduce a startup command.
+   * To to that, navigate to the Configuration blade (under Settings) and copy this text in the Startup command field: gunicorn --bind=0.0.0.0:$PORT app:app
+   * Don't forget to save before leaving this screen.
+   * Restart the Web App and wait for the action to complete (it might take a few minutes).
