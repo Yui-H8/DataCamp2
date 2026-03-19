@@ -112,3 +112,9 @@ When running apps in the cloud, one size doesn't fit all. Imagine a marketing ca
 Wait for the scaling up to be implemented.
 
 A scale down would be choosing a plan with a lower computing power than the current one. Feel free to experiment with a scale down as well.
+
+2. Step2
+   * Go to the Scale out blade of the App Service plan and choose to manually control the instance count of available compute resources.
+   * Increase the number of instances to 3 (for example) and Save the changes.
+   * Wait for the scaling to be implemented.
+
