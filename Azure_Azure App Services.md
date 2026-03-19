@@ -120,5 +120,5 @@ A scale down would be choosing a plan with a lower computing power than the curr
 
 You will now always have 3 instances serving the connections to your Web App. Each instance will have the computing power defined by your App Service plan.
 
-
+3. What type of scaling should you apply when your web app needs additional agents to handle increased traffic?
 
