@@ -118,3 +118,7 @@ A scale down would be choosing a plan with a lower computing power than the curr
    * Increase the number of instances to 3 (for example) and Save the changes.
    * Wait for the scaling to be implemented.
 
+You will now always have 3 instances serving the connections to your Web App. Each instance will have the computing power defined by your App Service plan.
+
+
+
