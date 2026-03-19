@@ -105,3 +105,8 @@ One of the powerful aspects of Azure Web Apps is that you can adjust behavior wi
 ---
 ### Scaling a Web App
 When running apps in the cloud, one size doesn't fit all. Imagine a marketing campaign going live - suddenly, your website experiences a surge in traffic. Sometimes you need more power for a single instance, and other times you need more instances to handle demand. Azure Web Apps makes it easy to adjust resources through scaling - whether by giving your app stronger machines (scale up) or by adding more instances (scale out).
+1. Step1
+   * Create a new App Service plan using the Free tier or use an existing one.
+   * Go to the Scale up blade (under Settings) of the App Service plan and choose a plan higher than the current one (for example, Basic B2).
+   * This will allocate more computing power for your Web Apps (the details are described when choosing the plan).
+Wait for the scaling up to be implemented.
