@@ -110,3 +110,5 @@ When running apps in the cloud, one size doesn't fit all. Imagine a marketing ca
    * Go to the Scale up blade (under Settings) of the App Service plan and choose a plan higher than the current one (for example, Basic B2).
    * This will allocate more computing power for your Web Apps (the details are described when choosing the plan).
 Wait for the scaling up to be implemented.
+
+A scale down would be choosing a plan with a lower computing power than the current one. Feel free to experiment with a scale down as well.
