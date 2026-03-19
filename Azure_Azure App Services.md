@@ -104,3 +104,4 @@ One of the powerful aspects of Azure Web Apps is that you can adjust behavior wi
 
 ---
 ### Scaling a Web App
+When running apps in the cloud, one size doesn't fit all. Imagine a marketing campaign going live - suddenly, your website experiences a surge in traffic. Sometimes you need more power for a single instance, and other times you need more instances to handle demand. Azure Web Apps makes it easy to adjust resources through scaling - whether by giving your app stronger machines (scale up) or by adding more instances (scale out).
