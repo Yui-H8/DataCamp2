@@ -136,3 +136,6 @@ Choose the three correct answers.
 When you want to change your app’s code logic
 ```
 *Great job! You identified all the scenarios where scaling makes sense.*
+
+### Troubleshooting web apps
+How can Application Insights help you troubleshoot when your web app isn't working as expected?
