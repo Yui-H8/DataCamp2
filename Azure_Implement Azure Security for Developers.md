@@ -6,3 +6,4 @@ In this course, you’ll learn how to manage and secure users, apps, and resourc
 
 ---
 ### Microsoft Entra ID overview
+At Peoplesphere, managing secure access is essential for employees and customers. Before we dive into how to manage identities and permissions, let’s first explore the platform you’ll be working with: Microsoft Entra ID.
