@@ -140,8 +140,9 @@ When you want to change your app’s code logic
 ### Troubleshooting web apps
 How can Application Insights help you troubleshoot when your web app isn't working as expected?
 ```
-By providing detailed logs and performance metrics to identify where issues occur
+〇 By providing detailed logs and performance metrics to identify where issues occur
 By automatically redeploying your web app to fix bugs
 By upgrading your app service plan to improve performance
 By preventing users from accessing the app until errors are fixed
 ```
+*Correct! Logs, metrics, and telemetry from Application Insights help pinpoint failures.*
