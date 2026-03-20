@@ -130,8 +130,9 @@ In which situations should you consider scaling your web app?
 
 Choose the three correct answers.
 ```
-When traffic increases significantly and response times slow down
-When you need more powerful hardware to handle intensive processing
-When users start reporting errors due to resource limits
+〇 When traffic increases significantly and response times slow down
+〇 When you need more powerful hardware to handle intensive processing
+〇 When users start reporting errors due to resource limits
 When you want to change your app’s code logic
 ```
+*Great job! You identified all the scenarios where scaling makes sense.*
