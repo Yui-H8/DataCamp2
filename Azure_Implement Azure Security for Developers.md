@@ -19,3 +19,4 @@ Answer: Databace
 *Correct! Databases are not managed in Entra ID. They’re handled by services like Azure SQL or Cosmos DB. For helpful background on identity fundamentals, see: What is Microsoft Entra on Microsoft Learn*
 
 ### Selecting the right security tool
+At Peoplesphere, security is a top priority. You’ve already seen a few Azure tools that help keep applications safe. Now, let’s match each tool to the key role it plays in protecting apps and data.
