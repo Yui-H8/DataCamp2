@@ -124,3 +124,8 @@ You will now always have 3 instances serving the connections to your Web App. Ea
 Answer: Scaring out
 
 *Great work! This approach helps your application handle increased traffic by distributing the load across multiple instances.*
+
+### When to scale
+In which situations should you consider scaling your web app?
+
+Choose the three correct answers.
