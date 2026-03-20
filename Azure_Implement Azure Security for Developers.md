@@ -12,3 +12,4 @@ At Peoplesphere, managing secure access is essential for employees and customers
    * Open the Entra admin center by selecting Go to Microsoft Entra in the Try Microsoft Entra admin center card.
 2. Explore Entra ID core sections
    * Expand the Entra ID section from the left-hand menu and glance at the various options available. They are crucial when it comes to security.
+3. Microsoft Entra ID helps you explore identities and manage access control. Which of the following can you not manage in Entra ID?
