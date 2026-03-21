@@ -22,3 +22,6 @@ Answer: Databace
 At Peoplesphere, security is a top priority. You’ve already seen a few Azure tools that help keep applications safe. Now, let’s match each tool to the key role it plays in protecting apps and data.
 
 *Nice work! You matched the tools correctly. Keep it up!*
+
+---
+### Creating users in Entra ID
