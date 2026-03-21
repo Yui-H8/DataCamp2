@@ -25,3 +25,4 @@ At Peoplesphere, security is a top priority. You’ve already seen a few Azure t
 
 ---
 ### Creating users in Entra ID
+Let’s step into the world of Peoplesphere and see how new user creation works in Microsoft Entra ID. We’ll explore what details are important to provide when setting up a user and why they matter for managing identity and access securely.
