@@ -29,3 +29,9 @@ Let’s step into the world of Peoplesphere and see how new user creation works 
 1. Creating a new user
    * Navigate to the Overview page in the Entra ID admin centre.
    * Create a new User by the + Add button at the top choosing Create new user.
+2. Exploring user creation
+
+Due to security permissions you will not be able to create a new user, however lets take a moment to understand the process and fields:
+* Basics   
+Includes required fields like User principal name and Display name.
+* 
