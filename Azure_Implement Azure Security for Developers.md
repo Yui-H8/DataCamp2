@@ -34,4 +34,7 @@ Let’s step into the world of Peoplesphere and see how new user creation works 
 Due to security permissions you will not be able to create a new user, however lets take a moment to understand the process and fields:
 * Basics   
 Includes required fields like User principal name and Display name.
-* 
+* Properties   
+Covers optional fields such as Identity, Job, and Contact Information.
+* Assignments   
+Used for assigning roles to the user.
