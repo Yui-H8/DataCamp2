@@ -72,3 +72,6 @@ In Microsoft Entra ID, two objects define how apps are secured and used across t
 *Well done! You've correctly identified the difference between the app blueprint and its tenant-level identity.*
 
 ### App-only access scenarios
+The PeopleSphere app sometimes acts on behalf of a signed-in user, while in other cases it runs independently in the background.
+
+In this exercise, you’ll decide which scenario represents App-only access.
