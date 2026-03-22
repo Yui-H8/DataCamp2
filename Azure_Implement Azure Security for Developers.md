@@ -107,3 +107,9 @@ PeopleSphere, is launching a limited-time promotion for email subscribers. Theyâ
    * Open blob-container and select Upload.
    * In the pop up Browse for files.
    * Navigate to the Desktop/Resouces folder and select the image Promo and Upload it.
+3. Now, lets generate a time-limited link to access it:
+   * Once uploaded, the image will show in the container.
+   * On the right hand side of the page click the context menu (3 dots)
+   * Navigate to the Generate SAS section.
+   * Take a note of the Expiry time
+   * Click Generate SAS token and URL
