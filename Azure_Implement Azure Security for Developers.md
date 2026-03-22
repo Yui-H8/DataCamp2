@@ -59,3 +59,5 @@ Authorization verified the employee’s identity, and authentication decided whi
 Authentication and authorization are the same, so the employee only needed to log in once.
 ```
 *Correct. Authentication verifies identity at sign-in; authorization uses roles/permissions to restrict access to specific apps and data.*
+
+### Authentication vs. authorization
