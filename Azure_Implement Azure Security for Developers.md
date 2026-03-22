@@ -61,3 +61,4 @@ Authentication and authorization are the same, so the employee only needed to lo
 *Correct. Authentication verifies identity at sign-in; authorization uses roles/permissions to restrict access to specific apps and data.*
 
 ### Authentication vs. authorization
+At Peoplesphere, keeping employee and customer information secure is essential. Authentication and authorization may sound similar, but understanding the difference between them is key to strong identity management.
