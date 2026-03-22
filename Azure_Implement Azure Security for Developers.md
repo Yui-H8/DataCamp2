@@ -49,3 +49,6 @@ Final step to review and validate all entered details.
 
 ---
 ### Secure access
+At Peoplesphere, an employee signs in to the Azure portal with their username and password. After logging in, only HR applications are visible; financial and IT management apps are not accessible.
+
+Which statement best explains what is happening?
