@@ -83,3 +83,6 @@ A script runs interactively in PowerShell using a user account to manage Azure r
 ```
 
 *Well done! You correctly identified the app-only access scenario.*
+
+---
+### Choosing the right SAS
