@@ -46,3 +46,6 @@ Final step to review and validate all entered details.
    
    Answer: Guest user     
 *Correct! Guest users work best for temporary access.*
+
+---
+### Secure access
