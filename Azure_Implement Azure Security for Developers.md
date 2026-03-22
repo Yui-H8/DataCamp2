@@ -99,3 +99,7 @@ Connection String with Account Key
 
 ### Creating a SAS token
 PeopleSphere, is launching a limited-time promotion for email subscribers. They’ve asked for a way to securely store promotional content in Blob storage and grant access only during specific hours. To achieve this, you can generate a Shared Access Signature (SAS) that restricts access to the content within the defined time window. This ensures that only the intended audience can view the promotion at the right time.
+1. Let’s create a SAS token inside a Storage account:
+   * Navigate to Storage accounts and open the pre-made storage account.
+   * Under Properties navigate into Blob service.
+   * Create a container and name it blob-container
