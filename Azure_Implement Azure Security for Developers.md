@@ -98,3 +98,4 @@ Connection String with Account Key
 *Perfect!User Delegation SAS supports Entra ID based authentication and is ideal for secure, scoped access to blob storage without using account keys.*
 
 ### Creating a SAS token
+PeopleSphere, is launching a limited-time promotion for email subscribers. They’ve asked for a way to securely store promotional content in Blob storage and grant access only during specific hours. To achieve this, you can generate a Shared Access Signature (SAS) that restricts access to the content within the defined time window. This ensures that only the intended audience can view the promotion at the right time.
