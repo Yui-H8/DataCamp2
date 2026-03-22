@@ -62,3 +62,5 @@ Authentication and authorization are the same, so the employee only needed to lo
 
 ### Authentication vs. authorization
 At Peoplesphere, keeping employee and customer information secure is essential. Authentication and authorization may sound similar, but understanding the difference between them is key to strong identity management.
+
+*Great job! You've correctly classified the authentication and authorization scenarios.*
