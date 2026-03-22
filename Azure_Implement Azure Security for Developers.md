@@ -55,6 +55,7 @@ Which statement best explains what is happening?
 ```
 Authentication gave the employee access to all applications, but authorization removed some later.
 Authorization verified the employee’s identity, and authentication decided which apps they could open.
-Authentication confirmed the employee’s identity, and authorization limited their access to HR applications.
+〇 Authentication confirmed the employee’s identity, and authorization limited their access to HR applications.
 Authentication and authorization are the same, so the employee only needed to log in once.
 ```
+*Correct. Authentication verifies identity at sign-in; authorization uses roles/permissions to restrict access to specific apps and data.*
