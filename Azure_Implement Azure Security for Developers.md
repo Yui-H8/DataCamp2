@@ -90,8 +90,9 @@ Your team is building a web app that lets employees view training videos stored 
 
 Which type of SAS should you use?
 ```
-User Delegation SAS
+〇 User Delegation SAS
 Account SAS
 Service SAS
 Connection String with Account Key
 ```
+*Perfect!User Delegation SAS supports Entra ID based authentication and is ideal for secure, scoped access to blob storage without using account keys.*
