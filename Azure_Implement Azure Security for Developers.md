@@ -113,3 +113,4 @@ PeopleSphere, is launching a limited-time promotion for email subscribers. Theyâ
    * Navigate to the Generate SAS section.
    * Take a note of the Expiry time
    * Click Generate SAS token and URL
+4. Let's now access that image before our Expiry time runs out!
