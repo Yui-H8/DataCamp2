@@ -67,3 +67,4 @@ At Peoplesphere, keeping employee and customer information secure is essential. 
 
 ---
 ### Application object vs service principal
+In Microsoft Entra ID, two objects define how apps are secured and used across tenants: the Application Object and the Service Principal.
