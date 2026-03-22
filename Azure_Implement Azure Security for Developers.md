@@ -89,3 +89,9 @@ A script runs interactively in PowerShell using a user account to manage Azure r
 Your team is building a web app that lets employees view training videos stored in Azure Blob Storage. The app signs in users with Microsoft Entra ID, and you want to give them temporary, read-only access to just the video blob.
 
 Which type of SAS should you use?
+```
+User Delegation SAS
+Account SAS
+Service SAS
+Connection String with Account Key
+```
