@@ -70,3 +70,5 @@ At Peoplesphere, keeping employee and customer information secure is essential. 
 In Microsoft Entra ID, two objects define how apps are secured and used across tenants: the Application Object and the Service Principal.
 
 *Well done! You've correctly identified the difference between the app blueprint and its tenant-level identity.*
+
+### App-only access scenarios
