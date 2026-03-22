@@ -75,3 +75,9 @@ In Microsoft Entra ID, two objects define how apps are secured and used across t
 The PeopleSphere app sometimes acts on behalf of a signed-in user, while in other cases it runs independently in the background.
 
 In this exercise, you’ll decide which scenario represents App-only access.
+```
+PeopleSphere’s app prompts the user to sign in before accessing their OneDrive files via Microsoft Graph.
+Azure Logic App uses its managed identity to retrieve secrets from Azure Key Vault without user interaction.
+An employee signs into the PeopleSphere web portal to view their calendar through Microsoft Graph.
+A script runs interactively in PowerShell using a user account to manage Azure resources.
+```
