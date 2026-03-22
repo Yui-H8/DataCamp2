@@ -96,3 +96,5 @@ Service SAS
 Connection String with Account Key
 ```
 *Perfect!User Delegation SAS supports Entra ID based authentication and is ideal for secure, scoped access to blob storage without using account keys.*
+
+### Creating a SAS token
