@@ -103,3 +103,7 @@ PeopleSphere, is launching a limited-time promotion for email subscribers. Theyâ
    * Navigate to Storage accounts and open the pre-made storage account.
    * Under Properties navigate into Blob service.
    * Create a container and name it blob-container
+2. Letâ€™s upload an image to your Blob Container:
+   * Open blob-container and select Upload.
+   * In the pop up Browse for files.
+   * Navigate to the Desktop/Resouces folder and select the image Promo and Upload it.
