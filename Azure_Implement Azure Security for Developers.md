@@ -43,5 +43,6 @@ Final step to review and validate all entered details.
 
 
 3. You need to add a contractor to your Microsoft Entra directory who does not belong to your organization but requires temporary access to certain resources. What type of user should you create?
-   Answer: Guest user    
+   
+   Answer: Guest user     
 *Correct! Guest users work best for temporary access.*
