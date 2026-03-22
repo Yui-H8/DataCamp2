@@ -37,4 +37,6 @@ Includes required fields like User principal name and Display name.
 * Properties   
 Covers optional fields such as Identity, Job, and Contact Information.
 * Assignments   
-Used for assigning roles to the user.
+Used for assigning roles to the user.  
+* Review + create   
+Final step to review and validate all entered details.
