@@ -123,3 +123,5 @@ You should now see the special promo!
 Remember the link is time restricted, try changing the Expiry to 1 minute from now then Generate SAS token and URL and wait a minute before accessing the image, it will be like nothing is there after a minute! Successfully ending the promotion for your company!
 
 5. Why might an organization want to set a time-restricted access when using a Shared Access Signature (SAS) URL?
+
+*Great job! You’ve successfully set up time-limited access using a Shared Access Signature (SAS), ensuring PeopleSphere’s promotions stay secure and only available at the right time.*
