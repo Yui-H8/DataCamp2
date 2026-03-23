@@ -128,3 +128,5 @@ Remember the link is time restricted, try changing the Expiry to 1 minute from n
 
 ### Secure vs. insecure SAS practices
 PeopleSphere’s HR app shares payroll reports through Azure Storage. To reduce risk, the team must ensure that SAS tokens follow secure practices. Misconfigurations can expose sensitive employee data.
+
+*Well done! You’ve correctly classified secure and insecure SAS practices, helping protect PeopleSphere’s sensitive HR data.*
