@@ -125,3 +125,5 @@ Remember the link is time restricted, try changing the Expiry to 1 minute from n
 5. Why might an organization want to set a time-restricted access when using a Shared Access Signature (SAS) URL?
 
 *Great job! You’ve successfully set up time-limited access using a Shared Access Signature (SAS), ensuring PeopleSphere’s promotions stay secure and only available at the right time.*
+
+### Secure vs. insecure SAS practices
