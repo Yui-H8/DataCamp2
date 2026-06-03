@@ -146,3 +146,6 @@ At PeopleSphere, managing HR app settings centrally is essential. As the first s
    * Once validation succeeds, deploy the resource.    
      Deployment may take a few moments.
 4. When creating an App Configuration instance, which property must always be unique?
+   Answer: Resouce Name
+
+*Correct! Every App Configuration instance must have a unique name globally.*
