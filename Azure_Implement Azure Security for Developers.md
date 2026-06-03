@@ -137,3 +137,4 @@ At PeopleSphere, managing HR app settings centrally is essential. As the first s
 1. Open App Configuration
    * Open App Configuration in the Azure portal.
    * Start setting up a new instance by selecting + Create.
+2. Configure your instance
