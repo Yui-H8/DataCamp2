@@ -138,3 +138,6 @@ At PeopleSphere, managing HR app settings centrally is essential. As the first s
    * Open App Configuration in the Azure portal.
    * Start setting up a new instance by selecting + Create.
 2. Configure your instance
+   * Select your Resource group from the dropdowns.
+   * In Resource name, enter a unique name.
+   * Under Pricing tier, select Free.
