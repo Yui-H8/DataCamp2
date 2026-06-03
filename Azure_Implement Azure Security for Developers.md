@@ -145,3 +145,4 @@ At PeopleSphere, managing HR app settings centrally is essential. As the first s
    * To start validation, select Review + create.
    * Once validation succeeds, deploy the resource.    
      Deployment may take a few moments.
+4. When creating an App Configuration instance, which property must always be unique?
