@@ -143,5 +143,5 @@ At PeopleSphere, managing HR app settings centrally is essential. As the first s
    * Under Pricing tier, select Free.
 3. Review and deploy
    * To start validation, select Review + create.
-   * Once validation succeeds, deploy the resource.
+   * Once validation succeeds, deploy the resource.    
      Deployment may take a few moments.
