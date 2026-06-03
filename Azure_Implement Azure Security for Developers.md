@@ -141,3 +141,4 @@ At PeopleSphere, managing HR app settings centrally is essential. As the first s
    * Select your Resource group from the dropdowns.
    * In Resource name, enter a unique name.
    * Under Pricing tier, select Free.
+3. Review and deploy
