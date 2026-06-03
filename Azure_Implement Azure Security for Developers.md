@@ -134,3 +134,6 @@ PeopleSphere’s HR app shares payroll reports through Azure Storage. To reduce 
 ---
 ### Deploying App Configuration
 At PeopleSphere, managing HR app settings centrally is essential. As the first step, you need to deploy an App Configuration instance, which will later be used to store settings like login rules and feature toggles
+1. Open App Configuration
+   * Open App Configuration in the Azure portal.
+   * Start setting up a new instance by selecting + Create.
