@@ -163,3 +163,6 @@ Answer: Key
 You're managing dynamic feature rollout in a cloud-based app using Azure’s Feature Management tools.
 
 *Great work! You've matched each piece to the right part of feature management.*
+
+---
+### Classifying keys, secrets, and certificates
