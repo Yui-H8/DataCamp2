@@ -175,3 +175,6 @@ You’re a cloud engineer building a payment service. To manage sensitive info l
 1. Open the Key Vault service
    * In the Azure portal, open Key Vault.
    * Once inside, start with + Create.
+2. Configure a Key Vault
+
+
