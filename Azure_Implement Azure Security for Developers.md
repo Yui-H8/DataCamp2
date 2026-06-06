@@ -172,3 +172,6 @@ At PeopleSphere, HR data must stay secure. To protect sensitive information, the
 ---
 ### Managing secrets in Key Vault
 You’re a cloud engineer building a payment service. To manage sensitive info like API passwords, you’ll use Azure Key Vault to store a secret and update it using versioning.
+1. Open the Key Vault service
+   * In the Azure portal, open Key Vault.
+   * Once inside, start with + Create.
