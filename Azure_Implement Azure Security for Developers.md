@@ -158,3 +158,5 @@ Now, when storing settings inside it as key-value pairs, which property uniquely
 Answer: Key
 
 *Correct! Each setting is identified by a unique key.*
+
+### Classify feature management components
