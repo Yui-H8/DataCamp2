@@ -160,3 +160,4 @@ Answer: Key
 *Correct! Each setting is identified by a unique key.*
 
 ### Classify feature management components
+You're managing dynamic feature rollout in a cloud-based app using Azure’s Feature Management tools.
