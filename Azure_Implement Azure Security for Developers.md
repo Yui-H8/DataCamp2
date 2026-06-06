@@ -180,5 +180,6 @@ You’re a cloud engineer building a payment service. To manage sensitive info l
    * Give the vault a unique name and set the Pricing Tier to Standard.
    * Proceed to the next tab and pick Vault access policy as the permission model.
    * Deploy the resource and open it.
+3. Store a secret
 
 
