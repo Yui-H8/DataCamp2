@@ -166,3 +166,4 @@ You're managing dynamic feature rollout in a cloud-based app using Azure’s Fea
 
 ---
 ### Classifying keys, secrets, and certificates
+At PeopleSphere, HR data must stay secure. To protect sensitive information, they use Azure Key Vault to manage secrets, keys, and certificates.
