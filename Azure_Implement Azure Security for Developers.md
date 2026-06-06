@@ -149,3 +149,5 @@ At PeopleSphere, managing HR app settings centrally is essential. As the first s
    Answer: Resouce Name
 
 *Correct! Every App Configuration instance must have a unique name globally.*
+
+### Storing settings in App Configuration
