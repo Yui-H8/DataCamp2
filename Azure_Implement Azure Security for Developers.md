@@ -154,3 +154,7 @@ At PeopleSphere, managing HR app settings centrally is essential. As the first s
 You’ve just deployed an App Configuration instance for PeopleSphere!
 
 Now, when storing settings inside it as key-value pairs, which property uniquely identifies each setting?
+
+Answer: Key
+
+*Correct! Each setting is identified by a unique key.*
