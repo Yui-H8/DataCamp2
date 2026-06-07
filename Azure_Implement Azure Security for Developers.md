@@ -214,3 +214,4 @@ Access Policies
 Shared Access Signatures
 Firewall rules
 ```
+*Perfect! Azure RBAC is designed for role-based access across services and supports security controls like MFA and Conditional Access.*
