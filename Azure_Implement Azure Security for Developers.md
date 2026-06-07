@@ -208,3 +208,9 @@ Your company is migrating to Azure and needs to secure access to secrets stored 
 * Avoid reliance on legacy or resource-specific access methods
 
  Which authorization method best meets these requirements?
+```
+〇 Azure RBAC
+Access Policies
+Shared Access Signatures
+Firewall rules
+```
