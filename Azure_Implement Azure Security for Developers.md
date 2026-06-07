@@ -194,3 +194,7 @@ You’re a cloud engineer building a payment service. To manage sensitive info l
    * Secret Identifier: A secure URL apps use to access a specific version with proper permissions.
    * Reveal the stored password with Show Secret Value.
 6. Which feature helps rotate a secret without renaming it?
+   * Answer: New Version
+   * 
+*Correct! A new version lets you update the value while keeping the secret name unchanged.*
+
