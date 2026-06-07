@@ -226,3 +226,10 @@ Soft Delete allows recovery of deleted keys, secrets, and certificates, but not 
 Soft Delete is enabled by default for new Key Vaults and cannot be turned off once set.
 The retention period for both Soft Delete and Purge Protection can be configured between 7 and 90 days.
 ```
+```
+Hint
+Hint
+Start with Soft Delete, it’s the foundation that makes Purge Protection possible.
+
+Also, remember that recovery applies more broadly than just individual secrets.
+```
