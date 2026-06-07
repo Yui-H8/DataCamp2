@@ -193,3 +193,4 @@ You’re a cloud engineer building a payment service. To manage sensitive info l
 5. Explore both listed versions
    * Secret Identifier: A secure URL apps use to access a specific version with proper permissions.
    * Reveal the stored password with Show Secret Value.
+6. Which feature helps rotate a secret without renaming it?
