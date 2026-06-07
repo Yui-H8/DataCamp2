@@ -217,3 +217,6 @@ Firewall rules
 *Perfect! Azure RBAC is designed for role-based access across services and supports security controls like MFA and Conditional Access.*
 
 ### Soft delete & purge protection
+PeopleSphere’s HR app stores payroll credentials and certificates in Azure Key Vault. To prevent permanent loss from accidental deletions or attacks, the team is reviewing how Soft Delete and Purge Protection protect both the vault and its contents.
+
+Which of the following statements are correct?
