@@ -221,10 +221,10 @@ PeopleSphere’s HR app stores payroll credentials and certificates in Azure Key
 
 Which of the following statements are correct?
 ```
-Purge Protection can only be enabled if Soft Delete is already enabled.
+〇 Purge Protection can only be enabled if Soft Delete is already enabled.
 Soft Delete allows recovery of deleted keys, secrets, and certificates, but not the Key Vault itself.
-Soft Delete is enabled by default for new Key Vaults and cannot be turned off once set.
-The retention period for both Soft Delete and Purge Protection can be configured between 7 and 90 days.
+〇 Soft Delete is enabled by default for new Key Vaults and cannot be turned off once set.
+〇 The retention period for both Soft Delete and Purge Protection can be configured between 7 and 90 days.
 ```
 ```
 Hint
