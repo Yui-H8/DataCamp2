@@ -199,3 +199,12 @@ You’re a cloud engineer building a payment service. To manage sensitive info l
 *Correct! A new version lets you update the value while keeping the secret name unchanged.*
 
 ### Choosing the right authorization model
+Your company is migrating to Azure and needs to secure access to secrets stored in Azure Key Vault. The security team has set the following requirements:
+
+* Centralized access control across multiple Azure resources
+* Integration with Azure Active Directory (Azure AD)
+* Support for Multi-Factor Authentication (MFA) and Conditional Access
+* Ability to assign roles at the subscription and resource group levels
+* Avoid reliance on legacy or resource-specific access methods
+
+ Which authorization method best meets these requirements?
