@@ -185,5 +185,8 @@ You’re a cloud engineer building a payment service. To manage sensitive info l
    * Use + Generate/Import to add your secret.
    * Name it "AppPassword", set value to "P@ssw0rd123!".
    * Keep the secret enabled and create it.
-4. Add a new version
+4. Add a new version   
    Rotation helps when passwords expire or are compromised. For example, updating a database password every month.
+   * Open the secret you just created. You’ll see one version already listed
+   * Add a New Version with an updated password.
+   * Type the new password and create the version.
