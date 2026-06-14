@@ -233,3 +233,4 @@ Start with Soft Delete, it’s the foundation that makes Purge Protection possib
 
 Also, remember that recovery applies more broadly than just individual secrets.
 ```
+*Great job! You’ve correctly identified how Soft Delete and Purge Protection work together to safeguard Azure Key Vault from permanent loss.*
