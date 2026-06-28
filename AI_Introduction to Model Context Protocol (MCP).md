@@ -9,3 +9,4 @@ Gone is the headache of integrating AI applications with disparate external syst
 ### Getting to Know MCP
 You're onboarding a new developer at a fintech startup that's building an AI-powered financial advisor that utilizes the Model Context Protocol (MCP). This new colleague is unfamiliar with MCP, so you're going to hold a knowledge sharing session so they can hit the ground running.
 
+*Excellent work! You've correctly identified the roles of each MCP architecture component. Understanding these distinctions is crucial for building and debugging MCP-based AI applications.*
