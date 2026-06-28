@@ -7,3 +7,5 @@ Gone is the headache of integrating AI applications with disparate external syst
 ---
 
 ### Getting to Know MCP
+You're onboarding a new developer at a fintech startup that's building an AI-powered financial advisor that utilizes the Model Context Protocol (MCP). This new colleague is unfamiliar with MCP, so you're going to hold a knowledge sharing session so they can hit the ground running.
+
