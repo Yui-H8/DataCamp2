@@ -23,3 +23,7 @@ Time to get hands-on with your first MCP server! We've provided all the code for
 Note: You'll need to use the official currency codes, like GBP for the British pound sterling.
 
 *I hope you're excited as I am to get started! MCP servers like these make it much easier to integrate and exchange external data with AI systems. Let's now take a look at how you can begin writing your own MCP servers!*
+
+---
+
+### Building a Currency Converter MCP Server
