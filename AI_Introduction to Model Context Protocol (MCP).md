@@ -84,3 +84,7 @@ For example, `100 EUR = 88.04 GBP (Rate: 0.8804)`.
 # Create an MCP server instance
 mcp = FastMCP("Corrency Converter")
 ```
+```
+# Create an MCP server instance
+mcp = FastMCP("Currency Converter")
+```
