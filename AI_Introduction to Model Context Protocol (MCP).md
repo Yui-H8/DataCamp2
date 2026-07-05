@@ -12,3 +12,7 @@ You're onboarding a new developer at a fintech startup that's building an AI-pow
 *Excellent work! You've correctly identified the roles of each MCP architecture component. Understanding these distinctions is crucial for building and debugging MCP-based AI applications.*
 
 ### Your First MCP Server
+Time to get hands-on with your first MCP server! We've provided all the code for you here, which we'll teach in the next video, but take a look at the flow of the code:
+1. An MCP server instance is defined with 'FastMCP()'
+2. A tool function (convert_currency()) is written to perform some action; in this case, retrieving currency information from the Frankfurter API.
+3. This function is converted into an MCP tool using the @mcp.tool() decorator.
