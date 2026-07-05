@@ -79,3 +79,8 @@ Time to begin building your first MCP server! Here, you'll define an MCP server 
 This tool should take amount, from_currency, and to_currency parameters, and return a string containing the amount converted into the desired currency, along with the exchange rate used.
 
 For example, `100 EUR = 88.04 GBP (Rate: 0.8804)`.
+1. Instantiate an MCP server called "Currency Converter".
+```
+# Create an MCP server instance
+mcp = FastMCP("Corrency Converter")
+```
