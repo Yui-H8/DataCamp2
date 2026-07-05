@@ -88,3 +88,4 @@ mcp = FastMCP("Corrency Converter")
 # Create an MCP server instance
 mcp = FastMCP("Currency Converter")
 ```
+2. Create an MCP tool called convert_currency() that takes amount, from_currency, and to_currency arguments.
