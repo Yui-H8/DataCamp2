@@ -91,7 +91,7 @@ mcp = FastMCP("Currency Converter")
 
 # Define the MCP tool
 @mcp.tool()
-def convert_currency(amount: float, from_currency: str, to_currency: str) -> str:
+def convert_currency(amount, from_currency, to_currency):
     pass
 ```
 Hint:    
