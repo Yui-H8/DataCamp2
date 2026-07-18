@@ -97,3 +97,5 @@ def convert_currency(amount, from_currency, to_currency):
 Hint:    
 Use the `@mcp.tool()` decorator before the function definition to convert it into an MCP tool.
 Use the standard Python function syntax to define `convert_currency():` `def function_name(arg1, arg2, ...):`.
+
+3. Complete the API endpoint URL by setting the base and symbols query parameters to from_currency and to_currency, respectively.
