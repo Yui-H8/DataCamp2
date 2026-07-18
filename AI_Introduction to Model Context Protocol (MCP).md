@@ -94,3 +94,6 @@ mcp = FastMCP("Currency Converter")
 def convert_currency(amount: float, from_currency: str, to_currency: str) -> str:
     pass
 ```
+Hint:    
+Use the `@mcp.tool()` decorator before the function definition to convert it into an MCP tool.
+Use the standard Python function syntax to define `convert_currency():` `def function_name(arg1, arg2, ...):`.
