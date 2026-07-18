@@ -136,3 +136,6 @@ def convert_currency(amount, from_currency, to_currency):
       
 print(convert_currency(amount=100, from_currency="EUR", to_currency="USD"))
 ```
+```
+100 EUR = 114.35 USD (Rate: 1.1435)
+```
