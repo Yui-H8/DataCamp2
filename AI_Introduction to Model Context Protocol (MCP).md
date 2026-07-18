@@ -85,3 +85,12 @@ For example, `100 EUR = 88.04 GBP (Rate: 0.8804)`.
 mcp = FastMCP("Corrency Converter")
 ```
 2. Create an MCP tool called convert_currency() that takes amount, from_currency, and to_currency arguments.
+```
+# Create an MCP server instance
+mcp = FastMCP("Currency Converter")
+
+# Define the MCP tool
+@mcp.tool()
+def convert_currency(amount: float, from_currency: str, to_currency: str) -> str:
+    pass
+```
