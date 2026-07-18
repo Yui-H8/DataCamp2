@@ -109,4 +109,4 @@ def convert_currency(amount, from_currency, to_currency):
     # API endpoint for Frankfurter
     url = f"https://api.frankfurter.dev/v1/latest?base={from_currency}&symbols={to_currency}"
 ```
-4. Send a GET request to the url, extract the JSON from the response object, and calculate converted_amount by multiplying amount by rate.
+4. Send a GET request to the url, extract the JSON from the response object, and calculate `converted_amount` by multiplying `amount` by `rate`.
