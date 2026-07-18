@@ -139,3 +139,4 @@ print(convert_currency(amount=100, from_currency="EUR", to_currency="USD"))
 ```
 100 EUR = 114.35 USD (Rate: 1.1435)
 ```
+*Very nice work! Your currency converter tool is now functional for a human, but LLMs need a bit more help. Let's add a clear and comprehensive docstring and typing to the function arguments and return objects. This will greatly improve the reliability of these tool calls!*
