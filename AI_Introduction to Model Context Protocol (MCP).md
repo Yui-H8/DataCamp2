@@ -179,3 +179,6 @@ def convert_currency(amount: float, from_currency: str, to_currency: str) -> str
 
 print(convert_currency(amount=100, from_currency="EUR", to_currency="USD"))
 ```
+```
+100 EUR = 113.77 USD (Rate: 1.1377)
+```
