@@ -182,3 +182,4 @@ print(convert_currency(amount=100, from_currency="EUR", to_currency="USD"))
 ```
 100 EUR = 113.77 USD (Rate: 1.1377)
 ```
+*Beautifully documented! With this docstring and type hints, an LLM should be able to use this tool extremely effectively! Let's actually put that final piece into place: building an MCP client that can call your server.*
