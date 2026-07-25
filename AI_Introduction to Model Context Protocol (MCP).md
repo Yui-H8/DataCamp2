@@ -142,3 +142,6 @@ print(convert_currency(amount=100, from_currency="EUR", to_currency="USD"))
 *Very nice work! Your currency converter tool is now functional for a human, but LLMs need a bit more help. Let's add a clear and comprehensive docstring and typing to the function arguments and return objects. This will greatly improve the reliability of these tool calls!*
 
 ### Adding Docstrings and Type Hints
+Time to make your convert_currency() tool easier for LLMs to use through docstrings and type hints. Without this, the LLM may not be able to effectively choose which tool to call, or may pass values to the arguments incorrectly—both of which result in unreliable application performance!
+
+An MCP server has already been instantiated using FastMCP and assigned to mcp.
