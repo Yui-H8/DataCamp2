@@ -204,5 +204,15 @@ Use the StdioServerParameters class to define the stdio server parameters.
 `asyncio` has already been imported for you.
 
 1. Define a function called get_tools_from_mcp(), and start by defining the stdio server parameters so that the "currency_server.py" file is executed.
+```python
+from mcp import ClientSession, StdioServerParameters
+from mcp.client.stdio import stdio_client
 
+async def get_tools_from_mcp():
+    # Define the server parameters
+    params = StdioServerParameters(
+        command=sys.executable,
+        args=["currency_server.py"],
+    )
+```
 
