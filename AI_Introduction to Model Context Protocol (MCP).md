@@ -215,4 +215,5 @@ async def get_tools_from_mcp():
         args=["currency_server.py"],
     )
 ```
-
+2. Connect to the MCP server and open a session; allow concurrent operations and automatic session closing.
+   * Initialize the session.
