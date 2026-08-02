@@ -189,3 +189,5 @@ print(convert_currency(amount=100, from_currency="EUR", to_currency="USD"))
 You're onboarding a new developer to your team who will be building MCP applications. They've read the documentation but are still confused about some core concepts around how clients and servers communicate in the MCP protocol.
 
 To help them understand, you've prepared a quick quiz to test their knowledge of MCP client-server communication fundamentals.
+
+* Classify each statement as either True or False based on what you learned about MCP client-server communications.
