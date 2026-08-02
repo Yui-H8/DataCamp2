@@ -197,7 +197,10 @@ To help them understand, you've prepared a quick quiz to test their knowledge of
 
 ### Dynamic Tool Discoverability
 MCP servers can house lots of functionality as separate tools, so a common first step is to list out all of the tools available to understand what they are and how they can be used.
-
+```
+Hint
+Use the StdioServerParameters class to define the stdio server parameters.
+```
 `asyncio` has already been imported for you.
 
 1. Define a function called get_tools_from_mcp(), and start by defining the stdio server parameters so that the "currency_server.py" file is executed.
