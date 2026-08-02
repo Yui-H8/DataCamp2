@@ -193,3 +193,6 @@ To help them understand, you've prepared a quick quiz to test their knowledge of
 * Classify each statement as either True or False based on what you learned about MCP client-server communications.
 
 *Excellent work! You have a solid understanding of MCP client-server communication fundamentals. These concepts form the foundation for building effective MCP applications. Time to start talking with your currency converter server by building a corresponding client!*
+
+
+### Dynamic Tool Discoverability
