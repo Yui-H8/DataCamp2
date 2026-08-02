@@ -196,3 +196,6 @@ To help them understand, you've prepared a quick quiz to test their knowledge of
 
 
 ### Dynamic Tool Discoverability
+MCP servers can house lots of functionality as separate tools, so a common first step is to list out all of the tools available to understand what they are and how they can be used.
+
+`asyncio` has already been imported for you.
