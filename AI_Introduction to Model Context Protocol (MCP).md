@@ -22,7 +22,7 @@ Time to get hands-on with your first MCP server! We've provided all the code for
   
 Note: You'll need to use the official currency codes, like GBP for the British pound sterling.
 
-```
+```python
 # Create an MCP server instance
 mcp = FastMCP("Currency Converter")
 
@@ -85,7 +85,7 @@ For example, `100 EUR = 88.04 GBP (Rate: 0.8804)`.
 mcp = FastMCP("Corrency Converter")
 ```
 2. Create an MCP tool called convert_currency() that takes amount, from_currency, and to_currency arguments.
-```
+```python
 # Create an MCP server instance
 mcp = FastMCP("Currency Converter")
 
@@ -110,7 +110,7 @@ def convert_currency(amount, from_currency, to_currency):
     url = f"https://api.frankfurter.dev/v1/latest?base={from_currency}&symbols={to_currency}"
 ```
 4. Send a GET request to the url, extract the JSON from the response object, and calculate `converted_amount` by multiplying `amount` by `rate`.
-```
+```python
 # Create an MCP server instance
 mcp = FastMCP("Currency Converter")
 
