@@ -217,3 +217,8 @@ async def get_tools_from_mcp():
 ```
 2. Connect to the MCP server and open a session; allow concurrent operations and automatic session closing.
    * Initialize the session.
+```
+Hint
+Use the async with pattern to enable concurrent operations and to automatically close sessions once the operations have completed.
+Use the session's .initialize() method to perform the initialization.
+```
