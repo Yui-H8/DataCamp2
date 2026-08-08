@@ -222,3 +222,20 @@ Hint
 Use the async with pattern to enable concurrent operations and to automatically close sessions once the operations have completed.
 Use the session's .initialize() method to perform the initialization.
 ```
+```python
+from mcp import ClientSession, StdioServerParameters
+from mcp.client.stdio import stdio_client
+
+async def get_tools_from_mcp():
+    # Define the server parameters
+    params = StdioServerParameters(
+        command=sys.executable,
+        args=["currency_server.py"],
+    )
+
+    # Connect to the MCP server and open a session
+    async with stdio_client(params) as (reader, writer):
+        async with ClientSession(reader, writer) as session:
+            # Initialize the session
+            await session.initialize()
+```
