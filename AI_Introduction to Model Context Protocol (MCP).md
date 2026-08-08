@@ -239,4 +239,5 @@ async def get_tools_from_mcp():
             # Initialize the session
             await session.initialize()
 ```
+
 3. Return the tools available in the server.
