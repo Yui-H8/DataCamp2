@@ -292,4 +292,20 @@ async def get_tools_from_mcp():
 
 asyncio.run(get_tools_from_mcp())
 ```
+```
+<script.py> output:
+    Connected to MCP server!
+    Available tools:
+     - convert_currency: 
+        Convert an amount from one currency to another using current exchange rates.
+    
+        Args:
+            amount: The amount to convert
+            from_currency: Source currency code (e.g., 'USD', 'EUR', 'GBP')
+            to_currency: Target currency code (e.g., 'USD', 'EUR', 'GBP')
+    
+        Returns:
+            A string with the conversion result and exchange rate
+
+```
 *Congratulations on your first client-server connection! Dynamic tool discovery is useful for AI agents, as they can connect to MCP servers remotely, look at what tools are available, then call the one needed for their task. Key to this is being able to call MCP server tools, so let's try that next!*
