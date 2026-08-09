@@ -261,3 +261,4 @@ async def get_tools_from_mcp():
             # Ask the server what tools it provides
             response = await session.list_tools()
 ```
+4. Return each tool's name and description (in that order) from response.
