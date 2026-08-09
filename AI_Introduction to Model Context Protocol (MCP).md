@@ -262,3 +262,34 @@ async def get_tools_from_mcp():
             response = await session.list_tools()
 ```
 4. Return each tool's name and description (in that order) from response.
+```python
+from mcp import ClientSession, StdioServerParameters
+from mcp.client.stdio import stdio_client
+
+async def get_tools_from_mcp():
+    # Define the server parameters
+    params = StdioServerParameters(
+        command=sys.executable,
+        args=["currency_server.py"],
+    )
+
+    # Connect to the MCP server and open a session
+    async with stdio_client(params) as (reader, writer):
+        async with ClientSession(reader, writer) as session:
+            # Initialize the session
+            await session.initialize()
+
+            # Ask the server what tools it provides
+            response = await session.list_tools()
+
+            # Display the available tools
+            print("Connected to MCP server!")
+            print("Available tools:")
+            for tool in response.tools:
+                print(f" - {tool.name}: {tool.description}")
+                
+            return response.tools
+
+asyncio.run(get_tools_from_mcp())
+```
+*Congratulations on your first client-server connection! Dynamic tool discovery is useful for AI agents, as they can connect to MCP servers remotely, look at what tools are available, then call the one needed for their task. Key to this is being able to call MCP server tools, so let's try that next!*
