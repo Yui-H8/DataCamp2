@@ -316,3 +316,40 @@ Now to trigger tool calls in the server from your client! Again, you'll be using
 * Call the tool with the tool_name and arguments parameters specified by the user; ensure that the call pauses to wait for the server to respond using the appropriate Python keyword.
 * Extract and print the text content of the server response.
 * Run the "convert_currency" tool with a set of valid parameters (use whatever values and currencies you wish here).
+```
+Hint
+The await keyword will force the tool call to pause and wait for the server to respond.
+Use session.call_tool() to trigger a tool call, passing in the function arguments tool_name and arguments.
+The result object should have a .content attribute, which returns a list of objects with .text attributes containing the tool call result.
+Use asyncio.run() to run the call_mcp_tool() function on a set of arguments.
+```
+```python
+from mcp import ClientSession, StdioServerParameters
+from mcp.client.stdio import stdio_client
+
+async def call_mcp_tool(tool_name: str, arguments: dict) -> str:
+    params = StdioServerParameters(
+        command=sys.executable,
+        args=["currency_server.py"],
+    )
+
+    async with stdio_client(params) as (reader, writer):
+        async with ClientSession(reader, writer) as session:
+            await session.initialize()
+
+            # Call the currency conversion tool
+            result = await session.call_tool(tool_name, arguments)
+            
+            # Extract and print the text content of the server response
+            text_content = result.content[0].text
+
+            print(f"Conversion Result: {text_content}")
+            return str(text_content)
+            
+
+# Run the "convert_currency" tool
+asyncio.run(
+    call_mcp_tool("convert_currency",
+                  {"amount": 250.0, "from_currency": "USD", "to_currency": "EUR"})
+)
+```
