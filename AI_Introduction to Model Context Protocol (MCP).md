@@ -357,3 +357,4 @@ asyncio.run(
 Conversion Result: 250.0 USD = 216.13 EUR (Rate: 0.86453)
 '250.0 USD = 216.13 EUR (Rate: 0.86453)'
 ```
+*You're really getting the hang of client-server communications! In the next chapter, you'll learn about the other MCP server primitives: resources and prompts. With these three primitives mastered, you'll make them available for an LLM applications! See you there!*
