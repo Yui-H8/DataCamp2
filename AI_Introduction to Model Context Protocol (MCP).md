@@ -353,3 +353,7 @@ asyncio.run(
                   {"amount": 250.0, "from_currency": "USD", "to_currency": "EUR"})
 )
 ```
+```
+Conversion Result: 250.0 USD = 216.13 EUR (Rate: 0.86453)
+'250.0 USD = 216.13 EUR (Rate: 0.86453)'
+```
