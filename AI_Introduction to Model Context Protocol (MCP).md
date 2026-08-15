@@ -311,3 +311,4 @@ asyncio.run(get_tools_from_mcp())
 *Congratulations on your first client-server connection! Dynamic tool discovery is useful for AI agents, as they can connect to MCP servers remotely, look at what tools are available, then call the one needed for their task. Key to this is being able to call MCP server tools, so let's try that next!*
 
 ### Calling Server Tools
+Now to trigger tool calls in the server from your client! Again, you'll be using asynchronous operations to ensure that nothing breaks or freezes while waiting for other operations to complete
