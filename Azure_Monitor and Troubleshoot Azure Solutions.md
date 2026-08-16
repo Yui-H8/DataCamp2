@@ -6,3 +6,4 @@ This course focuses on teaching developers how to effectively monitor, observe, 
 ---
 
 ### Exploring Azure Monitor
+Your team wants to monitor the "heartbeat" of its Azure Storage Account to ensure customer orders and promotional content are being processed smoothly. To do this, you'll use the Metrics feature in Azure Monitor to view real-time transaction activity.
