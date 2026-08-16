@@ -24,3 +24,5 @@ Your team wants to monitor the "heartbeat" of its Azure Storage Account to ensur
 Answer: Line Chart
 
 *Correct! A line chart is shown by default in Azure Monitor Metrics, helping you visualize changes in a metric’s value over time. For a broader understanding of monitoring fundamentals, see: Azure Monitor fundamentals on Microsoft Learn*
+
+### Responding to performance issues
