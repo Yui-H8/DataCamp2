@@ -20,3 +20,5 @@ Your team wants to monitor the "heartbeat" of its Azure Storage Account to ensur
    * Observe the chart.
 
 3. Which type of visualization is shown by default when you select a metric in the metrics tab within monitoring?
+
+Answer: Line Chart
