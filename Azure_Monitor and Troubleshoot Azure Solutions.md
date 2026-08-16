@@ -13,3 +13,8 @@ Your team wants to monitor the "heartbeat" of its Azure Storage Account to ensur
    * Open the pre-existing storage account and navigate into Monitoring in the left hand menu.
 
 2. Let's now investigate the metrics
+   * Head into Metrics.
+   * Confirm your scope is set to your pre-existing storage account.
+   * Use the Metric dropdown to select Transactions.
+   * Set the time range to last 30 minutes using the time range selector.
+   * Observe the chart.
