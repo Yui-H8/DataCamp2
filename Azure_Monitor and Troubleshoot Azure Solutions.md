@@ -18,3 +18,5 @@ Your team wants to monitor the "heartbeat" of its Azure Storage Account to ensur
    * Use the Metric dropdown to select Transactions.
    * Set the time range to last 30 minutes using the time range selector.
    * Observe the chart.
+
+3. Which type of visualization is shown by default when you select a metric in the metrics tab within monitoring?
