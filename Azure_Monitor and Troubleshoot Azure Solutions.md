@@ -9,3 +9,5 @@ This course focuses on teaching developers how to effectively monitor, observe, 
 Your team wants to monitor the "heartbeat" of its Azure Storage Account to ensure customer orders and promotional content are being processed smoothly. To do this, you'll use the Metrics feature in Azure Monitor to view real-time transaction activity.
 
 1. After your Azure Portal becomes visible and available to use:
+   * Navigate to Storage accounts.
+   * Open the pre-existing storage account and navigate into Monitoring in the left hand menu.
