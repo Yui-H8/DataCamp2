@@ -56,3 +56,4 @@ https://app.datacamp.com/learn/courses/
 * Azure API Management
 * Azure App Services
 * Implement Azure Security for Developers
+* Monitor and Troubleshoot Azure Solutions
