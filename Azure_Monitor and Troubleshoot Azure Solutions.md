@@ -11,3 +11,5 @@ Your team wants to monitor the "heartbeat" of its Azure Storage Account to ensur
 1. After your Azure Portal becomes visible and available to use:
    * Navigate to Storage accounts.
    * Open the pre-existing storage account and navigate into Monitoring in the left hand menu.
+
+2. Let's now investigate the metrics
