@@ -27,3 +27,7 @@ Answer: Line Chart
 
 ### Responding to performance issues
 Your team's web application occasionally experiences high CPU usage that impacts customer experience. The development team wants to be notified immediately when CPU usage exceeds 80 percent for five minutes so they can respond before it becomes a major problem. Which Azure Monitor component should they configure?
+
+Answer: Alarts
+
+*Correct! Alerts continuously track metrics and logs, triggering notifications like emails or webhooks when thresholds are crossed. This helps your team respond quickly and prevent small issues from becoming major problems.*
