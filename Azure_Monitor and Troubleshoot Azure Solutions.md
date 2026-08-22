@@ -31,3 +31,5 @@ Your team's web application occasionally experiences high CPU usage that impacts
 Answer: Alarts
 
 *Correct! Alerts continuously track metrics and logs, triggering notifications like emails or webhooks when thresholds are crossed. This helps your team respond quickly and prevent small issues from becoming major problems.*
+
+### Monitoring multiple resources
