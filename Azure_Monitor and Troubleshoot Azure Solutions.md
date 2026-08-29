@@ -34,3 +34,7 @@ Answer: Alarts
 
 ### Monitoring multiple resources
 A software company's operations team manages multiple Azure resources, including storage accounts, web applications, and databases. They want to view the health and performance of all these resources in a single location and share this view with their team members. Which Azure Monitor component should they use?
+
+  Answer: Dashboards
+
+  *Correct! Dashboards bring together key data from your resources into a single view. You can pin metrics, logs, and alerts to get a complete picture of your application's health. Dashboards are fully customizable and shareable with your team.*
