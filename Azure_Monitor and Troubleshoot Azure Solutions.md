@@ -33,3 +33,4 @@ Answer: Alarts
 *Correct! Alerts continuously track metrics and logs, triggering notifications like emails or webhooks when thresholds are crossed. This helps your team respond quickly and prevent small issues from becoming major problems.*
 
 ### Monitoring multiple resources
+A software company's operations team manages multiple Azure resources, including storage accounts, web applications, and databases. They want to view the health and performance of all these resources in a single location and share this view with their team members. Which Azure Monitor component should they use?
