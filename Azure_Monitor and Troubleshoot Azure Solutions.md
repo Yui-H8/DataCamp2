@@ -38,3 +38,6 @@ A software company's operations team manages multiple Azure resources, including
   Answer: Dashboards
 
   *Correct! Dashboards bring together key data from your resources into a single view. You can pin metrics, logs, and alerts to get a complete picture of your application's health. Dashboards are fully customizable and shareable with your team.*
+
+---
+### Collect metrics through storage interactions
