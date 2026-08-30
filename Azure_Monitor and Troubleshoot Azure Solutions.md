@@ -44,4 +44,7 @@ A software company's operations team manages multiple Azure resources, including
 You manage a storage account that hosts marketing materials and customer documents. To maintain application health and performance, you need to understand how your storage is being used. Your task is to generate activity on the storage account by uploading and downloading files, then use the Metrics Explorer to view the automatically collected transaction, ingress, and egress metrics that Azure tracks for you.
 
 1. Generate storage activity to create metrics:
+   * Navigate to your Storage account and create a Container named "Monitor".
+   * Upload at least three files from Desktop/Resources to generate ingress metrics.
+   * Download each uploaded file to generate egress metrics
    
