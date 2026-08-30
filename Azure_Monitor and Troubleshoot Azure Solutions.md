@@ -42,3 +42,6 @@ A software company's operations team manages multiple Azure resources, including
 ---
 ### Collect metrics through storage interactions
 You manage a storage account that hosts marketing materials and customer documents. To maintain application health and performance, you need to understand how your storage is being used. Your task is to generate activity on the storage account by uploading and downloading files, then use the Metrics Explorer to view the automatically collected transaction, ingress, and egress metrics that Azure tracks for you.
+
+1. Generate storage activity to create metrics:
+   
