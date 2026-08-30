@@ -60,3 +60,4 @@ At the top, click Download.
 Save the file to your computer.
 Repeat the download process for the other uploaded files.
 ```
+2. View transaction metrics:
