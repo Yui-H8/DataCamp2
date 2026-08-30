@@ -47,4 +47,16 @@ You manage a storage account that hosts marketing materials and customer documen
    * Navigate to your Storage account and create a Container named "Monitor".
    * Upload at least three files from Desktop/Resources to generate ingress metrics.
    * Download each uploaded file to generate egress metrics
-   
+```
+Hint
+In the Azure Portal, search for your Storage account and open it.
+Go to Data storage, then choose Containers.
+Create a Container named "Monitor"
+At the top, click Upload.
+Click Browse for files and select multiple files from Desktop/Resources (choose at least three files).
+Click Upload and wait for the upload to complete.
+After upload, click on one of the files to open it.
+At the top, click Download.
+Save the file to your computer.
+Repeat the download process for the other uploaded files.
+```
