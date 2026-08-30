@@ -61,3 +61,6 @@ Save the file to your computer.
 Repeat the download process for the other uploaded files.
 ```
 2. View transaction metrics:
+   * In your Storage account, under Monitoring, open Metrics.
+   * In the Metrics Explorer, select "Transactions" as the metric.
+   * Observe the chart showing your recent storage activity.
