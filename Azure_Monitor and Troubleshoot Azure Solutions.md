@@ -64,3 +64,7 @@ Repeat the download process for the other uploaded files.
    * In your Storage account, under Monitoring, open Metrics.
    * In the Metrics Explorer, select "Transactions" as the metric.
    * Observe the chart showing your recent storage activity.
+3. Add multiple metrics for comparison:
+   * In the Metrics Explorer, add "Ingress" as a second metric.
+   * Add "Egress" as a third metric.
+   * Compare the three metrics on the same chart to understand how your storage operations affected data transfer.
