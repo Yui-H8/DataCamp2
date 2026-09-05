@@ -69,3 +69,5 @@ Repeat the download process for the other uploaded files.
    * Add "Egress" as a third metric.
    * Compare the three metrics on the same chart to understand how your storage operations affected data transfer.
 4. Adjust the time range for detailed view:
+   * Change the time range to "Last 30 minutes" or "Last hour".
+   * Observe how the focused time range provides clearer visibility into your recent storage operations.
