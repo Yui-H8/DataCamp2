@@ -71,3 +71,4 @@ Repeat the download process for the other uploaded files.
 4. Adjust the time range for detailed view:
    * Change the time range to "Last 30 minutes" or "Last hour".
    * Observe how the focused time range provides clearer visibility into your recent storage operations.
+5. You notice a sudden spike in the Egress metric for your storage account. What does this indicate?
