@@ -74,3 +74,5 @@ Repeat the download process for the other uploaded files.
 5. You notice a sudden spike in the Egress metric for your storage account. What does this indicate?
 
 *Correct! Egress measures data leaving your storage account. A spike indicates downloads or reads are occurring. This could be normal (like a popular file being accessed) or concerning (like unauthorized data access). Monitoring egress helps you track data transfer costs and detect unusual patterns.*
+
+### Set up dashboards for unified observability
