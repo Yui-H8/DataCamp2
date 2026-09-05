@@ -68,3 +68,4 @@ Repeat the download process for the other uploaded files.
    * In the Metrics Explorer, add "Ingress" as a second metric.
    * Add "Egress" as a third metric.
    * Compare the three metrics on the same chart to understand how your storage operations affected data transfer.
+4. Adjust the time range for detailed view:
