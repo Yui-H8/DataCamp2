@@ -91,3 +91,6 @@ In the Dashboard name field, enter "Resource Monitoring Dashboard".
 Click Create to build the empty dashboard.
 ```
 2. Pin storage metrics to the dashboard:
+   * Navigate to your Storage account and open Metrics.
+   * Display the "Transactions" metric.
+   * Pin the chart to your "Resource Monitoring Dashboard" dashboard using the Save to dashboard button ensuring it is Private.
