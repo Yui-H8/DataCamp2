@@ -79,3 +79,5 @@ Repeat the download process for the other uploaded files.
 To maintain application health and performance across multiple resources, you need a centralized monitoring solution. Your task is to create an Azure Dashboard that displays key metrics from your storage account and Application Insights, providing a unified view that helps you detect issues early, understand usage patterns, and monitor resource health at a glance.
 
 1. Create a custom dashboard:
+   * From the Azure Portal menu, navigate to Dashboard hub.
+   * Create a new custom dashboard named "Resource Monitoring Dashboard".
