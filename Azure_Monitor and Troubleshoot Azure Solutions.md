@@ -90,3 +90,4 @@ Choose Custom from the dropdown options.
 In the Dashboard name field, enter "Resource Monitoring Dashboard".
 Click Create to build the empty dashboard.
 ```
+2. Pin storage metrics to the dashboard:
