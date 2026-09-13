@@ -77,3 +77,5 @@ Repeat the download process for the other uploaded files.
 
 ### Set up dashboards for unified observability
 To maintain application health and performance across multiple resources, you need a centralized monitoring solution. Your task is to create an Azure Dashboard that displays key metrics from your storage account and Application Insights, providing a unified view that helps you detect issues early, understand usage patterns, and monitor resource health at a glance.
+
+1. Create a custom dashboard:
