@@ -94,3 +94,13 @@ Click Create to build the empty dashboard.
    * Navigate to your Storage account and open Metrics.
    * Display the "Transactions" metric.
    * Pin the chart to your "Resource Monitoring Dashboard" dashboard using the Save to dashboard button ensuring it is Private.
+```
+Hint
+Navigate to your Storage account.
+Under Monitoring, open Metrics.
+Add the "Transactions" metric if not already displayed.
+At the top right of the chart, click the pin icon (it looks like a pushpin).
+In the dialog that appears, select "Resource Monitoring Dashboard" from the dashboard dropdown.
+Click Pin.
+A notification will confirm the chart was added to your dashboard.
+```
