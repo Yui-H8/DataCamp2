@@ -81,3 +81,12 @@ To maintain application health and performance across multiple resources, you ne
 1. Create a custom dashboard:
    * From the Azure Portal menu, navigate to Dashboard hub.
    * Create a new custom dashboard named "Resource Monitoring Dashboard".
+```
+Hint
+At the very top left of the Azure Portal (next to "Microsoft Azure"), click on the menu icon (three horizontal lines).
+From the portal menu, choose Dashboard hub.
+At the top of the dashboard page, click + Create.
+Choose Custom from the dropdown options.
+In the Dashboard name field, enter "Resource Monitoring Dashboard".
+Click Create to build the empty dashboard.
+```
