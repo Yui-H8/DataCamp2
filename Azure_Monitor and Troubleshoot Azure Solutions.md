@@ -108,3 +108,6 @@ A notification will confirm the chart was added to your dashboard.
    * In your Storage account Metrics Explorer, create a new chart showing the "Availability" metric.
    * Pin this chart to your "Resource Monitoring Dashboard" dashboard.
 4. Add Application Insights metrics:
+   * Navigate to your Application Insights resource.
+   * Under Investigate, open Performance.
+   * Pin the server response time or requests chart to your "Cipher Coffee Monitoring" dashboard.
