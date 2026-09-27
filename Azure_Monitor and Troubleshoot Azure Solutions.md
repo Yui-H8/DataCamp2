@@ -105,3 +105,5 @@ Click Pin.
 A notification will confirm the chart was added to your dashboard.
 ```
 3. Add availability monitoring:
+   * In your Storage account Metrics Explorer, create a new chart showing the "Availability" metric.
+   * Pin this chart to your "Resource Monitoring Dashboard" dashboard.
