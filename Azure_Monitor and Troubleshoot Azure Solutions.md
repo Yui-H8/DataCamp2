@@ -104,3 +104,4 @@ In the dialog that appears, select "Resource Monitoring Dashboard" from the dash
 Click Pin.
 A notification will confirm the chart was added to your dashboard.
 ```
+3. Add availability monitoring:
