@@ -111,3 +111,4 @@ A notification will confirm the chart was added to your dashboard.
    * Navigate to your Application Insights resource.
    * Under Investigate, open Performance.
    * Pin the server response time or requests chart to your "Cipher Coffee Monitoring" dashboard.
+5. View and customize your unified dashboard:
