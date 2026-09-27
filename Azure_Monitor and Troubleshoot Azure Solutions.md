@@ -116,3 +116,4 @@ A notification will confirm the chart was added to your dashboard.
    * Verify all pinned metrics are displayed.
    * Rearrange and resize the tiles for optimal viewing.
    * Save your customizations
+6. What is the primary operational benefit of creating a unified dashboard with metrics from multiple Azure resources?
