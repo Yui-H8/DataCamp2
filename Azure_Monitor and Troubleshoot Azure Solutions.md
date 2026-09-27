@@ -112,3 +112,7 @@ A notification will confirm the chart was added to your dashboard.
    * Under Investigate, open Performance.
    * Pin the server response time or requests chart to your "Cipher Coffee Monitoring" dashboard.
 5. View and customize your unified dashboard:
+   * Navigate to your "Resource Monitoring Dashboard" dashboard.
+   * Verify all pinned metrics are displayed.
+   * Rearrange and resize the tiles for optimal viewing.
+   * Save your customizations
