@@ -120,4 +120,5 @@ A notification will confirm the chart was added to your dashboard.
 
 *Correct! Dashboards eliminate the need to navigate between different resources and services. Operations teams can see storage performance, application response times, and other critical metrics in one place. This unified view accelerates issue detection and helps teams understand how different components interact, making troubleshooting more efficient.*
 ---
-### Metrics vs logs use cases
+### Metrics vs logs use cases  
+A DevOps team is setting up monitoring for their Azure environment. They need to decide whether to use metrics or logs for different monitoring scenarios. Which scenario is BEST suited for using metrics rather than logs?
