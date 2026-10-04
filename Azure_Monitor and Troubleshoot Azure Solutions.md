@@ -126,7 +126,7 @@ A notification will confirm the chart was added to your dashboard.
 A DevOps team is setting up monitoring for their Azure environment. They need to decide whether to use metrics or logs for different monitoring scenarios. Which scenario is BEST suited for using metrics rather than logs?
 ```
 Investigating which specific user account triggered a failed authentication attempt at 3:47 PM yesterday.
-Tracking the average response time of the storage account over the past week to identify performance trends.
+〇　Tracking the average response time of the storage account over the past week to identify performance trends.
 Examining the exact sequence of API calls that led to a particular application error.
 Determining what specific error message was returned when a blob upload failed.
 ```
