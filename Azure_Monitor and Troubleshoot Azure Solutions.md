@@ -136,3 +136,5 @@ Determining what specific error message was returned when a blob upload failed.
 
 ### Create alert rule with email notification
 You manage a storage account that hosts critical marketing materials and customer documents. To detect issues early before they impact users, you need to set up automated monitoring. Your task is to create an alert rule that monitors storage availability and sends an email notification when availability drops below acceptable levels.
+
+1. Create an alert rule for storage availability:
