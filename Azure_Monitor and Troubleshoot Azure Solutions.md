@@ -131,3 +131,7 @@ Examining the exact sequence of API calls that led to a particular application e
 Determining what specific error message was returned when a blob upload failed.
 ```
 *Correct! This is ideal for metrics. Average response time is a numerical value tracked over time, perfect for identifying trends and patterns. Metrics efficiently show you performance changes without the overhead of storing detailed event data. You can quickly see if response times are improving or degrading.*
+
+---
+
+### Create alert rule with email notification
