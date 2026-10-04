@@ -119,3 +119,5 @@ A notification will confirm the chart was added to your dashboard.
 6. What is the primary operational benefit of creating a unified dashboard with metrics from multiple Azure resources?
 
 *Correct! Dashboards eliminate the need to navigate between different resources and services. Operations teams can see storage performance, application response times, and other critical metrics in one place. This unified view accelerates issue detection and helps teams understand how different components interact, making troubleshooting more efficient.*
+---
+### Metrics vs logs use cases
