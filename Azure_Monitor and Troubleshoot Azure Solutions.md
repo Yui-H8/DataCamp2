@@ -144,3 +144,4 @@ You manage a storage account that hosts critical marketing materials and custome
    * Set the alert to trigger when average availability is Less than 99%.
    * Configure the evaluation to check every 5 minutes with a 5-minute lookback period.
    * Proceed to the Actions step.
+3. Create an action group:
