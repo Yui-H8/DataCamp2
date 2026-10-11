@@ -140,3 +140,4 @@ You manage a storage account that hosts critical marketing materials and custome
 1. Create an alert rule for storage availability:
    * Navigate to your Storage account and open Alerts under Monitoring.
    * Create a new alert rule and select "Availability" as the signal to monitor.
+2. Configure the alert condition:
