@@ -141,3 +141,6 @@ You manage a storage account that hosts critical marketing materials and custome
    * Navigate to your Storage account and open Alerts under Monitoring.
    * Create a new alert rule and select "Availability" as the signal to monitor.
 2. Configure the alert condition:
+   * Set the alert to trigger when average availability is Less than 99%.
+   * Configure the evaluation to check every 5 minutes with a 5-minute lookback period.
+   * Proceed to the Actions step.
