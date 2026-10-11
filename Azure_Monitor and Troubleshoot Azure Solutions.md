@@ -145,3 +145,7 @@ You manage a storage account that hosts critical marketing materials and custome
    * Configure the evaluation to check every 5 minutes with a 5-minute lookback period.
    * Proceed to the Actions step.
 3. Create an action group:
+   * Click Create action group on the Actions page.
+   * Configure the basic details with Region set to Global.
+   * Name the action group "Storage-Alerts-Email" with display name "StorageEmail".
+   * Move to the Notifications tab.
