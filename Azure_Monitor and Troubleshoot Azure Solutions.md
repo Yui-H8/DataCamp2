@@ -149,3 +149,4 @@ You manage a storage account that hosts critical marketing materials and custome
    * Configure the basic details with Region set to Global.
    * Name the action group "Storage-Alerts-Email" with display name "StorageEmail".
    * Move to the Notifications tab.
+4. Add email notification:
