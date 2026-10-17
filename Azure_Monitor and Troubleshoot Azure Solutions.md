@@ -157,3 +157,4 @@ You manage a storage account that hosts critical marketing materials and custome
    * On the Details page, name the alert rule "Storage-Availability-Alert".
    * Add a description and set severity to 2 - Warning.
    * Review and create the alert rule.
+6. Verify the alert configuration:
