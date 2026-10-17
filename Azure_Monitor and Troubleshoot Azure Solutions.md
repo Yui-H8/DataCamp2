@@ -160,3 +160,4 @@ You manage a storage account that hosts critical marketing materials and custome
 6. Verify the alert configuration:
    * Return to Alerts to confirm your alert rule is active.
    * Check your email for a confirmation message from Azure about the action group.
+7. Your alert rule is configured to check availability every 5 minutes and trigger when it drops below 99%. What happens when the availability recovers and goes back above 99%?
