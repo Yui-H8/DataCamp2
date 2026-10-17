@@ -153,3 +153,4 @@ You manage a storage account that hosts critical marketing materials and custome
    * On the Notifications tab, add a new email notification.
    * Enter your email address to receive alerts.
    * Name the notification "AlertEmail" and create the action group.
+5. Complete the alert rule:
