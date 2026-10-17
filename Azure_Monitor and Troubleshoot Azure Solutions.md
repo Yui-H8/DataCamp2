@@ -161,3 +161,8 @@ You manage a storage account that hosts critical marketing materials and custome
    * Return to Alerts to confirm your alert rule is active.
    * Check your email for a confirmation message from Azure about the action group.
 7. Your alert rule is configured to check availability every 5 minutes and trigger when it drops below 99%. What happens when the availability recovers and goes back above 99%?
+
+*Correct! Azure Monitor alerts are stateful, meaning they track both when a problem occurs and when it's resolved. When the condition is no longer met (availability goes back above 99%), Azure sends a "Resolved" notification to the same action group. This helps you understand the full lifecycle of the issue without manually checking if it's fixed.*
+
+For more detail on alerting capabilities, see: Azure Monitor alerts overview on Microsoft Learn
+(https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview)
