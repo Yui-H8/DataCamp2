@@ -150,3 +150,6 @@ You manage a storage account that hosts critical marketing materials and custome
    * Name the action group "Storage-Alerts-Email" with display name "StorageEmail".
    * Move to the Notifications tab.
 4. Add email notification:
+   * On the Notifications tab, add a new email notification.
+   * Enter your email address to receive alerts.
+   * Name the notification "AlertEmail" and create the action group.
