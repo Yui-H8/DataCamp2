@@ -154,3 +154,6 @@ You manage a storage account that hosts critical marketing materials and custome
    * Enter your email address to receive alerts.
    * Name the notification "AlertEmail" and create the action group.
 5. Complete the alert rule:
+   * On the Details page, name the alert rule "Storage-Availability-Alert".
+   * Add a description and set severity to 2 - Warning.
+   * Review and create the alert rule.
