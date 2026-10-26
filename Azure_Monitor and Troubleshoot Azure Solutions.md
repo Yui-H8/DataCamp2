@@ -173,3 +173,5 @@ For more detail on alerting capabilities, see: Azure Monitor alerts overview on 
 Your storage account hosts marketing materials accessed by users worldwide. Unexpected spikes in transaction volume can significantly increase costs. Your task is to create an alert rule that monitors transaction counts and notifies you when usage exceeds normal levels, helping you catch cost overruns or potential abuse early.
 
 1. Create an alert for transaction volume:
+   * Navigate to your Storage account and open Alerts.
+   * Create a new alert rule and select "Transactions" as the signal.
