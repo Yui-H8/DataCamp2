@@ -175,3 +175,4 @@ Your storage account hosts marketing materials accessed by users worldwide. Unex
 1. Create an alert for transaction volume:
    * Navigate to your Storage account and open Alerts.
    * Create a new alert rule and select "Transactions" as the signal.
+2. Configure the transaction threshold:
