@@ -176,3 +176,6 @@ Your storage account hosts marketing materials accessed by users worldwide. Unex
    * Navigate to your Storage account and open Alerts.
    * Create a new alert rule and select "Transactions" as the signal.
 2. Configure the transaction threshold:
+   * Set the alert to trigger when total transactions are Greater than 1000 in a 15-minute period.
+   * Configure evaluation to check every 5 minutes.
+   * Move to the Actions tab.
