@@ -180,6 +180,8 @@ Your storage account hosts marketing materials accessed by users worldwide. Unex
    * Configure evaluation to check every 5 minutes.
    * Move to the Actions tab.
 3. Reuse the existing action group:
+   * On the Actions page, select your existing "Storage-Alerts-Email" action group.
+   * Proceed to the Details tab.
 
 
 ```
