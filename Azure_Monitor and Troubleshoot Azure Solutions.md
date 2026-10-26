@@ -166,3 +166,7 @@ You manage a storage account that hosts critical marketing materials and custome
 
 For more detail on alerting capabilities, see: Azure Monitor alerts overview on Microsoft Learn
 (https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview)
+
+---
+
+### Create cost alert for high transaction volume
