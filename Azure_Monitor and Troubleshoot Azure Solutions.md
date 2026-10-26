@@ -179,3 +179,15 @@ Your storage account hosts marketing materials accessed by users worldwide. Unex
    * Set the alert to trigger when total transactions are Greater than 1000 in a 15-minute period.
    * Configure evaluation to check every 5 minutes.
    * Move to the Actions tab.
+
+
+
+```
+Hint
+On the Actions page, click + Select action groups.
+A pane will open showing your existing action groups.
+Check the box next to "Storage-Alerts-Email" (the action group you created earlier).
+Click Select at the bottom.
+The action group will be added to this alert rule.
+Click Next: Details.
+```
