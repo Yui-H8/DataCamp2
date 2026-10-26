@@ -179,7 +179,7 @@ Your storage account hosts marketing materials accessed by users worldwide. Unex
    * Set the alert to trigger when total transactions are Greater than 1000 in a 15-minute period.
    * Configure evaluation to check every 5 minutes.
    * Move to the Actions tab.
-
+3. Reuse the existing action group:
 
 
 ```
