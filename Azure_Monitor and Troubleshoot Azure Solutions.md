@@ -200,3 +200,5 @@ Click Next: Details.
 5. You configured the transaction alert with a 15-minute lookback period and 5-minute evaluation frequency. What does this configuration mean?
 
 *Correct! The lookback period defines the time window to aggregate data, while the evaluation frequency determines how often that window is checked. With this configuration, Azure evaluates the rule every 5 minutes, each time looking at the previous 15 minutes of data. The windows overlap, so if a spike occurs, it will be detected within 5 minutes rather than waiting up to 15 minutes.*
+
+### Simultaneous alerts
