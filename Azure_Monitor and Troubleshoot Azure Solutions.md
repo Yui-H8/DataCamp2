@@ -197,3 +197,4 @@ Click Next: Details.
    * Name the alert "Storage-High-Transactions-Alert".
    * Add a description and set severity to 3 - Informational.
    * Review and create the alert rule.
+5. You configured the transaction alert with a 15-minute lookback period and 5-minute evaluation frequency. What does this configuration mean?
