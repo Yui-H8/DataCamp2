@@ -194,4 +194,6 @@ The action group will be added to this alert rule.
 Click Next: Details.
 ```
 4. Complete the alert rule:
-   * 
+   * Name the alert "Storage-High-Transactions-Alert".
+   * Add a description and set severity to 3 - Informational.
+   * Review and create the alert rule.
