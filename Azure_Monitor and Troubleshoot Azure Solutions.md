@@ -193,3 +193,5 @@ Click Select at the bottom.
 The action group will be added to this alert rule.
 Click Next: Details.
 ```
+4. Complete the alert rule:
+   * 
